@@ -1,0 +1,370 @@
+
+*** Running vivado
+    with args -log design_14_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_14_wrapper.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon Mar 17 10:22:47 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_14_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5578] Found utility IPs instantiated in block design D:/lab14/design_14/design_14.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994. 
+add_files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 418.527 ; gain = 49.410
+Command: read_checkpoint -auto_incremental -incremental D:/lab14/project_14/project_14.srcs/utils_1/imports/synth_1/design_14_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/lab14/project_14/project_14.srcs/utils_1/imports/synth_1/design_14_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top design_14_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12248
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1130.570 ; gain = 468.465
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_14_wrapper' [D:/lab14/design_14/hdl/design_14_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_14' [D:/lab14/design_14/synth/design_14.v:139]
+INFO: [Synth 8-6157] synthesizing module 'ALU_imp_1AU66VH' [D:/lab14/design_14/synth/design_14.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_14_adder4_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_adder4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_adder4_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_adder4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_dff4_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_dff4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_dff4_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_dff4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_dff4_0_1' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_dff4_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_dff4_0_1' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_dff4_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_dff4_0_2' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_dff4_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_dff4_0_2' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_dff4_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_shifter_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_shifter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_shifter_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_shifter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_imp_1AU66VH' (0#1) [D:/lab14/design_14/synth/design_14.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_14_UIR_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_UIR_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_UIR_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_UIR_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'microIR19_8' of module 'design_14_UIR_0_0' is unconnected for instance 'UIR_0' [D:/lab14/design_14/synth/design_14.v:188]
+WARNING: [Synth 8-7023] instance 'UIR_0' of module 'design_14_UIR_0_0' has 15 connections declared, but only 14 given [D:/lab14/design_14/synth/design_14.v:188]
+INFO: [Synth 8-6157] synthesizing module 'design_14_adpt_in_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_adpt_in_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_adpt_in_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_adpt_in_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_adpt_out_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_adpt_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_adpt_out_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_adpt_out_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_and2_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_and2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_and2_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_and2_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_and2_0_1' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_and2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_and2_0_1' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_and2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_and2_0_2' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_and2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_and2_0_2' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_and2_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_cg_fpga_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_cg_fpga_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_cg_fpga_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_cg_fpga_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'DDR_addr' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_ba' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_cas_n' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_ck_n' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_ck_p' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_cke' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_cs_n' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_dm' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_dq' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_dqs_n' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_dqs_p' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_odt' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_ras_n' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_reset_n' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'DDR_we_n' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'FIXED_IO_ddr_vrn' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'FIXED_IO_ddr_vrp' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'FIXED_IO_mio' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'FIXED_IO_ps_clk' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'FIXED_IO_ps_porb' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'FIXED_IO_ps_srstb' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'btn' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'clk_100M' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'gpio_sw_1' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'gpio_sw_2' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7071] port 'tx_0' of module 'design_14_cg_fpga_0_0' is unconnected for instance 'cg_fpga_0' [D:/lab14/design_14/synth/design_14.v:226]
+WARNING: [Synth 8-7023] instance 'cg_fpga_0' of module 'design_14_cg_fpga_0_0' has 42 connections declared, but only 16 given [D:/lab14/design_14/synth/design_14.v:226]
+INFO: [Synth 8-6157] synthesizing module 'design_14_not1_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_not1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_not1_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_not1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_rom2_256x24_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_rom2_256x24_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_rom2_256x24_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_rom2_256x24_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'upc_imp_1WY2BGY' [D:/lab14/design_14/synth/design_14.v:256]
+INFO: [Synth 8-6157] synthesizing module 'design_14_addr_adpt_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_addr_adpt_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_addr_adpt_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_addr_adpt_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_m74LS161_0_0' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_m74LS161_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_m74LS161_0_0' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_m74LS161_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'RCO' of module 'design_14_m74LS161_0_0' is unconnected for instance 'm74LS161_0' [D:/lab14/design_14/synth/design_14.v:288]
+WARNING: [Synth 8-7023] instance 'm74LS161_0' of module 'design_14_m74LS161_0_0' has 14 connections declared, but only 13 given [D:/lab14/design_14/synth/design_14.v:288]
+INFO: [Synth 8-6157] synthesizing module 'design_14_m74LS161_0_1' [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_m74LS161_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_m74LS161_0_1' (0#1) [D:/lab14/synth_1/.Xil/Vivado-24192-jyx/realtime/design_14_m74LS161_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_14_xlconstant_0_0' [d:/lab14/design_14/ip/design_14_xlconstant_0_0/synth/design_14_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant' [d:/lab14/design_14/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant' (0#1) [d:/lab14/design_14/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_xlconstant_0_0' (0#1) [d:/lab14/design_14/ip/design_14_xlconstant_0_0/synth/design_14_xlconstant_0_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'upc_imp_1WY2BGY' (0#1) [D:/lab14/design_14/synth/design_14.v:256]
+INFO: [Synth 8-6155] done synthesizing module 'design_14' (0#1) [D:/lab14/design_14/synth/design_14.v:139]
+INFO: [Synth 8-6155] done synthesizing module 'design_14_wrapper' (0#1) [D:/lab14/design_14/hdl/design_14_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1242.898 ; gain = 580.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1242.898 ; gain = 580.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1242.898 ; gain = 580.793
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1242.898 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/lab14/design_14/ip/design_14_cg_fpga_0_0/design_14_cg_fpga_0_0/design_14_cg_fpga_0_0_in_context.xdc] for cell 'design_14_i/cg_fpga_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_cg_fpga_0_0/design_14_cg_fpga_0_0/design_14_cg_fpga_0_0_in_context.xdc] for cell 'design_14_i/cg_fpga_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_rom2_256x24_0_0/design_14_rom2_256x24_0_0/design_14_rom2_256x24_0_0_in_context.xdc] for cell 'design_14_i/rom2_256x24_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_rom2_256x24_0_0/design_14_rom2_256x24_0_0/design_14_rom2_256x24_0_0_in_context.xdc] for cell 'design_14_i/rom2_256x24_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_UIR_0_0/design_14_UIR_0_0/design_14_UIR_0_0_in_context.xdc] for cell 'design_14_i/UIR_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_UIR_0_0/design_14_UIR_0_0/design_14_UIR_0_0_in_context.xdc] for cell 'design_14_i/UIR_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_adpt_in_0_0/design_14_adpt_in_0_0/design_14_adpt_in_0_0_in_context.xdc] for cell 'design_14_i/adpt_in_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_adpt_in_0_0/design_14_adpt_in_0_0/design_14_adpt_in_0_0_in_context.xdc] for cell 'design_14_i/adpt_in_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_adpt_out_0_0/design_14_adpt_out_0_0/design_14_adpt_out_0_0_in_context.xdc] for cell 'design_14_i/adpt_out_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_adpt_out_0_0/design_14_adpt_out_0_0/design_14_adpt_out_0_0_in_context.xdc] for cell 'design_14_i/adpt_out_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_and2_0_0/design_14_and2_0_0/design_14_and2_0_0_in_context.xdc] for cell 'design_14_i/and2_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_and2_0_0/design_14_and2_0_0/design_14_and2_0_0_in_context.xdc] for cell 'design_14_i/and2_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_not1_0_0/design_14_not1_0_0/design_14_not1_0_0_in_context.xdc] for cell 'design_14_i/not1_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_not1_0_0/design_14_not1_0_0/design_14_not1_0_0_in_context.xdc] for cell 'design_14_i/not1_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_shifter_0_0/design_14_shifter_0_0/design_14_shifter_0_0_in_context.xdc] for cell 'design_14_i/ALU/shifter_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_shifter_0_0/design_14_shifter_0_0/design_14_shifter_0_0_in_context.xdc] for cell 'design_14_i/ALU/shifter_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_dff4_0_0/design_14_dff4_0_0/design_14_dff4_0_0_in_context.xdc] for cell 'design_14_i/ALU/dff4_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_dff4_0_0/design_14_dff4_0_0/design_14_dff4_0_0_in_context.xdc] for cell 'design_14_i/ALU/dff4_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_adder4_0_0/design_14_adder4_0_0/design_14_adder4_0_0_in_context.xdc] for cell 'design_14_i/ALU/adder4_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_adder4_0_0/design_14_adder4_0_0/design_14_adder4_0_0_in_context.xdc] for cell 'design_14_i/ALU/adder4_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_dff4_0_2/design_14_dff4_0_2/design_14_dff4_0_2_in_context.xdc] for cell 'design_14_i/ALU/dff4_2'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_dff4_0_2/design_14_dff4_0_2/design_14_dff4_0_2_in_context.xdc] for cell 'design_14_i/ALU/dff4_2'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_dff4_0_1/design_14_dff4_0_1/design_14_dff4_0_1_in_context.xdc] for cell 'design_14_i/ALU/dff4_1'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_dff4_0_1/design_14_dff4_0_1/design_14_dff4_0_1_in_context.xdc] for cell 'design_14_i/ALU/dff4_1'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_m74LS161_0_0/design_14_m74LS161_0_0/design_14_m74LS161_0_0_in_context.xdc] for cell 'design_14_i/upc/m74LS161_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_m74LS161_0_0/design_14_m74LS161_0_0/design_14_m74LS161_0_0_in_context.xdc] for cell 'design_14_i/upc/m74LS161_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_addr_adpt_0_0/design_14_addr_adpt_0_0/design_14_addr_adpt_0_0_in_context.xdc] for cell 'design_14_i/upc/addr_adpt_0'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_addr_adpt_0_0/design_14_addr_adpt_0_0/design_14_addr_adpt_0_0_in_context.xdc] for cell 'design_14_i/upc/addr_adpt_0'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_m74LS161_0_1/design_14_m74LS161_0_1/design_14_m74LS161_0_1_in_context.xdc] for cell 'design_14_i/upc/m74LS161_1'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_m74LS161_0_1/design_14_m74LS161_0_1/design_14_m74LS161_0_1_in_context.xdc] for cell 'design_14_i/upc/m74LS161_1'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_and2_0_1/design_14_and2_0_1/design_14_and2_0_1_in_context.xdc] for cell 'design_14_i/and2_1'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_and2_0_1/design_14_and2_0_1/design_14_and2_0_1_in_context.xdc] for cell 'design_14_i/and2_1'
+Parsing XDC File [d:/lab14/design_14/ip/design_14_and2_0_2/design_14_and2_0_2/design_14_and2_0_2_in_context.xdc] for cell 'design_14_i/and2_2'
+Finished Parsing XDC File [d:/lab14/design_14/ip/design_14_and2_0_2/design_14_and2_0_2/design_14_and2_0_2_in_context.xdc] for cell 'design_14_i/and2_2'
+Parsing XDC File [D:/lab14/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/lab14/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1242.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1242.898 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1242.898 ; gain = 580.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1242.898 ; gain = 580.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/cg_fpga_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/rom2_256x24_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/UIR_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/adpt_in_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/adpt_out_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/and2_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/not1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/ALU/shifter_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/ALU/dff4_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/ALU/adder4_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/ALU/dff4_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/ALU/dff4_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/upc/m74LS161_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/upc/addr_adpt_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/upc/m74LS161_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/upc/xlconstant_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/and2_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_14_i/and2_2. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1242.898 ; gain = 580.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1242.898 ; gain = 580.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 1244.105 ; gain = 582.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1415.957 ; gain = 753.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1415.957 ; gain = 753.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1425.543 ; gain = 763.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------+----------+
+|      |BlackBox name             |Instances |
++------+--------------------------+----------+
+|1     |design_14_UIR_0_0         |         1|
+|2     |design_14_adpt_in_0_0     |         1|
+|3     |design_14_adpt_out_0_0    |         1|
+|4     |design_14_and2_0_0        |         1|
+|5     |design_14_and2_0_1        |         1|
+|6     |design_14_and2_0_2        |         1|
+|7     |design_14_cg_fpga_0_0     |         1|
+|8     |design_14_not1_0_0        |         1|
+|9     |design_14_rom2_256x24_0_0 |         1|
+|10    |design_14_adder4_0_0      |         1|
+|11    |design_14_dff4_0_0        |         1|
+|12    |design_14_dff4_0_1        |         1|
+|13    |design_14_dff4_0_2        |         1|
+|14    |design_14_shifter_0_0     |         1|
+|15    |design_14_addr_adpt_0_0   |         1|
+|16    |design_14_m74LS161_0_0    |         1|
+|17    |design_14_m74LS161_0_1    |         1|
++------+--------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------+------+
+|      |Cell                    |Count |
++------+------------------------+------+
+|1     |design_14_UIR_0         |     1|
+|2     |design_14_adder4_0      |     1|
+|3     |design_14_addr_adpt_0   |     1|
+|4     |design_14_adpt_in_0     |     1|
+|5     |design_14_adpt_out_0    |     1|
+|6     |design_14_and2_0        |     3|
+|9     |design_14_cg_fpga_0     |     1|
+|10    |design_14_dff4_0        |     3|
+|13    |design_14_m74LS161_0    |     2|
+|15    |design_14_not1_0        |     1|
+|16    |design_14_rom2_256x24_0 |     1|
+|17    |design_14_shifter_0     |     1|
++------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:29 . Memory (MB): peak = 1642.195 ; gain = 980.090
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1642.195 ; gain = 980.090
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1642.195 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1642.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ab5c6ea7
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:44 . Memory (MB): peak = 1642.195 ; gain = 1218.828
+INFO: [Common 17-1381] The checkpoint 'D:/lab14/synth_1/design_14_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_14_wrapper_utilization_synth.rpt -pb design_14_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 17 10:23:56 2025...

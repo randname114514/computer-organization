@@ -1,0 +1,146 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.883882",
+   "Default View_TopLeft":"1550,609",
+   "ExpandedHierarchyInLayout":"/HL",
+   "HierExpandStatus_comment_0":"false",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 7 -x 4810 -y 90 -defaultsOSRD
+preplace port DDR_0 -pg 1 -lvl 7 -x 4810 -y 110 -defaultsOSRD
+preplace inst cg_fpga_0 -pg 1 -lvl 1 -x 100 -y 170 -defaultsOSRD
+preplace inst adpt_in_0 -pg 1 -lvl 2 -x 380 -y 170 -defaultsOSRD
+preplace inst adpt_out_0 -pg 1 -lvl 6 -x 4670 -y 430 -defaultsOSRD
+preplace inst HL -pg 1 -lvl 5 -x 1870 -y 514 -defaultsOSRD
+preplace inst ALU -pg 1 -lvl 4 -x 1410 -y 360 -defaultsOSRD
+preplace inst dff_1 -pg 1 -lvl 4 -x 1410 -y 720 -defaultsOSRD
+preplace inst adpt_in2_0 -pg 1 -lvl 3 -x 1010 -y 886 -defaultsOSRD
+preplace inst CNT -pg 1 -lvl 3 -x 1010 -y 750 -defaultsOSRD
+preplace inst M_ADD -pg 1 -lvl 3 -x 1010 -y 350 -defaultsOSRD
+preplace inst HL|m74LS194_0 -pg 1 -lvl 4 -x 2640 -y 434 -defaultsOSRD
+preplace inst HL|m74LS194_1 -pg 1 -lvl 4 -x 2640 -y 734 -defaultsOSRD
+preplace inst HL|m74LS194_2 -pg 1 -lvl 5 -x 2910 -y 1164 -defaultsOSRD
+preplace inst HL|m74LS194_3 -pg 1 -lvl 4 -x 2640 -y 1074 -defaultsOSRD
+preplace inst HL|dff_1 -pg 1 -lvl 2 -x 2190 -y 1114 -defaultsOSRD
+preplace inst HL|not1_1 -pg 1 -lvl 3 -x 2420 -y 1304 -defaultsOSRD
+preplace inst HL|xlconstant_0 -pg 1 -lvl 1 -x 1980 -y 1154 -defaultsOSRD
+preplace inst HL|xlconstant_1 -pg 1 -lvl 2 -x 2190 -y 814 -defaultsOSRD
+preplace inst HL|or2_0 -pg 1 -lvl 3 -x 2420 -y 824 -defaultsOSRD
+preplace inst HL|or2_1 -pg 1 -lvl 3 -x 2420 -y 944 -defaultsOSRD
+preplace inst HL|m74LS194_4 -pg 1 -lvl 5 -x 2910 -y 864 -defaultsOSRD
+preplace netloc CLR_n_1 1 2 3 800 570 1200 570 1610
+preplace netloc HL_Q0 1 2 4 890 -20 N -20 N -20 3160
+preplace netloc I1_1 1 2 3 N 120 NJ 120 1640
+preplace netloc I2_1 1 2 3 N 100 NJ 100 1660
+preplace netloc I3_1 1 2 3 580 90 NJ 90 1680
+preplace netloc I4_1 1 2 3 580 70 NJ 70 1630
+preplace netloc I5_1 1 2 3 580 50 NJ 50 1650
+preplace netloc I6_1 1 2 3 580 30 NJ 30 1670
+preplace netloc I7_1 1 2 3 580 10 NJ 10 1690
+preplace netloc adpt_in2_0_clk_div 1 2 2 900 660 1120
+preplace netloc adpt_in_0_I0 1 2 1 N 300
+preplace netloc adpt_in_0_I1 1 2 1 820 280n
+preplace netloc adpt_in_0_I2 1 2 1 830 260n
+preplace netloc adpt_in_0_I3 1 2 1 840 240n
+preplace netloc adpt_in_0_I4 1 2 1 850 220n
+preplace netloc adpt_in_0_I5 1 2 1 860 200n
+preplace netloc adpt_in_0_I6 1 2 1 870 180n
+preplace netloc adpt_in_0_I7 1 2 1 880 160n
+preplace netloc adpt_in_0_I8 1 2 3 N 140 NJ 140 1620
+preplace netloc adpt_in_0_clk 1 3 2 1260 560 1600
+preplace netloc adpt_in_0_clk1 1 2 1 810 320n
+preplace netloc adpt_out_0_led 1 0 7 -40 -80 NJ -80 N -80 NJ -80 N -80 N -80 4770
+preplace netloc and8_0_y0 1 3 1 1190 280n
+preplace netloc and8_0_y1 1 3 1 1180 300n
+preplace netloc and8_0_y2 1 3 1 1170 320n
+preplace netloc and8_0_y3 1 3 1 1160 340n
+preplace netloc and8_0_y4 1 3 1 1150 310n
+preplace netloc and8_0_y5 1 3 1 1140 290n
+preplace netloc and8_0_y6 1 3 1 1130 230n
+preplace netloc and8_0_y7 1 3 1 1120 210n
+preplace netloc cg_fpga_0_btn_clk 1 1 1 270 150n
+preplace netloc cg_fpga_0_btn_rst 1 1 2 260 400 490
+preplace netloc cg_fpga_0_clk_100M 1 1 2 240J 410 480
+preplace netloc cg_fpga_0_gpio_sw_2 1 1 1 280 150n
+preplace netloc decoder_5to25_single_0_out1 1 3 2 1140 810 1490
+preplace netloc dff_1_q 1 4 1 1500 720n
+preplace netloc m7482_0_C2 1 4 1 1530 320n
+preplace netloc m7482_0_SUM1 1 4 1 1570 300n
+preplace netloc m7482_0_SUM2 1 4 1 1590 280n
+preplace netloc m7482_1_SUM1 1 4 1 1520 360n
+preplace netloc m7482_1_SUM2 1 4 1 1550 340n
+preplace netloc m7482_2_SUM1 1 4 1 1560 400n
+preplace netloc m7482_2_SUM2 1 4 1 1580 380n
+preplace netloc m7482_3_SUM1 1 4 1 1510 440n
+preplace netloc m7482_3_SUM2 1 4 1 1540 420n
+preplace netloc m74LS161_0_Q0 1 3 1 1220 690n
+preplace netloc m74LS194_0_Q1 1 5 1 3170 444n
+preplace netloc m74LS194_0_Q2 1 5 1 3200 424n
+preplace netloc m74LS194_0_Q3 1 5 1 3130 404n
+preplace netloc m74LS194_1_Q0 1 5 1 3120 384n
+preplace netloc m74LS194_1_Q1 1 5 1 3260 470n
+preplace netloc m74LS194_1_Q2 1 5 1 3250 450n
+preplace netloc m74LS194_1_Q3 1 5 1 3230 430n
+preplace netloc m74LS194_2_Q0 1 3 3 1260 0 N 0 3150
+preplace netloc m74LS194_2_Q1 1 3 3 1280 40 N 40 3240
+preplace netloc m74LS194_2_Q2 1 3 3 1300 80 N 80 3190
+preplace netloc m74LS194_2_Q3 1 3 3 1320 130 N 130 3140
+preplace netloc m74LS194_3_Q0 1 3 3 1290 60 N 60 3180
+preplace netloc m74LS194_3_Q1 1 3 3 1330 150 N 150 3210
+preplace netloc m74LS194_3_Q2 1 3 3 1270 20 N 20 3270
+preplace netloc m74LS194_3_Q3 1 3 3 1310 110 N 110 3220
+preplace netloc xlconstant_0_dout 1 3 1 1310 750n
+preplace netloc yi1_1 1 2 4 900 -10 NJ -10 NJ -10 3110
+preplace netloc cg_fpga_0_DDR 1 1 6 260J -70 N -70 NJ -70 N -70 N -70 4790
+preplace netloc cg_fpga_0_FIXED_IO 1 1 6 270J -60 N -60 NJ -60 N -60 N -60 4780
+preplace netloc HL|adpt_in_0_I0 1 0 4 NJ 444 NJ 444 NJ 444 N
+preplace netloc HL|adpt_in_0_I1 1 0 4 NJ 424 NJ 424 NJ 424 N
+preplace netloc HL|adpt_in_0_I2 1 0 4 NJ 404 NJ 404 NJ 404 N
+preplace netloc HL|adpt_in_0_I3 1 0 4 NJ 384 NJ 384 NJ 384 N
+preplace netloc HL|adpt_in_0_I4 1 0 4 1880J 734 NJ 734 NJ 734 2540
+preplace netloc HL|adpt_in_0_I5 1 0 4 NJ 724 NJ 724 NJ 724 N
+preplace netloc HL|adpt_in_0_I6 1 0 4 NJ 704 NJ 704 NJ 704 N
+preplace netloc HL|adpt_in_0_I7 1 0 4 NJ 684 NJ 684 NJ 684 N
+preplace netloc HL|adpt_in_0_I8 1 0 5 1820J 1214 NJ 1214 NJ 1214 2510J 1224 2780
+preplace netloc HL|adpt_in_0_I9 1 0 5 1810J 1224 NJ 1224 NJ 1224 2500J 1254 2790
+preplace netloc HL|adpt_in_0_I10 1 0 5 1830J 1234 NJ 1234 NJ 1234 NJ 1234 2770
+preplace netloc HL|adpt_in_0_I11 1 0 5 1840J 1244 NJ 1244 NJ 1244 NJ 1244 2760
+preplace netloc HL|adpt_in_0_I12 1 0 4 1850J 994 NJ 994 2280J 1044 2500
+preplace netloc HL|adpt_in_0_I13 1 0 4 1860J 1004 NJ 1004 2290J 1014 2530
+preplace netloc HL|adpt_in_0_I14 1 0 4 1870J 1014 NJ 1014 2270J 1034 2510
+preplace netloc HL|adpt_in_0_I15 1 0 4 1880J 1024 NJ 1024 NJ 1024 N
+preplace netloc HL|adpt_in_0_clk 1 0 5 1900J 744 2110 744 NJ 744 2520 884 2810
+preplace netloc HL|adpt_in_0_clr 1 0 5 1890J 754 2090 754 N 754 2530 894 2790
+preplace netloc HL|b0_1 1 0 3 1890J 984 NJ 984 2310
+preplace netloc HL|d_1 1 0 2 1900J 1094 2100
+preplace netloc HL|dff_1_q 1 2 1 2340 934n
+preplace netloc HL|m74LS194_0_Q0 1 4 2 2800 464 NJ
+preplace netloc HL|m74LS194_0_Q1 1 4 2 N 444 NJ
+preplace netloc HL|m74LS194_0_Q2 1 4 2 N 424 NJ
+preplace netloc HL|m74LS194_0_Q3 1 4 2 N 404 NJ
+preplace netloc HL|m74LS194_1_Q0 1 3 3 2540 584 2750 384 NJ
+preplace netloc HL|m74LS194_1_Q1 1 4 2 2780 714 NJ
+preplace netloc HL|m74LS194_1_Q2 1 4 2 2760 694 NJ
+preplace netloc HL|m74LS194_1_Q3 1 4 2 2740 674 NJ
+preplace netloc HL|m74LS194_2_Q0 1 3 3 2540 1334 NJ 1334 3010
+preplace netloc HL|m74LS194_2_Q1 1 5 1 N 1174
+preplace netloc HL|m74LS194_2_Q2 1 5 1 N 1154
+preplace netloc HL|m74LS194_2_Q3 1 5 1 N 1134
+preplace netloc HL|m74LS194_3_Q0 1 4 2 2820 1014 NJ
+preplace netloc HL|m74LS194_3_Q1 1 4 2 2730 1344 NJ
+preplace netloc HL|m74LS194_3_Q2 1 4 2 2740 1324 NJ
+preplace netloc HL|m74LS194_3_Q3 1 3 3 2550 924 2750 1314 3020J
+preplace netloc HL|m74LS194_4_Q3 1 5 1 3000 834n
+preplace netloc HL|not1_1_y 1 3 2 2520 1274 2800J
+preplace netloc HL|or2_0_y0 1 3 2 2500 904 2800
+preplace netloc HL|or2_1_y0 1 3 2 2510 914 2760J
+preplace netloc HL|xlconstant_0_dout 1 1 4 2110 1204 N 1204 2530 1264 2810J
+preplace netloc HL|xlconstant_1_dout 1 2 1 NJ 814
+levelinfo -pg 1 -60 100 380 1010 1410 1870 4670 4810
+levelinfo -hier HL * 1980 2190 2420 2640 2910 *
+pagesize -pg 1 -db -bbox -sgen -480 -800 6630 2070
+pagesize -hier HL -db -bbox -sgen 1780 284 3050 1384
+"
+}
+0

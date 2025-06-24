@@ -1,0 +1,442 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May  2 19:08:46 2025
+# Process ID         : 12336
+# Current directory  : D:/lab_ini_2/project_ini_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21980 D:\lab_ini_2\project_ini_1\project_ini_1.xpr
+# Log file           : D:/lab_ini_2/project_ini_1/vivado.log
+# Journal file       : D:/lab_ini_2/project_ini_1\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 2140 MB
+# Total Virtual      : 18935 MB
+# Available Virtual  : 8018 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/lab_ini_2/project_ini_1/project_ini_1.xpr
+INFO: [Project 1-313] Project file moved from 'E:/lab_ini_1/project_ini_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:57 . Memory (MB): peak = 1344.609 ; gain = 272.801
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab_ini_2/design_int_1/design_int_1.bd}
+Reading block design file <D:/lab_ini_2/design_int_1/design_int_1.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_1
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_2
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_0
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_1
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_2
+Adding component instance block -- xilinx.com:module_ref:and8:1.0 - and8_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_1
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_2
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:adpt_in2:1.0 - adpt_in2_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in3:1.0 - adpt_in3_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_0
+Adding component instance block -- xilinx.com:module_ref:decoder_5to25_single:1.0 - decoder_5to25_single_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_0
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_0
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Successfully read diagram <design_int_1> from block design file <D:/lab_ini_2/design_int_1/design_int_1.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 1538.859 ; gain = 151.762
+delete_bd_objs [get_bd_nets cg_fpga_0_gpio_sw_1] [get_bd_nets adpt_in3_0_a1] [get_bd_nets adpt_in3_0_a0] [get_bd_cells adpt_in3_0]
+delete_bd_objs [get_bd_nets xor2_0_y0] [get_bd_cells xor2_0]
+set_property location {1.5 28 175} [get_bd_cells adpt_in_0]
+set_property location {3 385 384} [get_bd_cells CNT]
+create_bd_cell -type module -reference xor2 xor2_0
+copy_bd_objs /  [get_bd_cells {xor2_0}]
+copy_bd_objs /  [get_bd_cells {xor2_0}]
+copy_bd_objs /  [get_bd_cells {xor2_0}]
+delete_bd_objs [get_bd_nets adpt_in_0_I1] [get_bd_nets adpt_in_0_I2] [get_bd_nets adpt_in_0_I3] [get_bd_nets adpt_in_0_I4] [get_bd_nets adpt_in_0_I5] [get_bd_nets adpt_in_0_I6] [get_bd_nets adpt_in_0_I0] [get_bd_nets adpt_in_0_I7]
+set_property location {4 543 287} [get_bd_cells xor2_0]
+set_property location {4 551 23} [get_bd_cells xor2_0]
+set_property location {4 521 110} [get_bd_cells xor2_1]
+set_property location {3 563 336} [get_bd_cells xor2_3]
+copy_bd_objs /  [get_bd_cells {xor2_1}]
+copy_bd_objs /  [get_bd_cells {xor2_1}]
+copy_bd_objs /  [get_bd_cells {xor2_1}]
+copy_bd_objs /  [get_bd_cells {xor2_1}]
+connect_bd_net [get_bd_pins adpt_in_0/I0] [get_bd_pins xor2_0/a0]
+connect_bd_net [get_bd_pins xor2_1/a0] [get_bd_pins adpt_in_0/I1]
+connect_bd_net [get_bd_pins xor2_2/a0] [get_bd_pins adpt_in_0/I2]
+connect_bd_net [get_bd_pins xor2_3/a0] [get_bd_pins adpt_in_0/I3]
+connect_bd_net [get_bd_pins xor2_4/a0] [get_bd_pins adpt_in_0/I4]
+connect_bd_net [get_bd_pins xor2_5/a0] [get_bd_pins adpt_in_0/I5]
+connect_bd_net [get_bd_pins xor2_6/a0] [get_bd_pins adpt_in_0/I6]
+connect_bd_net [get_bd_pins xor2_7/a0] [get_bd_pins adpt_in_0/I7]
+create_bd_cell -type module -reference m7482 m7482_0
+set_property location {4.5 704 61} [get_bd_cells m7482_0]
+copy_bd_objs /  [get_bd_cells {m7482_0}]
+set_property location {4 761 271} [get_bd_cells m7482_1]
+set_property location {4 750 67} [get_bd_cells m7482_0]
+copy_bd_objs /  [get_bd_cells {m7482_0}]
+copy_bd_objs /  [get_bd_cells {m7482_0}]
+connect_bd_net [get_bd_pins xor2_0/y0] [get_bd_pins m7482_0/A1]
+connect_bd_net [get_bd_pins xor2_1/y0] [get_bd_pins m7482_0/A2]
+connect_bd_net [get_bd_pins xor2_3/y0] [get_bd_pins m7482_1/A2]
+connect_bd_net [get_bd_pins xor2_2/y0] [get_bd_pins m7482_1/A1]
+connect_bd_net [get_bd_pins xor2_4/y0] [get_bd_pins m7482_2/A1]
+connect_bd_net [get_bd_pins xor2_5/y0] [get_bd_pins m7482_2/A2]
+connect_bd_net [get_bd_pins xor2_6/y0] [get_bd_pins m7482_3/A1]
+connect_bd_net [get_bd_pins xor2_7/y0] [get_bd_pins m7482_3/A2]
+connect_bd_net [get_bd_pins m7482_0/C2] [get_bd_pins m7482_1/C0]
+connect_bd_net [get_bd_pins m7482_2/C2] [get_bd_pins m7482_3/C0]
+connect_bd_net [get_bd_pins m7482_1/C2] [get_bd_pins m7482_2/C0]
+connect_bd_net [get_bd_pins m7482_0/SUM1] [get_bd_pins and8_0/a0]
+connect_bd_net [get_bd_pins m7482_0/SUM2] [get_bd_pins and8_0/a1]
+connect_bd_net [get_bd_pins m7482_1/SUM1] [get_bd_pins and8_0/a2]
+connect_bd_net [get_bd_pins m7482_1/SUM2] [get_bd_pins and8_0/a3]
+connect_bd_net [get_bd_pins m7482_2/SUM1] [get_bd_pins and8_0/a4]
+connect_bd_net [get_bd_pins m7482_2/SUM2] [get_bd_pins and8_0/a5]
+connect_bd_net [get_bd_pins m7482_3/SUM1] [get_bd_pins and8_0/a6]
+connect_bd_net [get_bd_pins m7482_3/SUM2] [get_bd_pins and8_0/a7]
+set_property USER_COMMENTS.comment_0 {Enter Comments here}  [get_bd_pins xor2_7/b0]
+undo
+INFO: [Common 17-17] undo 'set_property USER_COMMENTS.comment_0 {Enter Comments here}  [get_bd_pins xor2_7/b0]'
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+INFO: [BD 5-1043] It is recommended to use inline hdl version xilinx.com:inline_hdl:ilconstant:1.0 for the IP type xilinx.com:ip:xlconstant:1.1 for improved performance and reduced disk space. IPs with VLNV xilinx.com:ip:xlconstant:1.1 may be deprecated in future releases. More information on inline hdl IP is available in UG994 
+set_property location {4 631 721} [get_bd_cells xlconstant_0]
+connect_bd_net [get_bd_pins xor2_7/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xor2_6/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xor2_5/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xor2_4/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xor2_3/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xor2_2/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xor2_1/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xor2_0/b0] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins m7482_0/C0] [get_bd_pins xlconstant_0/dout]
+group_bd_cells QB [get_bd_cells xor2_0] [get_bd_cells xor2_1] [get_bd_cells m7482_0] [get_bd_cells xor2_2] [get_bd_cells xor2_3] [get_bd_cells m7482_1] [get_bd_cells m7482_2] [get_bd_cells xor2_4] [get_bd_cells xor2_5] [get_bd_cells xor2_6] [get_bd_cells xor2_7] [get_bd_cells m7482_3]
+set_property name SUM0 [get_bd_pins QB/SUM1]
+set_property name SUM1 [get_bd_pins QB/SUM2]
+set_property name SUM2 [get_bd_pins QB/SUM4]
+set_property name SUM4 [get_bd_pins QB/SUM6]
+set_property name SUM6 [get_bd_pins QB/SUM8]
+set_property name k [get_bd_pins QB/b0]
+copy_bd_objs /  [get_bd_cells {QB/m7482_0}]
+undo
+INFO: [Common 17-17] undo 'copy_bd_objs /  [get_bd_cells {QB/m7482_0}]'
+create_bd_cell -type module -reference xor2 xor2_0
+set_property location {7 1688 581} [get_bd_cells xor2_0]
+disconnect_bd_net /m74LS194_0_Q0 [get_bd_pins HL/Q0]
+disconnect_bd_net /m74LS194_0_Q0 [get_bd_pins adpt_out_0/Y0]
+startgroup
+connect_bd_net [get_bd_pins HL/Q0] [get_bd_pins xor2_0/a0]
+connect_bd_net [get_bd_pins HL/Q0] [get_bd_pins adpt_out_0/Y0]
+endgroup
+connect_bd_net [get_bd_pins HL/Q1] [get_bd_pins xor2_0/b0]
+connect_bd_net [get_bd_pins xor2_0/y0] [get_bd_pins and8_0/b7]
+create_bd_cell -type module -reference not1 not1_0
+create_bd_cell -type module -reference and2 and2_0
+connect_bd_net [get_bd_pins not1_0/a] [get_bd_pins HL/Q0]
+connect_bd_net [get_bd_pins not1_0/y] [get_bd_pins and2_0/b0]
+connect_bd_net [get_bd_pins and2_0/a0] [get_bd_pins HL/Q1]
+delete_bd_objs [get_bd_nets xlconstant_0_dout1]
+connect_bd_net [get_bd_pins and2_0/y0] [get_bd_pins QB/k]
+set_property location {3 680 93} [get_bd_cells and2_0]
+set_property location {3 694 385} [get_bd_cells and2_0]
+save_bd_design
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+group_bd_cells M_ADD [get_bd_cells and8_0] [get_bd_cells xor2_0] [get_bd_cells QB]
+set_property location {5 1192 57} [get_bd_cells M_ADD]
+set_property location {3 621 382} [get_bd_cells and2_0]
+undo
+INFO: [Common 17-17] undo 'set_property location {3 621 382} [get_bd_cells and2_0]'
+undo
+INFO: [Common 17-17] undo 'set_property location {5 1192 57} [get_bd_cells M_ADD]'
+undo
+INFO: [Common 17-17] undo 'group_bd_cells M_ADD [get_bd_cells and8_0] [get_bd_cells xor2_0] [get_bd_cells QB]'
+undo
+INFO: [Common 17-17] undo 'set_property location {3 694 385} [get_bd_cells and2_0]'
+undo
+INFO: [Common 17-17] undo 'set_property location {3 680 93} [get_bd_cells and2_0]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins and2_0/y0] [get_bd_pins QB/k]'
+connect_bd_net [get_bd_pins QB/k] [get_bd_pins and2_0/y0]
+set_property location {3 657 -212} [get_bd_cells and2_0]
+set_property location {4 1248 111} [get_bd_cells QB]
+set_property location {4 1156 -399} [get_bd_cells QB]
+set_property location {6 1934 -581} [get_bd_cells and8_0]
+group_bd_cells M_ADD [get_bd_cells and8_0] [get_bd_cells and2_0] [get_bd_cells not1_0] [get_bd_cells QB]
+set_property location {4 895 57} [get_bd_cells M_ADD]
+undo
+INFO: [Common 17-17] undo 'set_property location {4 895 57} [get_bd_cells M_ADD]'
+undo
+INFO: [Common 17-17] undo 'group_bd_cells M_ADD [get_bd_cells and8_0] [get_bd_cells and2_0] [get_bd_cells not1_0] [get_bd_cells QB]'
+group_bd_cells M_ADD [get_bd_cells and8_0] [get_bd_cells xor2_0] [get_bd_cells and2_0] [get_bd_cells not1_0] [get_bd_cells QB]
+set_property location {4 873 114} [get_bd_cells M_ADD]
+set_property location {4 939 215} [get_bd_cells M_ADD]
+save_bd_design
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/lab_ini_2/project_ini_1/project_ini_1.srcs/utils_1/imports/synth_1/design_int_1_wrapper.dcp with file D:/lab_ini_2/synth_1/design_int_1_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/adpt_out_0/c
+/HL/m74LS194_0/SL
+/HL/m74LS194_1/SL
+/HL/m74LS194_2/SL
+/HL/m74LS194_3/SL
+/ALU/m7482_3/C0
+/CNT/m74LS161_0/A3
+/CNT/m74LS161_0/A2
+/CNT/m74LS161_0/A1
+/CNT/m74LS161_0/A0
+/M_ADD/QB/m7482_0/B2
+/M_ADD/QB/m7482_0/B1
+/M_ADD/QB/m7482_1/B2
+/M_ADD/QB/m7482_1/B1
+/M_ADD/QB/m7482_2/B2
+/M_ADD/QB/m7482_2/B1
+/M_ADD/QB/m7482_3/B2
+/M_ADD/QB/m7482_3/B1
+
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Verilog Output written to : D:/lab_ini_2/design_int_1/synth/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/sim/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/hdl/design_int_1_wrapper.v
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/m7482_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/m7482_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/m7482_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/xor2_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/QB/m7482_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/not1_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block M_ADD/and2_0 .
+Exporting to file D:/lab_ini_2/design_int_1/hw_handoff/design_int_1.hwh
+Generated Hardware Definition File D:/lab_ini_2/design_int_1/synth/design_int_1.hwdef
+[Fri May  2 20:16:03 2025] Launched design_int_1_m7482_0_4_synth_1, design_int_1_xor2_0_1_synth_1, design_int_1_xor2_0_3_synth_1, design_int_1_m7482_0_7_synth_1, design_int_1_xor2_0_5_synth_1, design_int_1_not1_0_0_synth_1, design_int_1_xor2_0_4_synth_1, design_int_1_xor2_0_2_synth_1, design_int_1_xor2_1_3_synth_1, design_int_1_m7482_0_6_synth_1, design_int_1_xor2_1_0_synth_1, design_int_1_xor2_1_1_synth_1, design_int_1_m7482_0_5_synth_1, design_int_1_xor2_1_2_synth_1, design_int_1_and2_0_1_synth_1, synth_1...
+Run output will be captured here:
+design_int_1_m7482_0_4_synth_1: D:/lab_ini_2/design_int_1_m7482_0_4_synth_1/runme.log
+design_int_1_xor2_0_1_synth_1: D:/lab_ini_2/design_int_1_xor2_0_1_synth_1/runme.log
+design_int_1_xor2_0_3_synth_1: D:/lab_ini_2/design_int_1_xor2_0_3_synth_1/runme.log
+design_int_1_m7482_0_7_synth_1: D:/lab_ini_2/design_int_1_m7482_0_7_synth_1/runme.log
+design_int_1_xor2_0_5_synth_1: D:/lab_ini_2/design_int_1_xor2_0_5_synth_1/runme.log
+design_int_1_not1_0_0_synth_1: D:/lab_ini_2/design_int_1_not1_0_0_synth_1/runme.log
+design_int_1_xor2_0_4_synth_1: D:/lab_ini_2/design_int_1_xor2_0_4_synth_1/runme.log
+design_int_1_xor2_0_2_synth_1: D:/lab_ini_2/design_int_1_xor2_0_2_synth_1/runme.log
+design_int_1_xor2_1_3_synth_1: D:/lab_ini_2/design_int_1_xor2_1_3_synth_1/runme.log
+design_int_1_m7482_0_6_synth_1: D:/lab_ini_2/design_int_1_m7482_0_6_synth_1/runme.log
+design_int_1_xor2_1_0_synth_1: D:/lab_ini_2/design_int_1_xor2_1_0_synth_1/runme.log
+design_int_1_xor2_1_1_synth_1: D:/lab_ini_2/design_int_1_xor2_1_1_synth_1/runme.log
+design_int_1_m7482_0_5_synth_1: D:/lab_ini_2/design_int_1_m7482_0_5_synth_1/runme.log
+design_int_1_xor2_1_2_synth_1: D:/lab_ini_2/design_int_1_xor2_1_2_synth_1/runme.log
+design_int_1_and2_0_1_synth_1: D:/lab_ini_2/design_int_1_and2_0_1_synth_1/runme.log
+synth_1: D:/lab_ini_2/synth_1/runme.log
+[Fri May  2 20:16:03 2025] Launched impl_1...
+Run output will be captured here: D:/lab_ini_2/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:26 . Memory (MB): peak = 1729.230 ; gain = 31.875
+copy_bd_objs HL  [get_bd_cells {HL/m74LS194_0}]
+set_property location {6 1182 -56} [get_bd_cells HL/m74LS194_4]
+undo
+INFO: [Common 17-17] undo 'set_property location {6 1182 -56} [get_bd_cells HL/m74LS194_4]'
+undo
+INFO: [Common 17-17] undo 'copy_bd_objs HL  [get_bd_cells {HL/m74LS194_0}]'
+copy_bd_objs HL  [get_bd_cells {HL/m74LS194_0}]
+connect_bd_net [get_bd_pins HL/m74LS194_4/SR] [get_bd_pins HL/m74LS194_0/Q0]
+connect_bd_net [get_bd_pins HL/m74LS194_4/S0] [get_bd_pins HL/or2_1/y0]
+connect_bd_net [get_bd_pins HL/m74LS194_4/S1] [get_bd_pins HL/or2_0/y0]
+connect_bd_net [get_bd_pins HL/clk] [get_bd_pins HL/m74LS194_4/CLK]
+connect_bd_net [get_bd_pins HL/CLR_n] [get_bd_pins HL/m74LS194_4/CLR_n]
+save_bd_design
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+open_bd_design {D:/lab_ini_2/design_int_1/design_int_1.bd}
+set_property name yi1 [get_bd_pins M_ADD/a]
+set_property name y [get_bd_pins M_ADD/a0]
+set_property name yi [get_bd_pins M_ADD/y]
+disconnect_bd_net /HL_Q0 [get_bd_pins M_ADD/yi1]
+disconnect_bd_net /m74LS194_0_Q1 [get_bd_pins M_ADD/yi]
+connect_bd_net [get_bd_pins M_ADD/yi] [get_bd_pins HL/Q0] -boundary_type upper
+connect_bd_net [get_bd_pins HL/m74LS194_4/Q3] [get_bd_pins M_ADD/yi1]
+save_bd_design
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/lab_ini_2/project_ini_1/project_ini_1.srcs/utils_1/imports/synth_1/design_int_1_wrapper.dcp with file D:/lab_ini_2/synth_1/design_int_1_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/adpt_out_0/c
+/HL/m74LS194_0/SL
+/HL/m74LS194_1/SL
+/HL/m74LS194_2/SL
+/HL/m74LS194_3/SL
+/HL/m74LS194_4/D3
+/HL/m74LS194_4/D2
+/HL/m74LS194_4/D1
+/HL/m74LS194_4/D0
+/HL/m74LS194_4/SL
+/ALU/m7482_3/C0
+/CNT/m74LS161_0/A3
+/CNT/m74LS161_0/A2
+/CNT/m74LS161_0/A1
+/CNT/m74LS161_0/A0
+/M_ADD/QB/m7482_0/B2
+/M_ADD/QB/m7482_0/B1
+/M_ADD/QB/m7482_1/B2
+/M_ADD/QB/m7482_1/B1
+/M_ADD/QB/m7482_2/B2
+/M_ADD/QB/m7482_2/B1
+/M_ADD/QB/m7482_3/B2
+/M_ADD/QB/m7482_3/B1
+
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+Verilog Output written to : D:/lab_ini_2/design_int_1/synth/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/sim/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/hdl/design_int_1_wrapper.v
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block HL/m74LS194_4 .
+Exporting to file D:/lab_ini_2/design_int_1/hw_handoff/design_int_1.hwh
+Generated Hardware Definition File D:/lab_ini_2/design_int_1/synth/design_int_1.hwdef
+[Fri May  2 20:35:16 2025] Launched design_int_1_m74LS194_0_5_synth_1, synth_1...
+Run output will be captured here:
+design_int_1_m74LS194_0_5_synth_1: D:/lab_ini_2/design_int_1_m74LS194_0_5_synth_1/runme.log
+synth_1: D:/lab_ini_2/synth_1/runme.log
+[Fri May  2 20:35:16 2025] Launched impl_1...
+Run output will be captured here: D:/lab_ini_2/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1920.445 ; gain = 9.797
+delete_bd_objs [get_bd_nets HL/dff_2_q]
+save_bd_design
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/lab_ini_2/project_ini_1/project_ini_1.srcs/utils_1/imports/synth_1/design_int_1_wrapper.dcp with file D:/lab_ini_2/synth_1/design_int_1_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/adpt_out_0/c
+/HL/m74LS194_0/SL
+/HL/m74LS194_1/SL
+/HL/m74LS194_2/SL
+/HL/m74LS194_3/SR
+/HL/m74LS194_3/SL
+/HL/m74LS194_4/D3
+/HL/m74LS194_4/D2
+/HL/m74LS194_4/D1
+/HL/m74LS194_4/D0
+/HL/m74LS194_4/SL
+/ALU/m7482_3/C0
+/CNT/m74LS161_0/A3
+/CNT/m74LS161_0/A2
+/CNT/m74LS161_0/A1
+/CNT/m74LS161_0/A0
+/M_ADD/QB/m7482_0/B2
+/M_ADD/QB/m7482_0/B1
+/M_ADD/QB/m7482_1/B2
+/M_ADD/QB/m7482_1/B1
+/M_ADD/QB/m7482_2/B2
+/M_ADD/QB/m7482_2/B1
+/M_ADD/QB/m7482_3/B2
+/M_ADD/QB/m7482_3/B1
+
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+Verilog Output written to : D:/lab_ini_2/design_int_1/synth/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/sim/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/hdl/design_int_1_wrapper.v
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+Exporting to file D:/lab_ini_2/design_int_1/hw_handoff/design_int_1.hwh
+Generated Hardware Definition File D:/lab_ini_2/design_int_1/synth/design_int_1.hwdef
+[Fri May  2 20:46:35 2025] Launched synth_1...
+Run output will be captured here: D:/lab_ini_2/synth_1/runme.log
+[Fri May  2 20:46:35 2025] Launched impl_1...
+Run output will be captured here: D:/lab_ini_2/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1923.344 ; gain = 0.000
+connect_bd_net [get_bd_pins HL/m74LS194_3/SR] [get_bd_pins HL/m74LS194_3/Q3]
+save_bd_design
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/lab_ini_2/project_ini_1/project_ini_1.srcs/utils_1/imports/synth_1/design_int_1_wrapper.dcp with file D:/lab_ini_2/synth_1/design_int_1_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/adpt_out_0/c
+/HL/m74LS194_0/SL
+/HL/m74LS194_1/SL
+/HL/m74LS194_2/SL
+/HL/m74LS194_3/SL
+/HL/m74LS194_4/D3
+/HL/m74LS194_4/D2
+/HL/m74LS194_4/D1
+/HL/m74LS194_4/D0
+/HL/m74LS194_4/SL
+/ALU/m7482_3/C0
+/CNT/m74LS161_0/A3
+/CNT/m74LS161_0/A2
+/CNT/m74LS161_0/A1
+/CNT/m74LS161_0/A0
+/M_ADD/QB/m7482_0/B2
+/M_ADD/QB/m7482_0/B1
+/M_ADD/QB/m7482_1/B2
+/M_ADD/QB/m7482_1/B1
+/M_ADD/QB/m7482_2/B2
+/M_ADD/QB/m7482_2/B1
+/M_ADD/QB/m7482_3/B2
+/M_ADD/QB/m7482_3/B1
+
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+Verilog Output written to : D:/lab_ini_2/design_int_1/synth/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/sim/design_int_1.v
+Verilog Output written to : D:/lab_ini_2/design_int_1/hdl/design_int_1_wrapper.v
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_40db5224.ui> 
+Exporting to file D:/lab_ini_2/design_int_1/hw_handoff/design_int_1.hwh
+Generated Hardware Definition File D:/lab_ini_2/design_int_1/synth/design_int_1.hwdef
+[Fri May  2 20:54:24 2025] Launched synth_1...
+Run output will be captured here: D:/lab_ini_2/synth_1/runme.log
+[Fri May  2 20:54:24 2025] Launched impl_1...
+Run output will be captured here: D:/lab_ini_2/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1923.344 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  2 21:05:58 2025...

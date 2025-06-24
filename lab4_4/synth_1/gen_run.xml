@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1741425922">
+  <File Type="REPORTS-TCL" Name="design_4_wrapper_reports.tcl"/>
+  <File Type="RDS-UTIL" Name="design_4_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="design_4_wrapper_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="design_4_wrapper.tcl"/>
+  <File Type="RDS-RDS" Name="design_4_wrapper.vds"/>
+  <File Type="RDS-DCP" Name="design_4_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../exp4_source.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../design_4/design_4.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../design_4/hdl/design_4_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_4_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_cg_fpga_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_or3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_adpt_out_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_adpt_in_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_or3_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_2_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_3_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_and2_1_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_or3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_4_or3_0_2"/>
+</GenRun>

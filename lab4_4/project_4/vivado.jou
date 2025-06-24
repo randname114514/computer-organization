@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 18 14:15:37 2025
+# Process ID         : 9816
+# Current directory  : D:/lab4_4/project_4
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent22040 D:\lab4_4\project_4\project_4.xpr
+# Log file           : D:/lab4_4/project_4/vivado.log
+# Journal file       : D:/lab4_4/project_4\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 2015 MB
+# Total Virtual      : 18809 MB
+# Available Virtual  : 7057 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/lab4_4/project_4/project_4.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab4_4/design_4/design_4.bd}
+close_project
+open_project D:/lab7/project_7/project_7.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab7/design_7/design_7.bd}
+set_property location {3 730 541} [get_bd_cells xlconstant_0]
+set_property location {3 726 721} [get_bd_cells xlconstant_0]
+set_property location {3 733 714} [get_bd_cells xlconstant_0]
+delete_bd_objs [get_bd_nets xlconstant_0_dout]
+disconnect_bd_net /adpt_in_0_rst [get_bd_pins dff_1/prn]
+disconnect_bd_net /adpt_in_0_rst [get_bd_pins dff_2/prn]
+disconnect_bd_net /adpt_in_0_rst [get_bd_pins dff_3/prn]
+set_property location {3 671 712} [get_bd_cells xlconstant_0]
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins dff_0/clrn]
+connect_bd_net [get_bd_pins dff_1/prn] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins dff_2/prn] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins dff_3/prn] [get_bd_pins xlconstant_0/dout]
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_project
+open_project D:/lab4/project_4/project_4.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab4/design_4/design_4.bd}
+close_project
+open_project D:/lab4_4/project_4/project_4.xpr
+open_bd_design {D:/lab4_4/design_4/design_4.bd}
+update_compile_order -fileset sources_1

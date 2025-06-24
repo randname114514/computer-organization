@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue May 13 10:48:33 2025
+# Process ID         : 3720
+# Current directory  : D:/lab_ini_2/project_ini_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent14604 D:\lab_ini_2\project_ini_1\project_ini_1.xpr
+# Log file           : D:/lab_ini_2/project_ini_1/vivado.log
+# Journal file       : D:/lab_ini_2/project_ini_1\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 2140 MB
+# Total Virtual      : 18935 MB
+# Available Virtual  : 5539 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/lab_ini_2/project_ini_1/project_ini_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:01:09 . Memory (MB): peak = 1395.059 ; gain = 314.613
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab_ini_2/design_int_1/design_int_1.bd}
+Reading block design file <D:/lab_ini_2/design_int_1/design_int_1.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_1
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_2
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_0
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_1
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_2
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_4
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_1
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_2
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:adpt_in2:1.0 - adpt_in2_0
+Adding component instance block -- xilinx.com:module_ref:decoder_5to25_single:1.0 - decoder_5to25_single_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_0
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_0
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:and8:1.0 - and8_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_1
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_2
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_3
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_1
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_2
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_4
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_5
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_6
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_7
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_3
+Successfully read diagram <design_int_1> from block design file <D:/lab_ini_2/design_int_1/design_int_1.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1683.824 ; gain = 249.895
+open_bd_design {D:/lab_ini_2/design_int_1/design_int_1.bd}
+delete_bd_objs [get_bd_cells xlconstant_0]
+set_property location {4 1028 347} [get_bd_cells M_ADD]
+delete_bd_objs [get_bd_nets HL/SR_1] [get_bd_cells HL/dff_2]
+save_bd_design
+Wrote  : <D:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Wrote  : <D:/lab_ini_2/design_int_1/ui/bd_5aa55551.ui> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 13 11:25:05 2025...

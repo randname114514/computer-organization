@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Mar  8 17:21:57 2025
+# Process ID         : 3224
+# Current directory  : D:/lab4_4/design_4_or3_0_3_synth_1
+# Command line       : vivado.exe -log design_4_or3_0_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_4_or3_0_3.tcl
+# Log file           : D:/lab4_4/design_4_or3_0_3_synth_1/design_4_or3_0_3.vds
+# Journal file       : D:/lab4_4/design_4_or3_0_3_synth_1\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 1744 MB
+# Total Virtual      : 18539 MB
+# Available Virtual  : 4527 MB
+#-----------------------------------------------------------
+source design_4_or3_0_3.tcl -notrace

@@ -1,0 +1,2203 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri May  2 20:54:21 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_int_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="IO" LEFT="14" NAME="DDR_0_addr" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_addr">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_addr"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="2" NAME="DDR_0_ba" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ba">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ba"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_cas_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cas_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_cas_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_ck_n" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ck_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_ck_p" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ck_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_cke" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cke">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_cke"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_cs_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cs_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_cs_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="3" NAME="DDR_0_dm" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dm">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dm"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="31" NAME="DDR_0_dq" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dq">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dq"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="3" NAME="DDR_0_dqs_n" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dqs_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="3" NAME="DDR_0_dqs_p" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dqs_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_odt" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_odt">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_odt"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_ras_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ras_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ras_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_reset_n" SIGIS="rst" SIGNAME="cg_fpga_0_DDR_reset_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_reset_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_we_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_we_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_we_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ddr_vrn" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ddr_vrn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ddr_vrp" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ddr_vrp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_0_mio" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_mio">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_mio"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ps_clk" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ps_clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ps_porb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_porb">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ps_porb"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ps_srstb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_srstb">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ps_srstb"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES>
+    <BUSINTERFACE BUSNAME="cg_fpga_0_FIXED_IO" NAME="FIXED_IO_0" TYPE="INITIATOR">
+      <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+      <PORTMAPS>
+        <PORTMAP LOGICAL="DDR_VRN" PHYSICAL="FIXED_IO_0_ddr_vrn"/>
+        <PORTMAP LOGICAL="DDR_VRP" PHYSICAL="FIXED_IO_0_ddr_vrp"/>
+        <PORTMAP LOGICAL="MIO" PHYSICAL="FIXED_IO_0_mio"/>
+        <PORTMAP LOGICAL="PS_CLK" PHYSICAL="FIXED_IO_0_ps_clk"/>
+        <PORTMAP LOGICAL="PS_PORB" PHYSICAL="FIXED_IO_0_ps_porb"/>
+        <PORTMAP LOGICAL="PS_SRSTB" PHYSICAL="FIXED_IO_0_ps_srstb"/>
+      </PORTMAPS>
+    </BUSINTERFACE>
+    <BUSINTERFACE BUSNAME="cg_fpga_0_DDR" DATAWIDTH="8" NAME="DDR_0" TYPE="INITIATOR">
+      <PARAMETER NAME="AXI_ARBITRATION_SCHEME" VALUE="TDM"/>
+      <PARAMETER NAME="BURST_LENGTH" VALUE="8"/>
+      <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+      <PARAMETER NAME="CAS_LATENCY" VALUE="11"/>
+      <PARAMETER NAME="CAS_WRITE_LATENCY" VALUE="11"/>
+      <PARAMETER NAME="CS_ENABLED" VALUE="true"/>
+      <PARAMETER NAME="CUSTOM_PARTS"/>
+      <PARAMETER NAME="DATA_MASK_ENABLED" VALUE="true"/>
+      <PARAMETER NAME="DATA_WIDTH" VALUE="8"/>
+      <PARAMETER NAME="MEMORY_PART"/>
+      <PARAMETER NAME="MEMORY_TYPE" VALUE="COMPONENTS"/>
+      <PARAMETER NAME="MEM_ADDR_MAP" VALUE="ROW_COLUMN_BANK"/>
+      <PARAMETER NAME="SLOT" VALUE="Single"/>
+      <PARAMETER NAME="TIMEPERIOD_PS" VALUE="1250"/>
+      <PORTMAPS>
+        <PORTMAP LOGICAL="ADDR" PHYSICAL="DDR_0_addr"/>
+        <PORTMAP LOGICAL="BA" PHYSICAL="DDR_0_ba"/>
+        <PORTMAP LOGICAL="CAS_N" PHYSICAL="DDR_0_cas_n"/>
+        <PORTMAP LOGICAL="CKE" PHYSICAL="DDR_0_cke"/>
+        <PORTMAP LOGICAL="CK_N" PHYSICAL="DDR_0_ck_n"/>
+        <PORTMAP LOGICAL="CK_P" PHYSICAL="DDR_0_ck_p"/>
+        <PORTMAP LOGICAL="CS_N" PHYSICAL="DDR_0_cs_n"/>
+        <PORTMAP LOGICAL="DM" PHYSICAL="DDR_0_dm"/>
+        <PORTMAP LOGICAL="DQ" PHYSICAL="DDR_0_dq"/>
+        <PORTMAP LOGICAL="DQS_N" PHYSICAL="DDR_0_dqs_n"/>
+        <PORTMAP LOGICAL="DQS_P" PHYSICAL="DDR_0_dqs_p"/>
+        <PORTMAP LOGICAL="ODT" PHYSICAL="DDR_0_odt"/>
+        <PORTMAP LOGICAL="RAS_N" PHYSICAL="DDR_0_ras_n"/>
+        <PORTMAP LOGICAL="RESET_N" PHYSICAL="DDR_0_reset_n"/>
+        <PORTMAP LOGICAL="WE_N" PHYSICAL="DDR_0_we_n"/>
+      </PORTMAPS>
+    </BUSINTERFACE>
+  </EXTERNALINTERFACES>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/m7482_0" HWVERSION="1.0" INSTANCE="ALU_m7482_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_and8_0_y6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_and8_0_y7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="ALU_m7482_1_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="ALU_m7482_0_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="ALU_m7482_0_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="ALU_m7482_0_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/m7482_1" HWVERSION="1.0" INSTANCE="ALU_m7482_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_and8_0_y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_and8_0_y5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="ALU_m7482_2_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="ALU_m7482_1_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="C0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="ALU_m7482_1_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="ALU_m7482_1_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/m7482_2" HWVERSION="1.0" INSTANCE="ALU_m7482_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_and8_0_y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_and8_0_y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="ALU_m7482_3_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_3" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="ALU_m7482_2_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="C0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="ALU_m7482_2_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="ALU_m7482_2_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/m7482_3" HWVERSION="1.0" INSTANCE="ALU_m7482_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_and8_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_and8_0_y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="ALU_m7482_3_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="C0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="ALU_m7482_3_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="ALU_m7482_3_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/CNT/and2_0" HWVERSION="1.0" INSTANCE="CNT_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_and2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="CNT_dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_dff_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="adpt_in2_0_clk_div">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in2_0" PORT="clk_div"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_1" PORT="clk"/>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="CLK"/>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="CLK"/>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="CLK"/>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="CLK"/>
+            <CONNECTION INSTANCE="HL_m74LS194_4" PORT="CLK"/>
+            <CONNECTION INSTANCE="dff_1" PORT="clk"/>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/CNT/decoder_5to25_single_0" HWVERSION="1.0" INSTANCE="CNT_decoder_5to25_single_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder_5to25_single" VLNV="xilinx.com:module_ref:decoder_5to25_single:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_decoder_5to25_single_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="in_0" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="in_1" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="in_2" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="in_3" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="in_4" SIGIS="undef" SIGNAME="CNT_m74LS161_0_RCO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="RCO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="out1" SIGIS="undef" SIGNAME="CNT_decoder_5to25_single_0_out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_0" PORT="b0"/>
+            <CONNECTION INSTANCE="HL_or2_1" PORT="b0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="out18" SIGIS="undef" SIGNAME="CNT_decoder_5to25_single_0_out18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_not1_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="out19" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/CNT/dff_0" HWVERSION="1.0" INSTANCE="CNT_dff_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_dff_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" SIGIS="undef" SIGNAME="CNT_not1_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_not1_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="CNT_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="CNT_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="CNT_dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/CNT/m74LS161_0" HWVERSION="1.0" INSTANCE="CNT_m74LS161_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS161" VLNV="xilinx.com:module_ref:m74LS161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m74LS161_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A2" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A3" SIGIS="undef"/>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ENP" SIGIS="undef" SIGNAME="CNT_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ENT" SIGIS="undef" SIGNAME="CNT_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD_n" SIGIS="undef" SIGNAME="CNT_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="d"/>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="in_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="in_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="in_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="in_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="RCO" SIGIS="undef" SIGNAME="CNT_m74LS161_0_RCO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="in_4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/CNT/not1_1" HWVERSION="1.0" INSTANCE="CNT_not1_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="not1" VLNV="xilinx.com:module_ref:not1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_not1_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="CNT_decoder_5to25_single_0_out18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="out18"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="CNT_not1_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_dff_0" PORT="clrn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/CNT/xlconstant_0" HWVERSION="1.1" INSTANCE="CNT_xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xlconstant_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="CNT_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="prn"/>
+            <CONNECTION INSTANCE="CNT_dff_0" PORT="d"/>
+            <CONNECTION INSTANCE="CNT_dff_0" PORT="prn"/>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="ENP"/>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="ENT"/>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="LD_n"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/dff_1" HWVERSION="1.0" INSTANCE="HL_dff_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_dff_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="HL_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="HL_dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_2" PORT="clk"/>
+            <CONNECTION INSTANCE="HL_not1_1" PORT="a"/>
+            <CONNECTION INSTANCE="HL_or2_1" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/dff_2" HWVERSION="1.0" INSTANCE="HL_dff_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_dff_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="HL_dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="ALU_m7482_0_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="HL_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/m74LS194_0" HWVERSION="1.0" INSTANCE="HL_m74LS194_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS194" VLNV="xilinx.com:module_ref:m74LS194:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m74LS194_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="adpt_in_0_I8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="adpt_in_0_I9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="adpt_in_0_I10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="adpt_in_0_I11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y0"/>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="a0"/>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="b0"/>
+            <CONNECTION INSTANCE="HL_m74LS194_4" PORT="SR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S0" SIGIS="undef" SIGNAME="HL_or2_1_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_1" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S1" SIGIS="undef" SIGNAME="HL_or2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SL" SIGIS="undef"/>
+        <PORT DIR="I" NAME="SR" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/m74LS194_1" HWVERSION="1.0" INSTANCE="HL_m74LS194_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS194" VLNV="xilinx.com:module_ref:m74LS194:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m74LS194_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="adpt_in_0_I12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="adpt_in_0_I13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="adpt_in_0_I14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="adpt_in_0_I15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y4"/>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="SR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S0" SIGIS="undef" SIGNAME="HL_or2_1_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_1" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S1" SIGIS="undef" SIGNAME="HL_or2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SL" SIGIS="undef"/>
+        <PORT DIR="I" NAME="SR" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/m74LS194_2" HWVERSION="1.0" INSTANCE="HL_m74LS194_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS194" VLNV="xilinx.com:module_ref:m74LS194:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m74LS194_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="ALU_m7482_3_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_3" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="ALU_m7482_3_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_3" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="ALU_m7482_2_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="ALU_m7482_2_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_3" PORT="B1"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y8"/>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="SR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_3" PORT="B2"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="B1"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="B2"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S0" SIGIS="undef" SIGNAME="HL_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S1" SIGIS="undef" SIGNAME="HL_not1_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_not1_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SL" SIGIS="undef"/>
+        <PORT DIR="I" NAME="SR" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/m74LS194_3" HWVERSION="1.0" INSTANCE="HL_m74LS194_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS194" VLNV="xilinx.com:module_ref:m74LS194:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m74LS194_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="ALU_m7482_1_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="ALU_m7482_1_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="ALU_m7482_0_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="ALU_m7482_0_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="B1"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y12"/>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="SR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="B2"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="B1"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="B2"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y15"/>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="SR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S0" SIGIS="undef" SIGNAME="HL_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S1" SIGIS="undef" SIGNAME="HL_not1_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_not1_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SL" SIGIS="undef"/>
+        <PORT DIR="I" NAME="SR" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/m74LS194_4" HWVERSION="1.0" INSTANCE="HL_m74LS194_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS194" VLNV="xilinx.com:module_ref:m74LS194:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m74LS194_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="D1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="D2" SIGIS="undef"/>
+        <PORT DIR="I" NAME="D3" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="HL_m74LS194_4_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_not1_0" PORT="a"/>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S0" SIGIS="undef" SIGNAME="HL_or2_1_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_1" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S1" SIGIS="undef" SIGNAME="HL_or2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SL" SIGIS="undef"/>
+        <PORT DIR="I" NAME="SR" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/not1_1" HWVERSION="1.0" INSTANCE="HL_not1_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="not1" VLNV="xilinx.com:module_ref:not1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_not1_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="HL_dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="HL_not1_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="S1"/>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/or2_0" HWVERSION="1.0" INSTANCE="HL_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or2" VLNV="xilinx.com:module_ref:or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_or2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="HL_xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="CNT_decoder_5to25_single_0_out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="out1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="HL_or2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="S1"/>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="S1"/>
+            <CONNECTION INSTANCE="HL_m74LS194_4" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HL/or2_1" HWVERSION="1.0" INSTANCE="HL_or2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or2" VLNV="xilinx.com:module_ref:or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_or2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="HL_dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="CNT_decoder_5to25_single_0_out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_decoder_5to25_single_0" PORT="out1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="HL_or2_1_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="S0"/>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="S0"/>
+            <CONNECTION INSTANCE="HL_m74LS194_4" PORT="S0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/HL/xlconstant_0" HWVERSION="1.1" INSTANCE="HL_xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="HL_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_1" PORT="prn"/>
+            <CONNECTION INSTANCE="HL_dff_2" PORT="prn"/>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="S0"/>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="S0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/HL/xlconstant_1" HWVERSION="1.1" INSTANCE="HL_xlconstant_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xlconstant_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="HL_xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_or2_0" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/m7482_0" HWVERSION="1.0" INSTANCE="M_ADD_QB_m7482_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_1_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_1" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="B2" SIGIS="undef"/>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_0_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_1" PORT="C0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_0_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_0_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/m7482_1" HWVERSION="1.0" INSTANCE="M_ADD_QB_m7482_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_2_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_2" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_3_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_3" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="B2" SIGIS="undef"/>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_0_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_0" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_1_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_2" PORT="C0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_1_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_1_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/m7482_2" HWVERSION="1.0" INSTANCE="M_ADD_QB_m7482_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_4_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_4" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_5_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_5" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="B2" SIGIS="undef"/>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_1_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_1" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_2_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_3" PORT="C0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_2_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_2_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/m7482_3" HWVERSION="1.0" INSTANCE="M_ADD_QB_m7482_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_m7482_0_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_6_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_6" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_7_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_7" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="B2" SIGIS="undef"/>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_2_C2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_2" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="C2" SIGIS="undef"/>
+        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_3_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_3_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="a7"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_0" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_0" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_1" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_1_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_0" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_2" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_2_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_1" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_3" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_3_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_1" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_4" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_4_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_2" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_5" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_5_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_2" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_6" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_6_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_3" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/QB/xor2_7" HWVERSION="1.0" INSTANCE="M_ADD_QB_xor2_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_I7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="I7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_QB_xor2_7_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_3" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/and2_0" HWVERSION="1.0" INSTANCE="M_ADD_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_and2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_not1_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_not1_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_7" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_6" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_5" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_4" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_3" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_2" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_1" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_0" PORT="C0"/>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_0" PORT="b0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/and8_0" HWVERSION="1.0" INSTANCE="M_ADD_and8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and8" VLNV="xilinx.com:module_ref:and8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_and8_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_0_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_0" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_0_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_0" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_1_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_1" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_1_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_1" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_2_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_2" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a5" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_2_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_2" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a6" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_3_SUM1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_3" PORT="SUM1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a7" SIGIS="undef" SIGNAME="M_ADD_QB_m7482_3_SUM2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_m7482_3" PORT="SUM2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b2" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b3" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b4" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b5" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b6" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b7" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_xor2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_and8_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_3" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y1" SIGIS="undef" SIGNAME="M_ADD_and8_0_y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_3" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y2" SIGIS="undef" SIGNAME="M_ADD_and8_0_y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y3" SIGIS="undef" SIGNAME="M_ADD_and8_0_y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_2" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y4" SIGIS="undef" SIGNAME="M_ADD_and8_0_y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y5" SIGIS="undef" SIGNAME="M_ADD_and8_0_y5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_1" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y6" SIGIS="undef" SIGNAME="M_ADD_and8_0_y6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y7" SIGIS="undef" SIGNAME="M_ADD_and8_0_y7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_m7482_0" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/not1_0" HWVERSION="1.0" INSTANCE="M_ADD_not1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="not1" VLNV="xilinx.com:module_ref:not1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_not1_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="HL_m74LS194_4_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_4" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="M_ADD_not1_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and2_0" PORT="b0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/M_ADD/xor2_0" HWVERSION="1.0" INSTANCE="M_ADD_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xor2_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="HL_m74LS194_4_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_4" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="M_ADD_xor2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b0"/>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b7"/>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b6"/>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b5"/>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b4"/>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b3"/>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b2"/>
+            <CONNECTION INSTANCE="M_ADD_and8_0" PORT="b1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_in2_0" HWVERSION="1.0" INSTANCE="adpt_in2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_in2" VLNV="xilinx.com:module_ref:adpt_in2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_adpt_in2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="btn_rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk_100M" SIGIS="undef" SIGNAME="cg_fpga_0_clk_100M">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="clk_100M"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_div" SIGIS="undef" SIGNAME="adpt_in2_0_clk_div">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="b0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_in_0" HWVERSION="1.0" INSTANCE="adpt_in_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_in" VLNV="xilinx.com:module_ref:adpt_in:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_adpt_in_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="I0" SIGIS="undef" SIGNAME="adpt_in_0_I0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_0" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I1" SIGIS="undef" SIGNAME="adpt_in_0_I1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_1" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I2" SIGIS="undef" SIGNAME="adpt_in_0_I2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_2" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I3" SIGIS="undef" SIGNAME="adpt_in_0_I3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_3" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I4" SIGIS="undef" SIGNAME="adpt_in_0_I4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_4" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I5" SIGIS="undef" SIGNAME="adpt_in_0_I5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_5" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I6" SIGIS="undef" SIGNAME="adpt_in_0_I6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_6" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I7" SIGIS="undef" SIGNAME="adpt_in_0_I7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="M_ADD_QB_xor2_7" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I8" SIGIS="undef" SIGNAME="adpt_in_0_I8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I9" SIGIS="undef" SIGNAME="adpt_in_0_I9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I10" SIGIS="undef" SIGNAME="adpt_in_0_I10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I11" SIGIS="undef" SIGNAME="adpt_in_0_I11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I12" SIGIS="undef" SIGNAME="adpt_in_0_I12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I13" SIGIS="undef" SIGNAME="adpt_in_0_I13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I14" SIGIS="undef" SIGNAME="adpt_in_0_I14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="I15" SIGIS="undef" SIGNAME="adpt_in_0_I15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="btn_clk" SIGIS="clk" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="btn_rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="O" NAME="clk" SIGIS="clk" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_dff_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clr" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_1" PORT="clrn"/>
+            <CONNECTION INSTANCE="HL_dff_2" PORT="clrn"/>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="CLR_n"/>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="CLR_n"/>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="CLR_n"/>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="CLR_n"/>
+            <CONNECTION INSTANCE="HL_m74LS194_4" PORT="CLR_n"/>
+            <CONNECTION INSTANCE="dff_1" PORT="clrn"/>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="CLR_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="sw_a" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_gpio_sw_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="gpio_sw_2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_out_0" HWVERSION="1.0" INSTANCE="adpt_out_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_out" VLNV="xilinx.com:module_ref:adpt_out:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_adpt_out_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="Y0" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y1" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y2" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y3" SIGIS="undef" SIGNAME="HL_m74LS194_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_0" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y4" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y5" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y6" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y7" SIGIS="undef" SIGNAME="HL_m74LS194_1_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_1" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y8" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y9" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y10" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y11" SIGIS="undef" SIGNAME="HL_m74LS194_2_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_2" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y12" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y13" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y14" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y15" SIGIS="undef" SIGNAME="HL_m74LS194_3_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_m74LS194_3" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="31" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="gpio_led"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/cg_fpga_0" HWVERSION="1.4" INSTANCE="cg_fpga_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cg_fpga" VLNV="educg.net:user:cg_fpga:1.4">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_cg_fpga_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="IO" LEFT="14" NAME="DDR_addr" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_addr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_addr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="2" NAME="DDR_ba" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ba">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_ba"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cas_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_cas_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_ck_n" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_ck_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_ck_p" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_ck_p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_cke" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cke">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_cke"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_cs_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cs_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_cs_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dm" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dm">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_dm"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="31" NAME="DDR_dq" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dq">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_dq"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_n" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_dqs_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_p" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_dqs_p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_odt" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_odt">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_odt"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_ras_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ras_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_ras_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_reset_n" SIGIS="rst" SIGNAME="cg_fpga_0_DDR_reset_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_reset_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_we_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_we_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="DDR_0_we_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrn" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="FIXED_IO_0_ddr_vrn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrp" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="FIXED_IO_0_ddr_vrp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_mio">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="FIXED_IO_0_mio"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="FIXED_IO_0_ps_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_porb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="FIXED_IO_0_ps_porb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_srstb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_int_1_imp" PORT="FIXED_IO_0_ps_srstb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="6" NAME="audio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="7" NAME="btn" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="0" NAME="btn_clk" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="btn_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="btn_rst" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in2_0" PORT="btn_rst"/>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_100M" SIGIS="undef" SIGNAME="cg_fpga_0_clk_100M">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in2_0" PORT="clk_100M"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="gpio_led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_1" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_2" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_gpio_sw_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="sw_a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="5" NAME="ledm_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="15" NAME="ledm_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="rx_0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="seg_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="7" NAME="seg_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="tx_0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_active" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="23" NAME="vid_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hsync" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_io_in_clk" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vsync" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="cg_fpga_0_FIXED_IO" NAME="FIXED_IO" TYPE="INITIATOR" VLNV="xilinx.com:display_processing_system7:fixedio:1.0">
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="DDR_VRN" PHYSICAL="FIXED_IO_ddr_vrn"/>
+            <PORTMAP LOGICAL="DDR_VRP" PHYSICAL="FIXED_IO_ddr_vrp"/>
+            <PORTMAP LOGICAL="MIO" PHYSICAL="FIXED_IO_mio"/>
+            <PORTMAP LOGICAL="PS_CLK" PHYSICAL="FIXED_IO_ps_clk"/>
+            <PORTMAP LOGICAL="PS_PORB" PHYSICAL="FIXED_IO_ps_porb"/>
+            <PORTMAP LOGICAL="PS_SRSTB" PHYSICAL="FIXED_IO_ps_srstb"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+        <BUSINTERFACE BUSNAME="cg_fpga_0_DDR" DATAWIDTH="8" NAME="DDR" TYPE="INITIATOR" VLNV="xilinx.com:interface:ddrx:1.0">
+          <PARAMETER NAME="AXI_ARBITRATION_SCHEME" VALUE="TDM"/>
+          <PARAMETER NAME="BURST_LENGTH" VALUE="8"/>
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PARAMETER NAME="CAS_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CAS_WRITE_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CS_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="CUSTOM_PARTS"/>
+          <PARAMETER NAME="DATA_MASK_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="DATA_WIDTH" VALUE="8"/>
+          <PARAMETER NAME="MEMORY_PART"/>
+          <PARAMETER NAME="MEMORY_TYPE" VALUE="COMPONENTS"/>
+          <PARAMETER NAME="MEM_ADDR_MAP" VALUE="ROW_COLUMN_BANK"/>
+          <PARAMETER NAME="SLOT" VALUE="Single"/>
+          <PARAMETER NAME="TIMEPERIOD_PS" VALUE="1250"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="DDR_addr"/>
+            <PORTMAP LOGICAL="BA" PHYSICAL="DDR_ba"/>
+            <PORTMAP LOGICAL="CAS_N" PHYSICAL="DDR_cas_n"/>
+            <PORTMAP LOGICAL="CKE" PHYSICAL="DDR_cke"/>
+            <PORTMAP LOGICAL="CK_N" PHYSICAL="DDR_ck_n"/>
+            <PORTMAP LOGICAL="CK_P" PHYSICAL="DDR_ck_p"/>
+            <PORTMAP LOGICAL="CS_N" PHYSICAL="DDR_cs_n"/>
+            <PORTMAP LOGICAL="DM" PHYSICAL="DDR_dm"/>
+            <PORTMAP LOGICAL="DQ" PHYSICAL="DDR_dq"/>
+            <PORTMAP LOGICAL="DQS_N" PHYSICAL="DDR_dqs_n"/>
+            <PORTMAP LOGICAL="DQS_P" PHYSICAL="DDR_dqs_p"/>
+            <PORTMAP LOGICAL="ODT" PHYSICAL="DDR_odt"/>
+            <PORTMAP LOGICAL="RAS_N" PHYSICAL="DDR_ras_n"/>
+            <PORTMAP LOGICAL="RESET_N" PHYSICAL="DDR_reset_n"/>
+            <PORTMAP LOGICAL="WE_N" PHYSICAL="DDR_we_n"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/dff_1" HWVERSION="1.0" INSTANCE="dff_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_dff_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="CNT_and2_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_and2_0" PORT="y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" SIGIS="undef" SIGNAME="adpt_in_0_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="CNT_m74LS161_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_m74LS161_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="CNT_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HL_dff_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_int_1_xlconstant_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

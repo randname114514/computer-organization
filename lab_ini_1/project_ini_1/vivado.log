@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Mon Apr 28 19:18:34 2025
+# Process ID         : 25568
+# Current directory  : F:/lab_ini_1/project_ini_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3400 F:\lab_ini_1\project_ini_1\project_ini_1.xpr
+# Log file           : F:/lab_ini_1/project_ini_1/vivado.log
+# Journal file       : F:/lab_ini_1/project_ini_1\vivado.jou
+# Running On         : MuXinCG
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13900HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 16978 MB
+# Swap memory        : 9663 MB
+# Total Virtual      : 26642 MB
+# Available Virtual  : 13032 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/lab_ini_1/project_ini_1/project_ini_1.xpr
+INFO: [Project 1-313] Project file moved from 'E:/lab_ini_1/project_ini_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2024.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_int_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_int_1_cg_fpga_0_0
+
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:42 ; elapsed = 00:01:15 . Memory (MB): peak = 1301.543 ; gain = 179.406
+update_compile_order -fileset sources_1
+open_bd_design {F:/lab_ini_1/design_int_1/design_int_1.bd}
+Reading block design file <F:/lab_ini_1/design_int_1/design_int_1.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_1
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_2
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_0
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_1
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_2
+Adding component instance block -- xilinx.com:module_ref:and8:1.0 - and8_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_1
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_2
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:adpt_in2:1.0 - adpt_in2_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in3:1.0 - adpt_in3_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_0
+Adding component instance block -- xilinx.com:module_ref:decoder_5to25_single:1.0 - decoder_5to25_single_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_0
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_0
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Successfully read diagram <design_int_1> from block design file <F:/lab_ini_1/design_int_1/design_int_1.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1481.965 ; gain = 134.398
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 28 19:27:06 2025...

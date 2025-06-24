@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue May 27 13:53:10 2025
+# Process ID         : 5208
+# Current directory  : E:/lab14/project_14
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2324 E:\lab14\project_14\project_14.xpr
+# Log file           : E:/lab14/project_14/vivado.log
+# Journal file       : E:/lab14/project_14\vivado.jou
+# Running On         : vj5PC14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19042
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12600
+# CPU Frequency      : 3302 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16853 MB
+# Swap memory        : 1342 MB
+# Total Virtual      : 18195 MB
+# Available Virtual  : 14571 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/lab14/project_14/project_14.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:27 . Memory (MB): peak = 1329.828 ; gain = 227.598
+update_compile_order -fileset sources_1
+open_bd_design {E:/lab14/design_14/design_14.bd}
+Reading block design file <E:/lab14/design_14/design_14.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:rom2_256x24:1.0 - rom2_256x24_0
+Adding component instance block -- xilinx.com:module_ref:UIR:1.0 - UIR_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_0
+Adding component instance block -- xilinx.com:module_ref:shifter:1.0 - shifter_0
+Adding component instance block -- xilinx.com:module_ref:dff4:1.0 - dff4_0
+Adding component instance block -- xilinx.com:module_ref:adder4:1.0 - adder4_0
+Adding component instance block -- xilinx.com:module_ref:dff4:1.0 - dff4_2
+Adding component instance block -- xilinx.com:module_ref:dff4:1.0 - dff4_1
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_0
+Adding component instance block -- xilinx.com:module_ref:addr_adpt:1.0 - addr_adpt_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_1
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_2
+Successfully read diagram <design_14> from block design file <E:/lab14/design_14/design_14.bd>
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 27 15:48:22 2025...

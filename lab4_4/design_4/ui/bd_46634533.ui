@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-244,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_y -pg 1 -lvl 3 -x 400 -y 100 -defaultsOSRD
+preplace port port-id_y1 -pg 1 -lvl 3 -x 400 -y 120 -defaultsOSRD
+preplace port port-id_y2 -pg 1 -lvl 3 -x 400 -y 140 -defaultsOSRD
+preplace port port-id_y3 -pg 1 -lvl 3 -x 400 -y 160 -defaultsOSRD
+preplace portBus sw_a -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace inst adpt_in_0 -pg 1 -lvl 1 -x 120 -y 110 -defaultsOSRD
+preplace inst hier_0 -pg 1 -lvl 2 -x 320 -y 130 -defaultsOSRD
+preplace netloc adpt_in_0_a3 1 1 1 250 50n
+preplace netloc adpt_in_0_a2 1 1 1 N 70
+preplace netloc adpt_in_0_a1 1 1 1 230 90n
+preplace netloc adpt_in_0_a0 1 1 1 220 110n
+preplace netloc adpt_in_0_LM 1 1 1 240 90n
+preplace netloc adpt_in_0_DM 1 1 1 250 130n
+preplace netloc adpt_in_0_RM 1 1 1 260 150n
+preplace netloc cg_fpga_0_gpio_sw_2 1 0 1 N 110
+preplace netloc or3_1_y 1 2 1 NJ 100
+preplace netloc or3_2_y 1 2 1 NJ 120
+preplace netloc or3_3_y 1 2 1 NJ 140
+preplace netloc or3_0_y 1 2 1 NJ 160
+levelinfo -pg 1 0 120 320 400
+pagesize -pg 1 -db -bbox -sgen -120 0 470 240
+"
+}
+

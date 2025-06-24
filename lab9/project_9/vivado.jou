@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr 22 14:46:23 2025
+# Process ID         : 1660
+# Current directory  : E:/lab9/project_9
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9816 E:\lab9\project_9\project_9.xpr
+# Log file           : E:/lab9/project_9/vivado.log
+# Journal file       : E:/lab9/project_9\vivado.jou
+# Running On         : vj5PC14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19042
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12600
+# CPU Frequency      : 3302 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16853 MB
+# Swap memory        : 1342 MB
+# Total Virtual      : 18195 MB
+# Available Virtual  : 14112 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/lab9/project_9/project_9.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/lab9/design_9/design_9.bd}
+close_project
+create_project project_ini_2 E:/lab_ini_2/project_ini_2 -part xc7z020clg400-1
+set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
+set_property  ip_repo_paths  {D:/vivadoRepo/ip_repo D:/vivadoRepo/cg_fpga_slim_1_4} [current_project]
+update_ip_catalog
+add_files -norecurse {{E:/lab_ini_2/exp1__source .v}}
+update_compile_order -fileset sources_1
+create_bd_design -dir {E:/lab_ini_2} "design_ini_2"
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  d:/vivadoRepo/ip_repo [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  E:/ip_repo [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv educg.net:user:cg_fpga:1.4 cg_fpga_0
+endgroup
+set_property location {0.5 -14 -26} [get_bd_cells cg_fpga_0]
+make_wrapper -files [get_files E:/lab_ini_2/design_ini_2/design_ini_2.bd] -top
+add_files -norecurse E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+set_property location {0.5 -251 6} [get_bd_cells cg_fpga_0]
+set_property location {2 218 -25} [get_bd_cells signed_multiplier_8x8_0]
+create_bd_cell -type module -reference adpt_in adpt_in_0
+connect_bd_net [get_bd_pins adpt_in_0/sw_a] [get_bd_pins cg_fpga_0/gpio_sw_1]
+connect_bd_net [get_bd_pins adpt_in_0/btn_clk] [get_bd_pins cg_fpga_0/btn_clk]
+connect_bd_net [get_bd_pins adpt_in_0/btn_rst] [get_bd_pins cg_fpga_0/btn_rst]
+connect_bd_net [get_bd_pins adpt_in_0/clk] [get_bd_pins signed_multiplier_8x8_0/clk]
+create_bd_cell -type module -reference adpt_out adpt_out_0
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_nets adpt_in_0_clk] [get_bd_cells signed_multiplier_8x8_0]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_ini_2_adpt_out_0_0 design_ini_2_adpt_in_0_0}]
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+delete_bd_objs [get_bd_cells signed_multiplier_8x8_0]
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+remove_files  {{E:/lab_ini_2/exp1__source .v}}
+delete_bd_objs [get_bd_cells signed_multiplier_8x8_0]
+report_ip_status -name ip_status 
+add_files -norecurse {{E:/lab_ini_2/exp1__source .v}}
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+delete_bd_objs [get_bd_cells signed_multiplier_8x8_0]
+save_bd_design
+close_project
+open_project E:/lab_ini_1/project_ini_1/project_ini_1.xpr
+open_bd_design {E:/lab_ini_1/design_int_1/design_int_1.bd}
+update_compile_order -fileset sources_1
+open_bd_design {E:/lab_ini_1/design_int_1/design_int_1.bd}
+open_bd_design {E:/lab_ini_1/design_int_1/design_int_1.bd}
+close_project
+open_project E:/lab_ini_2/project_ini_2/project_ini_2.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/lab_ini_2/design_ini_2/design_ini_2.bd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files E:/lab_ini_2/design_ini_2/design_ini_2.bd] -top
+remove_files  E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files  E:/lab_ini_2/design_ini_2/design_ini_2.bd
+create_bd_design -dir {E:/lab_ini_2} "design_ini_2"
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files E:/lab_ini_2/design_ini_2/design_ini_2.bd] -top
+add_files -norecurse E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+open_project E:/lab_ini_1/project_ini_1/project_ini_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project E:/lab_ini_2/project_ini_2/project_ini_2.xpr
+update_compile_order -fileset sources_1
+remove_files  E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+remove_files  E:/lab_ini_2/design_ini_2/design_ini_2.bd
+create_bd_design -dir {E:/lab_ini_2} "design_int_1"
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files E:/lab_ini_2/design_int_1/design_int_1.bd] -top
+add_files -norecurse E:/lab_ini_2/design_int_1/hdl/design_int_1_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

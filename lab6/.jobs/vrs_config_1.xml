@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_6_xor2_0_4_synth_1" LaunchDir="D:/lab6/design_6_xor2_0_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_xor2_0_2_synth_1" LaunchDir="D:/lab6/design_6_xor2_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_xor2_0_3_synth_1" LaunchDir="D:/lab6/design_6_xor2_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_cg_fpga_0_0_synth_1" LaunchDir="D:/lab6/design_6_cg_fpga_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_dff4_0_0_synth_1" LaunchDir="D:/lab6/design_6_dff4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_adpt_out_0_0_synth_1" LaunchDir="D:/lab6/design_6_adpt_out_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_adpt_in_0_0_synth_1" LaunchDir="D:/lab6/design_6_adpt_in_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_m7482_0_0_synth_1" LaunchDir="D:/lab6/design_6_m7482_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_xor2_0_0_synth_1" LaunchDir="D:/lab6/design_6_xor2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_m7482_0_1_synth_1" LaunchDir="D:/lab6/design_6_m7482_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_6_xor2_0_1_synth_1" LaunchDir="D:/lab6/design_6_xor2_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/lab6/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_6_xor2_0_4_synth_1"/>
+		<Parent Id="design_6_xor2_0_2_synth_1"/>
+		<Parent Id="design_6_xor2_0_3_synth_1"/>
+		<Parent Id="design_6_cg_fpga_0_0_synth_1"/>
+		<Parent Id="design_6_dff4_0_0_synth_1"/>
+		<Parent Id="design_6_adpt_out_0_0_synth_1"/>
+		<Parent Id="design_6_adpt_in_0_0_synth_1"/>
+		<Parent Id="design_6_m7482_0_0_synth_1"/>
+		<Parent Id="design_6_xor2_0_0_synth_1"/>
+		<Parent Id="design_6_m7482_0_1_synth_1"/>
+		<Parent Id="design_6_xor2_0_1_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/lab6/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_6_xor2_0_4_synth_1"/>
+		<Parent Id="design_6_xor2_0_2_synth_1"/>
+		<Parent Id="design_6_xor2_0_3_synth_1"/>
+		<Parent Id="design_6_cg_fpga_0_0_synth_1"/>
+		<Parent Id="design_6_dff4_0_0_synth_1"/>
+		<Parent Id="design_6_adpt_out_0_0_synth_1"/>
+		<Parent Id="design_6_adpt_in_0_0_synth_1"/>
+		<Parent Id="design_6_m7482_0_0_synth_1"/>
+		<Parent Id="design_6_xor2_0_0_synth_1"/>
+		<Parent Id="design_6_m7482_0_1_synth_1"/>
+		<Parent Id="design_6_xor2_0_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

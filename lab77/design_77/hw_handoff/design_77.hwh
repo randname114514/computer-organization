@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr  6 10:29:00 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_77" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS/>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_in_0" HWVERSION="1.0" INSTANCE="adpt_in_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_in" VLNV="xilinx.com:module_ref:adpt_in:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_adpt_in_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="btn_rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk_100M" SIGIS="undef" SIGNAME="cg_fpga_0_clk_100M">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="clk_100M"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_div" SIGIS="undef" SIGNAME="adpt_in_0_clk_div">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="clrn"/>
+            <CONNECTION INSTANCE="dff_1" PORT="clrn"/>
+            <CONNECTION INSTANCE="dff_2" PORT="clrn"/>
+            <CONNECTION INSTANCE="dff_3" PORT="clrn"/>
+            <CONNECTION INSTANCE="dff_4" PORT="clrn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_out_0" HWVERSION="1.0" INSTANCE="adpt_out_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_out" VLNV="xilinx.com:module_ref:adpt_out:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_adpt_out_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="T1" SIGIS="undef" SIGNAME="dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="T2" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="T3" SIGIS="undef" SIGNAME="dff_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="T4" SIGIS="undef" SIGNAME="dff_3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_3" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="gpio_led"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/cg_fpga_0" HWVERSION="1.4" INSTANCE="cg_fpga_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cg_fpga" VLNV="educg.net:user:cg_fpga:1.4">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_cg_fpga_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="IO" LEFT="14" NAME="DDR_addr" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="2" NAME="DDR_ba" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_ck_n" SIGIS="clk"/>
+        <PORT DIR="IO" NAME="DDR_ck_p" SIGIS="clk"/>
+        <PORT DIR="IO" NAME="DDR_cke" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_cs_n" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dm" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="31" NAME="DDR_dq" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_n" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_p" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_odt" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_ras_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_reset_n" SIGIS="rst"/>
+        <PORT DIR="IO" NAME="DDR_we_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrn" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrp" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="6" NAME="audio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="7" NAME="btn" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="0" NAME="btn_clk" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="0" NAME="btn_rst" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_100M" SIGIS="undef" SIGNAME="cg_fpga_0_clk_100M">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk_100M"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="gpio_led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_1" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_2" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="5" NAME="ledm_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="15" NAME="ledm_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="rx_0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="seg_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="7" NAME="seg_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="tx_0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_active" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="23" NAME="vid_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hsync" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_io_in_clk" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vsync" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="FIXED_IO" TYPE="INITIATOR" VLNV="xilinx.com:display_processing_system7:fixedio:1.0">
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="DDR_VRN" PHYSICAL="FIXED_IO_ddr_vrn"/>
+            <PORTMAP LOGICAL="DDR_VRP" PHYSICAL="FIXED_IO_ddr_vrp"/>
+            <PORTMAP LOGICAL="MIO" PHYSICAL="FIXED_IO_mio"/>
+            <PORTMAP LOGICAL="PS_CLK" PHYSICAL="FIXED_IO_ps_clk"/>
+            <PORTMAP LOGICAL="PS_PORB" PHYSICAL="FIXED_IO_ps_porb"/>
+            <PORTMAP LOGICAL="PS_SRSTB" PHYSICAL="FIXED_IO_ps_srstb"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+        <BUSINTERFACE BUSNAME="__NOC__" DATAWIDTH="8" NAME="DDR" TYPE="INITIATOR" VLNV="xilinx.com:interface:ddrx:1.0">
+          <PARAMETER NAME="AXI_ARBITRATION_SCHEME" VALUE="TDM"/>
+          <PARAMETER NAME="BURST_LENGTH" VALUE="8"/>
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PARAMETER NAME="CAS_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CAS_WRITE_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CS_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="CUSTOM_PARTS"/>
+          <PARAMETER NAME="DATA_MASK_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="DATA_WIDTH" VALUE="8"/>
+          <PARAMETER NAME="MEMORY_PART"/>
+          <PARAMETER NAME="MEMORY_TYPE" VALUE="COMPONENTS"/>
+          <PARAMETER NAME="MEM_ADDR_MAP" VALUE="ROW_COLUMN_BANK"/>
+          <PARAMETER NAME="SLOT" VALUE="Single"/>
+          <PARAMETER NAME="TIMEPERIOD_PS" VALUE="1250"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="DDR_addr"/>
+            <PORTMAP LOGICAL="BA" PHYSICAL="DDR_ba"/>
+            <PORTMAP LOGICAL="CAS_N" PHYSICAL="DDR_cas_n"/>
+            <PORTMAP LOGICAL="CKE" PHYSICAL="DDR_cke"/>
+            <PORTMAP LOGICAL="CK_N" PHYSICAL="DDR_ck_n"/>
+            <PORTMAP LOGICAL="CK_P" PHYSICAL="DDR_ck_p"/>
+            <PORTMAP LOGICAL="CS_N" PHYSICAL="DDR_cs_n"/>
+            <PORTMAP LOGICAL="DM" PHYSICAL="DDR_dm"/>
+            <PORTMAP LOGICAL="DQ" PHYSICAL="DDR_dq"/>
+            <PORTMAP LOGICAL="DQS_N" PHYSICAL="DDR_dqs_n"/>
+            <PORTMAP LOGICAL="DQS_P" PHYSICAL="DDR_dqs_p"/>
+            <PORTMAP LOGICAL="ODT" PHYSICAL="DDR_odt"/>
+            <PORTMAP LOGICAL="RAS_N" PHYSICAL="DDR_ras_n"/>
+            <PORTMAP LOGICAL="RESET_N" PHYSICAL="DDR_reset_n"/>
+            <PORTMAP LOGICAL="WE_N" PHYSICAL="DDR_we_n"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/dff_0" HWVERSION="1.0" INSTANCE="dff_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_dff_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="nor4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="nor4_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="T1"/>
+            <CONNECTION INSTANCE="dff_1" PORT="d"/>
+            <CONNECTION INSTANCE="nor4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/dff_1" HWVERSION="1.0" INSTANCE="dff_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_dff_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="T2"/>
+            <CONNECTION INSTANCE="dff_2" PORT="d"/>
+            <CONNECTION INSTANCE="nor4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/dff_2" HWVERSION="1.0" INSTANCE="dff_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_dff_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="dff_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="T3"/>
+            <CONNECTION INSTANCE="dff_3" PORT="d"/>
+            <CONNECTION INSTANCE="nor4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/dff_3" HWVERSION="1.0" INSTANCE="dff_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_dff_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="dff_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="dff_3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="T4"/>
+            <CONNECTION INSTANCE="dff_4" PORT="d"/>
+            <CONNECTION INSTANCE="nor4_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/dff_4" HWVERSION="1.0" INSTANCE="dff_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="xilinx.com:module_ref:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_dff_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clrn" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="dff_3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_3" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="prn" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="dff_4_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/nor4_0" HWVERSION="1.0" INSTANCE="nor4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="nor4" VLNV="xilinx.com:module_ref:nor4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_nor4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="dff_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="dff_3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_3" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="nor4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/or2_0" HWVERSION="1.0" INSTANCE="or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or2" VLNV="xilinx.com:module_ref:or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_or2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="dff_4_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_4" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_clk_div">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk_div"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="clk"/>
+            <CONNECTION INSTANCE="dff_1" PORT="clk"/>
+            <CONNECTION INSTANCE="dff_2" PORT="clk"/>
+            <CONNECTION INSTANCE="dff_3" PORT="clk"/>
+            <CONNECTION INSTANCE="dff_4" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_77_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="prn"/>
+            <CONNECTION INSTANCE="dff_1" PORT="prn"/>
+            <CONNECTION INSTANCE="dff_2" PORT="prn"/>
+            <CONNECTION INSTANCE="dff_3" PORT="prn"/>
+            <CONNECTION INSTANCE="dff_4" PORT="prn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.980545",
+   "Default View_TopLeft":"-301,-500",
+   "DisplayPinsOfHiddenNets":"1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst cg_fpga_0 -pg 1 -lvl 1 -x -260 -y -210 -defaultsOSRD
+preplace inst ram_dp1_1Kx4_0 -pg 1 -lvl 4 -x 610 -y -300 -defaultsOSRD
+preplace inst ram_dp1_1Kx4_1 -pg 1 -lvl 4 -x 610 -y -130 -defaultsOSRD
+preplace inst mux2_1_4bits_0 -pg 1 -lvl 5 -x 860 -y -260 -defaultsOSRD
+preplace inst adpt_in_0 -pg 1 -lvl 2 -x 40 -y -190 -defaultsOSRD
+preplace inst adpt_out_0 -pg 1 -lvl 6 -x 1110 -y -250 -defaultsOSRD
+preplace inst mux2_1_1bits_0 -pg 1 -lvl 3 -x 340 -y -340 -defaultsOSRD
+preplace inst mux2_1_1bits_1 -pg 1 -lvl 3 -x 340 -y -80 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 340 -y -220 -defaultsOSRD
+preplace netloc adpt_in_0_addr_10 1 2 3 190 -450 N -450 740J
+preplace netloc adpt_in_0_addr_9_0 1 2 2 230 -160 470
+preplace netloc adpt_in_0_clk 1 2 2 200 -430 460
+preplace netloc adpt_in_0_data0 1 2 2 210 -420 490
+preplace netloc adpt_out_0_seg_cs 1 0 7 -410 -480 NJ -480 NJ -480 N -480 NJ -480 NJ -480 1240
+preplace netloc adpt_out_0_seg_data 1 0 7 -400 -470 NJ -470 NJ -470 N -470 NJ -470 NJ -470 1250
+preplace netloc cg_fpga_0_btn_clk 1 1 1 -100 -230n
+preplace netloc cg_fpga_0_clk_100M 1 1 5 -120 -460 NJ -460 N -460 NJ -460 970J
+preplace netloc cg_fpga_0_gpio_sw_1 1 1 1 -110 -190n
+preplace netloc cg_fpga_0_gpio_sw_2 1 1 1 -90 -210n
+preplace netloc mux2_1_4bits_0_q 1 5 1 980 -270n
+preplace netloc ram_dp1_1Kx4_0_q 1 4 1 730 -300n
+preplace netloc ram_dp1_1Kx4_1_q 1 4 1 750 -260n
+preplace netloc adpt_in_0_wren 1 2 1 220 -360n
+preplace netloc mux2_1_1bits_0_q 1 3 1 480 -340n
+preplace netloc mux2_1_1bits_1_q 1 3 1 490 -120n
+preplace netloc xlconstant_0_dout 1 2 2 240 -440 440
+levelinfo -pg 1 -430 -260 40 340 610 860 1110 1270
+pagesize -pg 1 -db -bbox -sgen -430 -550 1270 380
+"
+}
+0

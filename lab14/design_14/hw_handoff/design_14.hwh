@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Mar 17 10:17:44 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_14" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS/>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/adder4_0" HWVERSION="1.0" INSTANCE="ALU_adder4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adder4" VLNV="xilinx.com:module_ref:adder4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_adder4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A0" SIGIS="undef" SIGNAME="ALU_dff4_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="ALU_dff4_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="ALU_dff4_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="ALU_dff4_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B0" SIGIS="undef" SIGNAME="ALU_dff4_1_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="ALU_dff4_1_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="ALU_dff4_1_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="ALU_dff4_1_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="UIR_0_microIR1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="K" SIGIS="undef" SIGNAME="UIR_0_microIR0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S0" SIGIS="undef" SIGNAME="ALU_adder4_0_S0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="ALU_adder4_0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="ALU_adder4_0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="ALU_adder4_0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/dff4_0" HWVERSION="1.0" INSTANCE="ALU_dff4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff4" VLNV="xilinx.com:module_ref:dff4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_dff4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="and2_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and2_0" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="UIR_0_microIR20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="UIR_0_microIR21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="UIR_0_microIR22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="UIR_0_microIR23">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR23"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="ALU_dff4_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="A0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="ALU_dff4_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="ALU_dff4_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="ALU_dff4_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/dff4_1" HWVERSION="1.0" INSTANCE="ALU_dff4_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff4" VLNV="xilinx.com:module_ref:dff4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_dff4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="and2_1_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and2_1" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="UIR_0_microIR20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="UIR_0_microIR21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="UIR_0_microIR22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="UIR_0_microIR23">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR23"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="ALU_dff4_1_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="ALU_dff4_1_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="ALU_dff4_1_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="ALU_dff4_1_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/dff4_2" HWVERSION="1.0" INSTANCE="ALU_dff4_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff4" VLNV="xilinx.com:module_ref:dff4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_dff4_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="and2_2_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and2_2" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="ALU_shifter_0_Y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="Y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="ALU_shifter_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="ALU_shifter_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="ALU_shifter_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="ALU_dff4_2_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="ALU_dff4_2_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="ALU_dff4_2_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="ALU_dff4_2_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ALU/shifter_0" HWVERSION="1.0" INSTANCE="ALU_shifter_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="shifter" VLNV="xilinx.com:module_ref:shifter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_shifter_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="ALU_adder4_0_S0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="S0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="ALU_adder4_0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D2" SIGIS="undef" SIGNAME="ALU_adder4_0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D3" SIGIS="undef" SIGNAME="ALU_adder4_0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="DM" SIGIS="undef" SIGNAME="UIR_0_microIR3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LM" SIGIS="undef" SIGNAME="UIR_0_microIR4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RM" SIGIS="undef" SIGNAME="UIR_0_microIR2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y0" SIGIS="undef" SIGNAME="ALU_shifter_0_Y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="ALU_shifter_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="ALU_shifter_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="ALU_shifter_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/UIR_0" HWVERSION="1.0" INSTANCE="UIR_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="UIR" VLNV="xilinx.com:module_ref:UIR:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_UIR_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CPUIR" SIGIS="undef" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="23" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="rom2_256x24_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rom2_256x24_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR0" SIGIS="undef" SIGNAME="UIR_0_microIR0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="K"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR1" SIGIS="undef" SIGNAME="UIR_0_microIR1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_adder4_0" PORT="C0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="11" NAME="microIR19_8" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="microIR2" SIGIS="undef" SIGNAME="UIR_0_microIR2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="RM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR3" SIGIS="undef" SIGNAME="UIR_0_microIR3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="DM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR4" SIGIS="undef" SIGNAME="UIR_0_microIR4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_shifter_0" PORT="LM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR5" SIGIS="undef" SIGNAME="UIR_0_microIR5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and2_2" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR6" SIGIS="undef" SIGNAME="UIR_0_microIR6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and2_1" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR7" SIGIS="undef" SIGNAME="UIR_0_microIR7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and2_0" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR20" SIGIS="undef" SIGNAME="UIR_0_microIR20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="D0"/>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR21" SIGIS="undef" SIGNAME="UIR_0_microIR21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="D1"/>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR22" SIGIS="undef" SIGNAME="UIR_0_microIR22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="D2"/>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="microIR23" SIGIS="undef" SIGNAME="UIR_0_microIR23">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="D3"/>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_in_0" HWVERSION="1.0" INSTANCE="adpt_in_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_in" VLNV="xilinx.com:module_ref:adpt_in:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_adpt_in_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="btn_clk" SIGIS="clk" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="btn_rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="O" NAME="clk" SIGIS="clk" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="CLK"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="CLK"/>
+            <CONNECTION INSTANCE="UIR_0" PORT="CPUIR"/>
+            <CONNECTION INSTANCE="not1_0" PORT="A"/>
+            <CONNECTION INSTANCE="rom2_256x24_0" PORT="inclock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rst_n" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="adpt_in_0_rst_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="CLR_n"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="CLR_n"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_out_0" HWVERSION="1.0" INSTANCE="adpt_out_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_out" VLNV="xilinx.com:module_ref:adpt_out:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_adpt_out_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="Y0" SIGIS="undef" SIGNAME="ALU_dff4_2_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y1" SIGIS="undef" SIGNAME="ALU_dff4_2_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y2" SIGIS="undef" SIGNAME="ALU_dff4_2_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Y3" SIGIS="undef" SIGNAME="ALU_dff4_2_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="gpio_led"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_0" HWVERSION="1.0" INSTANCE="and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_and2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="not1_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not1_0" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="UIR_0_microIR7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="and2_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_1" HWVERSION="1.0" INSTANCE="and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_and2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="not1_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not1_0" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="UIR_0_microIR6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="and2_1_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_1" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_2" HWVERSION="1.0" INSTANCE="and2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_and2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="not1_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not1_0" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="UIR_0_microIR5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="microIR5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="and2_2_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_dff4_2" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/cg_fpga_0" HWVERSION="1.4" INSTANCE="cg_fpga_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cg_fpga" VLNV="educg.net:user:cg_fpga:1.4">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_cg_fpga_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="IO" LEFT="14" NAME="DDR_addr" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="2" NAME="DDR_ba" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_ck_n" SIGIS="clk"/>
+        <PORT DIR="IO" NAME="DDR_ck_p" SIGIS="clk"/>
+        <PORT DIR="IO" NAME="DDR_cke" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_cs_n" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dm" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="31" NAME="DDR_dq" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_n" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_p" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_odt" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_ras_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_reset_n" SIGIS="rst"/>
+        <PORT DIR="IO" NAME="DDR_we_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrn" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrp" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="6" NAME="audio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="7" NAME="btn" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="0" NAME="btn_clk" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="btn_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="btn_rst" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_100M" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="31" NAME="gpio_led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_1" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_2" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="5" NAME="ledm_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="15" NAME="ledm_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="rx_0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="seg_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="7" NAME="seg_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="tx_0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_active" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="23" NAME="vid_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hsync" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_io_in_clk" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vsync" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="FIXED_IO" TYPE="INITIATOR" VLNV="xilinx.com:display_processing_system7:fixedio:1.0">
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="DDR_VRN" PHYSICAL="FIXED_IO_ddr_vrn"/>
+            <PORTMAP LOGICAL="DDR_VRP" PHYSICAL="FIXED_IO_ddr_vrp"/>
+            <PORTMAP LOGICAL="MIO" PHYSICAL="FIXED_IO_mio"/>
+            <PORTMAP LOGICAL="PS_CLK" PHYSICAL="FIXED_IO_ps_clk"/>
+            <PORTMAP LOGICAL="PS_PORB" PHYSICAL="FIXED_IO_ps_porb"/>
+            <PORTMAP LOGICAL="PS_SRSTB" PHYSICAL="FIXED_IO_ps_srstb"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+        <BUSINTERFACE BUSNAME="__NOC__" DATAWIDTH="8" NAME="DDR" TYPE="INITIATOR" VLNV="xilinx.com:interface:ddrx:1.0">
+          <PARAMETER NAME="AXI_ARBITRATION_SCHEME" VALUE="TDM"/>
+          <PARAMETER NAME="BURST_LENGTH" VALUE="8"/>
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PARAMETER NAME="CAS_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CAS_WRITE_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CS_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="CUSTOM_PARTS"/>
+          <PARAMETER NAME="DATA_MASK_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="DATA_WIDTH" VALUE="8"/>
+          <PARAMETER NAME="MEMORY_PART"/>
+          <PARAMETER NAME="MEMORY_TYPE" VALUE="COMPONENTS"/>
+          <PARAMETER NAME="MEM_ADDR_MAP" VALUE="ROW_COLUMN_BANK"/>
+          <PARAMETER NAME="SLOT" VALUE="Single"/>
+          <PARAMETER NAME="TIMEPERIOD_PS" VALUE="1250"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="DDR_addr"/>
+            <PORTMAP LOGICAL="BA" PHYSICAL="DDR_ba"/>
+            <PORTMAP LOGICAL="CAS_N" PHYSICAL="DDR_cas_n"/>
+            <PORTMAP LOGICAL="CKE" PHYSICAL="DDR_cke"/>
+            <PORTMAP LOGICAL="CK_N" PHYSICAL="DDR_ck_n"/>
+            <PORTMAP LOGICAL="CK_P" PHYSICAL="DDR_ck_p"/>
+            <PORTMAP LOGICAL="CS_N" PHYSICAL="DDR_cs_n"/>
+            <PORTMAP LOGICAL="DM" PHYSICAL="DDR_dm"/>
+            <PORTMAP LOGICAL="DQ" PHYSICAL="DDR_dq"/>
+            <PORTMAP LOGICAL="DQS_N" PHYSICAL="DDR_dqs_n"/>
+            <PORTMAP LOGICAL="DQS_P" PHYSICAL="DDR_dqs_p"/>
+            <PORTMAP LOGICAL="ODT" PHYSICAL="DDR_odt"/>
+            <PORTMAP LOGICAL="RAS_N" PHYSICAL="DDR_ras_n"/>
+            <PORTMAP LOGICAL="RESET_N" PHYSICAL="DDR_reset_n"/>
+            <PORTMAP LOGICAL="WE_N" PHYSICAL="DDR_we_n"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/not1_0" HWVERSION="1.0" INSTANCE="not1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="not1" VLNV="xilinx.com:module_ref:not1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_not1_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="not1_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and2_0" PORT="A"/>
+            <CONNECTION INSTANCE="and2_1" PORT="A"/>
+            <CONNECTION INSTANCE="and2_2" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/rom2_256x24_0" HWVERSION="1.0" INSTANCE="rom2_256x24_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="rom2_256x24" VLNV="xilinx.com:module_ref:rom2_256x24:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_rom2_256x24_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="address" RIGHT="0" SIGIS="undef" SIGNAME="upc_addr_adpt_0_addr_pc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr_pc"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="inclock" SIGIS="undef" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="23" NAME="q" RIGHT="0" SIGIS="undef" SIGNAME="rom2_256x24_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UIR_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/upc/addr_adpt_0" HWVERSION="1.0" INSTANCE="upc_addr_adpt_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="addr_adpt" VLNV="xilinx.com:module_ref:addr_adpt:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_addr_adpt_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="addr0" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addr1" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addr2" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addr3" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addr4" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addr5" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addr6" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addr7" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="Q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="addr_pc" RIGHT="0" SIGIS="undef" SIGNAME="upc_addr_adpt_0_addr_pc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rom2_256x24_0" PORT="address"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/upc/m74LS161_0" HWVERSION="1.0" INSTANCE="upc_m74LS161_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS161" VLNV="xilinx.com:module_ref:m74LS161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_m74LS161_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A0" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="adpt_in_0_rst_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ENP" SIGIS="undef" SIGNAME="upc_m74LS161_1_RCO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="RCO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ENT" SIGIS="undef" SIGNAME="upc_m74LS161_1_RCO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="RCO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD_n" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="upc_m74LS161_0_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="RCO" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/upc/m74LS161_1" HWVERSION="1.0" INSTANCE="upc_m74LS161_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m74LS161" VLNV="xilinx.com:module_ref:m74LS161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_m74LS161_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A0" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLR_n" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="adpt_in_0_rst_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ENP" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ENT" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD_n" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="upc_m74LS161_1_Q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_addr_adpt_0" PORT="addr3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="RCO" SIGIS="undef" SIGNAME="upc_m74LS161_1_RCO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="ENP"/>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="ENT"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/upc/xlconstant_0" HWVERSION="1.1" INSTANCE="upc_xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_14_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="upc_xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="LD_n"/>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="A3"/>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="A2"/>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="A1"/>
+            <CONNECTION INSTANCE="upc_m74LS161_0" PORT="A0"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="ENP"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="ENT"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="LD_n"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="A3"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="A2"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="A1"/>
+            <CONNECTION INSTANCE="upc_m74LS161_1" PORT="A0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

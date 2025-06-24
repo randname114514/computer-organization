@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1746516429" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/design_13_wrapper.dcp">
+  <File Type="PA-TCL" Name="design_13_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="design_13_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="design_13_wrapper.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="design_13_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="design_13_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="design_13_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="design_13_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="design_13_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="design_13_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../exp13_source.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../design_13/design_13.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../design_13/hdl/design_13_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../lab10_/rom.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_13_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/design_13_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_cg_fpga_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_m74LS161_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_rom2_256x24_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_m74LS161_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_addr_adpt_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_adpt_in_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_UIR_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_13_adpt_out_0_0"/>
+</GenRun>

@@ -1,0 +1,90 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.824497",
+   "Default View_TopLeft":"-229,8",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 740 -defaultsOSRD
+preplace port port-id_CLR_n -pg 1 -lvl 0 -x 0 -y 760 -defaultsOSRD
+preplace port port-id_D3 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port port-id_D2 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port port-id_D1 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port port-id_D0 -pg 1 -lvl 0 -x 0 -y 470 -defaultsOSRD
+preplace port port-id_Q0 -pg 1 -lvl 6 -x 1000 -y 340 -defaultsOSRD
+preplace port port-id_Q3 -pg 1 -lvl 6 -x 1000 -y 160 -defaultsOSRD
+preplace port port-id_Q2 -pg 1 -lvl 6 -x 1000 -y 180 -defaultsOSRD
+preplace port port-id_Q1 -pg 1 -lvl 6 -x 1000 -y 200 -defaultsOSRD
+preplace port port-id_Q4 -pg 1 -lvl 6 -x 1000 -y 220 -defaultsOSRD
+preplace port port-id_D4 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_D5 -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace port port-id_D6 -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace port port-id_D7 -pg 1 -lvl 0 -x 0 -y 300 -defaultsOSRD
+preplace port port-id_Q5 -pg 1 -lvl 6 -x 1000 -y 400 -defaultsOSRD
+preplace port port-id_Q6 -pg 1 -lvl 6 -x 1000 -y 20 -defaultsOSRD
+preplace port port-id_Q7 -pg 1 -lvl 6 -x 1000 -y 40 -defaultsOSRD
+preplace port port-id_Q8 -pg 1 -lvl 6 -x 1000 -y 360 -defaultsOSRD
+preplace port port-id_D8 -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace port port-id_D9 -pg 1 -lvl 0 -x 0 -y 820 -defaultsOSRD
+preplace port port-id_D10 -pg 1 -lvl 0 -x 0 -y 840 -defaultsOSRD
+preplace port port-id_D11 -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace port port-id_Q9 -pg 1 -lvl 6 -x 1000 -y 580 -defaultsOSRD
+preplace port port-id_Q10 -pg 1 -lvl 6 -x 1000 -y 820 -defaultsOSRD
+preplace port port-id_Q11 -pg 1 -lvl 6 -x 1000 -y 840 -defaultsOSRD
+preplace port port-id_Q12 -pg 1 -lvl 6 -x 1000 -y 860 -defaultsOSRD
+preplace port port-id_D12 -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port port-id_D13 -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace port port-id_D14 -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace port port-id_D15 -pg 1 -lvl 0 -x 0 -y 560 -defaultsOSRD
+preplace port port-id_Q13 -pg 1 -lvl 6 -x 1000 -y 520 -defaultsOSRD
+preplace port port-id_Q14 -pg 1 -lvl 6 -x 1000 -y 540 -defaultsOSRD
+preplace port port-id_Q15 -pg 1 -lvl 6 -x 1000 -y 560 -defaultsOSRD
+preplace inst m74LS194_0 -pg 1 -lvl 5 -x 890 -y 190 -defaultsOSRD
+preplace inst m74LS194_1 -pg 1 -lvl 4 -x 640 -y 290 -defaultsOSRD
+preplace inst m74LS194_2 -pg 1 -lvl 4 -x 640 -y 850 -defaultsOSRD
+preplace inst m74LS194_3 -pg 1 -lvl 5 -x 890 -y 550 -defaultsOSRD
+preplace inst dff_1 -pg 1 -lvl 2 -x 280 -y 710 -defaultsOSRD
+preplace inst not1_1 -pg 1 -lvl 3 -x 430 -y 920 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 100 -y 680 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 3 2 530 480 760
+preplace netloc xlconstant_0_dout 1 1 4 190 980 NJ 980 540 490 790
+preplace netloc dff_1_q 1 2 1 360 710n
+preplace netloc adpt_in_0_clk 1 0 5 NJ 740 180 800 NJ 800 500 450 780
+preplace netloc adpt_in_0_clr 1 0 5 NJ 760 200 810 NJ 810 510 460 770
+preplace netloc adpt_in_0_I3 1 0 5 NJ 140 NJ 140 NJ 140 NJ 140 NJ
+preplace netloc adpt_in_0_I2 1 0 5 NJ 120 NJ 120 NJ 120 NJ 120 750J
+preplace netloc adpt_in_0_I1 1 0 5 NJ 100 NJ 100 NJ 100 NJ 100 760J
+preplace netloc adpt_in_0_I0 1 0 5 NJ 470 NJ 470 NJ 470 NJ 470 750J
+preplace netloc m74LS194_1_Q0 1 4 2 800 340 NJ
+preplace netloc m74LS194_0_Q3 1 5 1 NJ 160
+preplace netloc m74LS194_0_Q2 1 5 1 NJ 180
+preplace netloc m74LS194_0_Q1 1 5 1 NJ 200
+preplace netloc m74LS194_0_Q0 1 5 1 NJ 220
+preplace netloc adpt_in_0_I7 1 0 4 NJ 240 NJ 240 NJ 240 NJ
+preplace netloc adpt_in_0_I6 1 0 4 NJ 260 NJ 260 NJ 260 NJ
+preplace netloc adpt_in_0_I5 1 0 4 NJ 280 NJ 280 NJ 280 NJ
+preplace netloc adpt_in_0_I4 1 0 4 NJ 300 NJ 300 NJ 300 NJ
+preplace netloc m74LS194_2_Q0 1 3 3 550 440 800 400 NJ
+preplace netloc m74LS194_1_Q3 1 4 2 730J 20 NJ
+preplace netloc m74LS194_1_Q2 1 4 2 740J 40 NJ
+preplace netloc m74LS194_1_Q1 1 4 2 730J 360 NJ
+preplace netloc adpt_in_0_I11 1 0 4 NJ 620 NJ 620 NJ 620 520J
+preplace netloc adpt_in_0_I10 1 0 4 NJ 820 NJ 820 NJ 820 NJ
+preplace netloc adpt_in_0_I9 1 0 4 NJ 840 NJ 840 NJ 840 NJ
+preplace netloc adpt_in_0_I8 1 0 4 NJ 860 NJ 860 NJ 860 NJ
+preplace netloc m74LS194_3_Q0 1 3 3 550 700 NJ 700 980
+preplace netloc m74LS194_2_Q3 1 4 2 NJ 820 NJ
+preplace netloc m74LS194_2_Q2 1 4 2 NJ 840 NJ
+preplace netloc m74LS194_2_Q1 1 4 2 NJ 860 NJ
+preplace netloc adpt_in_0_I15 1 0 5 NJ 500 NJ 500 NJ 500 NJ 500 NJ
+preplace netloc adpt_in_0_I14 1 0 5 NJ 520 NJ 520 NJ 520 NJ 520 NJ
+preplace netloc adpt_in_0_I13 1 0 5 NJ 540 NJ 540 NJ 540 NJ 540 NJ
+preplace netloc adpt_in_0_I12 1 0 5 NJ 560 NJ 560 NJ 560 NJ 560 NJ
+preplace netloc m74LS194_3_Q3 1 5 1 NJ 520
+preplace netloc m74LS194_3_Q2 1 5 1 NJ 540
+preplace netloc m74LS194_3_Q1 1 5 1 NJ 560
+levelinfo -pg 1 0 100 280 430 640 890 1000
+pagesize -pg 1 -db -bbox -sgen -90 0 1070 990
+"
+}
+

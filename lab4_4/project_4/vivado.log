@@ -1,0 +1,173 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 18 14:15:37 2025
+# Process ID         : 9816
+# Current directory  : D:/lab4_4/project_4
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent22040 D:\lab4_4\project_4\project_4.xpr
+# Log file           : D:/lab4_4/project_4/vivado.log
+# Journal file       : D:/lab4_4/project_4\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 2015 MB
+# Total Virtual      : 18809 MB
+# Available Virtual  : 7057 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/lab4_4/project_4/project_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:01:11 . Memory (MB): peak = 1346.164 ; gain = 261.520
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab4_4/design_4/design_4.bd}
+Reading block design file <D:/lab4_4/design_4/design_4.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_1
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_2
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_1
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_2
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_3
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_4
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_10
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_5
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_11
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_6
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_7
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_8
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_9
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_0
+Successfully read diagram <design_4> from block design file <D:/lab4_4/design_4/design_4.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1497.125 ; gain = 126.355
+close_project
+open_project D:/lab7/project_7/project_7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1524.508 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab7/design_7/design_7.bd}
+Reading block design file <D:/lab7/design_7/design_7.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_0
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_2
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Successfully read diagram <design_7> from block design file <D:/lab7/design_7/design_7.bd>
+open_bd_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1524.508 ; gain = 0.000
+set_property location {3 730 541} [get_bd_cells xlconstant_0]
+set_property location {3 726 721} [get_bd_cells xlconstant_0]
+set_property location {3 733 714} [get_bd_cells xlconstant_0]
+delete_bd_objs [get_bd_nets xlconstant_0_dout]
+disconnect_bd_net /adpt_in_0_rst [get_bd_pins dff_1/prn]
+disconnect_bd_net /adpt_in_0_rst [get_bd_pins dff_2/prn]
+disconnect_bd_net /adpt_in_0_rst [get_bd_pins dff_3/prn]
+set_property location {3 671 712} [get_bd_cells xlconstant_0]
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins dff_0/clrn]
+connect_bd_net [get_bd_pins dff_1/prn] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins dff_2/prn] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins dff_3/prn] [get_bd_pins xlconstant_0/dout]
+save_bd_design
+Wrote  : <D:\lab7\design_7\design_7.bd> 
+Wrote  : <D:/lab7/design_7/ui/bd_22524cd6.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/lab7/project_7/project_7.srcs/utils_1/imports/synth_1/design_7_wrapper.dcp with file D:/lab7/synth_1/design_7_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Wrote  : <D:\lab7\design_7\design_7.bd> 
+Wrote  : <D:/lab7/design_7/ui/bd_22524cd6.ui> 
+Verilog Output written to : D:/lab7/design_7/synth/design_7.v
+Verilog Output written to : D:/lab7/design_7/sim/design_7.v
+Verilog Output written to : D:/lab7/design_7/hdl/design_7_wrapper.v
+Exporting to file D:/lab7/design_7/hw_handoff/design_7.hwh
+Generated Hardware Definition File D:/lab7/design_7/synth/design_7.hwdef
+[Tue Mar 18 14:47:13 2025] Launched synth_1...
+Run output will be captured here: D:/lab7/synth_1/runme.log
+[Tue Mar 18 14:47:13 2025] Launched impl_1...
+Run output will be captured here: D:/lab7/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 1638.703 ; gain = 0.000
+close_project
+open_project D:/lab4/project_4/project_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:21 . Memory (MB): peak = 1638.703 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/lab4/design_4/design_4.bd}
+Reading block design file <D:/lab4/design_4/design_4.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_1
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_2
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_1
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_3
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_1
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_2
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_1
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_3
+Successfully read diagram <design_4> from block design file <D:/lab4/design_4/design_4.bd>
+open_bd_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1638.703 ; gain = 0.000
+close_project
+open_project D:/lab4_4/project_4/project_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1712.160 ; gain = 0.000
+open_bd_design {D:/lab4_4/design_4/design_4.bd}
+Reading block design file <D:/lab4_4/design_4/design_4.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_1
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_2
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_1
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_2
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_3
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_4
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_10
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_5
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_11
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_6
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_7
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_8
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_9
+Adding component instance block -- xilinx.com:module_ref:or3:1.0 - or3_0
+Successfully read diagram <design_4> from block design file <D:/lab4_4/design_4/design_4.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2344.812 ; gain = 28.855
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 18 15:49:05 2025...

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 11 14:58:41 2025
+# Process ID         : 4648
+# Current directory  : D:/lab4_plus/design_4_xor2_2_1_synth_1
+# Command line       : vivado.exe -log design_4_xor2_2_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_4_xor2_2_1.tcl
+# Log file           : D:/lab4_plus/design_4_xor2_2_1_synth_1/design_4_xor2_2_1.vds
+# Journal file       : D:/lab4_plus/design_4_xor2_2_1_synth_1\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 2015 MB
+# Total Virtual      : 18809 MB
+# Available Virtual  : 6360 MB
+#-----------------------------------------------------------
+source design_4_xor2_2_1.tcl -notrace

@@ -1,0 +1,310 @@
+
+*** Running vivado
+    with args -log design_6_adpt_in_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_6_adpt_in_0_0.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon Mar 10 11:06:28 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_6_adpt_in_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+Command: synth_design -top design_6_adpt_in_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19772
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1081.402 ; gain = 466.910
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'Q3' is not allowed [D:/lab6/exp6_source.v:86]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'Q2' is not allowed [D:/lab6/exp6_source.v:86]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'Q1' is not allowed [D:/lab6/exp6_source.v:86]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'Q0' is not allowed [D:/lab6/exp6_source.v:86]
+INFO: [Synth 8-6157] synthesizing module 'design_6_adpt_in_0_0' [d:/lab6/design_6/ip/design_6_adpt_in_0_0/synth/design_6_adpt_in_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'adpt_in' [D:/lab6/exp6_source.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adpt_in' (0#1) [D:/lab6/exp6_source.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'design_6_adpt_in_0_0' (0#1) [d:/lab6/design_6/ip/design_6_adpt_in_0_0/synth/design_6_adpt_in_0_0.v:53]
+WARNING: [Synth 8-7129] Port sw_a[31] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[30] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[29] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[28] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[27] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[26] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[25] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[24] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[23] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[22] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[21] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[20] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[19] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[18] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[17] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[16] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[15] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[14] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[13] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[12] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[11] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[10] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[9] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[8] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[7] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[6] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[5] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[4] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[31] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[30] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[29] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[28] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[27] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[26] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[25] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[24] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[23] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[22] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[21] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[20] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[19] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[18] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[17] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[16] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[15] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[14] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[13] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[12] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[11] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[10] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[9] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[8] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[7] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[6] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[5] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[4] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[3] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[2] in module adpt_in is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[1] in module adpt_in is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:29 . Memory (MB): peak = 1192.254 ; gain = 577.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:30 . Memory (MB): peak = 1192.254 ; gain = 577.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:30 . Memory (MB): peak = 1192.254 ; gain = 577.762
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.233 . Memory (MB): peak = 1192.254 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1208.156 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1208.156 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:01:00 . Memory (MB): peak = 1208.156 ; gain = 593.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:01:01 . Memory (MB): peak = 1208.156 ; gain = 593.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:01:01 . Memory (MB): peak = 1208.156 ; gain = 593.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:01:09 . Memory (MB): peak = 1208.156 ; gain = 593.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port sw_a[31] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[30] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[29] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[28] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[27] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[26] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[25] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[24] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[23] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[22] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[21] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[20] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[19] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[18] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[17] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[16] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[15] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[14] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[13] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[12] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[11] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[10] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[9] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[8] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[7] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[6] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[5] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_a[4] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[31] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[30] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[29] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[28] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[27] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[26] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[25] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[24] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[23] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[22] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[21] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[20] in module design_6_adpt_in_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw_b[19] in module design_6_adpt_in_0_0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:01:13 . Memory (MB): peak = 1208.156 ; gain = 593.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:01:21 . Memory (MB): peak = 1371.172 ; gain = 756.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:01:21 . Memory (MB): peak = 1371.172 ; gain = 756.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:01:22 . Memory (MB): peak = 1380.707 ; gain = 766.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     6|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 60 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:01:10 . Memory (MB): peak = 1597.816 ; gain = 967.422
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1597.816 ; gain = 983.324
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1597.816 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1597.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 63b779df
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:01:51 . Memory (MB): peak = 1597.816 ; gain = 1212.918
+INFO: [Common 17-1381] The checkpoint 'D:/lab6/design_6_adpt_in_0_0_synth_1/design_6_adpt_in_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 1597.816 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_6_adpt_in_0_0_utilization_synth.rpt -pb design_6_adpt_in_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 10 11:08:46 2025...

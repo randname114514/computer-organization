@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Mar 13 18:59:09 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_9" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="IO" LEFT="14" NAME="DDR_0_addr" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_addr">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_addr"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="2" NAME="DDR_0_ba" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ba">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ba"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_cas_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cas_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_cas_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_ck_n" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ck_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_ck_p" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ck_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_cke" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cke">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_cke"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_cs_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cs_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_cs_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="3" NAME="DDR_0_dm" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dm">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dm"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="31" NAME="DDR_0_dq" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dq">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dq"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="3" NAME="DDR_0_dqs_n" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dqs_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="3" NAME="DDR_0_dqs_p" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_dqs_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_odt" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_odt">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_odt"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_ras_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ras_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ras_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_reset_n" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_DDR_reset_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_reset_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="DDR_0_we_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_we_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_we_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ddr_vrn" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ddr_vrn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ddr_vrp" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ddr_vrp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_0_mio" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_mio">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_mio"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ps_clk" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ps_clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ps_porb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_porb">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ps_porb"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_0_ps_srstb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_srstb">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cg_fpga_0" PORT="FIXED_IO_ps_srstb"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES>
+    <BUSINTERFACE BUSNAME="cg_fpga_0_FIXED_IO" NAME="FIXED_IO_0" TYPE="INITIATOR">
+      <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+      <PORTMAPS>
+        <PORTMAP LOGICAL="DDR_VRN" PHYSICAL="FIXED_IO_0_ddr_vrn"/>
+        <PORTMAP LOGICAL="DDR_VRP" PHYSICAL="FIXED_IO_0_ddr_vrp"/>
+        <PORTMAP LOGICAL="MIO" PHYSICAL="FIXED_IO_0_mio"/>
+        <PORTMAP LOGICAL="PS_CLK" PHYSICAL="FIXED_IO_0_ps_clk"/>
+        <PORTMAP LOGICAL="PS_PORB" PHYSICAL="FIXED_IO_0_ps_porb"/>
+        <PORTMAP LOGICAL="PS_SRSTB" PHYSICAL="FIXED_IO_0_ps_srstb"/>
+      </PORTMAPS>
+    </BUSINTERFACE>
+    <BUSINTERFACE BUSNAME="cg_fpga_0_DDR" DATAWIDTH="8" NAME="DDR_0" TYPE="INITIATOR">
+      <PARAMETER NAME="AXI_ARBITRATION_SCHEME" VALUE="TDM"/>
+      <PARAMETER NAME="BURST_LENGTH" VALUE="8"/>
+      <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+      <PARAMETER NAME="CAS_LATENCY" VALUE="11"/>
+      <PARAMETER NAME="CAS_WRITE_LATENCY" VALUE="11"/>
+      <PARAMETER NAME="CS_ENABLED" VALUE="true"/>
+      <PARAMETER NAME="CUSTOM_PARTS"/>
+      <PARAMETER NAME="DATA_MASK_ENABLED" VALUE="true"/>
+      <PARAMETER NAME="DATA_WIDTH" VALUE="8"/>
+      <PARAMETER NAME="MEMORY_PART"/>
+      <PARAMETER NAME="MEMORY_TYPE" VALUE="COMPONENTS"/>
+      <PARAMETER NAME="MEM_ADDR_MAP" VALUE="ROW_COLUMN_BANK"/>
+      <PARAMETER NAME="SLOT" VALUE="Single"/>
+      <PARAMETER NAME="TIMEPERIOD_PS" VALUE="1250"/>
+      <PORTMAPS>
+        <PORTMAP LOGICAL="ADDR" PHYSICAL="DDR_0_addr"/>
+        <PORTMAP LOGICAL="BA" PHYSICAL="DDR_0_ba"/>
+        <PORTMAP LOGICAL="CAS_N" PHYSICAL="DDR_0_cas_n"/>
+        <PORTMAP LOGICAL="CKE" PHYSICAL="DDR_0_cke"/>
+        <PORTMAP LOGICAL="CK_N" PHYSICAL="DDR_0_ck_n"/>
+        <PORTMAP LOGICAL="CK_P" PHYSICAL="DDR_0_ck_p"/>
+        <PORTMAP LOGICAL="CS_N" PHYSICAL="DDR_0_cs_n"/>
+        <PORTMAP LOGICAL="DM" PHYSICAL="DDR_0_dm"/>
+        <PORTMAP LOGICAL="DQ" PHYSICAL="DDR_0_dq"/>
+        <PORTMAP LOGICAL="DQS_N" PHYSICAL="DDR_0_dqs_n"/>
+        <PORTMAP LOGICAL="DQS_P" PHYSICAL="DDR_0_dqs_p"/>
+        <PORTMAP LOGICAL="ODT" PHYSICAL="DDR_0_odt"/>
+        <PORTMAP LOGICAL="RAS_N" PHYSICAL="DDR_0_ras_n"/>
+        <PORTMAP LOGICAL="RESET_N" PHYSICAL="DDR_0_reset_n"/>
+        <PORTMAP LOGICAL="WE_N" PHYSICAL="DDR_0_we_n"/>
+      </PORTMAPS>
+    </BUSINTERFACE>
+  </EXTERNALINTERFACES>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/CNT4B_0" HWVERSION="1.0" INSTANCE="CNT4B_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CNT4B" VLNV="xilinx.com:module_ref:CNT4B:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_9_CNT4B_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUT" SIGIS="undef"/>
+        <PORT DIR="I" NAME="ENA" SIGIS="undef" SIGNAME="adpt_in_0_ena">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="ena"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="OUTY" RIGHT="0" SIGIS="undef" SIGNAME="CNT4B_0_OUTY">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DECL7SEG_0" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RST" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/DECL7SEG_0" HWVERSION="1.0" INSTANCE="DECL7SEG_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="DECL7SEG" VLNV="xilinx.com:module_ref:DECL7SEG:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_9_DECL7SEG_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="CNT4B_0_OUTY">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT4B_0" PORT="OUTY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="LED7S" RIGHT="0" SIGIS="undef" SIGNAME="DECL7SEG_0_LED7S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="LED7S"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_in_0" HWVERSION="1.0" INSTANCE="adpt_in_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_in" VLNV="xilinx.com:module_ref:adpt_in:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_9_adpt_in_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="btn_clk" SIGIS="clk" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="btn_rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="O" NAME="clk" SIGIS="clk" SIGNAME="adpt_in_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT4B_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="ena" SIGIS="undef" SIGNAME="adpt_in_0_ena">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT4B_0" PORT="ENA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="adpt_in_0_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CNT4B_0" PORT="RST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="sw_a" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_gpio_sw_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="gpio_sw_2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_out_0" HWVERSION="1.0" INSTANCE="adpt_out_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_out" VLNV="xilinx.com:module_ref:adpt_out:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_9_adpt_out_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="6" NAME="LED7S" RIGHT="0" SIGIS="undef" SIGNAME="DECL7SEG_0_LED7S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DECL7SEG_0" PORT="LED7S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="seg_cs" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_seg_cs">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="seg_cs"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="seg_data" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_seg_data">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="seg_data"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/cg_fpga_0" HWVERSION="1.4" INSTANCE="cg_fpga_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cg_fpga" VLNV="educg.net:user:cg_fpga:1.4">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_9_cg_fpga_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="IO" LEFT="14" NAME="DDR_addr" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_addr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_addr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="2" NAME="DDR_ba" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ba">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_ba"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cas_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_cas_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_ck_n" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_ck_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_ck_p" SIGIS="clk" SIGNAME="cg_fpga_0_DDR_ck_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_ck_p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_cke" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cke">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_cke"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_cs_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_cs_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_cs_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dm" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dm">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_dm"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="31" NAME="DDR_dq" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dq">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_dq"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_n" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_dqs_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_p" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_dqs_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_dqs_p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_odt" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_odt">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_odt"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_ras_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_ras_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_ras_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_reset_n" SIGIS="rst" SIGNAME="cg_fpga_0_DDR_reset_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_reset_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="DDR_we_n" SIGIS="undef" SIGNAME="cg_fpga_0_DDR_we_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="DDR_0_we_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrn" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="FIXED_IO_0_ddr_vrn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrp" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ddr_vrp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="FIXED_IO_0_ddr_vrp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_mio">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="FIXED_IO_0_mio"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="FIXED_IO_0_ps_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_porb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="FIXED_IO_0_ps_porb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef" SIGNAME="cg_fpga_0_FIXED_IO_ps_srstb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_9_imp" PORT="FIXED_IO_0_ps_srstb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="6" NAME="audio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="7" NAME="btn" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="0" NAME="btn_clk" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="btn_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="btn_rst" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_100M" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="31" NAME="gpio_led" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_1" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_2" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_gpio_sw_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="sw_a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="5" NAME="ledm_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="15" NAME="ledm_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="rx_0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="seg_cs" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_seg_cs">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="seg_cs"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="seg_data" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_seg_data">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="seg_data"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="tx_0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_active" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="23" NAME="vid_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hsync" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_io_in_clk" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vsync" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="cg_fpga_0_FIXED_IO" NAME="FIXED_IO" TYPE="INITIATOR" VLNV="xilinx.com:display_processing_system7:fixedio:1.0">
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="DDR_VRN" PHYSICAL="FIXED_IO_ddr_vrn"/>
+            <PORTMAP LOGICAL="DDR_VRP" PHYSICAL="FIXED_IO_ddr_vrp"/>
+            <PORTMAP LOGICAL="MIO" PHYSICAL="FIXED_IO_mio"/>
+            <PORTMAP LOGICAL="PS_CLK" PHYSICAL="FIXED_IO_ps_clk"/>
+            <PORTMAP LOGICAL="PS_PORB" PHYSICAL="FIXED_IO_ps_porb"/>
+            <PORTMAP LOGICAL="PS_SRSTB" PHYSICAL="FIXED_IO_ps_srstb"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+        <BUSINTERFACE BUSNAME="cg_fpga_0_DDR" DATAWIDTH="8" NAME="DDR" TYPE="INITIATOR" VLNV="xilinx.com:interface:ddrx:1.0">
+          <PARAMETER NAME="AXI_ARBITRATION_SCHEME" VALUE="TDM"/>
+          <PARAMETER NAME="BURST_LENGTH" VALUE="8"/>
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PARAMETER NAME="CAS_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CAS_WRITE_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CS_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="CUSTOM_PARTS"/>
+          <PARAMETER NAME="DATA_MASK_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="DATA_WIDTH" VALUE="8"/>
+          <PARAMETER NAME="MEMORY_PART"/>
+          <PARAMETER NAME="MEMORY_TYPE" VALUE="COMPONENTS"/>
+          <PARAMETER NAME="MEM_ADDR_MAP" VALUE="ROW_COLUMN_BANK"/>
+          <PARAMETER NAME="SLOT" VALUE="Single"/>
+          <PARAMETER NAME="TIMEPERIOD_PS" VALUE="1250"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="DDR_addr"/>
+            <PORTMAP LOGICAL="BA" PHYSICAL="DDR_ba"/>
+            <PORTMAP LOGICAL="CAS_N" PHYSICAL="DDR_cas_n"/>
+            <PORTMAP LOGICAL="CKE" PHYSICAL="DDR_cke"/>
+            <PORTMAP LOGICAL="CK_N" PHYSICAL="DDR_ck_n"/>
+            <PORTMAP LOGICAL="CK_P" PHYSICAL="DDR_ck_p"/>
+            <PORTMAP LOGICAL="CS_N" PHYSICAL="DDR_cs_n"/>
+            <PORTMAP LOGICAL="DM" PHYSICAL="DDR_dm"/>
+            <PORTMAP LOGICAL="DQ" PHYSICAL="DDR_dq"/>
+            <PORTMAP LOGICAL="DQS_N" PHYSICAL="DDR_dqs_n"/>
+            <PORTMAP LOGICAL="DQS_P" PHYSICAL="DDR_dqs_p"/>
+            <PORTMAP LOGICAL="ODT" PHYSICAL="DDR_odt"/>
+            <PORTMAP LOGICAL="RAS_N" PHYSICAL="DDR_ras_n"/>
+            <PORTMAP LOGICAL="RESET_N" PHYSICAL="DDR_reset_n"/>
+            <PORTMAP LOGICAL="WE_N" PHYSICAL="DDR_we_n"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,78 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.34926",
+   "Default View_TopLeft":"-280,58",
+   "ExpandedHierarchyInLayout":"/hier_1",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 6 -x 2340 -y 110 -defaultsOSRD
+preplace port DDR_0 -pg 1 -lvl 6 -x 2340 -y 130 -defaultsOSRD
+preplace inst cg_fpga_0 -pg 1 -lvl 2 -x 310 -y 190 -defaultsOSRD
+preplace inst adpt_in_0 -pg 1 -lvl 3 -x 560 -y 150 -defaultsOSRD
+preplace inst adpt_out_0 -pg 1 -lvl 5 -x 2182 -y 240 -defaultsOSRD
+preplace inst hier_0 -pg 1 -lvl 4 -x 890 -y 684 -defaultsOSRD
+preplace inst hier_1 -pg 1 -lvl 4 -x 890 -y 70 -defaultsOSRD
+preplace inst hier_1|xor2_0 -pg 1 -lvl 2 -x 1140 -y 170 -defaultsOSRD
+preplace inst hier_1|xor2_1 -pg 1 -lvl 2 -x 1140 -y 20 -defaultsOSRD
+preplace inst hier_1|xor2_2 -pg 1 -lvl 1 -x 970 -y 210 -defaultsOSRD
+preplace inst hier_1|m7482_0 -pg 1 -lvl 3 -x 1330 -y 140 -defaultsOSRD
+preplace inst hier_1|m7482_1 -pg 1 -lvl 2 -x 1140 -y 320 -defaultsOSRD
+preplace inst hier_1|xor2_3 -pg 1 -lvl 1 -x 970 -y 430 -defaultsOSRD
+preplace netloc A3_1 1 3 1 700 -10n
+preplace netloc A4_1 1 3 1 680 10n
+preplace netloc a1_1 1 3 1 740 10n
+preplace netloc a_1 1 3 1 720 -30n
+preplace netloc adpt_in_0_A0 1 3 1 680 130n
+preplace netloc adpt_in_0_A1 1 3 1 700 110n
+preplace netloc adpt_in_0_A2 1 3 1 710 90n
+preplace netloc adpt_in_0_A3 1 3 1 730 70n
+preplace netloc adpt_in_0_A4 1 3 1 760 50n
+preplace netloc adpt_in_0_A5 1 3 1 770 30n
+preplace netloc adpt_in_0_B0 1 3 1 660 290n
+preplace netloc adpt_in_0_B1 1 3 1 670 270n
+preplace netloc adpt_in_0_B2 1 3 1 690 250n
+preplace netloc adpt_in_0_B3 1 3 1 720 230n
+preplace netloc adpt_in_0_B4 1 3 1 750 210n
+preplace netloc adpt_in_0_B5 1 3 1 750 80n
+preplace netloc adpt_in_0_K 1 3 1 780 -10n
+preplace netloc adpt_out_0_led 1 1 5 170 -110 NJ -110 NJ -110 NJ -110 2300
+preplace netloc cg_fpga_0_gpio_sw_2 1 2 1 460 150n
+preplace netloc hier_0_C2 1 3 2 790 -80 1520
+preplace netloc hier_1_C2 1 4 1 1550 160n
+preplace netloc hier_1_SUM1 1 4 1 1580 140n
+preplace netloc hier_1_SUM2 1 4 1 1590 120n
+preplace netloc hier_1_SUM3 1 4 1 1530 200n
+preplace netloc hier_1_SUM4 1 4 1 1540 220n
+preplace netloc m7482_0_SUM1 1 4 1 1570 260n
+preplace netloc m7482_0_SUM2 1 4 1 1560 240n
+preplace netloc m7482_1_SUM1 1 4 1 1590 300n
+preplace netloc m7482_1_SUM2 1 4 1 1580 280n
+preplace netloc cg_fpga_0_DDR 1 2 4 450J -100 NJ -100 NJ -100 2320J
+preplace netloc cg_fpga_0_FIXED_IO 1 2 4 460J -90 NJ -90 NJ -90 2310J
+preplace netloc hier_1|C0_1 1 0 2 NJ 360 N
+preplace netloc hier_1|adpt_in_0_A0 1 0 2 NJ 300 N
+preplace netloc hier_1|adpt_in_0_A1 1 0 2 NJ 280 N
+preplace netloc hier_1|adpt_in_0_A2 1 0 3 900J 90 NJ 90 1230
+preplace netloc hier_1|adpt_in_0_A3 1 0 3 NJ 100 NJ 100 N
+preplace netloc hier_1|adpt_in_0_B0 1 0 1 870 340n
+preplace netloc hier_1|adpt_in_0_B1 1 0 1 870 80n
+preplace netloc hier_1|adpt_in_0_B2 1 0 2 NJ 10 N
+preplace netloc hier_1|adpt_in_0_B3 1 0 2 NJ -30 1040
+preplace netloc hier_1|b_1 1 0 2 890 80 1050
+preplace netloc hier_1|m7482_0_C2 1 3 1 N 160
+preplace netloc hier_1|m7482_0_SUM1 1 3 1 N 140
+preplace netloc hier_1|m7482_0_SUM2 1 3 1 N 120
+preplace netloc hier_1|m7482_1_C2 1 2 1 1230 180n
+preplace netloc hier_1|m7482_1_SUM1 1 2 2 N 320 NJ
+preplace netloc hier_1|m7482_1_SUM2 1 2 2 N 300 NJ
+preplace netloc hier_1|xor2_0_y 1 2 1 1230 140n
+preplace netloc hier_1|xor2_1_y 1 2 1 1240 20n
+preplace netloc hier_1|xor2_2_y 1 1 1 1040 210n
+preplace netloc hier_1|xor2_3_y 1 1 1 1050 340n
+levelinfo -pg 1 -10 80 310 560 890 2182 2340
+levelinfo -hier hier_1 * 970 1140 1330 *
+pagesize -pg 1 -db -bbox -sgen -10 -200 2470 1130
+pagesize -hier hier_1 -db -bbox -sgen 840 -50 1450 500
+"
+}
+0

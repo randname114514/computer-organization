@@ -1,0 +1,340 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr 22 14:46:23 2025
+# Process ID         : 1660
+# Current directory  : E:/lab9/project_9
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9816 E:\lab9\project_9\project_9.xpr
+# Log file           : E:/lab9/project_9/vivado.log
+# Journal file       : E:/lab9/project_9\vivado.jou
+# Running On         : vj5PC14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19042
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12600
+# CPU Frequency      : 3302 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16853 MB
+# Swap memory        : 1342 MB
+# Total Virtual      : 18195 MB
+# Available Virtual  : 14112 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/lab9/project_9/project_9.xpr
+INFO: [Project 1-313] Project file moved from 'D:/lab9/project_9' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:23 . Memory (MB): peak = 1300.000 ; gain = 190.109
+update_compile_order -fileset sources_1
+open_bd_design {E:/lab9/design_9/design_9.bd}
+Reading block design file <E:/lab9/design_9/design_9.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:CNT4B:1.0 - CNT4B_0
+Adding component instance block -- xilinx.com:module_ref:DECL7SEG:1.0 - DECL7SEG_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Successfully read diagram <design_9> from block design file <E:/lab9/design_9/design_9.bd>
+close_project
+create_project project_ini_2 E:/lab_ini_2/project_ini_2 -part xc7z020clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
+set_property  ip_repo_paths  {D:/vivadoRepo/ip_repo D:/vivadoRepo/cg_fpga_slim_1_4} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/vivadoRepo/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/vivadoRepo/cg_fpga_slim_1_4'.
+add_files -norecurse {{E:/lab_ini_2/exp1__source .v}}
+update_compile_order -fileset sources_1
+create_bd_design -dir {E:/lab_ini_2} "design_ini_2"
+Wrote  : <E:\lab_ini_2\design_ini_2\design_ini_2.bd> 
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  d:/vivadoRepo/ip_repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/vivadoRepo/ip_repo'.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  E:/ip_repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+startgroup
+create_bd_cell -type ip -vlnv educg.net:user:cg_fpga:1.4 cg_fpga_0
+endgroup
+set_property location {0.5 -14 -26} [get_bd_cells cg_fpga_0]
+make_wrapper -files [get_files E:/lab_ini_2/design_ini_2/design_ini_2.bd] -top
+Wrote  : <E:\lab_ini_2\design_ini_2\design_ini_2.bd> 
+Wrote  : <E:/lab_ini_2/design_ini_2/ui/bd_8dcf4a96.ui> 
+Verilog Output written to : E:/lab_ini_2/design_ini_2/synth/design_ini_2.v
+Verilog Output written to : E:/lab_ini_2/design_ini_2/sim/design_ini_2.v
+Verilog Output written to : E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+add_files -norecurse E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+set_property location {0.5 -251 6} [get_bd_cells cg_fpga_0]
+set_property location {2 218 -25} [get_bd_cells signed_multiplier_8x8_0]
+create_bd_cell -type module -reference adpt_in adpt_in_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'btn_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'btn_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'btn_clk': Added interface parameter 'ASSOCIATED_RESET' with value 'btn_rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'btn_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'btn_clk' has no FREQ_HZ parameter.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'clk': FREQ_HZ bus parameter is missing for output clock interface.
+connect_bd_net [get_bd_pins adpt_in_0/sw_a] [get_bd_pins cg_fpga_0/gpio_sw_1]
+connect_bd_net [get_bd_pins adpt_in_0/btn_clk] [get_bd_pins cg_fpga_0/btn_clk]
+connect_bd_net [get_bd_pins adpt_in_0/btn_rst] [get_bd_pins cg_fpga_0/btn_rst]
+connect_bd_net [get_bd_pins adpt_in_0/clk] [get_bd_pins signed_multiplier_8x8_0/clk]
+create_bd_cell -type module -reference adpt_out adpt_out_0
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_nets adpt_in_0_clk] [get_bd_cells signed_multiplier_8x8_0]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_ini_2_adpt_out_0_0 design_ini_2_adpt_in_0_0}]
+INFO: [IP_Flow 19-5107] Inferred bus interface 'btn_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'btn_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'btn_clk': Added interface parameter 'ASSOCIATED_RESET' with value 'btn_rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'btn_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'btn_clk' has no FREQ_HZ parameter.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'clk': FREQ_HZ bus parameter is missing for output clock interface.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'btn_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'btn_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'btn_clk': Added interface parameter 'ASSOCIATED_RESET' with value 'btn_rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'btn_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'btn_clk' has no FREQ_HZ parameter.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'clk': FREQ_HZ bus parameter is missing for output clock interface.
+Upgrading 'E:/lab_ini_2/design_ini_2/design_ini_2.bd'
+INFO: [IP_Flow 19-3420] Updated design_ini_2_adpt_in_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_ini_2_adpt_out_0_0 to use current project options
+Wrote  : <E:\lab_ini_2\design_ini_2\design_ini_2.bd> 
+Wrote  : <E:/lab_ini_2/design_ini_2/ui/bd_8dcf4a96.ui> 
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+delete_bd_objs [get_bd_cells signed_multiplier_8x8_0]
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+remove_files  {{E:/lab_ini_2/exp1__source .v}}
+delete_bd_objs [get_bd_cells signed_multiplier_8x8_0]
+report_ip_status -name ip_status 
+add_files -norecurse {{E:/lab_ini_2/exp1__source .v}}
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference signed_multiplier_8x8 signed_multiplier_8x8_0
+WARNING: [IP_Flow 19-3571] IP 'design_ini_2_signed_multiplier_8x8_0_3' is restricted:
+* Detected changes to module reference file(s).
+delete_bd_objs [get_bd_cells signed_multiplier_8x8_0]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+ERROR: [Common 17-180] Spawn failed: No error
+CRITICAL WARNING: [HDL 9-849] Syntax error : file ended before end of clause. [E:/lab_ini_2/exp1__source .v:459]
+CRITICAL WARNING: [HDL 9-849] Syntax error : file ended before end of clause. [E:/lab_ini_2/exp1__source .v:459]
+CRITICAL WARNING: [HDL 9-849] Syntax error : file ended before end of clause. [E:/lab_ini_2/exp1__source .v:459]
+CRITICAL WARNING: [HDL 9-849] Syntax error : file ended before end of clause. [E:/lab_ini_2/exp1__source .v:459]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\exp1__source .v:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_bd_design
+Wrote  : <E:\lab_ini_2\design_ini_2\design_ini_2.bd> 
+Wrote  : <E:/lab_ini_2/design_ini_2/ui/bd_8dcf4a96.ui> 
+close_project
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+open_project E:/lab_ini_1/project_ini_1/project_ini_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:29 . Memory (MB): peak = 1538.648 ; gain = 0.000
+open_bd_design {E:/lab_ini_1/design_int_1/design_int_1.bd}
+Reading block design file <E:/lab_ini_1/design_int_1/design_int_1.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_0
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_1
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_2
+Adding component instance block -- xilinx.com:module_ref:m74LS194:1.0 - m74LS194_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_0
+Adding component instance block -- xilinx.com:module_ref:or2:1.0 - or2_1
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_2
+Adding component instance block -- xilinx.com:module_ref:and8:1.0 - and8_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_0
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_1
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_2
+Adding component instance block -- xilinx.com:module_ref:m7482:1.0 - m7482_3
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_1
+Adding component instance block -- xilinx.com:module_ref:adpt_in2:1.0 - adpt_in2_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in3:1.0 - adpt_in3_0
+Adding component instance block -- xilinx.com:module_ref:xor2:1.0 - xor2_0
+Adding component instance block -- xilinx.com:module_ref:decoder_5to25_single:1.0 - decoder_5to25_single_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_0
+Adding component instance block -- xilinx.com:module_ref:dff:1.0 - dff_0
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_1
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Successfully read diagram <design_int_1> from block design file <E:/lab_ini_1/design_int_1/design_int_1.bd>
+update_compile_order -fileset sources_1
+open_bd_design {E:/lab_ini_1/design_int_1/design_int_1.bd}
+open_bd_design {E:/lab_ini_1/design_int_1/design_int_1.bd}
+close_project
+open_project E:/lab_ini_2/project_ini_2/project_ini_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {E:/lab_ini_2/design_ini_2/design_ini_2.bd}
+Reading block design file <E:/lab_ini_2/design_ini_2/design_ini_2.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out:1.0 - adpt_out_0
+Successfully read diagram <design_ini_2> from block design file <E:/lab_ini_2/design_ini_2/design_ini_2.bd>
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files E:/lab_ini_2/design_ini_2/design_ini_2.bd] -top
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/adpt_out_0/Y15
+/adpt_out_0/Y14
+/adpt_out_0/Y13
+/adpt_out_0/Y12
+/adpt_out_0/Y11
+/adpt_out_0/Y10
+/adpt_out_0/Y9
+/adpt_out_0/Y8
+/adpt_out_0/Y7
+/adpt_out_0/Y6
+/adpt_out_0/Y5
+/adpt_out_0/Y4
+/adpt_out_0/Y3
+/adpt_out_0/Y2
+/adpt_out_0/Y1
+/adpt_out_0/Y0
+/adpt_out_0/c
+
+Wrote  : <E:\lab_ini_2\design_ini_2\design_ini_2.bd> 
+Wrote  : <E:/lab_ini_2/design_ini_2/ui/bd_8dcf4a96.ui> 
+Verilog Output written to : E:/lab_ini_2/design_ini_2/synth/design_ini_2.v
+Verilog Output written to : E:/lab_ini_2/design_ini_2/sim/design_ini_2.v
+Verilog Output written to : E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+remove_files  E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files  E:/lab_ini_2/design_ini_2/design_ini_2.bd
+Wrote  : <E:/lab_ini_2/design_ini_2/ui/bd_8dcf4a96.ui> 
+create_bd_design -dir {E:/lab_ini_2} "design_ini_2"
+Wrote  : <E:\lab_ini_2\design_ini_2\design_ini_2.bd> 
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files E:/lab_ini_2/design_ini_2/design_ini_2.bd] -top
+Wrote  : <E:\lab_ini_2\design_ini_2\design_ini_2.bd> 
+Wrote  : <E:/lab_ini_2/design_ini_2/ui/bd_8dcf4a96.ui> 
+Verilog Output written to : E:/lab_ini_2/design_ini_2/synth/design_ini_2.v
+Verilog Output written to : E:/lab_ini_2/design_ini_2/sim/design_ini_2.v
+Verilog Output written to : E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+add_files -norecurse E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_ini_2\hdl\design_ini_2_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_ini_2\synth\design_ini_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_ini_2\hdl\design_ini_2_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_ini_2\hdl\design_ini_2_wrapper.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_project
+open_project E:/lab_ini_1/project_ini_1/project_ini_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+update_compile_order -fileset sources_1
+close_project
+open_project E:/lab_ini_2/project_ini_2/project_ini_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+remove_files  E:/lab_ini_2/design_ini_2/hdl/design_ini_2_wrapper.v
+update_compile_order -fileset sources_1
+remove_files  E:/lab_ini_2/design_ini_2/design_ini_2.bd
+create_bd_design -dir {E:/lab_ini_2} "design_int_1"
+Wrote  : <E:\lab_ini_2\design_int_1\design_int_1.bd> 
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files E:/lab_ini_2/design_int_1/design_int_1.bd] -top
+Wrote  : <E:\lab_ini_2\design_int_1\design_int_1.bd> 
+Wrote  : <E:/lab_ini_2/design_int_1/ui/bd_78795020.ui> 
+Verilog Output written to : E:/lab_ini_2/design_int_1/synth/design_int_1.v
+Verilog Output written to : E:/lab_ini_2/design_int_1/sim/design_int_1.v
+Verilog Output written to : E:/lab_ini_2/design_int_1/hdl/design_int_1_wrapper.v
+add_files -norecurse E:/lab_ini_2/design_int_1/hdl/design_int_1_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\hdl\design_int_1_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\hdl\design_int_1_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\hdl\design_int_1_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\hdl\design_int_1_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\lab_ini_2\design_int_1\synth\design_int_1.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 22 15:21:45 2025...

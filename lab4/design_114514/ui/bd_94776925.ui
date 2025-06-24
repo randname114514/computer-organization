@@ -1,0 +1,52 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.64564",
+   "Default View_TopLeft":"-206,28",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_A3 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_A4 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_A5 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port port-id_A6 -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port port-id_C0 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_C2 -pg 1 -lvl 7 -x 1180 -y 120 -defaultsOSRD
+preplace port port-id_SUM1 -pg 1 -lvl 7 -x 1180 -y 100 -defaultsOSRD
+preplace port port-id_SUM2 -pg 1 -lvl 7 -x 1180 -y 80 -defaultsOSRD
+preplace port port-id_SUM4 -pg 1 -lvl 7 -x 1180 -y 200 -defaultsOSRD
+preplace port port-id_a -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace port port-id_a1 -pg 1 -lvl 0 -x 0 -y 490 -defaultsOSRD
+preplace port port-id_a2 -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port port-id_a7 -pg 1 -lvl 0 -x 0 -y 550 -defaultsOSRD
+preplace port port-id_b -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace inst m7482_0 -pg 1 -lvl 6 -x 1050 -y 160 -defaultsOSRD
+preplace inst m7482_1 -pg 1 -lvl 5 -x 830 -y 180 -defaultsOSRD
+preplace inst xor2_0 -pg 1 -lvl 4 -x 620 -y 160 -defaultsOSRD
+preplace inst xor2_1 -pg 1 -lvl 3 -x 470 -y 160 -defaultsOSRD
+preplace inst xor2_2 -pg 1 -lvl 2 -x 320 -y 160 -defaultsOSRD
+preplace inst xor2_3 -pg 1 -lvl 1 -x 160 -y 160 -defaultsOSRD
+preplace netloc C0_1 1 0 5 NJ 240 N 240 N 240 N 240 730
+preplace netloc adpt_in_0_A0 1 0 5 50J 230 240 250 N 250 N 250 700
+preplace netloc adpt_in_0_A1 1 0 5 50J 80 N 80 N 80 N 80 690
+preplace netloc adpt_in_0_A2 1 0 6 40J 60 N 60 400 90 N 90 730 80 920
+preplace netloc adpt_in_0_A3 1 0 6 20J 50 N 50 N 50 N 50 N 50 940
+preplace netloc adpt_in_0_B0 1 0 1 90J 150n
+preplace netloc adpt_in_0_B1 1 0 2 60J 70 250
+preplace netloc adpt_in_0_B2 1 0 3 70J 90 N 90 390
+preplace netloc adpt_in_0_B3 1 0 4 30J 40 N 40 N 40 540
+preplace netloc b_1 1 0 4 80 250 230 260 400 260 550
+preplace netloc m7482_0_C2 1 6 1 1160 120n
+preplace netloc m7482_0_SUM1 1 6 1 1150 100n
+preplace netloc m7482_0_SUM2 1 6 1 1140 80n
+preplace netloc m7482_1_C2 1 5 1 N 200
+preplace netloc m7482_1_SUM1 1 5 2 920 260 1140
+preplace netloc m7482_1_SUM2 1 5 1 N 160
+preplace netloc xor2_0_y 1 4 2 690 280 930
+preplace netloc xor2_1_y 1 3 3 540 290 N 290 940
+preplace netloc xor2_2_y 1 2 3 390 270 N 270 720
+preplace netloc xor2_3_y 1 1 4 250 230 N 230 N 230 710
+levelinfo -pg 1 0 160 320 470 620 830 1050 1180
+pagesize -pg 1 -db -bbox -sgen -70 0 1270 630
+"
+}
+

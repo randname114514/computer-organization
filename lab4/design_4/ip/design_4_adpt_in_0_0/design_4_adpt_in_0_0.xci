@@ -1,0 +1,60 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_4_adpt_in_0_0",
+    "cell_name": "adpt_in_0",
+    "component_reference": "xilinx.com:module_ref:adpt_in:1.0",
+    "ip_revision": "1",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_4_adpt_in_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "tul.com.tw:pynq-z2:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "sw_a": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "A7": [ { "direction": "out" } ],
+        "A6": [ { "direction": "out" } ],
+        "A5": [ { "direction": "out" } ],
+        "A4": [ { "direction": "out" } ],
+        "A3": [ { "direction": "out" } ],
+        "A2": [ { "direction": "out" } ],
+        "A1": [ { "direction": "out" } ],
+        "A0": [ { "direction": "out" } ],
+        "B7": [ { "direction": "out" } ],
+        "B6": [ { "direction": "out" } ],
+        "B5": [ { "direction": "out" } ],
+        "B4": [ { "direction": "out" } ],
+        "B3": [ { "direction": "out" } ],
+        "B2": [ { "direction": "out" } ],
+        "B1": [ { "direction": "out" } ],
+        "B0": [ { "direction": "out" } ],
+        "K": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

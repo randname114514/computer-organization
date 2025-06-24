@@ -1,0 +1,62 @@
+vhdl axi_lite_ipif_v3_0_4  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+
+vhdl lib_cdc_v1_0_3  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/hdl/lib_cdc_v1_0_rfs.vhd" \
+
+vhdl interrupt_control_v3_1_5  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/hdl/interrupt_control_v3_1_vh_rfs.vhd" \
+
+vhdl axi_gpio_v2_0_35  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/sim/cg_fpga_axi_gpio_0_0.vhd" \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_0/sim/cg_fpga_cg_fpga_axi_gpio_o1_0.vhd" \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_1/sim/cg_fpga_cg_fpga_axi_gpio_o1_1.vhd" \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_i1_0/sim/cg_fpga_cg_fpga_axi_gpio_i1_0.vhd" \
+
+vhdl lib_pkg_v1_0_4  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/hdl/lib_pkg_v1_0_rfs.vhd" \
+
+vhdl lib_srl_fifo_v1_0_4  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/hdl/lib_srl_fifo_v1_0_rfs.vhd" \
+
+vhdl axi_uartlite_v2_0_37  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/sim/cg_fpga_axi_uartlite_0_0.vhd" \
+
+vhdl axi_intc_v4_1_20  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/hdl/axi_intc_v4_1_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/sim/cg_fpga_axi_intc_0_0.vhd" \
+
+vhdl proc_sys_reset_v5_0_16  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_rst_ps7_0_50M_0/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_rst_ps7_0_50M_0/sim/cg_fpga_rst_ps7_0_50M_0.vhd" \
+
+vhdl fifo_generator_v13_2_11  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_xbar_1/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl lib_fifo_v1_0_20  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/hdl/lib_fifo_v1_0_rfs.vhd" \
+
+vhdl lib_bmg_v1_0_18  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/hdl/lib_bmg_v1_0_rfs.vhd" \
+
+vhdl axi_datamover_v5_1_35  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/hdl/axi_datamover_v5_1_vh_rfs.vhd" \
+
+vhdl axi_vdma_v6_3_21  \
+"../../../../../design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/hdl/axi_vdma_v6_3_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_13/ip/design_13_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/sim/cg_fpga_axi_vdma_0_0.vhd" \
+
+# Do not sort compile order
+nosort

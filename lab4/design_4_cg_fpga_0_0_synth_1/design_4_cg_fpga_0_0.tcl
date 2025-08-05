@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/lab4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0.tcl"
+  variable script "D:/lab4_4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0.tcl"
   variable category "vivado_synth"
 }
 
@@ -65,47 +65,47 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir D:/lab4/project_4/project_4.cache/wt [current_project]
-set_property parent.project_path D:/lab4/project_4/project_4.xpr [current_project]
+set_property webtalk.parent_dir D:/lab4_4/project_4/project_4.cache/wt [current_project]
+set_property parent.project_path D:/lab4_4/project_4/project_4.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
-set_property ip_repo_paths d:/ip_repo/ip_repo [current_project]
+set_property ip_repo_paths d:/ip_repo [current_project]
 update_ip_catalog
-set_property ip_output_repo d:/lab4/project_4/project_4.cache/ip [current_project]
+set_property ip_output_repo d:/lab4_4/project_4/project_4.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0.xci
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/cg_fpga_axi_gpio_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/cg_fpga_axi_gpio_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/cg_fpga_axi_gpio_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_0/cg_fpga_cg_fpga_axi_gpio_o1_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_0/cg_fpga_cg_fpga_axi_gpio_o1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_0/cg_fpga_cg_fpga_axi_gpio_o1_0.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_1/cg_fpga_cg_fpga_axi_gpio_o1_1_board.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_1/cg_fpga_cg_fpga_axi_gpio_o1_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_1/cg_fpga_cg_fpga_axi_gpio_o1_1.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_i1_0/cg_fpga_cg_fpga_axi_gpio_i1_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_i1_0/cg_fpga_cg_fpga_axi_gpio_i1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_i1_0/cg_fpga_cg_fpga_axi_gpio_i1_0.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/cg_fpga_axi_uartlite_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/cg_fpga_axi_uartlite_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/cg_fpga_axi_uartlite_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/cg_fpga_axi_intc_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/cg_fpga_axi_intc_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/cg_fpga_axi_intc_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_rst_ps7_0_50M_0/cg_fpga_rst_ps7_0_50M_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_rst_ps7_0_50M_0/cg_fpga_rst_ps7_0_50M_0.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_auto_pc_0/cg_fpga_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_v_vid_in_axi4s_0_0/cg_fpga_v_vid_in_axi4s_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_auto_pc_1/cg_fpga_auto_pc_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/cg_fpga_axi_vdma_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/cg_fpga_axi_vdma_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/cg_fpga_axi_vdma_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/lab4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_processing_system7_0_0/cg_fpga_processing_system7_0_0.xdc]
+read_ip -quiet d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0.xci
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/cg_fpga_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/cg_fpga_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_gpio_0_0/cg_fpga_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_0/cg_fpga_cg_fpga_axi_gpio_o1_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_0/cg_fpga_cg_fpga_axi_gpio_o1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_0/cg_fpga_cg_fpga_axi_gpio_o1_0.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_1/cg_fpga_cg_fpga_axi_gpio_o1_1_board.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_1/cg_fpga_cg_fpga_axi_gpio_o1_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_o1_1/cg_fpga_cg_fpga_axi_gpio_o1_1.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_i1_0/cg_fpga_cg_fpga_axi_gpio_i1_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_i1_0/cg_fpga_cg_fpga_axi_gpio_i1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_cg_fpga_axi_gpio_i1_0/cg_fpga_cg_fpga_axi_gpio_i1_0.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/cg_fpga_axi_uartlite_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/cg_fpga_axi_uartlite_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_uartlite_0_0/cg_fpga_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/cg_fpga_axi_intc_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/cg_fpga_axi_intc_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_intc_0_0/cg_fpga_axi_intc_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_rst_ps7_0_50M_0/cg_fpga_rst_ps7_0_50M_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_rst_ps7_0_50M_0/cg_fpga_rst_ps7_0_50M_0.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_auto_pc_0/cg_fpga_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_v_vid_in_axi4s_0_0/cg_fpga_v_vid_in_axi4s_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_auto_pc_1/cg_fpga_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/cg_fpga_axi_vdma_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/cg_fpga_axi_vdma_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_axi_vdma_0_0/cg_fpga_axi_vdma_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/src/cg_fpga_processing_system7_0_0/cg_fpga_processing_system7_0_0.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -121,7 +121,7 @@ set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 OPTRACE "Configure IP Cache" START { }
 
-set cacheID [config_ip_cache -export -no_bom  -dir D:/lab4/design_4_cg_fpga_0_0_synth_1 -new_name design_4_cg_fpga_0_0 -ip [get_ips design_4_cg_fpga_0_0]]
+set cacheID [config_ip_cache -export -no_bom  -dir D:/lab4_4/design_4_cg_fpga_0_0_synth_1 -new_name design_4_cg_fpga_0_0 -ip [get_ips design_4_cg_fpga_0_0]]
 
 OPTRACE "Configure IP Cache" END { }
 if { $cacheID == "" } {
@@ -176,32 +176,32 @@ generate_parallel_reports -reports { "report_utilization -file design_4_cg_fpga_
 OPTRACE "synth reports" END { }
 
 if { [catch {
-  file copy -force D:/lab4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0.dcp d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0.dcp
+  file copy -force D:/lab4_4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0.dcp d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 status "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.v
+  write_verilog -force -mode synth_stub d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl
+  write_vhdl -force -mode synth_stub d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.v
+  write_verilog -force -mode funcsim d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -211,32 +211,32 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force D:/lab4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0.dcp d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0.dcp
+  file copy -force D:/lab4_4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0.dcp d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 status "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force D:/lab4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_stub.v d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.v
+  file rename -force D:/lab4_4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_stub.v d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force D:/lab4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_stub.vhdl d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl
+  file rename -force D:/lab4_4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_stub.vhdl d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force D:/lab4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_sim_netlist.v d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.v
+  file rename -force D:/lab4_4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_sim_netlist.v d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force D:/lab4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_sim_netlist.vhdl d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.vhdl
+  file rename -force D:/lab4_4/design_4_cg_fpga_0_0_synth_1/design_4_cg_fpga_0_0_sim_netlist.vhdl d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -244,15 +244,15 @@ if { [catch {
 close [open .end.used_ip_cache.rst w]
 }; # end if cacheID 
 
-if {[file isdir D:/lab4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0]} {
+if {[file isdir D:/lab4_4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0]} {
   catch { 
-    file copy -force d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.v D:/lab4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0
+    file copy -force d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.v D:/lab4_4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0
   }
 }
 
-if {[file isdir D:/lab4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0]} {
+if {[file isdir D:/lab4_4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0]} {
   catch { 
-    file copy -force d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl D:/lab4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0
+    file copy -force d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl D:/lab4_4/project_4/project_4.ip_user_files/ip/design_4_cg_fpga_0_0
   }
 }
 file delete __synthesis_is_running__

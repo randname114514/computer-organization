@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 11 15:21:51 2025" VIVADOVERSION="2024.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Mar  8 17:25:14 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_4" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -69,7 +69,7 @@
         <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_ras_n"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="IO" NAME="DDR_0_reset_n" SIGIS="rst" SIGNAME="cg_fpga_0_DDR_reset_n">
+    <PORT DIR="IO" NAME="DDR_0_reset_n" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_DDR_reset_n">
       <CONNECTIONS>
         <CONNECTION INSTANCE="cg_fpga_0" PORT="DDR_reset_n"/>
       </CONNECTIONS>
@@ -166,97 +166,54 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="O" NAME="A0" SIGIS="undef" SIGNAME="adpt_in_0_A0">
+        <PORT DIR="O" NAME="DM" SIGIS="undef" SIGNAME="adpt_in_0_DM">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="A1"/>
+            <CONNECTION INSTANCE="and2_1" PORT="b"/>
+            <CONNECTION INSTANCE="and2_4" PORT="b"/>
+            <CONNECTION INSTANCE="and2_11" PORT="b"/>
+            <CONNECTION INSTANCE="and2_8" PORT="b"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="A1" SIGIS="undef" SIGNAME="adpt_in_0_A1">
+        <PORT DIR="O" NAME="LM" SIGIS="undef" SIGNAME="adpt_in_0_LM">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="A2"/>
+            <CONNECTION INSTANCE="and2_0" PORT="b"/>
+            <CONNECTION INSTANCE="and2_3" PORT="b"/>
+            <CONNECTION INSTANCE="and2_7" PORT="b"/>
+            <CONNECTION INSTANCE="and2_9" PORT="b"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="A2" SIGIS="undef" SIGNAME="adpt_in_0_A2">
+        <PORT DIR="O" NAME="RM" SIGIS="undef" SIGNAME="adpt_in_0_RM">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="A1"/>
+            <CONNECTION INSTANCE="and2_2" PORT="b"/>
+            <CONNECTION INSTANCE="and2_6" PORT="b"/>
+            <CONNECTION INSTANCE="and2_10" PORT="b"/>
+            <CONNECTION INSTANCE="and2_5" PORT="b"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="A3" SIGIS="undef" SIGNAME="adpt_in_0_A3">
+        <PORT DIR="O" NAME="a0" SIGIS="undef" SIGNAME="adpt_in_0_a0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="A2"/>
+            <CONNECTION INSTANCE="and2_7" PORT="a"/>
+            <CONNECTION INSTANCE="and2_8" PORT="a"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="A4" SIGIS="undef" SIGNAME="adpt_in_0_A4">
+        <PORT DIR="O" NAME="a1" SIGIS="undef" SIGNAME="adpt_in_0_a1">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="A1"/>
+            <CONNECTION INSTANCE="and2_3" PORT="a"/>
+            <CONNECTION INSTANCE="and2_11" PORT="a"/>
+            <CONNECTION INSTANCE="and2_5" PORT="a"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="A5" SIGIS="undef" SIGNAME="adpt_in_0_A5">
+        <PORT DIR="O" NAME="a2" SIGIS="undef" SIGNAME="adpt_in_0_a2">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="A2"/>
+            <CONNECTION INSTANCE="and2_0" PORT="a"/>
+            <CONNECTION INSTANCE="and2_4" PORT="a"/>
+            <CONNECTION INSTANCE="and2_10" PORT="a"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="A6" SIGIS="undef" SIGNAME="adpt_in_0_A6">
+        <PORT DIR="O" NAME="a3" SIGIS="undef" SIGNAME="adpt_in_0_a3">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="A1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="A7" SIGIS="undef" SIGNAME="adpt_in_0_A7">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="A2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B0" SIGIS="undef" SIGNAME="adpt_in_0_B0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_3" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B1" SIGIS="undef" SIGNAME="adpt_in_0_B1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_2" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B2" SIGIS="undef" SIGNAME="adpt_in_0_B2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_1" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B3" SIGIS="undef" SIGNAME="adpt_in_0_B3">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_0" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B4" SIGIS="undef" SIGNAME="adpt_in_0_B4">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_3" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B5" SIGIS="undef" SIGNAME="adpt_in_0_B5">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_2" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B6" SIGIS="undef" SIGNAME="adpt_in_0_B6">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_1" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="B7" SIGIS="undef" SIGNAME="adpt_in_0_B7">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_0" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="K" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="C0"/>
-            <CONNECTION INSTANCE="hier_0_xor2_0" PORT="b"/>
-            <CONNECTION INSTANCE="hier_0_xor2_1" PORT="b"/>
-            <CONNECTION INSTANCE="hier_0_xor2_2" PORT="b"/>
-            <CONNECTION INSTANCE="hier_0_xor2_3" PORT="b"/>
-            <CONNECTION INSTANCE="hier_1_xor2_2" PORT="b"/>
-            <CONNECTION INSTANCE="hier_1_xor2_1" PORT="b"/>
-            <CONNECTION INSTANCE="hier_1_xor2_3" PORT="b"/>
-            <CONNECTION INSTANCE="hier_1_xor2_0" PORT="b"/>
+            <CONNECTION INSTANCE="and2_1" PORT="a"/>
+            <CONNECTION INSTANCE="and2_6" PORT="a"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="31" NAME="sw_a" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_gpio_sw_2">
@@ -274,54 +231,329 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="C4" SIGIS="undef" SIGNAME="hier_1_m7482_0_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="C2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM0" SIGIS="undef" SIGNAME="hier_0_m7482_1_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="SUM1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM1" SIGIS="undef" SIGNAME="hier_0_m7482_1_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="SUM2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM2" SIGIS="undef" SIGNAME="hier_0_m7482_0_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="SUM1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM3" SIGIS="undef" SIGNAME="hier_0_m7482_0_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="SUM2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM4" SIGIS="undef" SIGNAME="hier_1_m7482_1_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="SUM1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM5" SIGIS="undef" SIGNAME="hier_1_m7482_1_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="SUM2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM6" SIGIS="undef" SIGNAME="hier_1_m7482_0_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="SUM1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="SUM7" SIGIS="undef" SIGNAME="hier_1_m7482_0_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="SUM2"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="O" LEFT="31" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_0_led">
           <CONNECTIONS>
             <CONNECTION INSTANCE="cg_fpga_0" PORT="gpio_led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q0" SIGIS="undef" SIGNAME="or3_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q1" SIGIS="undef" SIGNAME="or3_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q2" SIGIS="undef" SIGNAME="or3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q3" SIGIS="undef" SIGNAME="or3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_0" HWVERSION="1.0" INSTANCE="and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_LM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="LM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_1" HWVERSION="1.0" INSTANCE="and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_DM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="DM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_10" HWVERSION="1.0" INSTANCE="and2_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_RM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="RM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_10_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_11" HWVERSION="1.0" INSTANCE="and2_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_3_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_DM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="DM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_11_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_2" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_2" HWVERSION="1.0" INSTANCE="and2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_RM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="RM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_3" HWVERSION="1.0" INSTANCE="and2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_LM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="LM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_4" HWVERSION="1.0" INSTANCE="and2_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_DM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="DM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_5" HWVERSION="1.0" INSTANCE="and2_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_RM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="RM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_5_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_3" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_6" HWVERSION="1.0" INSTANCE="and2_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_RM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="RM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_6_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_7" HWVERSION="1.0" INSTANCE="and2_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_LM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="LM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_7_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_8" HWVERSION="1.0" INSTANCE="and2_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_a0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_DM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="DM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_8_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_3" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and2_9" HWVERSION="1.0" INSTANCE="and2_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and2" VLNV="xilinx.com:module_ref:and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_and2_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_LM">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_in_0" PORT="LM"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and2_9_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or3_3" PORT="b"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -516,401 +748,139 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_0/m7482_0" HWVERSION="1.0" INSTANCE="hier_0_m7482_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/or3_0" HWVERSION="1.0" INSTANCE="or3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or3" VLNV="xilinx.com:module_ref:or3:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_m7482_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_or3_0_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="adpt_in_0_A2">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="and2_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A2"/>
+            <CONNECTION INSTANCE="and2_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="adpt_in_0_A3">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="and2_1_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A3"/>
+            <CONNECTION INSTANCE="and2_1" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="hier_0_xor2_1_y">
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="and2_2_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_1" PORT="y"/>
+            <CONNECTION INSTANCE="and2_2" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="hier_0_xor2_0_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="or3_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_0" PORT="y"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="hier_0_m7482_1_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="C2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="hier_0_m7482_0_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="C0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="hier_0_m7482_0_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="hier_0_m7482_0_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM3"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="q3"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_0/m7482_1" HWVERSION="1.0" INSTANCE="hier_0_m7482_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/or3_1" HWVERSION="1.0" INSTANCE="or3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or3" VLNV="xilinx.com:module_ref:or3:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_m7482_1_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_or3_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="adpt_in_0_A0">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="and2_3_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A0"/>
+            <CONNECTION INSTANCE="and2_3" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="adpt_in_0_A1">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="and2_4_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A1"/>
+            <CONNECTION INSTANCE="and2_4" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="hier_0_xor2_3_y">
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="and2_6_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_3" PORT="y"/>
+            <CONNECTION INSTANCE="and2_6" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="hier_0_xor2_2_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="or3_1_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_xor2_2" PORT="y"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="hier_0_m7482_1_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="C0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="hier_0_m7482_1_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="hier_0_m7482_1_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM1"/>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="q2"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_0/xor2_0" HWVERSION="1.0" INSTANCE="hier_0_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/or3_2" HWVERSION="1.0" INSTANCE="or3_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or3" VLNV="xilinx.com:module_ref:or3:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_or3_0_2"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B3">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="and2_10_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B3"/>
+            <CONNECTION INSTANCE="and2_10" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="and2_7_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
+            <CONNECTION INSTANCE="and2_7" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_0_xor2_0_y">
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="and2_11_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="B2"/>
+            <CONNECTION INSTANCE="and2_11" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="or3_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="q1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_0/xor2_1" HWVERSION="1.0" INSTANCE="hier_0_xor2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/or3_3" HWVERSION="1.0" INSTANCE="or3_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or3" VLNV="xilinx.com:module_ref:or3:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_1_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_or3_0_3"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B2">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="and2_5_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B2"/>
+            <CONNECTION INSTANCE="and2_5" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="and2_9_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
+            <CONNECTION INSTANCE="and2_9" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_0_xor2_1_y">
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="and2_8_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="B1"/>
+            <CONNECTION INSTANCE="and2_8" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="or3_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_0" PORT="q0"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_0/xor2_2" HWVERSION="1.0" INSTANCE="hier_0_xor2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_2_0"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_4_xlconstant_0_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B1">
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_0_xor2_2_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="B2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_0/xor2_3" HWVERSION="1.0" INSTANCE="hier_0_xor2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_3_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_0_xor2_3_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_1" PORT="B1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_1/m7482_0" HWVERSION="1.0" INSTANCE="hier_1_m7482_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_m7482_0_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="adpt_in_0_A6">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A6"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="adpt_in_0_A7">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A7"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="hier_1_xor2_1_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_1" PORT="y"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="hier_1_xor2_0_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_0" PORT="y"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="hier_1_m7482_1_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="C2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="hier_1_m7482_0_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="C4"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="hier_1_m7482_0_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM6"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="hier_1_m7482_0_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM7"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_1/m7482_1" HWVERSION="1.0" INSTANCE="hier_1_m7482_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="m7482" VLNV="xilinx.com:module_ref:m7482:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_m7482_1_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="adpt_in_0_A4">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A4"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="adpt_in_0_A5">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="A5"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="hier_1_xor2_3_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_3" PORT="y"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="hier_1_xor2_2_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_xor2_2" PORT="y"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="C0" SIGIS="undef" SIGNAME="hier_0_m7482_0_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_0_m7482_0" PORT="C2"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="C2" SIGIS="undef" SIGNAME="hier_1_m7482_1_C2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="C0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM1" SIGIS="undef" SIGNAME="hier_1_m7482_1_SUM1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM4"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="SUM2" SIGIS="undef" SIGNAME="hier_1_m7482_1_SUM2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_out_0" PORT="SUM5"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_1/xor2_0" HWVERSION="1.0" INSTANCE="hier_1_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_0_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B7">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B7"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_1_xor2_0_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="B2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_1/xor2_1" HWVERSION="1.0" INSTANCE="hier_1_xor2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_1_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B6">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B6"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_1_xor2_1_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_0" PORT="B1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_1/xor2_2" HWVERSION="1.0" INSTANCE="hier_1_xor2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_2_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B5">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B5"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_1_xor2_2_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="B2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/hier_1/xor2_3" HWVERSION="1.0" INSTANCE="hier_1_xor2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xor2" VLNV="xilinx.com:module_ref:xor2:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_4_xor2_3_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="adpt_in_0_B4">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="B4"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="adpt_in_0_K">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="adpt_in_0" PORT="K"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="hier_1_xor2_3_y">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="hier_1_m7482_1" PORT="B1"/>
+            <CONNECTION INSTANCE="and2_2" PORT="a"/>
+            <CONNECTION INSTANCE="and2_9" PORT="a"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

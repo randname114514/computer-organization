@@ -56,39 +56,24 @@
 (* IP_DEFINITION_SOURCE = "module_ref" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_4_adpt_out_0_0 (
-  SUM7,
-  SUM6,
-  SUM5,
-  SUM4,
-  SUM3,
-  SUM2,
-  SUM1,
-  SUM0,
-  C4,
+  q3,
+  q2,
+  q1,
+  q0,
   led
 );
 
-input wire SUM7;
-input wire SUM6;
-input wire SUM5;
-input wire SUM4;
-input wire SUM3;
-input wire SUM2;
-input wire SUM1;
-input wire SUM0;
-input wire C4;
+input wire q3;
+input wire q2;
+input wire q1;
+input wire q0;
 output wire [31 : 0] led;
 
   adpt_out inst (
-    .SUM7(SUM7),
-    .SUM6(SUM6),
-    .SUM5(SUM5),
-    .SUM4(SUM4),
-    .SUM3(SUM3),
-    .SUM2(SUM2),
-    .SUM1(SUM1),
-    .SUM0(SUM0),
-    .C4(C4),
+    .q3(q3),
+    .q2(q2),
+    .q1(q1),
+    .q0(q0),
     .led(led)
   );
 endmodule

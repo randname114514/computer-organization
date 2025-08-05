@@ -57,62 +57,32 @@
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_4_adpt_in_0_0 (
   sw_a,
-  A7,
-  A6,
-  A5,
-  A4,
-  A3,
-  A2,
-  A1,
-  A0,
-  B7,
-  B6,
-  B5,
-  B4,
-  B3,
-  B2,
-  B1,
-  B0,
-  K
+  a3,
+  a2,
+  a1,
+  a0,
+  LM,
+  DM,
+  RM
 );
 
 input wire [31 : 0] sw_a;
-output wire A7;
-output wire A6;
-output wire A5;
-output wire A4;
-output wire A3;
-output wire A2;
-output wire A1;
-output wire A0;
-output wire B7;
-output wire B6;
-output wire B5;
-output wire B4;
-output wire B3;
-output wire B2;
-output wire B1;
-output wire B0;
-output wire K;
+output wire a3;
+output wire a2;
+output wire a1;
+output wire a0;
+output wire LM;
+output wire DM;
+output wire RM;
 
   adpt_in inst (
     .sw_a(sw_a),
-    .A7(A7),
-    .A6(A6),
-    .A5(A5),
-    .A4(A4),
-    .A3(A3),
-    .A2(A2),
-    .A1(A1),
-    .A0(A0),
-    .B7(B7),
-    .B6(B6),
-    .B5(B5),
-    .B4(B4),
-    .B3(B3),
-    .B2(B2),
-    .B1(B1),
-    .B0(B0),
-    .K(K)
+    .a3(a3),
+    .a2(a2),
+    .a1(a1),
+    .a0(a0),
+    .LM(LM),
+    .DM(DM),
+    .RM(RM)
   );
 endmodule

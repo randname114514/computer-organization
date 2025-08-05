@@ -2,7 +2,7 @@
 //Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-//Date        : Tue Mar 11 15:21:48 2025
+//Date        : Sat Mar  8 17:25:06 2025
 //Host        : jyx running 64-bit major release  (build 9200)
 //Command     : generate_target design_4.bd
 //Design      : design_4
@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_4,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_4,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=17,numReposBlks=15,numNonXlnxBlks=1,numHierBlks=2,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=14,numPkgbdBlks=1,bdsource=USER,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_4.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_4,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_4,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=20,numReposBlks=20,numNonXlnxBlks=1,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=18,numPkgbdBlks=1,bdsource=USER,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_4.hwdef" *) 
 module design_4
    (DDR_0_addr,
     DDR_0_ba,
@@ -55,8 +55,6 @@ module design_4
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO_0 PS_PORB" *) inout FIXED_IO_0_ps_porb;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO_0 PS_SRSTB" *) inout FIXED_IO_0_ps_srstb;
 
-  wire A3_1;
-  wire A4_1;
   wire [14:0]DDR_0_addr;
   wire [2:0]DDR_0_ba;
   wire DDR_0_cas_n;
@@ -78,64 +76,96 @@ module design_4
   wire FIXED_IO_0_ps_clk;
   wire FIXED_IO_0_ps_porb;
   wire FIXED_IO_0_ps_srstb;
-  wire a1_1;
-  wire a_1;
-  wire adpt_in_0_A0;
-  wire adpt_in_0_A1;
-  wire adpt_in_0_A2;
-  wire adpt_in_0_A3;
-  wire adpt_in_0_A4;
-  wire adpt_in_0_A5;
-  wire adpt_in_0_B0;
-  wire adpt_in_0_B1;
-  wire adpt_in_0_B2;
-  wire adpt_in_0_B3;
-  wire adpt_in_0_B4;
-  wire adpt_in_0_B5;
-  wire adpt_in_0_K;
+  wire adpt_in_0_DM;
+  wire adpt_in_0_LM;
+  wire adpt_in_0_RM;
+  wire adpt_in_0_a0;
+  wire adpt_in_0_a1;
+  wire adpt_in_0_a2;
+  wire adpt_in_0_a3;
   wire [31:0]adpt_out_0_led;
+  wire and2_0_y;
+  wire and2_10_y;
+  wire and2_11_y;
+  wire and2_1_y;
+  wire and2_2_y;
+  wire and2_3_y;
+  wire and2_4_y;
+  wire and2_5_y;
+  wire and2_6_y;
+  wire and2_7_y;
+  wire and2_8_y;
+  wire and2_9_y;
   wire [31:0]cg_fpga_0_gpio_sw_2;
-  wire hier_0_C2;
-  wire hier_1_C2;
-  wire hier_1_SUM1;
-  wire hier_1_SUM2;
-  wire hier_1_SUM3;
-  wire hier_1_SUM4;
-  wire m7482_0_SUM1;
-  wire m7482_0_SUM2;
-  wire m7482_1_SUM1;
-  wire m7482_1_SUM2;
+  wire or3_0_y;
+  wire or3_1_y;
+  wire or3_2_y;
+  wire or3_3_y;
+  wire [0:0]xlconstant_0_dout;
 
   design_4_adpt_in_0_0 adpt_in_0
-       (.A0(adpt_in_0_A0),
-        .A1(adpt_in_0_A1),
-        .A2(adpt_in_0_A2),
-        .A3(adpt_in_0_A3),
-        .A4(adpt_in_0_A4),
-        .A5(adpt_in_0_A5),
-        .A6(A4_1),
-        .A7(A3_1),
-        .B0(adpt_in_0_B0),
-        .B1(adpt_in_0_B1),
-        .B2(adpt_in_0_B2),
-        .B3(adpt_in_0_B3),
-        .B4(adpt_in_0_B4),
-        .B5(adpt_in_0_B5),
-        .B6(a1_1),
-        .B7(a_1),
-        .K(adpt_in_0_K),
+       (.DM(adpt_in_0_DM),
+        .LM(adpt_in_0_LM),
+        .RM(adpt_in_0_RM),
+        .a0(adpt_in_0_a0),
+        .a1(adpt_in_0_a1),
+        .a2(adpt_in_0_a2),
+        .a3(adpt_in_0_a3),
         .sw_a(cg_fpga_0_gpio_sw_2));
   design_4_adpt_out_0_0 adpt_out_0
-       (.C4(hier_1_C2),
-        .SUM0(m7482_1_SUM1),
-        .SUM1(m7482_1_SUM2),
-        .SUM2(m7482_0_SUM1),
-        .SUM3(m7482_0_SUM2),
-        .SUM4(hier_1_SUM4),
-        .SUM5(hier_1_SUM3),
-        .SUM6(hier_1_SUM1),
-        .SUM7(hier_1_SUM2),
-        .led(adpt_out_0_led));
+       (.led(adpt_out_0_led),
+        .q0(or3_3_y),
+        .q1(or3_2_y),
+        .q2(or3_1_y),
+        .q3(or3_0_y));
+  design_4_and2_0_0 and2_0
+       (.a(adpt_in_0_a2),
+        .b(adpt_in_0_LM),
+        .y(and2_0_y));
+  design_4_and2_1_0 and2_1
+       (.a(adpt_in_0_a3),
+        .b(adpt_in_0_DM),
+        .y(and2_1_y));
+  design_4_and2_2_1 and2_10
+       (.a(adpt_in_0_a2),
+        .b(adpt_in_0_RM),
+        .y(and2_10_y));
+  design_4_and2_3_1 and2_11
+       (.a(adpt_in_0_a1),
+        .b(adpt_in_0_DM),
+        .y(and2_11_y));
+  design_4_and2_0_1 and2_2
+       (.a(xlconstant_0_dout),
+        .b(adpt_in_0_RM),
+        .y(and2_2_y));
+  design_4_and2_1_1 and2_3
+       (.a(adpt_in_0_a1),
+        .b(adpt_in_0_LM),
+        .y(and2_3_y));
+  design_4_and2_0_2 and2_4
+       (.a(adpt_in_0_a2),
+        .b(adpt_in_0_DM),
+        .y(and2_4_y));
+  design_4_and2_1_2 and2_5
+       (.a(adpt_in_0_a1),
+        .b(adpt_in_0_RM),
+        .y(and2_5_y));
+  design_4_and2_2_0 and2_6
+       (.a(adpt_in_0_a3),
+        .b(adpt_in_0_RM),
+        .y(and2_6_y));
+  design_4_and2_3_0 and2_7
+       (.a(adpt_in_0_a0),
+        .b(adpt_in_0_LM),
+        .y(and2_7_y));
+  design_4_and2_0_3 and2_8
+       (.a(adpt_in_0_a0),
+        .b(adpt_in_0_DM),
+        .y(and2_8_y));
+  design_4_and2_1_3 and2_9
+       (.a(xlconstant_0_dout),
+        .b(adpt_in_0_LM),
+        .y(and2_9_y));
   design_4_cg_fpga_0_0 cg_fpga_0
        (.DDR_addr(DDR_0_addr),
         .DDR_ba(DDR_0_ba),
@@ -173,210 +203,26 @@ module design_4
         .vid_io_in_clk(1'b0),
         .vid_vblank(1'b0),
         .vid_vsync(1'b0));
-  hier_0_imp_9AD57I hier_0
-       (.A3(adpt_in_0_A3),
-        .A4(adpt_in_0_A2),
-        .A5(adpt_in_0_A1),
-        .A6(adpt_in_0_A0),
-        .C2(hier_0_C2),
-        .SUM1(m7482_0_SUM1),
-        .SUM2(m7482_0_SUM2),
-        .SUM3(m7482_1_SUM2),
-        .SUM4(m7482_1_SUM1),
-        .a(adpt_in_0_B3),
-        .a1(adpt_in_0_B2),
-        .a2(adpt_in_0_B1),
-        .a7(adpt_in_0_B0),
-        .b(adpt_in_0_K));
-  hier_1_imp_EZHKNX hier_1
-       (.A3(A3_1),
-        .A4(A4_1),
-        .A5(adpt_in_0_A5),
-        .A6(adpt_in_0_A4),
-        .C0(hier_0_C2),
-        .C2(hier_1_C2),
-        .SUM1(hier_1_SUM1),
-        .SUM2(hier_1_SUM2),
-        .SUM3(hier_1_SUM3),
-        .SUM4(hier_1_SUM4),
-        .a(a_1),
-        .a1(a1_1),
-        .a2(adpt_in_0_B5),
-        .a7(adpt_in_0_B4),
-        .b(adpt_in_0_K));
-endmodule
-
-module hier_0_imp_9AD57I
-   (A3,
-    A4,
-    A5,
-    A6,
-    C2,
-    SUM1,
-    SUM2,
-    SUM3,
-    SUM4,
-    a,
-    a1,
-    a2,
-    a7,
-    b);
-  input A3;
-  input A4;
-  input A5;
-  input A6;
-  output C2;
-  output SUM1;
-  output SUM2;
-  output SUM3;
-  output SUM4;
-  input a;
-  input a1;
-  input a2;
-  input a7;
-  input b;
-
-  wire A3;
-  wire A4;
-  wire A5;
-  wire A6;
-  wire C2;
-  wire SUM1;
-  wire SUM2;
-  wire SUM3;
-  wire SUM4;
-  wire a;
-  wire a1;
-  wire a2;
-  wire a7;
-  wire b;
-  wire m7482_1_C2;
-  wire xor2_0_y;
-  wire xor2_1_y;
-  wire xor2_2_y;
-  wire xor2_3_y;
-
-  design_4_m7482_0_0 m7482_0
-       (.A1(A4),
-        .A2(A3),
-        .B1(xor2_1_y),
-        .B2(xor2_0_y),
-        .C0(m7482_1_C2),
-        .C2(C2),
-        .SUM1(SUM1),
-        .SUM2(SUM2));
-  design_4_m7482_1_0 m7482_1
-       (.A1(A6),
-        .A2(A5),
-        .B1(xor2_3_y),
-        .B2(xor2_2_y),
-        .C0(b),
-        .C2(m7482_1_C2),
-        .SUM1(SUM4),
-        .SUM2(SUM3));
-  design_4_xor2_0_0 xor2_0
-       (.a(a),
-        .b(b),
-        .y(xor2_0_y));
-  design_4_xor2_1_0 xor2_1
-       (.a(a1),
-        .b(b),
-        .y(xor2_1_y));
-  design_4_xor2_2_0 xor2_2
-       (.a(a2),
-        .b(b),
-        .y(xor2_2_y));
-  design_4_xor2_3_0 xor2_3
-       (.a(a7),
-        .b(b),
-        .y(xor2_3_y));
-endmodule
-
-module hier_1_imp_EZHKNX
-   (A3,
-    A4,
-    A5,
-    A6,
-    C0,
-    C2,
-    SUM1,
-    SUM2,
-    SUM3,
-    SUM4,
-    a,
-    a1,
-    a2,
-    a7,
-    b);
-  input A3;
-  input A4;
-  input A5;
-  input A6;
-  input C0;
-  output C2;
-  output SUM1;
-  output SUM2;
-  output SUM3;
-  output SUM4;
-  input a;
-  input a1;
-  input a2;
-  input a7;
-  input b;
-
-  wire A3;
-  wire A4;
-  wire A5;
-  wire A6;
-  wire C0;
-  wire C2;
-  wire SUM1;
-  wire SUM2;
-  wire SUM3;
-  wire SUM4;
-  wire a;
-  wire a1;
-  wire a2;
-  wire a7;
-  wire b;
-  wire m7482_1_C2;
-  wire xor2_0_y;
-  wire xor2_1_y;
-  wire xor2_2_y;
-  wire xor2_3_y;
-
-  design_4_m7482_0_1 m7482_0
-       (.A1(A4),
-        .A2(A3),
-        .B1(xor2_1_y),
-        .B2(xor2_0_y),
-        .C0(m7482_1_C2),
-        .C2(C2),
-        .SUM1(SUM1),
-        .SUM2(SUM2));
-  design_4_m7482_1_1 m7482_1
-       (.A1(A6),
-        .A2(A5),
-        .B1(xor2_3_y),
-        .B2(xor2_2_y),
-        .C0(C0),
-        .C2(m7482_1_C2),
-        .SUM1(SUM4),
-        .SUM2(SUM3));
-  design_4_xor2_0_1 xor2_0
-       (.a(a),
-        .b(b),
-        .y(xor2_0_y));
-  design_4_xor2_1_1 xor2_1
-       (.a(a1),
-        .b(b),
-        .y(xor2_1_y));
-  design_4_xor2_2_1 xor2_2
-       (.a(a2),
-        .b(b),
-        .y(xor2_2_y));
-  design_4_xor2_3_1 xor2_3
-       (.a(a7),
-        .b(b),
-        .y(xor2_3_y));
+  design_4_or3_0_0 or3_0
+       (.a(and2_0_y),
+        .b(and2_1_y),
+        .c(and2_2_y),
+        .y(or3_0_y));
+  design_4_or3_0_1 or3_1
+       (.a(and2_3_y),
+        .b(and2_4_y),
+        .c(and2_6_y),
+        .y(or3_1_y));
+  design_4_or3_0_2 or3_2
+       (.a(and2_10_y),
+        .b(and2_7_y),
+        .c(and2_11_y),
+        .y(or3_2_y));
+  design_4_or3_0_3 or3_3
+       (.a(and2_5_y),
+        .b(and2_9_y),
+        .c(and2_8_y),
+        .y(or3_3_y));
+  design_4_xlconstant_0_0 xlconstant_0
+       (.dout(xlconstant_0_dout));
 endmodule

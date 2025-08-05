@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-// Date        : Tue Mar 11 14:56:48 2025
+// Date        : Sat Mar  8 17:21:26 2025
 // Host        : jyx running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               d:/lab4/design_4/ip/design_4_adpt_in_0_0/design_4_adpt_in_0_0_sim_netlist.v
+//               d:/lab4_4/design_4/ip/design_4_adpt_in_0_0/design_4_adpt_in_0_0_sim_netlist.v
 // Design      : design_4_adpt_in_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -18,225 +18,105 @@
 (* NotValidForBitStream *)
 module design_4_adpt_in_0_0
    (sw_a,
-    A7,
-    A6,
-    A5,
-    A4,
-    A3,
-    A2,
-    A1,
-    A0,
-    B7,
-    B6,
-    B5,
-    B4,
-    B3,
-    B2,
-    B1,
-    B0,
-    K);
+    a3,
+    a2,
+    a1,
+    a0,
+    LM,
+    DM,
+    RM);
   input [31:0]sw_a;
-  output A7;
-  output A6;
-  output A5;
-  output A4;
-  output A3;
-  output A2;
-  output A1;
-  output A0;
-  output B7;
-  output B6;
-  output B5;
-  output B4;
-  output B3;
-  output B2;
-  output B1;
-  output B0;
-  output K;
+  output a3;
+  output a2;
+  output a1;
+  output a0;
+  output LM;
+  output DM;
+  output RM;
 
-  wire A0;
-  wire A1;
-  wire A2;
-  wire A3;
-  wire A4;
-  wire A5;
-  wire A6;
-  wire A7;
-  wire B0;
-  wire B1;
-  wire B2;
-  wire B3;
-  wire B4;
-  wire B5;
-  wire B6;
-  wire B7;
-  wire K;
+  wire DM;
+  wire LM;
+  wire RM;
+  wire a0;
+  wire a1;
+  wire a2;
+  wire a3;
   wire [31:0]sw_a;
 
   design_4_adpt_in_0_0_adpt_in inst
-       (.A0(A0),
-        .A1(A1),
-        .A2(A2),
-        .A3(A3),
-        .A4(A4),
-        .A5(A5),
-        .A6(A6),
-        .A7(A7),
-        .B0(B0),
-        .B1(B1),
-        .B2(B2),
-        .B3(B3),
-        .B4(B4),
-        .B5(B5),
-        .B6(B6),
-        .B7(B7),
-        .K(K),
-        .sw_a(sw_a[16:0]));
+       (.DM(DM),
+        .LM(LM),
+        .RM(RM),
+        .a0(a0),
+        .a1(a1),
+        .a2(a2),
+        .a3(a3),
+        .sw_a(sw_a[6:0]));
 endmodule
 
 (* ORIG_REF_NAME = "adpt_in" *) 
 module design_4_adpt_in_0_0_adpt_in
-   (A0,
-    A1,
-    A2,
-    A3,
-    A4,
-    A5,
-    A6,
-    A7,
-    B0,
-    B1,
-    B2,
-    B3,
-    B4,
-    B5,
-    B6,
-    B7,
-    K,
+   (a0,
+    a1,
+    a2,
+    a3,
+    RM,
+    DM,
+    LM,
     sw_a);
-  output A0;
-  output A1;
-  output A2;
-  output A3;
-  output A4;
-  output A5;
-  output A6;
-  output A7;
-  output B0;
-  output B1;
-  output B2;
-  output B3;
-  output B4;
-  output B5;
-  output B6;
-  output B7;
-  output K;
-  input [16:0]sw_a;
+  output a0;
+  output a1;
+  output a2;
+  output a3;
+  output RM;
+  output DM;
+  output LM;
+  input [6:0]sw_a;
 
-  wire A0;
-  wire A1;
-  wire A2;
-  wire A3;
-  wire A4;
-  wire A5;
-  wire A6;
-  wire A7;
-  wire B0;
-  wire B1;
-  wire B2;
-  wire B3;
-  wire B4;
-  wire B5;
-  wire B6;
-  wire B7;
-  wire K;
-  wire [16:0]sw_a;
+  wire DM;
+  wire LM;
+  wire RM;
+  wire a0;
+  wire a1;
+  wire a2;
+  wire a3;
+  wire [6:0]sw_a;
 
   LUT1 #(
     .INIT(2'h1)) 
-    A0_INST_0
-       (.I0(sw_a[0]),
-        .O(A0));
-  LUT1 #(
-    .INIT(2'h1)) 
-    A1_INST_0
-       (.I0(sw_a[1]),
-        .O(A1));
-  LUT1 #(
-    .INIT(2'h1)) 
-    A2_INST_0
-       (.I0(sw_a[2]),
-        .O(A2));
-  LUT1 #(
-    .INIT(2'h1)) 
-    A3_INST_0
-       (.I0(sw_a[3]),
-        .O(A3));
-  LUT1 #(
-    .INIT(2'h1)) 
-    A4_INST_0
-       (.I0(sw_a[4]),
-        .O(A4));
-  LUT1 #(
-    .INIT(2'h1)) 
-    A5_INST_0
+    DM_INST_0
        (.I0(sw_a[5]),
-        .O(A5));
+        .O(DM));
   LUT1 #(
     .INIT(2'h1)) 
-    A6_INST_0
+    LM_INST_0
        (.I0(sw_a[6]),
-        .O(A6));
+        .O(LM));
   LUT1 #(
     .INIT(2'h1)) 
-    A7_INST_0
-       (.I0(sw_a[7]),
-        .O(A7));
+    RM_INST_0
+       (.I0(sw_a[4]),
+        .O(RM));
   LUT1 #(
     .INIT(2'h1)) 
-    B0_INST_0
-       (.I0(sw_a[8]),
-        .O(B0));
+    a0_INST_0
+       (.I0(sw_a[0]),
+        .O(a0));
   LUT1 #(
     .INIT(2'h1)) 
-    B1_INST_0
-       (.I0(sw_a[9]),
-        .O(B1));
+    a1_INST_0
+       (.I0(sw_a[1]),
+        .O(a1));
   LUT1 #(
     .INIT(2'h1)) 
-    B2_INST_0
-       (.I0(sw_a[10]),
-        .O(B2));
+    a2_INST_0
+       (.I0(sw_a[2]),
+        .O(a2));
   LUT1 #(
     .INIT(2'h1)) 
-    B3_INST_0
-       (.I0(sw_a[11]),
-        .O(B3));
-  LUT1 #(
-    .INIT(2'h1)) 
-    B4_INST_0
-       (.I0(sw_a[12]),
-        .O(B4));
-  LUT1 #(
-    .INIT(2'h1)) 
-    B5_INST_0
-       (.I0(sw_a[13]),
-        .O(B5));
-  LUT1 #(
-    .INIT(2'h1)) 
-    B6_INST_0
-       (.I0(sw_a[14]),
-        .O(B6));
-  LUT1 #(
-    .INIT(2'h1)) 
-    B7_INST_0
-       (.I0(sw_a[15]),
-        .O(B7));
-  LUT1 #(
-    .INIT(2'h1)) 
-    K_INST_0
-       (.I0(sw_a[16]),
-        .O(K));
+    a3_INST_0
+       (.I0(sw_a[3]),
+        .O(a3));
 endmodule
 `ifndef GLBL
 `define GLBL

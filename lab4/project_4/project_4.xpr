@@ -4,10 +4,10 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="68" Path="D:/lab4/project_4/project_4.xpr">
-  <DefaultLaunch Dir="D:/lab4_plus"/>
+<Project Product="Vivado" Version="7" Minor="68" Path="D:/lab4_4/project_4/project_4.xpr">
+  <DefaultLaunch Dir="D:/lab4_4"/>
   <Configuration>
-    <Option Name="Id" Val="32645af3e9c7450a8a9e342c65a26039"/>
+    <Option Name="Id" Val="975006d058e540aa9bce7a405340bae1"/>
     <Option Name="Part" Val="xc7z020clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -47,7 +47,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../ip_repo/ip_repo"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../ip_repo"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
@@ -91,7 +91,7 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../exp3_source.v">
+      <File Path="$PPRDIR/../exp4_source.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -110,44 +110,56 @@
         <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_adpt_out_0_0/design_4_adpt_out_0_0.xci">
           <Proxy FileSetName="design_4_adpt_out_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_0_0/design_4_and2_0_0.xci">
+          <Proxy FileSetName="design_4_and2_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_0_1/design_4_and2_0_1.xci">
+          <Proxy FileSetName="design_4_and2_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_0_2/design_4_and2_0_2.xci">
+          <Proxy FileSetName="design_4_and2_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_0_3/design_4_and2_0_3.xci">
+          <Proxy FileSetName="design_4_and2_0_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_1_0/design_4_and2_1_0.xci">
+          <Proxy FileSetName="design_4_and2_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_1_1/design_4_and2_1_1.xci">
+          <Proxy FileSetName="design_4_and2_1_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_1_2/design_4_and2_1_2.xci">
+          <Proxy FileSetName="design_4_and2_1_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_1_3/design_4_and2_1_3.xci">
+          <Proxy FileSetName="design_4_and2_1_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_2_0/design_4_and2_2_0.xci">
+          <Proxy FileSetName="design_4_and2_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_2_1/design_4_and2_2_1.xci">
+          <Proxy FileSetName="design_4_and2_2_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_3_0/design_4_and2_3_0.xci">
+          <Proxy FileSetName="design_4_and2_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_and2_3_1/design_4_and2_3_1.xci">
+          <Proxy FileSetName="design_4_and2_3_1"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0.xci">
           <Proxy FileSetName="design_4_cg_fpga_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_m7482_0_0/design_4_m7482_0_0.xci">
-          <Proxy FileSetName="design_4_m7482_0_0"/>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_or3_0_0/design_4_or3_0_0.xci">
+          <Proxy FileSetName="design_4_or3_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_m7482_0_1/design_4_m7482_0_1.xci">
-          <Proxy FileSetName="design_4_m7482_0_1"/>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_or3_0_1/design_4_or3_0_1.xci">
+          <Proxy FileSetName="design_4_or3_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_m7482_1_0/design_4_m7482_1_0.xci">
-          <Proxy FileSetName="design_4_m7482_1_0"/>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_or3_0_2/design_4_or3_0_2.xci">
+          <Proxy FileSetName="design_4_or3_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_m7482_1_1/design_4_m7482_1_1.xci">
-          <Proxy FileSetName="design_4_m7482_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_0_0/design_4_xor2_0_0.xci">
-          <Proxy FileSetName="design_4_xor2_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_0_1/design_4_xor2_0_1.xci">
-          <Proxy FileSetName="design_4_xor2_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_1_0/design_4_xor2_1_0.xci">
-          <Proxy FileSetName="design_4_xor2_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_1_1/design_4_xor2_1_1.xci">
-          <Proxy FileSetName="design_4_xor2_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_2_0/design_4_xor2_2_0.xci">
-          <Proxy FileSetName="design_4_xor2_2_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_2_1/design_4_xor2_2_1.xci">
-          <Proxy FileSetName="design_4_xor2_2_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_3_0/design_4_xor2_3_0.xci">
-          <Proxy FileSetName="design_4_xor2_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_xor2_3_1/design_4_xor2_3_1.xci">
-          <Proxy FileSetName="design_4_xor2_3_1"/>
+        <CompFileExtendedInfo CompFileName="design_4.bd" FileRelPathName="ip/design_4_or3_0_3/design_4_or3_0_3.xci">
+          <Proxy FileSetName="design_4_or3_0_3"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PPRDIR/../design_4/hdl/design_4_wrapper.v">
@@ -157,7 +169,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../design_114514/design_114514.bd">
+      <File Path="$PPRDIR/../design_yima/design_yima.bd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -199,14 +211,6 @@
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
       <Filter Type="Utils"/>
-      <File Path="$PSRCDIR/utils_1/imports/synth_1/design_4_wrapper.dcp">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedInSteps" Val="synth_1"/>
-          <Attr Name="AutoDcp" Val="1"/>
-        </FileInfo>
-      </File>
       <Config>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
@@ -217,15 +221,39 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
+    <FileSet Name="design_4_and2_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_0_2" RelGenDir="$PGENDIR/design_4_and2_0_2">
+      <Config>
+        <Option Name="TopModule" Val="design_4_and2_0_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="design_4_and2_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_0_1" RelGenDir="$PGENDIR/design_4_and2_0_1">
+      <Config>
+        <Option Name="TopModule" Val="design_4_and2_0_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="design_4_and2_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_1_0" RelGenDir="$PGENDIR/design_4_and2_1_0">
+      <Config>
+        <Option Name="TopModule" Val="design_4_and2_1_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="design_4_or3_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_or3_0_1" RelGenDir="$PGENDIR/design_4_or3_0_1">
+      <Config>
+        <Option Name="TopModule" Val="design_4_or3_0_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
     <FileSet Name="design_4_adpt_out_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_adpt_out_0_0" RelGenDir="$PGENDIR/design_4_adpt_out_0_0">
       <Config>
         <Option Name="TopModule" Val="design_4_adpt_out_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_0_0" RelGenDir="$PGENDIR/design_4_xor2_0_0">
+    <FileSet Name="design_4_and2_1_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_1_1" RelGenDir="$PGENDIR/design_4_and2_1_1">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_0_0"/>
+        <Option Name="TopModule" Val="design_4_and2_1_1"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -235,69 +263,69 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_m7482_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_m7482_0_0" RelGenDir="$PGENDIR/design_4_m7482_0_0">
+    <FileSet Name="design_4_and2_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_0_0" RelGenDir="$PGENDIR/design_4_and2_0_0">
       <Config>
-        <Option Name="TopModule" Val="design_4_m7482_0_0"/>
+        <Option Name="TopModule" Val="design_4_and2_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_m7482_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_m7482_1_0" RelGenDir="$PGENDIR/design_4_m7482_1_0">
+    <FileSet Name="design_4_or3_0_3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_or3_0_3" RelGenDir="$PGENDIR/design_4_or3_0_3">
       <Config>
-        <Option Name="TopModule" Val="design_4_m7482_1_0"/>
+        <Option Name="TopModule" Val="design_4_or3_0_3"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_1_0" RelGenDir="$PGENDIR/design_4_xor2_1_0">
+    <FileSet Name="design_4_and2_1_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_1_2" RelGenDir="$PGENDIR/design_4_and2_1_2">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_1_0"/>
+        <Option Name="TopModule" Val="design_4_and2_1_2"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_2_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_2_0" RelGenDir="$PGENDIR/design_4_xor2_2_0">
+    <FileSet Name="design_4_and2_0_3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_0_3" RelGenDir="$PGENDIR/design_4_and2_0_3">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_2_0"/>
+        <Option Name="TopModule" Val="design_4_and2_0_3"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_3_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_3_0" RelGenDir="$PGENDIR/design_4_xor2_3_0">
+    <FileSet Name="design_4_and2_3_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_3_1" RelGenDir="$PGENDIR/design_4_and2_3_1">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_3_0"/>
+        <Option Name="TopModule" Val="design_4_and2_3_1"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_0_1" RelGenDir="$PGENDIR/design_4_xor2_0_1">
+    <FileSet Name="design_4_and2_2_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_2_0" RelGenDir="$PGENDIR/design_4_and2_2_0">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_0_1"/>
+        <Option Name="TopModule" Val="design_4_and2_2_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_m7482_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_m7482_0_1" RelGenDir="$PGENDIR/design_4_m7482_0_1">
+    <FileSet Name="design_4_and2_2_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_2_1" RelGenDir="$PGENDIR/design_4_and2_2_1">
       <Config>
-        <Option Name="TopModule" Val="design_4_m7482_0_1"/>
+        <Option Name="TopModule" Val="design_4_and2_2_1"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_3_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_3_1" RelGenDir="$PGENDIR/design_4_xor2_3_1">
+    <FileSet Name="design_4_and2_3_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_3_0" RelGenDir="$PGENDIR/design_4_and2_3_0">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_3_1"/>
+        <Option Name="TopModule" Val="design_4_and2_3_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_1_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_1_1" RelGenDir="$PGENDIR/design_4_xor2_1_1">
+    <FileSet Name="design_4_or3_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_or3_0_0" RelGenDir="$PGENDIR/design_4_or3_0_0">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_1_1"/>
+        <Option Name="TopModule" Val="design_4_or3_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_m7482_1_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_m7482_1_1" RelGenDir="$PGENDIR/design_4_m7482_1_1">
+    <FileSet Name="design_4_and2_1_3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_and2_1_3" RelGenDir="$PGENDIR/design_4_and2_1_3">
       <Config>
-        <Option Name="TopModule" Val="design_4_m7482_1_1"/>
+        <Option Name="TopModule" Val="design_4_and2_1_3"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="design_4_xor2_2_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_xor2_2_1" RelGenDir="$PGENDIR/design_4_xor2_2_1">
+    <FileSet Name="design_4_or3_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_4_or3_0_2" RelGenDir="$PGENDIR/design_4_or3_0_2">
       <Config>
-        <Option Name="TopModule" Val="design_4_xor2_2_1"/>
+        <Option Name="TopModule" Val="design_4_or3_0_2"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -321,12 +349,12 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="22">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" IncrementalCheckpoint="$PSRCDIR/utils_1/imports/synth_1/design_4_wrapper.dcp" WriteIncrSynthDcp="false" State="current" Dir="$PPRDIR/../../lab4_plus/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" Dir="$PPRDIR/../synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
@@ -336,152 +364,192 @@
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_adpt_out_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_adpt_out_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_adpt_out_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_adpt_out_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_adpt_out_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_adpt_out_0_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_0_2_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_0_2" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_0_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_2_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_0_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_0_1" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_1_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_adpt_in_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_adpt_in_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_adpt_in_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_adpt_in_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_adpt_in_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_adpt_in_0_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_1_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_1_0" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_1_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_m7482_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_m7482_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_or3_0_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_or3_0_1" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_or3_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_1_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_1_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_m7482_1_0" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_1_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_m7482_1_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_adpt_out_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_adpt_out_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_adpt_out_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_adpt_out_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_adpt_out_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_adpt_out_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_1_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_1_0" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_1_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_1_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_1_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_1_1" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_1_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_1_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_2_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_2_0" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_2_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_2_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_adpt_in_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_adpt_in_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_adpt_in_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_adpt_in_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_adpt_in_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_adpt_in_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_3_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_3_0" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_3_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_3_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_0_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_0_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_0_1" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_1_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_or3_0_3_synth_1" Type="Ft3:Synth" SrcSet="design_4_or3_0_3" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_3" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_or3_0_3_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_3_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_3_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_0_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_m7482_0_1" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_m7482_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_1_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_1_2_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_1_2" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_1_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_2_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_3_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_3_1" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_3_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_3_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_1_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_0_3_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_0_3" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_3" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_0_3_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_3_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_3_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_1_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_1_1" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_1_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_1_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_1_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_3_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_3_1" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_3_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_3_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_3_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_3_1_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_1_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_m7482_1_1" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_1_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_m7482_1_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_1_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_2_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_2_0" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_2_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_2_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_2_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_2_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_2_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_xor2_2_1" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_2_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../../lab4_plus/design_4_xor2_2_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_1_synth_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_2_1_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_2_1" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_2_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_2_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_2_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_2_1_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PPRDIR/../../lab4_plus/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 4 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_3_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_3_0" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_3_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_3_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_3_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_3_0_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="design_4_or3_0_0_synth_1" Type="Ft3:Synth" SrcSet="design_4_or3_0_0" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_or3_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_0_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="design_4_and2_1_3_synth_1" Type="Ft3:Synth" SrcSet="design_4_and2_1_3" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_3" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_and2_1_3_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_3_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_3_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="design_4_or3_0_2_synth_1" Type="Ft3:Synth" SrcSet="design_4_or3_0_2" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PPRDIR/../design_4_or3_0_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_2_synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PPRDIR/../impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 8 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -494,12 +562,80 @@
         <Step Id="post_route_phys_opt_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
-      <GeneratedRun Dir="D:/lab4_plus" File="gen_run.xml"/>
+      <GeneratedRun Dir="D:/lab4_4" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
     <Run Id="design_4_cg_fpga_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_cg_fpga_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_cg_fpga_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_cg_fpga_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_cg_fpga_0_0_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="design_4_and2_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_0_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_2_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="design_4_and2_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_1_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="design_4_and2_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_1_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_0_impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="design_4_or3_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_or3_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_1_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -533,7 +669,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_0_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_1_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_1_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_1_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -567,7 +703,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_m7482_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_0_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -584,7 +720,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_1_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_m7482_1_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_0_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_or3_0_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_3" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_or3_0_3_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_3_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_3_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -601,7 +737,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_1_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_1_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_0_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_1_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_1_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_2_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -618,7 +754,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_2_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_2_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_2_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_0_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_0_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_0_3" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_0_3_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_0_3_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_0_3_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -635,7 +771,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_3_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_3_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_3_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_0_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_3_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_3_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_3_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_3_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_3_1_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -652,7 +788,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_0_1_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_2_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_2_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_2_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_2_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_2_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -669,7 +805,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_m7482_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_0_1_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_2_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_2_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_2_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_2_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_2_1_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -686,7 +822,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_3_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_3_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_3_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_3_1_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_3_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_3_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_3_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_3_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_3_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -703,7 +839,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_1_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_1_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_1_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_1_1_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_or3_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_or3_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -720,7 +856,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_m7482_1_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_m7482_1_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_m7482_1_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_m7482_1_1_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_and2_1_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_and2_1_3" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_and2_1_3_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_and2_1_3_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_and2_1_3_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>
@@ -737,7 +873,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="design_4_xor2_2_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_xor2_2_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_xor2_2_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_xor2_2_1_impl_1" ParallelReportGen="true">
+    <Run Id="design_4_or3_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="design_4_or3_0_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="design_4_or3_0_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/design_4_or3_0_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/design_4_or3_0_2_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
         <Step Id="init_design"/>

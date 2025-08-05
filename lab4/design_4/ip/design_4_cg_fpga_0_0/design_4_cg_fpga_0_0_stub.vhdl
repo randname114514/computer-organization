@@ -2,9 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Sun Mar  2 14:54:37 2025
+-- Date        : Sat Mar  8 17:23:52 2025
 -- Host        : jyx running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub d:/lab4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub
+--               d:/lab4_4/design_4/ip/design_4_cg_fpga_0_0/design_4_cg_fpga_0_0_stub.vhdl
 -- Design      : design_4_cg_fpga_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1

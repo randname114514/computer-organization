@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Tue Mar 11 14:56:48 2025
+-- Date        : Sat Mar  8 17:21:26 2025
 -- Host        : jyx running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               d:/lab4/design_4/ip/design_4_adpt_out_0_0/design_4_adpt_out_0_0_stub.vhdl
+--               d:/lab4_4/design_4/ip/design_4_adpt_out_0_0/design_4_adpt_out_0_0_stub.vhdl
 -- Design      : design_4_adpt_out_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1
@@ -15,15 +15,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity design_4_adpt_out_0_0 is
   Port ( 
-    SUM7 : in STD_LOGIC;
-    SUM6 : in STD_LOGIC;
-    SUM5 : in STD_LOGIC;
-    SUM4 : in STD_LOGIC;
-    SUM3 : in STD_LOGIC;
-    SUM2 : in STD_LOGIC;
-    SUM1 : in STD_LOGIC;
-    SUM0 : in STD_LOGIC;
-    C4 : in STD_LOGIC;
+    q3 : in STD_LOGIC;
+    q2 : in STD_LOGIC;
+    q1 : in STD_LOGIC;
+    q0 : in STD_LOGIC;
     led : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
 
@@ -41,7 +36,7 @@ architecture stub of design_4_adpt_out_0_0 is
   attribute syn_black_box : boolean;
   attribute black_box_pad_pin : string;
   attribute syn_black_box of stub : architecture is true;
-  attribute black_box_pad_pin of stub : architecture is "SUM7,SUM6,SUM5,SUM4,SUM3,SUM2,SUM1,SUM0,C4,led[31:0]";
+  attribute black_box_pad_pin of stub : architecture is "q3,q2,q1,q0,led[31:0]";
   attribute X_CORE_INFO : string;
   attribute X_CORE_INFO of stub : architecture is "adpt_out,Vivado 2024.2";
 begin

@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Tue Mar 11 14:56:48 2025
+-- Date        : Sat Mar  8 17:21:27 2025
 -- Host        : jyx running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               d:/lab4/design_4/ip/design_4_adpt_out_0_0/design_4_adpt_out_0_0_sim_netlist.vhdl
+--               d:/lab4_4/design_4/ip/design_4_adpt_out_0_0/design_4_adpt_out_0_0_sim_netlist.vhdl
 -- Design      : design_4_adpt_out_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,16 +17,11 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity design_4_adpt_out_0_0_adpt_out is
   port (
-    led : out STD_LOGIC_VECTOR ( 8 downto 0 );
-    SUM0 : in STD_LOGIC;
-    SUM1 : in STD_LOGIC;
-    SUM2 : in STD_LOGIC;
-    SUM3 : in STD_LOGIC;
-    SUM4 : in STD_LOGIC;
-    SUM5 : in STD_LOGIC;
-    SUM6 : in STD_LOGIC;
-    SUM7 : in STD_LOGIC;
-    C4 : in STD_LOGIC
+    led : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    q0 : in STD_LOGIC;
+    q1 : in STD_LOGIC;
+    q2 : in STD_LOGIC;
+    q3 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of design_4_adpt_out_0_0_adpt_out : entity is "adpt_out";
@@ -39,7 +34,7 @@ begin
       INIT => X"1"
     )
         port map (
-      I0 => SUM0,
+      I0 => q0,
       O => led(0)
     );
 \led[1]_INST_0\: unisim.vcomponents.LUT1
@@ -47,7 +42,7 @@ begin
       INIT => X"1"
     )
         port map (
-      I0 => SUM1,
+      I0 => q1,
       O => led(1)
     );
 \led[2]_INST_0\: unisim.vcomponents.LUT1
@@ -55,7 +50,7 @@ begin
       INIT => X"1"
     )
         port map (
-      I0 => SUM2,
+      I0 => q2,
       O => led(2)
     );
 \led[3]_INST_0\: unisim.vcomponents.LUT1
@@ -63,48 +58,8 @@ begin
       INIT => X"1"
     )
         port map (
-      I0 => SUM3,
+      I0 => q3,
       O => led(3)
-    );
-\led[4]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => SUM4,
-      O => led(4)
-    );
-\led[5]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => SUM5,
-      O => led(5)
-    );
-\led[6]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => SUM6,
-      O => led(6)
-    );
-\led[7]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => SUM7,
-      O => led(7)
-    );
-\led[8]_INST_0\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => C4,
-      O => led(8)
     );
 end STRUCTURE;
 library IEEE;
@@ -113,15 +68,10 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity design_4_adpt_out_0_0 is
   port (
-    SUM7 : in STD_LOGIC;
-    SUM6 : in STD_LOGIC;
-    SUM5 : in STD_LOGIC;
-    SUM4 : in STD_LOGIC;
-    SUM3 : in STD_LOGIC;
-    SUM2 : in STD_LOGIC;
-    SUM1 : in STD_LOGIC;
-    SUM0 : in STD_LOGIC;
-    C4 : in STD_LOGIC;
+    q3 : in STD_LOGIC;
+    q2 : in STD_LOGIC;
+    q1 : in STD_LOGIC;
+    q0 : in STD_LOGIC;
     led : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   attribute NotValidForBitStream : boolean;
@@ -138,7 +88,7 @@ end design_4_adpt_out_0_0;
 
 architecture STRUCTURE of design_4_adpt_out_0_0 is
   signal \<const1>\ : STD_LOGIC;
-  signal \^led\ : STD_LOGIC_VECTOR ( 8 downto 0 );
+  signal \^led\ : STD_LOGIC_VECTOR ( 3 downto 0 );
 begin
   led(31) <= \<const1>\;
   led(30) <= \<const1>\;
@@ -163,22 +113,22 @@ begin
   led(11) <= \<const1>\;
   led(10) <= \<const1>\;
   led(9) <= \<const1>\;
-  led(8 downto 0) <= \^led\(8 downto 0);
+  led(8) <= \<const1>\;
+  led(7) <= \<const1>\;
+  led(6) <= \<const1>\;
+  led(5) <= \<const1>\;
+  led(4) <= \<const1>\;
+  led(3 downto 0) <= \^led\(3 downto 0);
 VCC: unisim.vcomponents.VCC
      port map (
       P => \<const1>\
     );
 inst: entity work.design_4_adpt_out_0_0_adpt_out
      port map (
-      C4 => C4,
-      SUM0 => SUM0,
-      SUM1 => SUM1,
-      SUM2 => SUM2,
-      SUM3 => SUM3,
-      SUM4 => SUM4,
-      SUM5 => SUM5,
-      SUM6 => SUM6,
-      SUM7 => SUM7,
-      led(8 downto 0) => \^led\(8 downto 0)
+      led(3 downto 0) => \^led\(3 downto 0),
+      q0 => q0,
+      q1 => q1,
+      q2 => q2,
+      q3 => q3
     );
 end STRUCTURE;

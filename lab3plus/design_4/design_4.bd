@@ -1,0 +1,1199 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF9889C9CC3250B72",
+      "device": "xc7z020clg400-1",
+      "name": "design_4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2"
+    },
+    "design_tree": {
+      "cg_fpga_0": "",
+      "adpt_in_0": "",
+      "adpt_out_0": "",
+      "hier_0": {
+        "xor2_0": "",
+        "xor2_1": "",
+        "xor2_2": "",
+        "m7482_0": "",
+        "m7482_1": "",
+        "xor2_3": ""
+      },
+      "hier_1": {
+        "xor2_0": "",
+        "xor2_1": "",
+        "xor2_2": "",
+        "m7482_0": "",
+        "m7482_1": "",
+        "xor2_3": ""
+      }
+    },
+    "interface_ports": {
+      "FIXED_IO_0": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:display_processing_system7:fixedio:1.0",
+        "vlnv": "xilinx.com:display_processing_system7:fixedio_rtl:1.0",
+        "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          }
+        },
+        "port_maps": {
+          "MIO": {
+            "physical_name": "FIXED_IO_0_mio",
+            "direction": "IO",
+            "left": "53",
+            "right": "0"
+          },
+          "DDR_VRN": {
+            "physical_name": "FIXED_IO_0_ddr_vrn",
+            "direction": "IO"
+          },
+          "DDR_VRP": {
+            "physical_name": "FIXED_IO_0_ddr_vrp",
+            "direction": "IO"
+          },
+          "PS_SRSTB": {
+            "physical_name": "FIXED_IO_0_ps_srstb",
+            "direction": "IO"
+          },
+          "PS_CLK": {
+            "physical_name": "FIXED_IO_0_ps_clk",
+            "direction": "IO"
+          },
+          "PS_PORB": {
+            "physical_name": "FIXED_IO_0_ps_porb",
+            "direction": "IO"
+          }
+        }
+      },
+      "DDR_0": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:ddrx:1.0",
+        "vlnv": "xilinx.com:interface:ddrx_rtl:1.0",
+        "parameters": {
+          "AXI_ARBITRATION_SCHEME": {
+            "value": "TDM",
+            "value_src": "const_prop"
+          },
+          "BURST_LENGTH": {
+            "value": "8",
+            "value_src": "const_prop"
+          },
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
+          "CAS_LATENCY": {
+            "value": "11",
+            "value_src": "const_prop"
+          },
+          "CAS_WRITE_LATENCY": {
+            "value": "11",
+            "value_src": "const_prop"
+          },
+          "CS_ENABLED": {
+            "value": "true",
+            "value_src": "const_prop"
+          },
+          "DATA_MASK_ENABLED": {
+            "value": "true",
+            "value_src": "const_prop"
+          },
+          "DATA_WIDTH": {
+            "value": "8",
+            "value_src": "const_prop"
+          },
+          "MEMORY_TYPE": {
+            "value": "COMPONENTS",
+            "value_src": "const_prop"
+          },
+          "MEM_ADDR_MAP": {
+            "value": "ROW_COLUMN_BANK",
+            "value_src": "const_prop"
+          },
+          "SLOT": {
+            "value": "Single",
+            "value_src": "const_prop"
+          },
+          "TIMEPERIOD_PS": {
+            "value": "1250",
+            "value_src": "const_prop"
+          }
+        },
+        "port_maps": {
+          "CAS_N": {
+            "physical_name": "DDR_0_cas_n",
+            "direction": "IO"
+          },
+          "CKE": {
+            "physical_name": "DDR_0_cke",
+            "direction": "IO"
+          },
+          "CK_N": {
+            "physical_name": "DDR_0_ck_n",
+            "direction": "IO"
+          },
+          "CK_P": {
+            "physical_name": "DDR_0_ck_p",
+            "direction": "IO"
+          },
+          "CS_N": {
+            "physical_name": "DDR_0_cs_n",
+            "direction": "IO"
+          },
+          "RESET_N": {
+            "physical_name": "DDR_0_reset_n",
+            "direction": "IO"
+          },
+          "ODT": {
+            "physical_name": "DDR_0_odt",
+            "direction": "IO"
+          },
+          "RAS_N": {
+            "physical_name": "DDR_0_ras_n",
+            "direction": "IO"
+          },
+          "WE_N": {
+            "physical_name": "DDR_0_we_n",
+            "direction": "IO"
+          },
+          "BA": {
+            "physical_name": "DDR_0_ba",
+            "direction": "IO",
+            "left": "2",
+            "right": "0"
+          },
+          "ADDR": {
+            "physical_name": "DDR_0_addr",
+            "direction": "IO",
+            "left": "14",
+            "right": "0"
+          },
+          "DM": {
+            "physical_name": "DDR_0_dm",
+            "direction": "IO",
+            "left": "3",
+            "right": "0"
+          },
+          "DQ": {
+            "physical_name": "DDR_0_dq",
+            "direction": "IO",
+            "left": "31",
+            "right": "0"
+          },
+          "DQS_N": {
+            "physical_name": "DDR_0_dqs_n",
+            "direction": "IO",
+            "left": "3",
+            "right": "0"
+          },
+          "DQS_P": {
+            "physical_name": "DDR_0_dqs_p",
+            "direction": "IO",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "components": {
+      "cg_fpga_0": {
+        "vlnv": "educg.net:user:cg_fpga:1.4",
+        "ip_revision": "5",
+        "xci_name": "design_4_cg_fpga_0_0",
+        "xci_path": "ip\\design_4_cg_fpga_0_0\\design_4_cg_fpga_0_0.xci",
+        "inst_hier_path": "cg_fpga_0"
+      },
+      "adpt_in_0": {
+        "vlnv": "xilinx.com:module_ref:adpt_in:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_4_adpt_in_0_0",
+        "xci_path": "ip\\design_4_adpt_in_0_0\\design_4_adpt_in_0_0.xci",
+        "inst_hier_path": "adpt_in_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "adpt_in",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sw_a": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "A7": {
+            "direction": "O"
+          },
+          "A6": {
+            "direction": "O"
+          },
+          "A5": {
+            "direction": "O"
+          },
+          "A4": {
+            "direction": "O"
+          },
+          "A3": {
+            "direction": "O"
+          },
+          "A2": {
+            "direction": "O"
+          },
+          "A1": {
+            "direction": "O"
+          },
+          "A0": {
+            "direction": "O"
+          },
+          "B7": {
+            "direction": "O"
+          },
+          "B6": {
+            "direction": "O"
+          },
+          "B5": {
+            "direction": "O"
+          },
+          "B4": {
+            "direction": "O"
+          },
+          "B3": {
+            "direction": "O"
+          },
+          "B2": {
+            "direction": "O"
+          },
+          "B1": {
+            "direction": "O"
+          },
+          "B0": {
+            "direction": "O"
+          },
+          "K": {
+            "direction": "O"
+          }
+        }
+      },
+      "adpt_out_0": {
+        "vlnv": "xilinx.com:module_ref:adpt_out:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_4_adpt_out_0_0",
+        "xci_path": "ip\\design_4_adpt_out_0_0\\design_4_adpt_out_0_0.xci",
+        "inst_hier_path": "adpt_out_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "adpt_out",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "SUM7": {
+            "direction": "I"
+          },
+          "SUM6": {
+            "direction": "I"
+          },
+          "SUM5": {
+            "direction": "I"
+          },
+          "SUM4": {
+            "direction": "I"
+          },
+          "SUM3": {
+            "direction": "I"
+          },
+          "SUM2": {
+            "direction": "I"
+          },
+          "SUM1": {
+            "direction": "I"
+          },
+          "SUM0": {
+            "direction": "I"
+          },
+          "C4": {
+            "direction": "I"
+          },
+          "led": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "hier_0": {
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "a1": {
+            "direction": "I"
+          },
+          "a2": {
+            "direction": "I"
+          },
+          "A3": {
+            "direction": "I"
+          },
+          "A4": {
+            "direction": "I"
+          },
+          "SUM2": {
+            "direction": "O"
+          },
+          "SUM1": {
+            "direction": "O"
+          },
+          "C2": {
+            "direction": "O"
+          },
+          "A5": {
+            "direction": "I"
+          },
+          "A6": {
+            "direction": "I"
+          },
+          "SUM3": {
+            "direction": "O"
+          },
+          "SUM4": {
+            "direction": "O"
+          },
+          "a7": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "xor2_0": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_0_0",
+            "xci_path": "ip\\design_4_xor2_0_0\\design_4_xor2_0_0.xci",
+            "inst_hier_path": "hier_0/xor2_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "xor2_1": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_1_0",
+            "xci_path": "ip\\design_4_xor2_1_0\\design_4_xor2_1_0.xci",
+            "inst_hier_path": "hier_0/xor2_1",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "xor2_2": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_2_0",
+            "xci_path": "ip\\design_4_xor2_2_0\\design_4_xor2_2_0.xci",
+            "inst_hier_path": "hier_0/xor2_2",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "m7482_0": {
+            "vlnv": "xilinx.com:module_ref:m7482:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_m7482_0_0",
+            "xci_path": "ip\\design_4_m7482_0_0\\design_4_m7482_0_0.xci",
+            "inst_hier_path": "hier_0/m7482_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "m7482",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "A2": {
+                "direction": "I"
+              },
+              "A1": {
+                "direction": "I"
+              },
+              "B2": {
+                "direction": "I"
+              },
+              "B1": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "SUM2": {
+                "direction": "O"
+              },
+              "SUM1": {
+                "direction": "O"
+              },
+              "C2": {
+                "direction": "O"
+              }
+            }
+          },
+          "m7482_1": {
+            "vlnv": "xilinx.com:module_ref:m7482:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_m7482_1_0",
+            "xci_path": "ip\\design_4_m7482_1_0\\design_4_m7482_1_0.xci",
+            "inst_hier_path": "hier_0/m7482_1",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "m7482",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "A2": {
+                "direction": "I"
+              },
+              "A1": {
+                "direction": "I"
+              },
+              "B2": {
+                "direction": "I"
+              },
+              "B1": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "SUM2": {
+                "direction": "O"
+              },
+              "SUM1": {
+                "direction": "O"
+              },
+              "C2": {
+                "direction": "O"
+              }
+            }
+          },
+          "xor2_3": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_3_0",
+            "xci_path": "ip\\design_4_xor2_3_0\\design_4_xor2_3_0.xci",
+            "inst_hier_path": "hier_0/xor2_3",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "adpt_in_0_A0": {
+            "ports": [
+              "A6",
+              "m7482_1/A1"
+            ]
+          },
+          "adpt_in_0_A1": {
+            "ports": [
+              "A5",
+              "m7482_1/A2"
+            ]
+          },
+          "adpt_in_0_A2": {
+            "ports": [
+              "A4",
+              "m7482_0/A1"
+            ]
+          },
+          "adpt_in_0_A3": {
+            "ports": [
+              "A3",
+              "m7482_0/A2"
+            ]
+          },
+          "adpt_in_0_B0": {
+            "ports": [
+              "a7",
+              "xor2_3/a"
+            ]
+          },
+          "adpt_in_0_B1": {
+            "ports": [
+              "a2",
+              "xor2_2/a"
+            ]
+          },
+          "adpt_in_0_B2": {
+            "ports": [
+              "a1",
+              "xor2_1/a"
+            ]
+          },
+          "adpt_in_0_B3": {
+            "ports": [
+              "a",
+              "xor2_0/a"
+            ]
+          },
+          "adpt_in_0_K": {
+            "ports": [
+              "b",
+              "m7482_1/C0",
+              "xor2_0/b",
+              "xor2_1/b",
+              "xor2_2/b",
+              "xor2_3/b"
+            ]
+          },
+          "m7482_0_C2": {
+            "ports": [
+              "m7482_0/C2",
+              "C2"
+            ]
+          },
+          "m7482_0_SUM1": {
+            "ports": [
+              "m7482_0/SUM1",
+              "SUM1"
+            ]
+          },
+          "m7482_0_SUM2": {
+            "ports": [
+              "m7482_0/SUM2",
+              "SUM2"
+            ]
+          },
+          "m7482_1_C2": {
+            "ports": [
+              "m7482_1/C2",
+              "m7482_0/C0"
+            ]
+          },
+          "m7482_1_SUM1": {
+            "ports": [
+              "m7482_1/SUM1",
+              "SUM4"
+            ]
+          },
+          "m7482_1_SUM2": {
+            "ports": [
+              "m7482_1/SUM2",
+              "SUM3"
+            ]
+          },
+          "xor2_0_y": {
+            "ports": [
+              "xor2_0/y",
+              "m7482_0/B2"
+            ]
+          },
+          "xor2_1_y": {
+            "ports": [
+              "xor2_1/y",
+              "m7482_0/B1"
+            ]
+          },
+          "xor2_2_y": {
+            "ports": [
+              "xor2_2/y",
+              "m7482_1/B2"
+            ]
+          },
+          "xor2_3_y": {
+            "ports": [
+              "xor2_3/y",
+              "m7482_1/B1"
+            ]
+          }
+        }
+      },
+      "hier_1": {
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "a1": {
+            "direction": "I"
+          },
+          "a2": {
+            "direction": "I"
+          },
+          "A3": {
+            "direction": "I"
+          },
+          "A4": {
+            "direction": "I"
+          },
+          "SUM2": {
+            "direction": "O"
+          },
+          "SUM1": {
+            "direction": "O"
+          },
+          "C2": {
+            "direction": "O"
+          },
+          "A5": {
+            "direction": "I"
+          },
+          "A6": {
+            "direction": "I"
+          },
+          "SUM3": {
+            "direction": "O"
+          },
+          "SUM4": {
+            "direction": "O"
+          },
+          "a7": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "xor2_0": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_0_1",
+            "xci_path": "ip\\design_4_xor2_0_1\\design_4_xor2_0_1.xci",
+            "inst_hier_path": "hier_1/xor2_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "xor2_1": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_1_1",
+            "xci_path": "ip\\design_4_xor2_1_1\\design_4_xor2_1_1.xci",
+            "inst_hier_path": "hier_1/xor2_1",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "xor2_2": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_2_1",
+            "xci_path": "ip\\design_4_xor2_2_1\\design_4_xor2_2_1.xci",
+            "inst_hier_path": "hier_1/xor2_2",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "m7482_0": {
+            "vlnv": "xilinx.com:module_ref:m7482:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_m7482_0_1",
+            "xci_path": "ip\\design_4_m7482_0_1\\design_4_m7482_0_1.xci",
+            "inst_hier_path": "hier_1/m7482_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "m7482",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "A2": {
+                "direction": "I"
+              },
+              "A1": {
+                "direction": "I"
+              },
+              "B2": {
+                "direction": "I"
+              },
+              "B1": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "SUM2": {
+                "direction": "O"
+              },
+              "SUM1": {
+                "direction": "O"
+              },
+              "C2": {
+                "direction": "O"
+              }
+            }
+          },
+          "m7482_1": {
+            "vlnv": "xilinx.com:module_ref:m7482:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_m7482_1_1",
+            "xci_path": "ip\\design_4_m7482_1_1\\design_4_m7482_1_1.xci",
+            "inst_hier_path": "hier_1/m7482_1",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "m7482",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "A2": {
+                "direction": "I"
+              },
+              "A1": {
+                "direction": "I"
+              },
+              "B2": {
+                "direction": "I"
+              },
+              "B1": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "SUM2": {
+                "direction": "O"
+              },
+              "SUM1": {
+                "direction": "O"
+              },
+              "C2": {
+                "direction": "O"
+              }
+            }
+          },
+          "xor2_3": {
+            "vlnv": "xilinx.com:module_ref:xor2:1.0",
+            "ip_revision": "1",
+            "xci_name": "design_4_xor2_3_1",
+            "xci_path": "ip\\design_4_xor2_3_1\\design_4_xor2_3_1.xci",
+            "inst_hier_path": "hier_1/xor2_3",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xor2",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "C0_1": {
+            "ports": [
+              "C0",
+              "m7482_1/C0"
+            ]
+          },
+          "adpt_in_0_A0": {
+            "ports": [
+              "A6",
+              "m7482_1/A1"
+            ]
+          },
+          "adpt_in_0_A1": {
+            "ports": [
+              "A5",
+              "m7482_1/A2"
+            ]
+          },
+          "adpt_in_0_A2": {
+            "ports": [
+              "A4",
+              "m7482_0/A1"
+            ]
+          },
+          "adpt_in_0_A3": {
+            "ports": [
+              "A3",
+              "m7482_0/A2"
+            ]
+          },
+          "adpt_in_0_B0": {
+            "ports": [
+              "a7",
+              "xor2_3/a"
+            ]
+          },
+          "adpt_in_0_B1": {
+            "ports": [
+              "a2",
+              "xor2_2/a"
+            ]
+          },
+          "adpt_in_0_B2": {
+            "ports": [
+              "a1",
+              "xor2_1/a"
+            ]
+          },
+          "adpt_in_0_B3": {
+            "ports": [
+              "a",
+              "xor2_0/a"
+            ]
+          },
+          "b_1": {
+            "ports": [
+              "b",
+              "xor2_2/b",
+              "xor2_1/b",
+              "xor2_3/b",
+              "xor2_0/b"
+            ]
+          },
+          "m7482_0_C2": {
+            "ports": [
+              "m7482_0/C2",
+              "C2"
+            ]
+          },
+          "m7482_0_SUM1": {
+            "ports": [
+              "m7482_0/SUM1",
+              "SUM1"
+            ]
+          },
+          "m7482_0_SUM2": {
+            "ports": [
+              "m7482_0/SUM2",
+              "SUM2"
+            ]
+          },
+          "m7482_1_C2": {
+            "ports": [
+              "m7482_1/C2",
+              "m7482_0/C0"
+            ]
+          },
+          "m7482_1_SUM1": {
+            "ports": [
+              "m7482_1/SUM1",
+              "SUM4"
+            ]
+          },
+          "m7482_1_SUM2": {
+            "ports": [
+              "m7482_1/SUM2",
+              "SUM3"
+            ]
+          },
+          "xor2_0_y": {
+            "ports": [
+              "xor2_0/y",
+              "m7482_0/B2"
+            ]
+          },
+          "xor2_1_y": {
+            "ports": [
+              "xor2_1/y",
+              "m7482_0/B1"
+            ]
+          },
+          "xor2_2_y": {
+            "ports": [
+              "xor2_2/y",
+              "m7482_1/B2"
+            ]
+          },
+          "xor2_3_y": {
+            "ports": [
+              "xor2_3/y",
+              "m7482_1/B1"
+            ]
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "cg_fpga_0_DDR": {
+        "interface_ports": [
+          "DDR_0",
+          "cg_fpga_0/DDR"
+        ]
+      },
+      "cg_fpga_0_FIXED_IO": {
+        "interface_ports": [
+          "FIXED_IO_0",
+          "cg_fpga_0/FIXED_IO"
+        ]
+      }
+    },
+    "nets": {
+      "A3_1": {
+        "ports": [
+          "adpt_in_0/A7",
+          "hier_1/A3"
+        ]
+      },
+      "A4_1": {
+        "ports": [
+          "adpt_in_0/A6",
+          "hier_1/A4"
+        ]
+      },
+      "a1_1": {
+        "ports": [
+          "adpt_in_0/B6",
+          "hier_1/a1"
+        ]
+      },
+      "a_1": {
+        "ports": [
+          "adpt_in_0/B7",
+          "hier_1/a"
+        ]
+      },
+      "adpt_in_0_A0": {
+        "ports": [
+          "adpt_in_0/A0",
+          "hier_0/A6"
+        ]
+      },
+      "adpt_in_0_A1": {
+        "ports": [
+          "adpt_in_0/A1",
+          "hier_0/A5"
+        ]
+      },
+      "adpt_in_0_A2": {
+        "ports": [
+          "adpt_in_0/A2",
+          "hier_0/A4"
+        ]
+      },
+      "adpt_in_0_A3": {
+        "ports": [
+          "adpt_in_0/A3",
+          "hier_0/A3"
+        ]
+      },
+      "adpt_in_0_A4": {
+        "ports": [
+          "adpt_in_0/A4",
+          "hier_1/A6"
+        ]
+      },
+      "adpt_in_0_A5": {
+        "ports": [
+          "adpt_in_0/A5",
+          "hier_1/A5"
+        ]
+      },
+      "adpt_in_0_B0": {
+        "ports": [
+          "adpt_in_0/B0",
+          "hier_0/a7"
+        ]
+      },
+      "adpt_in_0_B1": {
+        "ports": [
+          "adpt_in_0/B1",
+          "hier_0/a2"
+        ]
+      },
+      "adpt_in_0_B2": {
+        "ports": [
+          "adpt_in_0/B2",
+          "hier_0/a1"
+        ]
+      },
+      "adpt_in_0_B3": {
+        "ports": [
+          "adpt_in_0/B3",
+          "hier_0/a"
+        ]
+      },
+      "adpt_in_0_B4": {
+        "ports": [
+          "adpt_in_0/B4",
+          "hier_1/a7"
+        ]
+      },
+      "adpt_in_0_B5": {
+        "ports": [
+          "adpt_in_0/B5",
+          "hier_1/a2"
+        ]
+      },
+      "adpt_in_0_K": {
+        "ports": [
+          "adpt_in_0/K",
+          "hier_0/b",
+          "hier_1/b"
+        ]
+      },
+      "adpt_out_0_led": {
+        "ports": [
+          "adpt_out_0/led",
+          "cg_fpga_0/gpio_led"
+        ]
+      },
+      "cg_fpga_0_gpio_sw_2": {
+        "ports": [
+          "cg_fpga_0/gpio_sw_2",
+          "adpt_in_0/sw_a"
+        ]
+      },
+      "hier_0_C2": {
+        "ports": [
+          "hier_0/C2",
+          "hier_1/C0"
+        ]
+      },
+      "hier_1_C2": {
+        "ports": [
+          "hier_1/C2",
+          "adpt_out_0/C4"
+        ]
+      },
+      "hier_1_SUM1": {
+        "ports": [
+          "hier_1/SUM1",
+          "adpt_out_0/SUM6"
+        ]
+      },
+      "hier_1_SUM2": {
+        "ports": [
+          "hier_1/SUM2",
+          "adpt_out_0/SUM7"
+        ]
+      },
+      "hier_1_SUM3": {
+        "ports": [
+          "hier_1/SUM3",
+          "adpt_out_0/SUM5"
+        ]
+      },
+      "hier_1_SUM4": {
+        "ports": [
+          "hier_1/SUM4",
+          "adpt_out_0/SUM4"
+        ]
+      },
+      "m7482_0_SUM1": {
+        "ports": [
+          "hier_0/SUM1",
+          "adpt_out_0/SUM2"
+        ]
+      },
+      "m7482_0_SUM2": {
+        "ports": [
+          "hier_0/SUM2",
+          "adpt_out_0/SUM3"
+        ]
+      },
+      "m7482_1_SUM1": {
+        "ports": [
+          "hier_0/SUM4",
+          "adpt_out_0/SUM0"
+        ]
+      },
+      "m7482_1_SUM2": {
+        "ports": [
+          "hier_0/SUM3",
+          "adpt_out_0/SUM1"
+        ]
+      }
+    }
+  }
+}

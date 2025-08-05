@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-// Date        : Tue Mar 11 14:56:48 2025
+// Date        : Sat Mar  8 17:21:26 2025
 // Host        : jyx running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               d:/lab4/design_4/ip/design_4_adpt_out_0_0/design_4_adpt_out_0_0_sim_netlist.v
+//               d:/lab4_4/design_4/ip/design_4_adpt_out_0_0/design_4_adpt_out_0_0_sim_netlist.v
 // Design      : design_4_adpt_out_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,38 +17,23 @@
 (* X_CORE_INFO = "adpt_out,Vivado 2024.2" *) 
 (* NotValidForBitStream *)
 module design_4_adpt_out_0_0
-   (SUM7,
-    SUM6,
-    SUM5,
-    SUM4,
-    SUM3,
-    SUM2,
-    SUM1,
-    SUM0,
-    C4,
+   (q3,
+    q2,
+    q1,
+    q0,
     led);
-  input SUM7;
-  input SUM6;
-  input SUM5;
-  input SUM4;
-  input SUM3;
-  input SUM2;
-  input SUM1;
-  input SUM0;
-  input C4;
+  input q3;
+  input q2;
+  input q1;
+  input q0;
   output [31:0]led;
 
   wire \<const1> ;
-  wire C4;
-  wire SUM0;
-  wire SUM1;
-  wire SUM2;
-  wire SUM3;
-  wire SUM4;
-  wire SUM5;
-  wire SUM6;
-  wire SUM7;
-  wire [8:0]\^led ;
+  wire [3:0]\^led ;
+  wire q0;
+  wire q1;
+  wire q2;
+  wire q3;
 
   assign led[31] = \<const1> ;
   assign led[30] = \<const1> ;
@@ -73,101 +58,61 @@ module design_4_adpt_out_0_0
   assign led[11] = \<const1> ;
   assign led[10] = \<const1> ;
   assign led[9] = \<const1> ;
-  assign led[8:0] = \^led [8:0];
+  assign led[8] = \<const1> ;
+  assign led[7] = \<const1> ;
+  assign led[6] = \<const1> ;
+  assign led[5] = \<const1> ;
+  assign led[4] = \<const1> ;
+  assign led[3:0] = \^led [3:0];
   VCC VCC
        (.P(\<const1> ));
   design_4_adpt_out_0_0_adpt_out inst
-       (.C4(C4),
-        .SUM0(SUM0),
-        .SUM1(SUM1),
-        .SUM2(SUM2),
-        .SUM3(SUM3),
-        .SUM4(SUM4),
-        .SUM5(SUM5),
-        .SUM6(SUM6),
-        .SUM7(SUM7),
-        .led(\^led ));
+       (.led(\^led ),
+        .q0(q0),
+        .q1(q1),
+        .q2(q2),
+        .q3(q3));
 endmodule
 
 (* ORIG_REF_NAME = "adpt_out" *) 
 module design_4_adpt_out_0_0_adpt_out
    (led,
-    SUM0,
-    SUM1,
-    SUM2,
-    SUM3,
-    SUM4,
-    SUM5,
-    SUM6,
-    SUM7,
-    C4);
-  output [8:0]led;
-  input SUM0;
-  input SUM1;
-  input SUM2;
-  input SUM3;
-  input SUM4;
-  input SUM5;
-  input SUM6;
-  input SUM7;
-  input C4;
+    q0,
+    q1,
+    q2,
+    q3);
+  output [3:0]led;
+  input q0;
+  input q1;
+  input q2;
+  input q3;
 
-  wire C4;
-  wire SUM0;
-  wire SUM1;
-  wire SUM2;
-  wire SUM3;
-  wire SUM4;
-  wire SUM5;
-  wire SUM6;
-  wire SUM7;
-  wire [8:0]led;
+  wire [3:0]led;
+  wire q0;
+  wire q1;
+  wire q2;
+  wire q3;
 
   LUT1 #(
     .INIT(2'h1)) 
     \led[0]_INST_0 
-       (.I0(SUM0),
+       (.I0(q0),
         .O(led[0]));
   LUT1 #(
     .INIT(2'h1)) 
     \led[1]_INST_0 
-       (.I0(SUM1),
+       (.I0(q1),
         .O(led[1]));
   LUT1 #(
     .INIT(2'h1)) 
     \led[2]_INST_0 
-       (.I0(SUM2),
+       (.I0(q2),
         .O(led[2]));
   LUT1 #(
     .INIT(2'h1)) 
     \led[3]_INST_0 
-       (.I0(SUM3),
+       (.I0(q3),
         .O(led[3]));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \led[4]_INST_0 
-       (.I0(SUM4),
-        .O(led[4]));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \led[5]_INST_0 
-       (.I0(SUM5),
-        .O(led[5]));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \led[6]_INST_0 
-       (.I0(SUM6),
-        .O(led[6]));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \led[7]_INST_0 
-       (.I0(SUM7),
-        .O(led[7]));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \led[8]_INST_0 
-       (.I0(C4),
-        .O(led[8]));
 endmodule
 `ifndef GLBL
 `define GLBL

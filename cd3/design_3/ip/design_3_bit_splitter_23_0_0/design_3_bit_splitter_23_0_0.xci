@@ -1,0 +1,63 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_3_bit_splitter_23_0_0",
+    "cell_name": "bit_splitter_23_0",
+    "component_reference": "xilinx.com:module_ref:bit_splitter_23:1.0",
+    "ip_revision": "1",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_3_bit_splitter_23_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "tul.com.tw:pynq-z2:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "data_in": [ { "direction": "in", "size_left": "22", "size_right": "0" } ],
+        "bit22": [ { "direction": "out" } ],
+        "merged_21_18": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "bit17": [ { "direction": "out" } ],
+        "bit16": [ { "direction": "out" } ],
+        "bit15": [ { "direction": "out" } ],
+        "bit14": [ { "direction": "out" } ],
+        "bit13": [ { "direction": "out" } ],
+        "bit12": [ { "direction": "out" } ],
+        "bit11": [ { "direction": "out" } ],
+        "bit10": [ { "direction": "out" } ],
+        "bit9": [ { "direction": "out" } ],
+        "bit8": [ { "direction": "out" } ],
+        "bit7": [ { "direction": "out" } ],
+        "bit6": [ { "direction": "out" } ],
+        "bit5": [ { "direction": "out" } ],
+        "bit4": [ { "direction": "out" } ],
+        "bit3": [ { "direction": "out" } ],
+        "bit2": [ { "direction": "out" } ],
+        "bit1": [ { "direction": "out" } ],
+        "bit0": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

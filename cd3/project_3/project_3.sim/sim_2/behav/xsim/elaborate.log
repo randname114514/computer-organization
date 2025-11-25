@@ -1,0 +1,385 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_9 -L xlconcat_v2_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot complete_monitor_test_behav xil_defaultlib.complete_monitor_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/aggregate_4x4_to_16bit.v" Line 1. Module aggregate_4x4_to_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/aggregator_4bit.v" Line 1. Module aggregator_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/aggregator_4bit.v" Line 1. Module aggregator_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74182.v" Line 1. Module carry_lookahead_74182 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 309. Module carry_output_splitter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/not_gate.v" Line 1. Module not_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/the_16bit_to_4x4bit.v" Line 1. Module the_16bit_to_4x4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/the_16bit_to_4x4bit.v" Line 1. Module the_16bit_to_4x4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/rom.v" Line 1. Module rom_1kx23 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/12bit_reg.v" Line 1. Module register_12bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 326. Module the_12bit_to_3x4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 1. Module adpt_in doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 376. Module aggregator_12inputs_to_12bit_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/and_gate.v" Line 1. Module and_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/and_gate.v" Line 1. Module and_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/bit_splitter_23.v" Line 1. Module bit_splitter_23 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 459. Module bus_slicer_16to12 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_2to4.v" Line 1. Module decoder_2to4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_2to4.v" Line 1. Module decoder_2to4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_3to8.v" Line 1. Module decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_3to8.v" Line 1. Module decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_3to8.v" Line 1. Module decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 479. Module multiplier_8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/mix5to1.v" Line 1. Module mux_5to1_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 87. Module not1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/not_gate.v" Line 1. Module not_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/not_gate.v" Line 1. Module not_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/or_gate.v" Line 1. Module or_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/or_gate.v" Line 1. Module or_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/ram.v" Line 1. Module ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 490. Module split_16to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 432. Module splitter_12bit_to_12outputs doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 400. Module splitter_16bit_to_16outputs doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 326. Module the_12bit_to_3x4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/aggregate_4x4_to_16bit.v" Line 1. Module aggregate_4x4_to_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/aggregator_4bit.v" Line 1. Module aggregator_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/aggregator_4bit.v" Line 1. Module aggregator_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74181.v" Line 1. Module alu_74181 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74182.v" Line 1. Module carry_lookahead_74182 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 309. Module carry_output_splitter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/not_gate.v" Line 1. Module not_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/the_16bit_to_4x4bit.v" Line 1. Module the_16bit_to_4x4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/the_16bit_to_4x4bit.v" Line 1. Module the_16bit_to_4x4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/rom.v" Line 1. Module rom_1kx23 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/12bit_reg.v" Line 1. Module register_12bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 326. Module the_12bit_to_3x4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/16bit_reg.v" Line 1. Module register_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 1. Module adpt_in doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 376. Module aggregator_12inputs_to_12bit_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/and_gate.v" Line 1. Module and_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/and_gate.v" Line 1. Module and_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/bit_splitter_23.v" Line 1. Module bit_splitter_23 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 459. Module bus_slicer_16to12 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_2to4.v" Line 1. Module decoder_2to4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_2to4.v" Line 1. Module decoder_2to4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_3to8.v" Line 1. Module decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_3to8.v" Line 1. Module decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/decoder_3to8.v" Line 1. Module decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 76. Module and2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 362. Module or3_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 479. Module multiplier_8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/mix5to1.v" Line 1. Module mux_5to1_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 87. Module not1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/not_gate.v" Line 1. Module not_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/not_gate.v" Line 1. Module not_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/or_gate.v" Line 1. Module or_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/or_gate.v" Line 1. Module or_gate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/ram.v" Line 1. Module ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 490. Module split_16to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 432. Module splitter_12bit_to_12outputs doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 400. Module splitter_16bit_to_16outputs doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/74161.v" Line 1. Module ic_74161 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/cd3/exp3/exp14_source.v" Line 326. Module the_12bit_to_3x4bit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.aggregate_4x4_to_16bit
+Compiling module xil_defaultlib.design_3_aggregate_4x4_to_16b_0_...
+Compiling module xil_defaultlib.aggregator_4bit
+Compiling module xil_defaultlib.design_3_aggregator_4bit_0_1
+Compiling module xil_defaultlib.design_3_aggregator_4bit_1_0
+Compiling module xil_defaultlib.alu_74181
+Compiling module xil_defaultlib.design_3_alu_74181_0_0
+Compiling module xil_defaultlib.design_3_alu_74181_1_0
+Compiling module xil_defaultlib.design_3_alu_74181_2_0
+Compiling module xil_defaultlib.design_3_alu_74181_3_0
+Compiling module xil_defaultlib.carry_lookahead_74182
+Compiling module xil_defaultlib.design_3_carry_lookahead_74182_0...
+Compiling module xil_defaultlib.carry_output_splitter
+Compiling module xil_defaultlib.design_3_carry_output_splitter_0...
+Compiling module xil_defaultlib.not_gate
+Compiling module xil_defaultlib.design_3_not_gate_1_0
+Compiling module xil_defaultlib.the_16bit_to_4x4bit
+Compiling module xil_defaultlib.design_3_the_16bit_to_4x4bit_0_1
+Compiling module xil_defaultlib.design_3_the_16bit_to_4x4bit_2_0
+Compiling module xil_defaultlib.ALU_imp_JZDUAB
+Compiling module xil_defaultlib.rom_1kx23
+Compiling module xil_defaultlib.design_3_rom_1kx23_0_0
+Compiling module xil_defaultlib.register_16bit
+Compiling module xil_defaultlib.design_3_register_16bit_0_1
+Compiling module xil_defaultlib.register_12bit
+Compiling module xil_defaultlib.design_3_register_12bit_0_0
+Compiling module xil_defaultlib.design_3_register_16bit_3_1
+Compiling module xil_defaultlib.design_3_MDR_0
+Compiling module xil_defaultlib.design_3_R0_0
+Compiling module xil_defaultlib.ic_74161
+Compiling module xil_defaultlib.design_3_ic_74161_0_0
+Compiling module xil_defaultlib.design_3_ic_74161_1_0
+Compiling module xil_defaultlib.design_3_ic_74161_2_0
+Compiling module xil_defaultlib.the_12bit_to_3x4bit
+Compiling module xil_defaultlib.design_3_the_12bit_to_3x4bit_0_1
+Compiling module xlconcat_v2_1_6.xlconcat_v2_1_6_xlconcat(IN0_WID...
+Compiling module xil_defaultlib.design_3_xlconcat_0_0
+Compiling module xil_defaultlib.PC_imp_1MALNP6
+Compiling module xil_defaultlib.design_3_register_16bit_0_0
+Compiling module xil_defaultlib.design_3_register_16bit_1_0
+Compiling module xil_defaultlib.design_3_register_16bit_2_0
+Compiling module xil_defaultlib.design_3_register_16bit_3_0
+Compiling module xil_defaultlib.design_3_register_16bit_4_0
+Compiling module xil_defaultlib.adpt_in
+Compiling module xil_defaultlib.design_3_adpt_in_0_0
+Compiling module xil_defaultlib.aggregator_12inputs_to_12bit_syn...
+Compiling module xil_defaultlib.design_3_aggregator_12inputs_0_1
+Compiling module xil_defaultlib.and2
+Compiling module xil_defaultlib.design_3_and2_0_10
+Compiling module xil_defaultlib.design_3_and2_1_11
+Compiling module xil_defaultlib.design_3_and2_2_10
+Compiling module xil_defaultlib.design_3_and2_3_8
+Compiling module xil_defaultlib.design_3_and2_4_0
+Compiling module xil_defaultlib.and_gate
+Compiling module xil_defaultlib.design_3_and_gate_0_1
+Compiling module xil_defaultlib.design_3_and_gate_1_1
+Compiling module xil_defaultlib.bit_splitter_23
+Compiling module xil_defaultlib.design_3_bit_splitter_23_0_0
+Compiling module xil_defaultlib.bus_slicer_16to12
+Compiling module xil_defaultlib.design_3_bus_slicer_16to12_0_0
+Compiling module xil_defaultlib.decoder_2to4
+Compiling module xil_defaultlib.design_3_decoder_2to4_0_0
+Compiling module xil_defaultlib.design_3_decoder_2to4_1_0
+Compiling module xil_defaultlib.decoder_3to8
+Compiling module xil_defaultlib.design_3_decoder_3to8_0_2
+Compiling module xil_defaultlib.design_3_decoder_3to8_1_0
+Compiling module xil_defaultlib.design_3_decoder_3to8_2_0
+Compiling module xil_defaultlib.design_3_and2_0_0
+Compiling module xil_defaultlib.design_3_and2_1_0
+Compiling module xil_defaultlib.design_3_and2_2_0
+Compiling module xil_defaultlib.or3_gate
+Compiling module xil_defaultlib.design_3_or3_gate_0_0
+Compiling module xil_defaultlib.dlxzq0_imp_1UWU5O7
+Compiling module xil_defaultlib.design_3_and2_0_1
+Compiling module xil_defaultlib.design_3_and2_1_1
+Compiling module xil_defaultlib.design_3_and2_2_1
+Compiling module xil_defaultlib.design_3_and2_3_7
+Compiling module xil_defaultlib.design_3_or3_gate_0_1
+Compiling module xil_defaultlib.dlxzq1_imp_1RX16K4
+Compiling module xil_defaultlib.design_3_and2_0_2
+Compiling module xil_defaultlib.design_3_and2_1_2
+Compiling module xil_defaultlib.design_3_and2_2_2
+Compiling module xil_defaultlib.design_3_and2_3_6
+Compiling module xil_defaultlib.design_3_or3_gate_0_2
+Compiling module xil_defaultlib.dlxzq2_imp_1Q3O4OH
+Compiling module xil_defaultlib.design_3_and2_0_3
+Compiling module xil_defaultlib.design_3_and2_1_3
+Compiling module xil_defaultlib.design_3_and2_2_3
+Compiling module xil_defaultlib.design_3_and2_3_5
+Compiling module xil_defaultlib.design_3_or3_gate_0_3
+Compiling module xil_defaultlib.dlxzq3_imp_1JOESQA
+Compiling module xil_defaultlib.design_3_and2_0_4
+Compiling module xil_defaultlib.design_3_and2_1_4
+Compiling module xil_defaultlib.design_3_and2_2_4
+Compiling module xil_defaultlib.design_3_and2_1_10
+Compiling module xil_defaultlib.design_3_or3_gate_0_4
+Compiling module xil_defaultlib.dlxzq4_imp_1BY0A4B
+Compiling module xil_defaultlib.design_3_and2_0_5
+Compiling module xil_defaultlib.design_3_and2_1_5
+Compiling module xil_defaultlib.design_3_and2_2_5
+Compiling module xil_defaultlib.design_3_and2_3_4
+Compiling module xil_defaultlib.design_3_or3_gate_0_5
+Compiling module xil_defaultlib.dlxzq5_imp_1G2S77C
+Compiling module xil_defaultlib.design_3_and2_0_6
+Compiling module xil_defaultlib.design_3_and2_1_6
+Compiling module xil_defaultlib.design_3_and2_2_6
+Compiling module xil_defaultlib.design_3_and2_3_3
+Compiling module xil_defaultlib.design_3_or3_gate_0_6
+Compiling module xil_defaultlib.dlxzq6_imp_104XQRH
+Compiling module xil_defaultlib.design_3_and2_0_7
+Compiling module xil_defaultlib.design_3_and2_1_7
+Compiling module xil_defaultlib.design_3_and2_2_7
+Compiling module xil_defaultlib.design_3_and2_3_2
+Compiling module xil_defaultlib.design_3_or3_gate_0_7
+Compiling module xil_defaultlib.dlxzq7_imp_15F2LTQ
+Compiling module xil_defaultlib.design_3_and2_0_8
+Compiling module xil_defaultlib.design_3_and2_1_8
+Compiling module xil_defaultlib.design_3_and2_2_8
+Compiling module xil_defaultlib.design_3_and2_3_1
+Compiling module xil_defaultlib.design_3_or3_gate_0_8
+Compiling module xil_defaultlib.dlxzq8_imp_KT4I7J
+Compiling module xil_defaultlib.design_3_and2_0_9
+Compiling module xil_defaultlib.design_3_and2_1_9
+Compiling module xil_defaultlib.design_3_and2_2_9
+Compiling module xil_defaultlib.design_3_and2_3_0
+Compiling module xil_defaultlib.design_3_or3_gate_0_9
+Compiling module xil_defaultlib.dlxzq9_imp_PY44MK
+Compiling module xil_defaultlib.multiplier_8x8
+Compiling module xil_defaultlib.design_3_multiplier_8x8_0_0
+Compiling module xil_defaultlib.mux_5to1_16bit
+Compiling module xil_defaultlib.design_3_mux_5to1_16bit_0_0
+Compiling module xil_defaultlib.not1
+Compiling module xil_defaultlib.design_3_not1_0_0
+Compiling module xil_defaultlib.design_3_not_gate_0_1
+Compiling module xil_defaultlib.design_3_not_gate_1_1
+Compiling module xil_defaultlib.or_gate
+Compiling module xil_defaultlib.design_3_or_gate_0_0
+Compiling module xil_defaultlib.design_3_or_gate_1_0
+Compiling module xil_defaultlib.ram
+Compiling module xil_defaultlib.design_3_ram_0_0
+Compiling module xil_defaultlib.split_16to8
+Compiling module xil_defaultlib.design_3_split_16to8_0_0
+Compiling module xil_defaultlib.splitter_12bit_to_12outputs
+Compiling module xil_defaultlib.design_3_splitter_12bit_to_12_0_...
+Compiling module xil_defaultlib.splitter_16bit_to_16outputs
+Compiling module xil_defaultlib.design_3_splitter_16bit_to_16_0_...
+Compiling module xil_defaultlib.design_3_ic_74161_0_1
+Compiling module xil_defaultlib.design_3_ic_74161_1_1
+Compiling module xil_defaultlib.design_3_ic_74161_2_1
+Compiling module xil_defaultlib.design_3_the_12bit_to_3x4bit_0_0
+Compiling module xil_defaultlib.design_3_xlconcat_0_1
+Compiling module xil_defaultlib.uPC_imp_E5D2MO
+Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant
+Compiling module xil_defaultlib.design_3_xlconstant_0_0
+Compiling module xil_defaultlib.design_3_xlconstant_0_1
+Compiling module xil_defaultlib.design_3
+Compiling module xil_defaultlib.design_3_wrapper
+Compiling module xil_defaultlib.complete_monitor_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot complete_monitor_test_behav

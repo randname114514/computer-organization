@@ -1,0 +1,32 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-464,-129",
+   "DisplayPinsOfHiddenNets":"1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_QJP -pg 1 -lvl 0 -x -10 -y 310 -defaultsOSRD
+preplace port port-id_MJP -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port port-id_UPC -pg 1 -lvl 0 -x -10 -y 170 -defaultsOSRD
+preplace port port-id_JP -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace port port-id_y -pg 1 -lvl 3 -x 360 -y 300 -defaultsOSRD
+preplace port port-id_A -pg 1 -lvl 0 -x -10 -y 50 -defaultsOSRD
+preplace inst and2_1 -pg 1 -lvl 1 -x 90 -y 300 -defaultsOSRD
+preplace inst and2_2 -pg 1 -lvl 1 -x 90 -y 60 -defaultsOSRD
+preplace inst or3_gate_0 -pg 1 -lvl 2 -x 260 -y 300 -defaultsOSRD
+preplace inst and2_0 -pg 1 -lvl 1 -x 90 -y 180 -defaultsOSRD
+preplace netloc and2_1_Y 1 1 1 NJ 300
+preplace netloc and2_2_Y 1 1 1 180 60n
+preplace netloc and2_0_Y 1 1 1 170 180n
+preplace netloc decoder_3to8_2_out3 1 0 1 NJ 310
+preplace netloc decoder_3to8_2_out4 1 0 1 NJ 70
+preplace netloc bit_splitter_23_0_bit8 1 0 1 NJ 170
+preplace netloc decoder_3to8_2_out2 1 0 1 NJ 190
+preplace netloc or3_gate_0_y 1 2 1 N 300
+preplace netloc A_1 1 0 1 NJ 50
+levelinfo -pg 1 -10 90 260 360
+pagesize -pg 1 -db -bbox -sgen -90 -10 420 380
+"
+}
+

@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Nov 21 09:58:32 2025
+# Process ID         : 14976
+# Current directory  : D:/cd3/project_3
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent13752 D:\cd3\project_3\project_3.xpr
+# Log file           : D:/cd3/project_3/vivado.log
+# Journal file       : D:/cd3/project_3\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 20284 MB
+# Available Virtual  : 9518 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cd3/project_3/project_3.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd3/design_3/design_3.bd}
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  design_3_rom_1kx23_0_0]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  design_3_rom_1kx23_0_0]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+disconnect_bd_net /xlconstant_0_dout [get_bd_pins dlxzq3/A]
+disconnect_bd_net /xlconstant_0_dout [get_bd_pins dlxzq4/A1]
+create_bd_cell -type module -reference splitter_12bit_to_12outputs splitter_12bit_to_12_0
+set_property location {1 2 -904} [get_bd_cells splitter_12bit_to_12_0]
+connect_bd_net [get_bd_pins splitter_12bit_to_12_0/data_in] [get_bd_pins uPC/dout]
+connect_bd_net [get_bd_pins splitter_12bit_to_12_0/clk_falling] [get_bd_pins and_gate_1/y]
+connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins dlxzq3/A]
+connect_bd_net [get_bd_pins dlxzq9/MJP] [get_bd_pins dlxzq9/and2_2/A]
+undo
+connect_bd_net [get_bd_pins dlxzq9/and2_2/A] [get_bd_pins splitter_12bit_to_12_0/out11]
+connect_bd_net [get_bd_pins dlxzq8/and2_2/A] [get_bd_pins splitter_12bit_to_12_0/out10]
+connect_bd_net [get_bd_pins dlxzq7/and2_2/A] [get_bd_pins splitter_12bit_to_12_0/out9]
+connect_bd_net [get_bd_pins dlxzq6/and2_2/A] [get_bd_pins splitter_12bit_to_12_0/out8]
+connect_bd_net [get_bd_pins dlxzq5/and2_2/A] [get_bd_pins splitter_12bit_to_12_0/out7]
+connect_bd_net [get_bd_pins dlxzq4/A1] [get_bd_pins splitter_12bit_to_12_0/out6]
+delete_bd_objs [get_bd_nets A1_1]
+delete_bd_objs [get_bd_nets splitter_12bit_to_12_0_out7]
+delete_bd_objs [get_bd_nets splitter_12bit_to_12_0_out8]
+delete_bd_objs [get_bd_nets splitter_12bit_to_12_0_out9]
+delete_bd_objs [get_bd_nets splitter_12bit_to_12_0_out10]
+delete_bd_objs [get_bd_nets splitter_12bit_to_12_0_out11]
+connect_bd_net [get_bd_pins splitter_12bit_to_12_0/out9] [get_bd_pins dlxzq9/A1]
+connect_bd_net [get_bd_pins dlxzq8/A1] [get_bd_pins splitter_12bit_to_12_0/out8]
+connect_bd_net [get_bd_pins dlxzq7/A1] [get_bd_pins splitter_12bit_to_12_0/out7]
+connect_bd_net [get_bd_pins dlxzq6/A1] [get_bd_pins splitter_12bit_to_12_0/out6]
+connect_bd_net [get_bd_pins dlxzq5/A1] [get_bd_pins splitter_12bit_to_12_0/out5]
+connect_bd_net [get_bd_pins dlxzq4/A1] [get_bd_pins splitter_12bit_to_12_0/out4]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_or3_gate_0_2 design_3_splitter_16bit_to_16_0_0 design_3_and2_2_3 design_3_and2_0_10 design_3_and2_1_7 design_3_or3_gate_0_1 design_3_and2_2_1 design_3_and2_1_5 design_3_and2_1_9 design_3_bus_slicer_16to12_0_0 design_3_or3_gate_0_0 design_3_and2_0_0 design_3_and2_0_2 design_3_and2_0_9 design_3_the_12bit_to_3x4bit_0_1 design_3_and2_0_4 design_3_and2_0_6 design_3_and2_0_7 design_3_and2_0_8 design_3_aggregator_12inputs_0_1 design_3_carry_output_splitter_0_0 design_3_or3_gate_0_9 design_3_and2_1_1 design_3_and2_1_2 design_3_and2_1_3 design_3_or3_gate_0_3 design_3_and2_1_4 design_3_not1_0_0 design_3_and2_1_0 design_3_or3_gate_0_6 design_3_and2_1_8 design_3_and2_2_2 design_3_and2_1_6 design_3_and2_2_0 design_3_or3_gate_0_7 design_3_or3_gate_0_5 design_3_rom_1kx23_0_0 design_3_and2_0_1 design_3_or3_gate_0_8 design_3_the_12bit_to_3x4bit_0_0 design_3_and2_0_3 design_3_and2_0_5 design_3_adpt_in_0_0 design_3_or3_gate_0_4 design_3_and2_2_8 design_3_and2_2_9 design_3_and2_2_6 design_3_and2_2_7 design_3_and2_2_5 design_3_and2_2_4 design_3_splitter_12bit_to_12_0_0}]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_or3_gate_0_2 design_3_splitter_16bit_to_16_0_0 design_3_and2_2_3 design_3_and2_0_10 design_3_and2_1_7 design_3_or3_gate_0_1 design_3_and2_2_1 design_3_and2_1_5 design_3_and2_1_9 design_3_bus_slicer_16to12_0_0 design_3_or3_gate_0_0 design_3_and2_0_0 design_3_and2_0_2 design_3_and2_0_9 design_3_the_12bit_to_3x4bit_0_1 design_3_and2_0_4 design_3_and2_0_6 design_3_and2_0_7 design_3_and2_0_8 design_3_aggregator_12inputs_0_1 design_3_carry_output_splitter_0_0 design_3_or3_gate_0_9 design_3_and2_1_1 design_3_and2_1_2 design_3_and2_1_3 design_3_or3_gate_0_3 design_3_and2_1_4 design_3_not1_0_0 design_3_and2_1_0 design_3_or3_gate_0_6 design_3_and2_1_8 design_3_and2_2_2 design_3_and2_1_6 design_3_and2_2_0 design_3_or3_gate_0_7 design_3_or3_gate_0_5 design_3_and2_0_1 design_3_or3_gate_0_8 design_3_the_12bit_to_3x4bit_0_0 design_3_and2_0_3 design_3_and2_0_5 design_3_adpt_in_0_0 design_3_or3_gate_0_4 design_3_splitter_12bit_to_12_0_0 design_3_and2_2_8 design_3_and2_2_9 design_3_and2_2_6 design_3_and2_2_7 design_3_and2_2_5 design_3_and2_2_4}]
+create_bd_cell -type module -reference and2 dlxzq9/and2_3
+connect_bd_net [get_bd_pins dlxzq9/and2_3/Y] [get_bd_pins dlxzq9/or3_gate_0/d]
+connect_bd_net [get_bd_pins decoder_3to8_2/out5] [get_bd_pins dlxzq9/and2_3/B]
+set_property name YJP [get_bd_pins dlxzq9/B]
+connect_bd_net [get_bd_pins dlxzq9/A1] [get_bd_pins dlxzq9/and2_3/A]
+copy_bd_objs /  [get_bd_cells {dlxzq9/and2_3}]
+move_bd_cells [get_bd_cells dlxzq8] [get_bd_cells and2_3]
+connect_bd_net [get_bd_pins dlxzq8/or3_gate_0/d] [get_bd_pins dlxzq8/and2_3/Y]
+connect_bd_net [get_bd_pins dlxzq8/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq8/B]
+connect_bd_net [get_bd_pins dlxzq8/A1] [get_bd_pins dlxzq8/and2_3/A]
+copy_bd_objs /  [get_bd_cells {dlxzq9/and2_3}]
+move_bd_cells [get_bd_cells dlxzq7] [get_bd_cells and2_3]
+connect_bd_net [get_bd_pins dlxzq7/and2_3/Y] [get_bd_pins dlxzq7/or3_gate_0/d]
+connect_bd_net [get_bd_pins dlxzq7/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq7/B]
+connect_bd_net [get_bd_pins dlxzq7/A1] [get_bd_pins dlxzq7/and2_3/A]
+copy_bd_objs /  [get_bd_cells {dlxzq9/and2_3}]
+move_bd_cells [get_bd_cells dlxzq6] [get_bd_cells and2_3]
+connect_bd_net [get_bd_pins dlxzq6/and2_3/Y] [get_bd_pins dlxzq6/or3_gate_0/d]
+connect_bd_net [get_bd_pins dlxzq6/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq6/B]
+connect_bd_net [get_bd_pins dlxzq6/A1] [get_bd_pins dlxzq6/and2_3/A]
+copy_bd_objs /  [get_bd_cells {dlxzq9/and2_3}]
+move_bd_cells [get_bd_cells dlxzq5] [get_bd_cells and2_3]
+connect_bd_net [get_bd_pins dlxzq5/or3_gate_0/d] [get_bd_pins dlxzq5/and2_3/Y]
+connect_bd_net [get_bd_pins dlxzq5/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq5/B]
+startgroup
+connect_bd_net [get_bd_pins dlxzq5/A1] [get_bd_pins dlxzq5/and2_3/A]
+endgroup
+disconnect_bd_net /dlxzq8/A1_1 [get_bd_pins dlxzq8/and2_3/A]
+connect_bd_net [get_bd_pins dlxzq8/and2_3/A] [get_bd_pins xlconstant_1/dout]
+create_bd_cell -type module -reference and2 and2_1
+move_bd_cells [get_bd_cells dlxzq4] [get_bd_cells and2_1]
+connect_bd_net [get_bd_pins dlxzq4/or3_gate_0/d] [get_bd_pins dlxzq4/and2_3/Y]
+connect_bd_net [get_bd_pins dlxzq4/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq4/B]
+connect_bd_net [get_bd_pins dlxzq4/A1] [get_bd_pins dlxzq4/and2_3/A]
+create_bd_cell -type module -reference and2 dlxzq3/and2_3
+connect_bd_net [get_bd_pins dlxzq3/or3_gate_0/d] [get_bd_pins dlxzq3/and2_3/Y]
+connect_bd_net [get_bd_pins dlxzq3/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq3/B]
+startgroup
+connect_bd_net [get_bd_pins splitter_16bit_to_16_0/out1] [get_bd_pins dlxzq3/and2_3/A]
+endgroup
+delete_bd_objs [get_bd_nets splitter_16bit_to_16_0_out1]
+connect_bd_net [get_bd_pins dlxzq3/A1] [get_bd_pins xlconstant_1/dout]
+create_bd_cell -type module -reference and2 dlxzq2/and2_3
+connect_bd_net [get_bd_pins dlxzq2/or3_gate_0/d] [get_bd_pins dlxzq2/and2_3/Y]
+connect_bd_net [get_bd_pins dlxzq2/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq2/B]
+startgroup
+connect_bd_net [get_bd_pins dlxzq2/and2_3/A] [get_bd_pins splitter_16bit_to_16_0/out1]
+endgroup
+create_bd_cell -type module -reference and2 dlxzq1/and2_3
+connect_bd_net [get_bd_pins dlxzq1/and2_3/Y] [get_bd_pins dlxzq1/or3_gate_0/d]
+connect_bd_net [get_bd_pins dlxzq1/and2_3/B] [get_bd_pins decoder_3to8_2/out5]
+set_property name YJP [get_bd_pins dlxzq1/B]
+startgroup
+connect_bd_net [get_bd_pins dlxzq1/and2_3/A] [get_bd_pins splitter_16bit_to_16_0/out0]
+endgroup
+save_bd_design

@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Nov 21 21:05:15 2025
+# Process ID         : 29660
+# Current directory  : D:/cd3/project_3
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent20548 D:\cd3\project_3\project_3.xpr
+# Log file           : D:/cd3/project_3/vivado.log
+# Journal file       : D:/cd3/project_3\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 20284 MB
+# Available Virtual  : 7998 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cd3/project_3/project_3.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd3/design_3/design_3.bd}
+create_bd_cell -type module -reference and2 and2_1
+connect_bd_net [get_bd_pins or_gate_1/y] [get_bd_pins and2_1/B]
+connect_bd_net [get_bd_pins and2_1/A] [get_bd_pins decoder_3to8_2/out1]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  design_3_rom_1kx23_0_0]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+disconnect_bd_net /clk_1 [get_bd_pins and2_1/B]
+connect_bd_net [get_bd_pins or_gate_1/y] [get_bd_pins and2_1/B]
+disconnect_bd_net /clk_1 [get_bd_pins PC/clk]
+connect_bd_net [get_bd_pins PC/clk] [get_bd_pins and2_1/Y]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+disconnect_bd_net /xlconstant_0_dout [get_bd_pins decoder_3to8_0/enable]
+connect_bd_net [get_bd_pins decoder_3to8_0/enable] [get_bd_pins decoder_3to8_2/out1]
+disconnect_bd_net /xlconstant_0_dout [get_bd_pins decoder_3to8_1/enable]
+connect_bd_net [get_bd_pins decoder_3to8_1/enable] [get_bd_pins decoder_3to8_2/out1]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 

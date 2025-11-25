@@ -1,0 +1,305 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/exp14_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adpt_in
+INFO: [VRFC 10-311] analyzing module adpt_out
+INFO: [VRFC 10-311] analyzing module adpt_out8
+INFO: [VRFC 10-311] analyzing module adpt_out12
+INFO: [VRFC 10-311] analyzing module adpt_out16
+INFO: [VRFC 10-311] analyzing module adpt_out23
+INFO: [VRFC 10-311] analyzing module and2
+INFO: [VRFC 10-311] analyzing module not1
+INFO: [VRFC 10-311] analyzing module addr_adpt
+INFO: [VRFC 10-311] analyzing module UIR
+INFO: [VRFC 10-311] analyzing module m74LS161
+INFO: [VRFC 10-311] analyzing module rom1_256x24
+INFO: [VRFC 10-311] analyzing module rom2_4Kx16
+INFO: [VRFC 10-311] analyzing module adder4
+INFO: [VRFC 10-311] analyzing module dff4
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Q3' is not allowed [D:/cd3/exp3/exp14_source.v:265]
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module carry_output_splitter
+INFO: [VRFC 10-311] analyzing module the_12bit_to_3x4bit
+INFO: [VRFC 10-311] analyzing module four_bit_checker
+INFO: [VRFC 10-311] analyzing module or3_gate
+INFO: [VRFC 10-311] analyzing module aggregator_12inputs_to_12bit_sync
+INFO: [VRFC 10-311] analyzing module splitter_16bit_to_16outputs
+INFO: [VRFC 10-311] analyzing module splitter_12bit_to_12outputs
+INFO: [VRFC 10-311] analyzing module bus_slicer_16to12
+INFO: [VRFC 10-311] analyzing module register_temp
+INFO: [VRFC 10-311] analyzing module multiplier_8x8
+INFO: [VRFC 10-311] analyzing module split_16to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/74161.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ic_74161
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/16bit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/12bit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_12bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/mix5to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_5to1_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/aggregator_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aggregator_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/74182.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry_lookahead_74182
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/74181.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_74181
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/aggregate_4x4_to_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aggregate_4x4_to_16bit
+INFO: [VRFC 10-311] analyzing module adpt_out_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/the_16bit_to_4x4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module the_16bit_to_4x4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/not_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module not_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_1kx23
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/bit_splitter_23.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit_splitter_23
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/decoder_3to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_3to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/decoder_2to4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_2to4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/or_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/and_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_adpt_in_0_0/sim/design_3_adpt_in_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_adpt_in_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_xlconstant_0_0/sim/design_3_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_xlconstant_0_1/sim/design_3_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ic_74161_0_0/sim/design_3_ic_74161_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_ic_74161_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ic_74161_1_0/sim/design_3_ic_74161_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_ic_74161_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ic_74161_2_0/sim/design_3_ic_74161_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_ic_74161_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_xlconcat_0_0/sim/design_3_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_the_12bit_to_3x4bit_0_1/sim/design_3_the_12bit_to_3x4bit_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_the_12bit_to_3x4bit_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ram_0_0/sim/design_3_ram_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_ram_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_16bit_0_0/sim/design_3_register_16bit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_16bit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_16bit_1_0/sim/design_3_register_16bit_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_16bit_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_16bit_2_0/sim/design_3_register_16bit_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_16bit_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_16bit_3_0/sim/design_3_register_16bit_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_16bit_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_16bit_4_0/sim/design_3_register_16bit_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_16bit_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_12bit_0_0/sim/design_3_register_12bit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_12bit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_16bit_3_1/sim/design_3_register_16bit_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_16bit_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_MDR_0/sim/design_3_MDR_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_MDR_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_register_16bit_0_1/sim/design_3_register_16bit_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_register_16bit_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_mux_5to1_16bit_0_0/sim/design_3_mux_5to1_16bit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_mux_5to1_16bit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_aggregator_4bit_0_1/sim/design_3_aggregator_4bit_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_aggregator_4bit_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_carry_lookahead_74182_0_0/sim/design_3_carry_lookahead_74182_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_carry_lookahead_74182_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_aggregator_4bit_1_0/sim/design_3_aggregator_4bit_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_aggregator_4bit_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_alu_74181_0_0/sim/design_3_alu_74181_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_alu_74181_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_alu_74181_1_0/sim/design_3_alu_74181_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_alu_74181_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_alu_74181_2_0/sim/design_3_alu_74181_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_alu_74181_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_aggregate_4x4_to_16b_0_0/sim/design_3_aggregate_4x4_to_16b_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_aggregate_4x4_to_16b_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_the_16bit_to_4x4bit_2_0/sim/design_3_the_16bit_to_4x4bit_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_the_16bit_to_4x4bit_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_the_16bit_to_4x4bit_0_1/sim/design_3_the_16bit_to_4x4bit_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_the_16bit_to_4x4bit_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_alu_74181_3_0/sim/design_3_alu_74181_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_alu_74181_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_carry_output_splitter_0_0/sim/design_3_carry_output_splitter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_carry_output_splitter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_not_gate_1_0/sim/design_3_not_gate_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_not_gate_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ic_74161_0_1/sim/design_3_ic_74161_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_ic_74161_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ic_74161_1_1/sim/design_3_ic_74161_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_ic_74161_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ic_74161_2_1/sim/design_3_ic_74161_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_ic_74161_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_xlconcat_0_1/sim/design_3_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_the_12bit_to_3x4bit_0_0/sim/design_3_the_12bit_to_3x4bit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_the_12bit_to_3x4bit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_rom_1kx23_0_0/sim/design_3_rom_1kx23_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_rom_1kx23_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_bit_splitter_23_0_0/sim/design_3_bit_splitter_23_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_bit_splitter_23_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_decoder_3to8_0_2/sim/design_3_decoder_3to8_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_decoder_3to8_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_decoder_2to4_0_0/sim/design_3_decoder_2to4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_decoder_2to4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_decoder_3to8_1_0/sim/design_3_decoder_3to8_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_decoder_3to8_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_decoder_2to4_1_0/sim/design_3_decoder_2to4_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_decoder_2to4_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_not1_0_0/sim/design_3_not1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_not1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_decoder_3to8_2_0/sim/design_3_decoder_3to8_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_decoder_3to8_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_0/sim/design_3_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_0/sim/design_3_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_0/sim/design_3_or3_gate_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_0/sim/design_3_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_1/sim/design_3_and2_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_1/sim/design_3_and2_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_1/sim/design_3_or3_gate_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_1/sim/design_3_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_7/sim/design_3_and2_3_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_2/sim/design_3_and2_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_2/sim/design_3_and2_2_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_2/sim/design_3_or3_gate_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_2/sim/design_3_and2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_6/sim/design_3_and2_3_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_3/sim/design_3_and2_1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_3/sim/design_3_and2_2_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_3/sim/design_3_or3_gate_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_3/sim/design_3_and2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_5/sim/design_3_and2_3_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_4/sim/design_3_and2_1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_4/sim/design_3_and2_2_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_4/sim/design_3_or3_gate_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_4/sim/design_3_and2_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_10/sim/design_3_and2_1_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_5/sim/design_3_and2_1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_5/sim/design_3_and2_2_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_5/sim/design_3_or3_gate_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_5/sim/design_3_and2_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_4/sim/design_3_and2_3_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_6/sim/design_3_and2_1_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_6/sim/design_3_and2_2_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_6/sim/design_3_or3_gate_0_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_6/sim/design_3_and2_0_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_3/sim/design_3_and2_3_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_7/sim/design_3_and2_1_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_7/sim/design_3_and2_2_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_7/sim/design_3_or3_gate_0_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_7/sim/design_3_and2_0_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_2/sim/design_3_and2_3_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_8/sim/design_3_and2_1_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_8/sim/design_3_and2_2_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_8/sim/design_3_or3_gate_0_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_8/sim/design_3_and2_0_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_1/sim/design_3_and2_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_9/sim/design_3_and2_1_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_9/sim/design_3_and2_2_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or3_gate_0_9/sim/design_3_or3_gate_0_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or3_gate_0_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_9/sim/design_3_and2_0_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_0/sim/design_3_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_aggregator_12inputs_0_1/sim/design_3_aggregator_12inputs_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_aggregator_12inputs_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_splitter_16bit_to_16_0_0/sim/design_3_splitter_16bit_to_16_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_splitter_16bit_to_16_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_not_gate_0_1/sim/design_3_not_gate_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_not_gate_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_bus_slicer_16to12_0_0/sim/design_3_bus_slicer_16to12_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_bus_slicer_16to12_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or_gate_0_0/sim/design_3_or_gate_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or_gate_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and_gate_0_1/sim/design_3_and_gate_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and_gate_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and_gate_1_1/sim/design_3_and_gate_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and_gate_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_not_gate_1_1/sim/design_3_not_gate_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_not_gate_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_or_gate_1_0/sim/design_3_or_gate_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_or_gate_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_0_10/sim/design_3_and2_0_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_splitter_12bit_to_12_0_0/sim/design_3_splitter_12bit_to_12_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_splitter_12bit_to_12_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_1_11/sim/design_3_and2_1_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_1_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_2_10/sim/design_3_and2_2_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_2_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_multiplier_8x8_0_0/sim/design_3_multiplier_8x8_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_multiplier_8x8_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_split_16to8_0_0/sim/design_3_split_16to8_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_split_16to8_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_R0_0/sim/design_3_R0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_R0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_3_8/sim/design_3_and2_3_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_3_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_and2_4_0/sim/design_3_and2_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_and2_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/project_3/project_3.ip_user_files/bd/design_3/sim/design_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_imp_JZDUAB
+INFO: [VRFC 10-311] analyzing module PC_imp_1MALNP6
+INFO: [VRFC 10-311] analyzing module design_3
+INFO: [VRFC 10-311] analyzing module dlxzq0_imp_1UWU5O7
+INFO: [VRFC 10-311] analyzing module dlxzq1_imp_1RX16K4
+INFO: [VRFC 10-311] analyzing module dlxzq2_imp_1Q3O4OH
+INFO: [VRFC 10-311] analyzing module dlxzq3_imp_1JOESQA
+INFO: [VRFC 10-311] analyzing module dlxzq4_imp_1BY0A4B
+INFO: [VRFC 10-311] analyzing module dlxzq5_imp_1G2S77C
+INFO: [VRFC 10-311] analyzing module dlxzq6_imp_104XQRH
+INFO: [VRFC 10-311] analyzing module dlxzq7_imp_15F2LTQ
+INFO: [VRFC 10-311] analyzing module dlxzq8_imp_KT4I7J
+INFO: [VRFC 10-311] analyzing module dlxzq9_imp_PY44MK
+INFO: [VRFC 10-311] analyzing module uPC_imp_E5D2MO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/design_3/hdl/design_3_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_3_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/cd3/exp3/simple_core_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complete_monitor_test

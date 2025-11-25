@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Nov 24 09:18:34 2025
+# Process ID         : 22072
+# Current directory  : D:/cd3/project_3
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent26640 D:\cd3\project_3\project_3.xpr
+# Log file           : D:/cd3/project_3/vivado.log
+# Journal file       : D:/cd3/project_3\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 4831 MB
+# Total Virtual      : 21626 MB
+# Available Virtual  : 12137 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cd3/project_3/project_3.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd3/design_3/design_3.bd}
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_rom_1kx23_0_0 design_3_ram_0_0}]
+report_ip_status -name ip_status 
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+run 10 us
+close_sim

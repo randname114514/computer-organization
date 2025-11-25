@@ -1,0 +1,27 @@
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+// Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+// --------------------------------------------------------------------------------
+// Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+// Date        : Wed Nov 12 09:36:34 2025
+// Host        : jyx running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               d:/cd3/design_3/ip/design_3_carry_lookahead_74182_0_0/design_3_carry_lookahead_74182_0_0_stub.v
+// Design      : design_3_carry_lookahead_74182_0_0
+// Purpose     : Stub declaration of top-level module interface
+// Device      : xc7z020clg400-1
+// --------------------------------------------------------------------------------
+
+// This empty module with port declaration file causes synthesis tools to infer a black box for IP.
+// The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
+// Please paste the declaration into a Verilog source file or add the file as an additional source.
+(* CHECK_LICENSE_TYPE = "design_3_carry_lookahead_74182_0_0,carry_lookahead_74182,{}" *) (* CORE_GENERATION_INFO = "design_3_carry_lookahead_74182_0_0,carry_lookahead_74182,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=carry_lookahead_74182,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) 
+(* IP_DEFINITION_SOURCE = "module_ref" *) (* X_CORE_INFO = "carry_lookahead_74182,Vivado 2024.2" *) 
+module design_3_carry_lookahead_74182_0_0(p, g, cin, cout, p_group, g_group)
+/* synthesis syn_black_box black_box_pad_pin="p[3:0],g[3:0],cin,cout[3:1],p_group,g_group" */;
+  input [3:0]p;
+  input [3:0]g;
+  input cin;
+  output [3:1]cout;
+  output p_group;
+  output g_group;
+endmodule

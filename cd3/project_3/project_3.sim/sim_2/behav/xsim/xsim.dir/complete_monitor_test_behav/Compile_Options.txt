@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xlconstant_v1_1_9" -L "xlconcat_v2_1_6" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "complete_monitor_test_behav" "xil_defaultlib.complete_monitor_test" "xil_defaultlib.glbl" -log "elaborate.log" 

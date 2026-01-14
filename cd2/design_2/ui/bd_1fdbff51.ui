@@ -1,0 +1,118 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.698053",
+   "Default View_TopLeft":"-251,-447",
+   "DisplayPinsOfHiddenNets":"1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 10 -x 2810 -y 10 -defaultsOSRD
+preplace port DDR_0 -pg 1 -lvl 10 -x 2810 -y 30 -defaultsOSRD
+preplace inst cg_fpga_0 -pg 1 -lvl 1 -x -100 -y 90 -defaultsOSRD
+preplace inst adpt_in_0 -pg 1 -lvl 2 -x 340 -y 250 -defaultsOSRD
+preplace inst adpt_out_16bit_0 -pg 1 -lvl 9 -x 2670 -y -50 -defaultsOSRD
+preplace inst adpt_in_1 -pg 1 -lvl 2 -x 340 -y -40 -defaultsOSRD
+preplace inst carry_output_splitter_0 -pg 1 -lvl 7 -x 1914 -y 120 -defaultsOSRD
+preplace inst carry_output_splitter_1 -pg 1 -lvl 7 -x 1914 -y -40 -defaultsOSRD
+preplace inst carry_output_splitter_2 -pg 1 -lvl 7 -x 1914 -y -200 -defaultsOSRD
+preplace inst carry_output_splitter_3 -pg 1 -lvl 7 -x 1914 -y -360 -defaultsOSRD
+preplace inst zlcfq_sixteen -pg 1 -lvl 6 -x 1534 -y 240 -defaultsOSRD
+preplace inst SUM -pg 1 -lvl 5 -x 1150 -y -290 -defaultsOSRD
+preplace inst xor_gate_8bit_0 -pg 1 -lvl 3 -x 640 -y -130 -defaultsOSRD
+preplace inst xor_gate_8bit_1 -pg 1 -lvl 3 -x 640 -y 370 -defaultsOSRD
+preplace inst carry_output_splitter_4 -pg 1 -lvl 5 -x 1150 -y 20 -defaultsOSRD
+preplace inst carry_output_splitter_5 -pg 1 -lvl 5 -x 1150 -y 180 -defaultsOSRD
+preplace inst SUM1 -pg 1 -lvl 4 -x 890 -y 320 -defaultsOSRD
+preplace inst carry_output_splitter_6 -pg 1 -lvl 5 -x 1150 -y 340 -defaultsOSRD
+preplace inst carry_output_splitter_7 -pg 1 -lvl 5 -x 1150 -y 500 -defaultsOSRD
+preplace inst complement_16bit_con_0 -pg 1 -lvl 8 -x 2310 -y -80 -defaultsOSRD
+preplace inst xor_gate_0 -pg 1 -lvl 7 -x 1914 -y 380 -defaultsOSRD
+preplace netloc SUM1_f1 1 4 1 980 330n
+preplace netloc SUM1_f2 1 4 1 1000 310n
+preplace netloc SUM_f1 1 4 2 1020 -210 1270
+preplace netloc SUM_f2 1 4 2 1030 -200 1310
+preplace netloc adpt_in_0_a0 1 2 1 520 220n
+preplace netloc adpt_in_0_a1 1 2 1 530 240n
+preplace netloc adpt_in_0_a2 1 2 1 540 260n
+preplace netloc adpt_in_0_a3 1 2 1 440 270n
+preplace netloc adpt_in_0_a4 1 2 1 450 250n
+preplace netloc adpt_in_0_a5 1 2 1 460 230n
+preplace netloc adpt_in_0_a6 1 2 1 470 210n
+preplace netloc adpt_in_0_a7 1 2 1 480 190n
+preplace netloc adpt_in_0_a8 1 2 5 510 160 780 -80 N -80 N -80 1620
+preplace netloc adpt_in_1_a0 1 2 1 440 -280n
+preplace netloc adpt_in_1_a1 1 2 1 450 -260n
+preplace netloc adpt_in_1_a2 1 2 1 460 -240n
+preplace netloc adpt_in_1_a3 1 2 1 470 -220n
+preplace netloc adpt_in_1_a4 1 2 1 480 -200n
+preplace netloc adpt_in_1_a5 1 2 1 500 -180n
+preplace netloc adpt_in_1_a6 1 2 1 510 -160n
+preplace netloc adpt_in_1_a7 1 2 1 520 -140n
+preplace netloc adpt_in_1_a8 1 2 5 540 80 740 -110 1010 -110 N -110 1680
+preplace netloc adpt_out_16bit_0_led 1 0 10 -240 -180 NJ -180 490J 90 770 -70 N -70 1340 30 1640J 220 N 220 N 220 2770
+preplace netloc alu_74181_0_f 1 6 1 1630 -200n
+preplace netloc alu_74181_1_f 1 6 1 1660 -40n
+preplace netloc alu_74181_2_f 1 6 1 1650 -360n
+preplace netloc carry_output_splitter_0_cout0 1 7 1 2130 -240n
+preplace netloc carry_output_splitter_0_cout1 1 7 1 2140 -220n
+preplace netloc carry_output_splitter_0_cout2 1 7 1 2150 -200n
+preplace netloc carry_output_splitter_0_cout3 1 7 1 2160 -180n
+preplace netloc carry_output_splitter_1_cout0 1 7 1 2170 -160n
+preplace netloc carry_output_splitter_1_cout1 1 7 1 2180 -140n
+preplace netloc carry_output_splitter_1_cout2 1 7 1 2190 -120n
+preplace netloc carry_output_splitter_1_cout3 1 7 1 2200 -100n
+preplace netloc carry_output_splitter_2_cout0 1 7 1 2040 -170n
+preplace netloc carry_output_splitter_2_cout1 1 7 1 2050 -190n
+preplace netloc carry_output_splitter_2_cout2 1 7 1 2060 -210n
+preplace netloc carry_output_splitter_2_cout3 1 7 1 2070 -230n
+preplace netloc carry_output_splitter_3_cout0 1 7 1 2080 -330n
+preplace netloc carry_output_splitter_3_cout1 1 7 1 2090 -350n
+preplace netloc carry_output_splitter_3_cout2 1 7 1 2100 -370n
+preplace netloc carry_output_splitter_3_cout3 1 7 1 2110 -390n
+preplace netloc carry_output_splitter_4_cout0 1 5 1 1300 50n
+preplace netloc carry_output_splitter_4_cout1 1 5 1 1310 30n
+preplace netloc carry_output_splitter_4_cout2 1 5 1 1320 10n
+preplace netloc carry_output_splitter_4_cout3 1 5 1 1330 -10n
+preplace netloc carry_output_splitter_5_cout0 1 5 1 1270 90n
+preplace netloc carry_output_splitter_5_cout1 1 5 1 1280 110n
+preplace netloc carry_output_splitter_5_cout2 1 5 1 1290 130n
+preplace netloc carry_output_splitter_5_cout3 1 5 1 N 150
+preplace netloc carry_output_splitter_6_cout0 1 5 1 1380 330n
+preplace netloc carry_output_splitter_6_cout1 1 5 1 N 350
+preplace netloc carry_output_splitter_6_cout2 1 5 1 1270 330n
+preplace netloc carry_output_splitter_6_cout3 1 5 1 1280 310n
+preplace netloc carry_output_splitter_7_cout0 1 5 1 1340 170n
+preplace netloc carry_output_splitter_7_cout1 1 5 1 1350 190n
+preplace netloc carry_output_splitter_7_cout2 1 5 1 1360 210n
+preplace netloc carry_output_splitter_7_cout3 1 5 1 1370 230n
+preplace netloc cg_fpga_0_gpio_sw_1 1 1 1 40 130n
+preplace netloc cg_fpga_0_gpio_sw_2 1 1 1 50 -40n
+preplace netloc complement_16bit_con_0_y0 1 8 1 2500 -230n
+preplace netloc complement_16bit_con_0_y1 1 8 1 2490 -210n
+preplace netloc complement_16bit_con_0_y2 1 8 1 2480 -190n
+preplace netloc complement_16bit_con_0_y3 1 8 1 2470 -170n
+preplace netloc complement_16bit_con_0_y4 1 8 1 2460 -150n
+preplace netloc complement_16bit_con_0_y5 1 8 1 2450 -130n
+preplace netloc complement_16bit_con_0_y6 1 8 1 2440 -110n
+preplace netloc complement_16bit_con_0_y7 1 8 1 2430 -90n
+preplace netloc complement_16bit_con_0_y8 1 8 1 2420 -70n
+preplace netloc complement_16bit_con_0_y9 1 8 1 2570 -70n
+preplace netloc complement_16bit_con_0_y10 1 8 1 2560 -90n
+preplace netloc complement_16bit_con_0_y11 1 8 1 2550 -110n
+preplace netloc complement_16bit_con_0_y12 1 8 1 2540 -130n
+preplace netloc complement_16bit_con_0_y13 1 8 1 2530 -150n
+preplace netloc complement_16bit_con_0_y14 1 8 1 2520 -170n
+preplace netloc complement_16bit_con_0_y15 1 8 1 2510 -190n
+preplace netloc half_mul_f0 1 6 1 1700J 120n
+preplace netloc xor_gate_0_y 1 7 2 2120 -300 2570
+preplace netloc xor_gate_8bit_0_y_high 1 3 2 740 -320 N
+preplace netloc xor_gate_8bit_0_y_low 1 3 2 750 -280 N
+preplace netloc xor_gate_8bit_1_y_high 1 3 1 790 290n
+preplace netloc xor_gate_8bit_1_y_low 1 3 1 800 330n
+preplace netloc cg_fpga_0_FIXED_IO 1 1 9 70J 110 NJ 110 760J -90 NJ -90 NJ -90 1670J 230 NJ 230 NJ 230 2780J
+preplace netloc cg_fpga_0_DDR 1 1 9 60J 100 NJ 100 750J -100 NJ -100 NJ -100 1690J 210 NJ 210 NJ 210 2790J
+levelinfo -pg 1 -330 -100 340 640 890 1150 1534 1914 2310 2670 2810
+pagesize -pg 1 -db -bbox -sgen -410 -830 6380 1700
+"
+}
+0

@@ -1,0 +1,1021 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Oct  9 09:28:59 2025
+# Process ID         : 8036
+# Current directory  : E:/cd2/course_design_2
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2172 E:\cd2\course_design_2\course_design_2.xpr
+# Log file           : E:/cd2/course_design_2/vivado.log
+# Journal file       : E:/cd2/course_design_2\vivado.jou
+# Running On         : vj5PC14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19042
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12600
+# CPU Frequency      : 3302 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16853 MB
+# Swap memory        : 1342 MB
+# Total Virtual      : 18195 MB
+# Available Virtual  : 3980 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/cd2/course_design_2/course_design_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_sim_netlist.vhdl'. Please regenerate to continue.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:48 . Memory (MB): peak = 2112.332 ; gain = 996.676
+close_project
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+open_project E:/course_design_1/course_design_1.xpr
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'E:/course_design_1/course_design_1.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/jzy/ip_repo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:27 . Memory (MB): peak = 2162.383 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_project E:/cd2/course_design_2/course_design_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_20' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_20/design_2_and_gate_0_20_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_and_gate_0_24' generated file not found 'e:/cd2/design_2/ip/design_2_and_gate_0_24/design_2_and_gate_0_24_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_full_add_0_43' generated file not found 'e:/cd2/design_2/ip/design_2_full_add_0_43/design_2_full_add_0_43_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_aggregator_4bit_2_1' generated file not found 'e:/cd2/design_2/ip/design_2_aggregator_4bit_2_1/design_2_aggregator_4bit_2_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_2_carry_output_splitter_1_1' generated file not found 'e:/cd2/design_2/ip/design_2_carry_output_splitter_1_1/design_2_carry_output_splitter_1_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_full_add_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_full_add_0_5/zlcfq_inst_1_full_add_0_5_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_5' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_5/zlcfq_inst_1_and_gate_0_5_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zlcfq_inst_1_and_gate_0_13' generated file not found 'e:/cd2/design_2/bd/zlcfq_inst_1/ip/zlcfq_inst_1_and_gate_0_13/zlcfq_inst_1_and_gate_0_13_sim_netlist.vhdl'. Please regenerate to continue.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2529.398 ; gain = 367.016
+current_project course_design_1
+close_project
+update_compile_order -fileset sources_1
+open_bd_design {E:/cd2/design_2/design_2.bd}
+Reading block design file <E:/cd2/design_2/design_2.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out_16bit:1.0 - adpt_out_16bit_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_1
+Adding Block Design Container - zlcfq1
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_2
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding Block Design Container - zlcfq1
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_2
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_1
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_2
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_2
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Successfully read diagram <design_2> from block design file <E:/cd2/design_2/design_2.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2874.516 ; gain = 238.766
+open_bd_design E:/cd2/design_2/design_2.bd
+upgrade_bd_cells [get_bd_cells half_mul1/zlcfq1]
+INFO: [BD 41-1162] The cell '/half_mul1/zlcfq1' is already at its latest version.
+save_bd_design 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_0\zlcfq_inst_0.bd> 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_1\zlcfq_inst_1.bd> 
+Wrote  : <E:\cd2\design_2\design_2.bd> 
+Wrote  : <E:/cd2/design_2/ui/bd_1fdbff51.ui> 
+make_wrapper -files [get_files E:/cd2/course_design_2/course_design_2.srcs/sources_1/bd/zlcfq/zlcfq.bd] -top
+INFO: [BD 41-1662] The design 'zlcfq.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/addcell0/full_add_0/a
+/addcell0/full_add_0/cin
+/addcell1/full_add_0/a
+/addcell12/full_add_0/cin
+/addcell2/full_add_0/a
+/addcell3/full_add_0/a
+/addcell4/full_add_0/cin
+/addcell8/full_add_0/cin
+
+Verilog Output written to : e:/cd2/course_design_2/course_design_2.gen/sources_1/bd/zlcfq/synth/zlcfq.v
+Verilog Output written to : e:/cd2/course_design_2/course_design_2.gen/sources_1/bd/zlcfq/sim/zlcfq.v
+Verilog Output written to : e:/cd2/course_design_2/course_design_2.gen/sources_1/bd/zlcfq/hdl/zlcfq_wrapper.v
+add_files -norecurse e:/cd2/course_design_2/course_design_2.gen/sources_1/bd/zlcfq/hdl/zlcfq_wrapper.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run design_2_carry_output_splitter_1_1_synth_1
+reset_run zlcfq_inst_1_and_gate_0_13_synth_1
+reset_run zlcfq_inst_1_and_gate_0_5_synth_1
+reset_run zlcfq_inst_1_full_add_0_5_synth_1
+reset_run design_2_and_gate_0_20_synth_1
+reset_run design_2_full_add_0_43_synth_1
+reset_run design_2_and_gate_0_24_synth_1
+reset_run design_2_aggregator_4bit_2_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s).
+INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s).
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/half_mul/zlcfq/addcell1/full_add_0/a
+/half_mul/zlcfq/addcell2/full_add_0/a
+/half_mul/zlcfq/addcell3/full_add_0/a
+/half_mul/zlcfq/addcell4/full_add_0/cin
+/half_mul/zlcfq/addcell8/full_add_0/cin
+/half_mul/zlcfq/addcell12/full_add_0/cin
+/half_mul/zlcfq/addcell0/full_add_0/a
+/half_mul/zlcfq/addcell0/full_add_0/cin
+/half_mul/ADD/alu_74181_0/cin
+/half_mul/ADD/alu_74181_1/b
+/half_mul1/zlcfq/addcell1/full_add_0/a
+/half_mul1/zlcfq/addcell2/full_add_0/a
+/half_mul1/zlcfq/addcell3/full_add_0/a
+/half_mul1/zlcfq/addcell4/full_add_0/cin
+/half_mul1/zlcfq/addcell8/full_add_0/cin
+/half_mul1/zlcfq/addcell12/full_add_0/cin
+/half_mul1/zlcfq/addcell0/full_add_0/a
+/half_mul1/zlcfq/addcell0/full_add_0/cin
+/half_mul1/ADD/alu_74181_0/cin
+/half_mul1/ADD/alu_74181_1/b
+/SUM/alu_74181_1/cin
+/SUM/alu_74181_2/b
+/SUM/carry_lookahead_74182_0/p1
+/SUM/carry_lookahead_74182_0/p2
+/SUM/carry_lookahead_74182_0/p3
+/SUM/carry_lookahead_74182_0/g1
+/SUM/carry_lookahead_74182_0/g2
+/SUM/carry_lookahead_74182_0/g3
+/SUM/carry_lookahead_74182_0/cin
+
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_0\zlcfq_inst_0.bd> 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_1\zlcfq_inst_1.bd> 
+Wrote  : <E:\cd2\design_2\design_2.bd> 
+Wrote  : <E:/cd2/design_2/ui/bd_1fdbff51.ui> 
+Verilog Output written to : E:/cd2/design_2/synth/design_2.v
+Verilog Output written to : E:/cd2/design_2/sim/design_2.v
+Verilog Output written to : E:/cd2/design_2/hdl/design_2_wrapper.v
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_0\zlcfq_inst_0.bd> 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_1\zlcfq_inst_1.bd> 
+INFO: [BD 41-1662] The design 'zlcfq_inst_0.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/addcell0/full_add_0/a
+/addcell0/full_add_0/cin
+/addcell1/full_add_0/a
+/addcell12/full_add_0/cin
+/addcell2/full_add_0/a
+/addcell3/full_add_0/a
+/addcell4/full_add_0/cin
+/addcell8/full_add_0/cin
+
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_0/synth/zlcfq_inst_0.v
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_0/sim/zlcfq_inst_0.v
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_0/hdl/zlcfq_inst_0_wrapper.v
+Exporting to file E:/cd2/design_2/bd/zlcfq_inst_0/hw_handoff/zlcfq_inst_0.hwh
+Generated Hardware Definition File E:/cd2/design_2/bd/zlcfq_inst_0/synth/zlcfq_inst_0.hwdef
+INFO: [BD 41-1662] The design 'zlcfq_inst_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/addcell0/full_add_0/a
+/addcell0/full_add_0/cin
+/addcell1/full_add_0/a
+/addcell12/full_add_0/cin
+/addcell2/full_add_0/a
+/addcell3/full_add_0/a
+/addcell4/full_add_0/cin
+/addcell8/full_add_0/cin
+
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul1/zlcfq1
+INFO: [Common 17-14] Message 'BD 41-2291' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_1/synth/zlcfq_inst_1.v
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_1/sim/zlcfq_inst_1.v
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_1/hdl/zlcfq_inst_1_wrapper.v
+Exporting to file E:/cd2/design_2/bd/zlcfq_inst_1/hw_handoff/zlcfq_inst_1.hwh
+Generated Hardware Definition File E:/cd2/design_2/bd/zlcfq_inst_1/synth/zlcfq_inst_1.hwdef
+Exporting to file E:/cd2/design_2/hw_handoff/design_2.hwh
+Generated Hardware Definition File E:/cd2/design_2/synth/design_2.hwdef
+[Thu Oct  9 09:56:08 2025] Launched design_2_carry_output_splitter_1_1_synth_1, zlcfq_inst_1_and_gate_0_13_synth_1, zlcfq_inst_1_and_gate_0_5_synth_1, zlcfq_inst_1_full_add_0_5_synth_1, design_2_and_gate_0_20_synth_1, design_2_full_add_0_43_synth_1, design_2_and_gate_0_24_synth_1, design_2_aggregator_4bit_2_1_synth_1, synth_1...
+Run output will be captured here:
+design_2_carry_output_splitter_1_1_synth_1: D:/cd2/design_2_carry_output_splitter_1_1_synth_1/runme.log
+zlcfq_inst_1_and_gate_0_13_synth_1: D:/cd2/zlcfq_inst_1_and_gate_0_13_synth_1/runme.log
+zlcfq_inst_1_and_gate_0_5_synth_1: D:/cd2/zlcfq_inst_1_and_gate_0_5_synth_1/runme.log
+zlcfq_inst_1_full_add_0_5_synth_1: D:/cd2/zlcfq_inst_1_full_add_0_5_synth_1/runme.log
+design_2_and_gate_0_20_synth_1: D:/cd2/design_2_and_gate_0_20_synth_1/runme.log
+design_2_full_add_0_43_synth_1: D:/cd2/design_2_full_add_0_43_synth_1/runme.log
+design_2_and_gate_0_24_synth_1: D:/cd2/design_2_and_gate_0_24_synth_1/runme.log
+design_2_aggregator_4bit_2_1_synth_1: D:/cd2/design_2_aggregator_4bit_2_1_synth_1/runme.log
+synth_1: D:/cd2/synth_1/runme.log
+[Thu Oct  9 09:56:10 2025] Launched impl_1...
+Run output will be captured here: D:/cd2/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 2926.977 ; gain = 0.000
+open_project E:/cd1/course_design_1/course_design_1.xpr
+INFO: [Project 1-313] Project file moved from 'D:/course_design_1' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/cd1/course_design_1/course_design_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+current_project course_design_2
+current_project course_design_1
+close_project
+open_project E:/course_design_1/course_design_1.xpr
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'E:/course_design_1/course_design_1.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/jzy/ip_repo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:29 . Memory (MB): peak = 2926.977 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {E:/cd1/design_1/design_1.bd}
+Reading block design file <E:/cd1/design_1/design_1.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_1
+Adding component instance block -- xilinx.com:module_ref:UIR:1.0 - UIR_0
+Adding component instance block -- xilinx.com:module_ref:rom2_256x25:1.0 - rom2_256x25_0
+Adding component instance block -- xilinx.com:module_ref:addr_adpt:1.0 - addr_adpt_0
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_2
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - register_16bit_0
+Adding component instance block -- xilinx.com:module_ref:the_16bit_to_4x4bit:1.0 - the_16bit_to_4x4bit_0
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - register_16bit_1
+Adding component instance block -- xilinx.com:module_ref:the_16bit_to_4x4bit:1.0 - the_16bit_to_4x4bit_1
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - register_16bit_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:not_gate:1.0 - not_gate_0
+Adding component instance block -- xilinx.com:module_ref:four_bit_checker:1.0 - four_bit_checker_0
+Adding component instance block -- xilinx.com:module_ref:and16_bit:1.0 - and16_bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregate_4x4_to_16bit:1.0 - aggregate_4x4_to_16b_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_1
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_2
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out_16bit:1.0 - adpt_out_16bit_0
+Successfully read diagram <design_1> from block design file <E:/cd1/design_1/design_1.bd>
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_1_the_16bit_to_4x4bit_0_0 design_1_rom2_256x25_0_0 design_1_four_bit_checker_0_0 design_1_carry_output_splitter_0_0 design_1_not1_0_0 design_1_UIR_0_2 design_1_the_16bit_to_4x4bit_0_1 design_1_m74LS161_1_0 design_1_addr_adpt_0_0 design_1_m74LS161_0_0}]
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'CLK' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'CLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'CLK' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'CLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'CLK' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'CLK' has no FREQ_HZ parameter.
+Upgrading 'E:/cd1/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_UIR_0_2 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_addr_adpt_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_carry_output_splitter_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_four_bit_checker_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_m74LS161_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_m74LS161_1_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_not1_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_rom2_256x25_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_the_16bit_to_4x4bit_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_the_16bit_to_4x4bit_0_1 to use current project options
+Wrote  : <E:\cd1\design_1\design_1.bd> 
+Wrote  : <E:/cd1/design_1/ui/bd_1f5defd0.ui> 
+upgrade_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2926.977 ; gain = 0.000
+update_module_reference: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2926.977 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/course_design_1/course_design_1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file E:/cd1/synth_1/design_1_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+Wrote  : <E:\cd1\design_1\design_1.bd> 
+Wrote  : <E:/cd1/design_1/ui/bd_1f5defd0.ui> 
+Verilog Output written to : E:/cd1/design_1/synth/design_1.v
+Verilog Output written to : E:/cd1/design_1/sim/design_1.v
+Verilog Output written to : E:/cd1/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block m74LS161_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block m74LS161_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block UIR_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rom2_256x25_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block addr_adpt_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ALU/carry_output_splitter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ALU/the_16bit_to_4x4bit_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ALU/the_16bit_to_4x4bit_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ALU/four_bit_checker_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block not1_0 .
+Exporting to file E:/cd1/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File E:/cd1/design_1/synth/design_1.hwdef
+[Thu Oct  9 10:50:08 2025] Launched design_1_rom2_256x25_0_0_synth_1, design_1_m74LS161_1_0_synth_1, design_1_addr_adpt_0_0_synth_1, design_1_UIR_0_2_synth_1, design_1_carry_output_splitter_0_0_synth_1, design_1_not1_0_0_synth_1, design_1_m74LS161_0_0_synth_1, design_1_the_16bit_to_4x4bit_0_1_synth_1, design_1_four_bit_checker_0_0_synth_1, design_1_the_16bit_to_4x4bit_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_rom2_256x25_0_0_synth_1: D:/cd1/design_1_rom2_256x25_0_0_synth_1/runme.log
+design_1_m74LS161_1_0_synth_1: D:/cd1/design_1_m74LS161_1_0_synth_1/runme.log
+design_1_addr_adpt_0_0_synth_1: D:/cd1/design_1_addr_adpt_0_0_synth_1/runme.log
+design_1_UIR_0_2_synth_1: D:/cd1/design_1_UIR_0_2_synth_1/runme.log
+design_1_carry_output_splitter_0_0_synth_1: D:/cd1/design_1_carry_output_splitter_0_0_synth_1/runme.log
+design_1_not1_0_0_synth_1: D:/cd1/design_1_not1_0_0_synth_1/runme.log
+design_1_m74LS161_0_0_synth_1: D:/cd1/design_1_m74LS161_0_0_synth_1/runme.log
+design_1_the_16bit_to_4x4bit_0_1_synth_1: D:/cd1/design_1_the_16bit_to_4x4bit_0_1_synth_1/runme.log
+design_1_four_bit_checker_0_0_synth_1: D:/cd1/design_1_four_bit_checker_0_0_synth_1/runme.log
+design_1_the_16bit_to_4x4bit_0_0_synth_1: D:/cd1/design_1_the_16bit_to_4x4bit_0_0_synth_1/runme.log
+synth_1: D:/cd1/synth_1/runme.log
+[Thu Oct  9 10:50:09 2025] Launched impl_1...
+Run output will be captured here: D:/cd1/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 2949.594 ; gain = 22.617
+report_ip_status -name ip_status 
+current_project course_design_2
+close_project
+Wrote  : <E:/cd2/design_2/ui/bd_1fdbff51.ui> 
+reset_run synth_1
+reset_run design_1_m74LS161_1_0_synth_1
+reset_run design_1_addr_adpt_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Oct  9 10:52:24 2025] Launched design_1_m74LS161_1_0_synth_1, design_1_addr_adpt_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_m74LS161_1_0_synth_1: D:/cd1/design_1_m74LS161_1_0_synth_1/runme.log
+design_1_addr_adpt_0_0_synth_1: D:/cd1/design_1_addr_adpt_0_0_synth_1/runme.log
+synth_1: D:/cd1/synth_1/runme.log
+[Thu Oct  9 10:52:24 2025] Launched impl_1...
+Run output will be captured here: D:/cd1/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.290 . Memory (MB): peak = 4356.562 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 193 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 4356.562 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 4356.562 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 4356.562 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.311 . Memory (MB): peak = 4356.562 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4356.562 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 4356.562 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.408 . Memory (MB): peak = 4356.562 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.408 . Memory (MB): peak = 4356.562 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 4356.562 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 3 instances
+  SRLC32E => SRL16E: 3 instances
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 4356.562 ; gain = 42.516
+open_report: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4356.562 ; gain = 0.000
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+close_project
+open_project E:/cd2/course_design_2/course_design_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:48 . Memory (MB): peak = 4356.562 ; gain = 0.000
+open_bd_design {E:/cd2/design_2/design_2.bd}
+Reading block design file <E:/cd2/design_2/design_2.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out_16bit:1.0 - adpt_out_16bit_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_1
+Adding Block Design Container - zlcfq1
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_2
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding Block Design Container - zlcfq1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/addcell14/full_add_0'.
+Given inputs for module-source, Top-module name : full_add, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_2
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_1
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_2
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_2
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Successfully read diagram <design_2> from block design file <E:/cd2/design_2/design_2.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 4356.562 ; gain = 0.000
+update_compile_order -fileset sources_1
+startgroup
+disconnect_bd_net /adpt_in_0_a5 [get_bd_pins half_mul1/a_5]
+disconnect_bd_net /adpt_in_0_a6 [get_bd_pins half_mul1/a_6]
+disconnect_bd_net /adpt_in_0_a1 [get_bd_pins half_mul1/a_1]
+disconnect_bd_net /adpt_in_0_a3 [get_bd_pins half_mul1/a_3]
+disconnect_bd_net /adpt_in_0_a2 [get_bd_pins half_mul1/a_2]
+disconnect_bd_net /adpt_in_0_a7 [get_bd_pins half_mul1/a_7]
+disconnect_bd_net /adpt_in_0_a4 [get_bd_pins half_mul1/a_4]
+disconnect_bd_net /adpt_in_0_a0 [get_bd_pins half_mul1/a_0]
+endgroup
+connect_bd_net [get_bd_pins half_mul1/a_4] [get_bd_pins adpt_in_0/a1]
+connect_bd_net [get_bd_pins half_mul1/a_5] [get_bd_pins adpt_in_0/a2]
+connect_bd_net [get_bd_pins half_mul1/a_6] [get_bd_pins adpt_in_0/a3]
+connect_bd_net [get_bd_pins half_mul1/a_7] [get_bd_pins adpt_in_0/a0]
+connect_bd_net [get_bd_pins half_mul1/a_0] [get_bd_pins adpt_in_0/a4]
+connect_bd_net [get_bd_pins half_mul1/a_1] [get_bd_pins adpt_in_0/a5]
+connect_bd_net [get_bd_pins half_mul1/a_2] [get_bd_pins adpt_in_0/a6]
+connect_bd_net [get_bd_pins half_mul1/a_3] [get_bd_pins adpt_in_0/a7]
+save_bd_design
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_0\zlcfq_inst_0.bd> 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_1\zlcfq_inst_1.bd> 
+Wrote  : <E:\cd2\design_2\design_2.bd> 
+Wrote  : <E:/cd2/design_2/ui/bd_1fdbff51.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/cd2/course_design_2/course_design_2.srcs/utils_1/imports/synth_1/design_2_wrapper.dcp with file D:/cd2/synth_1/design_2_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s).
+INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s).
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/half_mul/zlcfq/addcell1/full_add_0/a
+/half_mul/zlcfq/addcell2/full_add_0/a
+/half_mul/zlcfq/addcell3/full_add_0/a
+/half_mul/zlcfq/addcell4/full_add_0/cin
+/half_mul/zlcfq/addcell8/full_add_0/cin
+/half_mul/zlcfq/addcell12/full_add_0/cin
+/half_mul/zlcfq/addcell0/full_add_0/a
+/half_mul/zlcfq/addcell0/full_add_0/cin
+/half_mul/ADD/alu_74181_0/cin
+/half_mul/ADD/alu_74181_1/b
+/half_mul1/zlcfq/addcell1/full_add_0/a
+/half_mul1/zlcfq/addcell2/full_add_0/a
+/half_mul1/zlcfq/addcell3/full_add_0/a
+/half_mul1/zlcfq/addcell4/full_add_0/cin
+/half_mul1/zlcfq/addcell8/full_add_0/cin
+/half_mul1/zlcfq/addcell12/full_add_0/cin
+/half_mul1/zlcfq/addcell0/full_add_0/a
+/half_mul1/zlcfq/addcell0/full_add_0/cin
+/half_mul1/ADD/alu_74181_0/cin
+/half_mul1/ADD/alu_74181_1/b
+/SUM/alu_74181_1/cin
+/SUM/alu_74181_2/b
+/SUM/carry_lookahead_74182_0/p1
+/SUM/carry_lookahead_74182_0/p2
+/SUM/carry_lookahead_74182_0/p3
+/SUM/carry_lookahead_74182_0/g1
+/SUM/carry_lookahead_74182_0/g2
+/SUM/carry_lookahead_74182_0/g3
+/SUM/carry_lookahead_74182_0/cin
+
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_0\zlcfq_inst_0.bd> 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_1\zlcfq_inst_1.bd> 
+Wrote  : <E:\cd2\design_2\design_2.bd> 
+Wrote  : <E:/cd2/design_2/ui/bd_1fdbff51.ui> 
+Verilog Output written to : E:/cd2/design_2/synth/design_2.v
+Verilog Output written to : E:/cd2/design_2/sim/design_2.v
+Verilog Output written to : E:/cd2/design_2/hdl/design_2_wrapper.v
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_0\zlcfq_inst_0.bd> 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_1\zlcfq_inst_1.bd> 
+INFO: [BD 41-1662] The design 'zlcfq_inst_0.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/addcell0/full_add_0/a
+/addcell0/full_add_0/cin
+/addcell1/full_add_0/a
+/addcell12/full_add_0/cin
+/addcell2/full_add_0/a
+/addcell3/full_add_0/a
+/addcell4/full_add_0/cin
+/addcell8/full_add_0/cin
+
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_0/synth/zlcfq_inst_0.v
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul/zlcfq1
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_0/sim/zlcfq_inst_0.v
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_0/hdl/zlcfq_inst_0_wrapper.v
+Exporting to file E:/cd2/design_2/bd/zlcfq_inst_0/hw_handoff/zlcfq_inst_0.hwh
+Generated Hardware Definition File E:/cd2/design_2/bd/zlcfq_inst_0/synth/zlcfq_inst_0.hwdef
+INFO: [BD 41-1662] The design 'zlcfq_inst_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/addcell0/full_add_0/a
+/addcell0/full_add_0/cin
+/addcell1/full_add_0/a
+/addcell12/full_add_0/cin
+/addcell2/full_add_0/a
+/addcell3/full_add_0/a
+/addcell4/full_add_0/cin
+/addcell8/full_add_0/cin
+
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell8 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell4 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell7 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell11 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell15 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell3 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell1 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell5 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell9 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell6 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell10 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell2 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell0 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell12 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell13 inside Block Design Container /half_mul1/zlcfq1
+WARNING: [BD 41-2291] Cannot add/delete/modify design object(s) addcell14 inside Block Design Container /half_mul1/zlcfq1
+INFO: [Common 17-14] Message 'BD 41-2291' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_1/synth/zlcfq_inst_1.v
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_1/sim/zlcfq_inst_1.v
+Verilog Output written to : E:/cd2/design_2/bd/zlcfq_inst_1/hdl/zlcfq_inst_1_wrapper.v
+Exporting to file E:/cd2/design_2/bd/zlcfq_inst_1/hw_handoff/zlcfq_inst_1.hwh
+Generated Hardware Definition File E:/cd2/design_2/bd/zlcfq_inst_1/synth/zlcfq_inst_1.hwdef
+Exporting to file E:/cd2/design_2/hw_handoff/design_2.hwh
+Generated Hardware Definition File E:/cd2/design_2/synth/design_2.hwdef
+[Thu Oct  9 11:30:16 2025] Launched synth_1...
+Run output will be captured here: D:/cd2/synth_1/runme.log
+[Thu Oct  9 11:30:16 2025] Launched impl_1...
+Run output will be captured here: D:/cd2/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 4356.562 ; gain = 0.000
+set_property name a_11 [get_bd_pins half_mul/a_0]
+set_property name a_44 [get_bd_pins half_mul/a_11]
+set_property name a_55 [get_bd_pins half_mul/a_1]
+set_property name a_66 [get_bd_pins half_mul/a_2]
+set_property name a_77 [get_bd_pins half_mul/a_3]
+set_property name a_1 [get_bd_pins half_mul/a_4]
+set_property name a_2 [get_bd_pins half_mul/a_5]
+set_property name a_3 [get_bd_pins half_mul/a_6]
+set_property name a_0 [get_bd_pins half_mul/a_7]
+set_property name a_7 [get_bd_pins half_mul/a_77]
+set_property name a_6 [get_bd_pins half_mul/a_66]
+set_property name a_5 [get_bd_pins half_mul/a_55]
+set_property name a_4 [get_bd_pins half_mul/a_44]
+set_property name a_11 [get_bd_pins half_mul1/a_4]
+set_property name a_77 [get_bd_pins half_mul1/a_3]
+set_property name a_66 [get_bd_pins half_mul1/a_2]
+set_property name a_55 [get_bd_pins half_mul1/a_1]
+set_property name a_44 [get_bd_pins half_mul1/a_0]
+set_property name a_22 [get_bd_pins half_mul1/a_5]
+set_property name a_33 [get_bd_pins half_mul1/a_6]
+set_property name a_00 [get_bd_pins half_mul1/a_7]
+set_property name a_0 [get_bd_pins half_mul1/a_00]
+set_property name a_3 [get_bd_pins half_mul1/a_33]
+set_property name a_2 [get_bd_pins half_mul1/a_22]
+set_property name a_1 [get_bd_pins half_mul1/a_11]
+set_property name a_6 [get_bd_pins half_mul1/a_66]
+set_property name a_5 [get_bd_pins half_mul1/a_55]
+set_property name a_4 [get_bd_pins half_mul1/a_44]
+set_property name a_7 [get_bd_pins half_mul1/a_77]
+group_bd_cells zlcfq_sixteen [get_bd_cells SUM] [get_bd_cells half_mul] [get_bd_cells half_mul1]
+set_property location {3 716 32} [get_bd_cells zlcfq_sixteen]
+create_bd_cell -type module -reference xor_gate xor_gate_0
+set_property location {2 381 -372} [get_bd_cells xor_gate_0]
+copy_bd_objs /  [get_bd_cells {zlcfq_sixteen/SUM}]
+set_property location {2.5 523 -328} [get_bd_cells SUM]
+set_property location {2 327 -368} [get_bd_cells xor_gate_0]
+save_bd_design
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_0\zlcfq_inst_0.bd> 
+Wrote  : <E:\cd2\design_2\bd\zlcfq_inst_1\zlcfq_inst_1.bd> 
+Wrote  : <E:\cd2\design_2\design_2.bd> 
+Wrote  : <E:/cd2/design_2/ui/bd_1fdbff51.ui> 
+save_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4356.562 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  9 11:55:54 2025...
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()

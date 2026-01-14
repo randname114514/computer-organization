@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Oct  9 09:28:59 2025
+# Process ID         : 8036
+# Current directory  : E:/cd2/course_design_2
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2172 E:\cd2\course_design_2\course_design_2.xpr
+# Log file           : E:/cd2/course_design_2/vivado.log
+# Journal file       : E:/cd2/course_design_2\vivado.jou
+# Running On         : vj5PC14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19042
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12600
+# CPU Frequency      : 3302 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16853 MB
+# Swap memory        : 1342 MB
+# Total Virtual      : 18195 MB
+# Available Virtual  : 3980 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/cd2/course_design_2/course_design_2.xpr
+close_project
+open_project E:/course_design_1/course_design_1.xpr
+update_compile_order -fileset sources_1
+open_project E:/cd2/course_design_2/course_design_2.xpr
+current_project course_design_1
+close_project
+update_compile_order -fileset sources_1
+open_bd_design {E:/cd2/design_2/design_2.bd}
+open_bd_design E:/cd2/design_2/design_2.bd
+upgrade_bd_cells [get_bd_cells half_mul1/zlcfq1]
+save_bd_design 
+make_wrapper -files [get_files E:/cd2/course_design_2/course_design_2.srcs/sources_1/bd/zlcfq/zlcfq.bd] -top
+add_files -norecurse e:/cd2/course_design_2/course_design_2.gen/sources_1/bd/zlcfq/hdl/zlcfq_wrapper.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run design_2_carry_output_splitter_1_1_synth_1
+reset_run zlcfq_inst_1_and_gate_0_13_synth_1
+reset_run zlcfq_inst_1_and_gate_0_5_synth_1
+reset_run zlcfq_inst_1_full_add_0_5_synth_1
+reset_run design_2_and_gate_0_20_synth_1
+reset_run design_2_full_add_0_43_synth_1
+reset_run design_2_and_gate_0_24_synth_1
+reset_run design_2_aggregator_4bit_2_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_project E:/cd1/course_design_1/course_design_1.xpr
+current_project course_design_2
+current_project course_design_1
+close_project
+open_project E:/course_design_1/course_design_1.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/cd1/design_1/design_1.bd}
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_1_the_16bit_to_4x4bit_0_0 design_1_rom2_256x25_0_0 design_1_four_bit_checker_0_0 design_1_carry_output_splitter_0_0 design_1_not1_0_0 design_1_UIR_0_2 design_1_the_16bit_to_4x4bit_0_1 design_1_m74LS161_1_0 design_1_addr_adpt_0_0 design_1_m74LS161_0_0}]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+report_ip_status -name ip_status 
+current_project course_design_2
+close_project
+reset_run synth_1
+reset_run design_1_m74LS161_1_0_synth_1
+reset_run design_1_addr_adpt_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+close_project
+open_project E:/cd2/course_design_2/course_design_2.xpr
+open_bd_design {E:/cd2/design_2/design_2.bd}
+update_compile_order -fileset sources_1
+startgroup
+disconnect_bd_net /adpt_in_0_a5 [get_bd_pins half_mul1/a_5]
+disconnect_bd_net /adpt_in_0_a6 [get_bd_pins half_mul1/a_6]
+disconnect_bd_net /adpt_in_0_a1 [get_bd_pins half_mul1/a_1]
+disconnect_bd_net /adpt_in_0_a3 [get_bd_pins half_mul1/a_3]
+disconnect_bd_net /adpt_in_0_a2 [get_bd_pins half_mul1/a_2]
+disconnect_bd_net /adpt_in_0_a7 [get_bd_pins half_mul1/a_7]
+disconnect_bd_net /adpt_in_0_a4 [get_bd_pins half_mul1/a_4]
+disconnect_bd_net /adpt_in_0_a0 [get_bd_pins half_mul1/a_0]
+endgroup
+connect_bd_net [get_bd_pins half_mul1/a_4] [get_bd_pins adpt_in_0/a1]
+connect_bd_net [get_bd_pins half_mul1/a_5] [get_bd_pins adpt_in_0/a2]
+connect_bd_net [get_bd_pins half_mul1/a_6] [get_bd_pins adpt_in_0/a3]
+connect_bd_net [get_bd_pins half_mul1/a_7] [get_bd_pins adpt_in_0/a0]
+connect_bd_net [get_bd_pins half_mul1/a_0] [get_bd_pins adpt_in_0/a4]
+connect_bd_net [get_bd_pins half_mul1/a_1] [get_bd_pins adpt_in_0/a5]
+connect_bd_net [get_bd_pins half_mul1/a_2] [get_bd_pins adpt_in_0/a6]
+connect_bd_net [get_bd_pins half_mul1/a_3] [get_bd_pins adpt_in_0/a7]
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property name a_11 [get_bd_pins half_mul/a_0]
+set_property name a_44 [get_bd_pins half_mul/a_11]
+set_property name a_55 [get_bd_pins half_mul/a_1]
+set_property name a_66 [get_bd_pins half_mul/a_2]
+set_property name a_77 [get_bd_pins half_mul/a_3]
+set_property name a_1 [get_bd_pins half_mul/a_4]
+set_property name a_2 [get_bd_pins half_mul/a_5]
+set_property name a_3 [get_bd_pins half_mul/a_6]
+set_property name a_0 [get_bd_pins half_mul/a_7]
+set_property name a_7 [get_bd_pins half_mul/a_77]
+set_property name a_6 [get_bd_pins half_mul/a_66]
+set_property name a_5 [get_bd_pins half_mul/a_55]
+set_property name a_4 [get_bd_pins half_mul/a_44]
+set_property name a_11 [get_bd_pins half_mul1/a_4]
+set_property name a_77 [get_bd_pins half_mul1/a_3]
+set_property name a_66 [get_bd_pins half_mul1/a_2]
+set_property name a_55 [get_bd_pins half_mul1/a_1]
+set_property name a_44 [get_bd_pins half_mul1/a_0]
+set_property name a_22 [get_bd_pins half_mul1/a_5]
+set_property name a_33 [get_bd_pins half_mul1/a_6]
+set_property name a_00 [get_bd_pins half_mul1/a_7]
+set_property name a_0 [get_bd_pins half_mul1/a_00]
+set_property name a_3 [get_bd_pins half_mul1/a_33]
+set_property name a_2 [get_bd_pins half_mul1/a_22]
+set_property name a_1 [get_bd_pins half_mul1/a_11]
+set_property name a_6 [get_bd_pins half_mul1/a_66]
+set_property name a_5 [get_bd_pins half_mul1/a_55]
+set_property name a_4 [get_bd_pins half_mul1/a_44]
+set_property name a_7 [get_bd_pins half_mul1/a_77]
+group_bd_cells zlcfq_sixteen [get_bd_cells SUM] [get_bd_cells half_mul] [get_bd_cells half_mul1]
+set_property location {3 716 32} [get_bd_cells zlcfq_sixteen]
+create_bd_cell -type module -reference xor_gate xor_gate_0
+set_property location {2 381 -372} [get_bd_cells xor_gate_0]
+copy_bd_objs /  [get_bd_cells {zlcfq_sixteen/SUM}]
+set_property location {2.5 523 -328} [get_bd_cells SUM]
+set_property location {2 327 -368} [get_bd_cells xor_gate_0]
+save_bd_design
+update_compile_order -fileset sources_1

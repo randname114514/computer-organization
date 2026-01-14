@@ -1,0 +1,2247 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8B6AAB468B6AAB46",
+      "design_src": "E:/cd2/course_design_2/course_design_2.srcs/sources_1/bd/zlcfq/zlcfq.bd",
+      "device": "xc7z020clg400-1",
+      "name": "zlcfq_inst_0",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true",
+      "variant": "true"
+    },
+    "design_tree": {
+      "addcell0": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell1": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell10": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell11": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell12": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell13": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell14": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell15": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell2": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell3": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell4": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell5": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell6": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell7": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell8": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      },
+      "addcell9": {
+        "full_add_0": "",
+        "and_gate_0": ""
+      }
+    },
+    "ports": {
+      "a_0": {
+        "direction": "I"
+      },
+      "a_1": {
+        "direction": "I"
+      },
+      "a_2": {
+        "direction": "I"
+      },
+      "a_3": {
+        "direction": "I"
+      },
+      "b_0": {
+        "direction": "I"
+      },
+      "b_1": {
+        "direction": "I"
+      },
+      "b_2": {
+        "direction": "I"
+      },
+      "b_3": {
+        "direction": "I"
+      },
+      "out_0": {
+        "direction": "O"
+      },
+      "out_1": {
+        "direction": "O"
+      },
+      "out_2": {
+        "direction": "O"
+      },
+      "out_3": {
+        "direction": "O"
+      },
+      "out_4": {
+        "direction": "O"
+      },
+      "out_5": {
+        "direction": "O"
+      },
+      "out_6": {
+        "direction": "O"
+      },
+      "out_7": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "addcell0": {
+        "ports": {
+          "cout": {
+            "direction": "O"
+          },
+          "sum_0": {
+            "direction": "O"
+          },
+          "a_0": {
+            "direction": "I"
+          },
+          "b_0": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_0",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_0\\zlcfq_inst_0_full_add_0_0.xci",
+            "inst_hier_path": "addcell0/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_0",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_0\\zlcfq_inst_0_and_gate_0_0.xci",
+            "inst_hier_path": "addcell0/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_0_1": {
+            "ports": [
+              "a_0",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_0_1": {
+            "ports": [
+              "b_0",
+              "and_gate_0/b"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum_0"
+            ]
+          }
+        }
+      },
+      "addcell1": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "a_1": {
+            "direction": "I"
+          },
+          "b_0": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_1",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_1\\zlcfq_inst_0_full_add_0_1.xci",
+            "inst_hier_path": "addcell1/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_1",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_1\\zlcfq_inst_0_and_gate_0_1.xci",
+            "inst_hier_path": "addcell1/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_0_1": {
+            "ports": [
+              "a_1",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_0_1": {
+            "ports": [
+              "b_0",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell10": {
+        "ports": {
+          "cout": {
+            "direction": "O"
+          },
+          "cin": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "a_2": {
+            "direction": "I"
+          },
+          "b_2": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_2",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_2\\zlcfq_inst_0_full_add_0_2.xci",
+            "inst_hier_path": "addcell10/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_2",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_2\\zlcfq_inst_0_and_gate_0_2.xci",
+            "inst_hier_path": "addcell10/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_2_1": {
+            "ports": [
+              "a_2",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_2_1": {
+            "ports": [
+              "b_2",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell11": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "a_3": {
+            "direction": "I"
+          },
+          "b_2": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_3",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_3\\zlcfq_inst_0_full_add_0_3.xci",
+            "inst_hier_path": "addcell11/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_3",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_3\\zlcfq_inst_0_and_gate_0_3.xci",
+            "inst_hier_path": "addcell11/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_3_1": {
+            "ports": [
+              "a_3",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_2_1": {
+            "ports": [
+              "b_2",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell12": {
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "sum_0": {
+            "direction": "O"
+          },
+          "a_0": {
+            "direction": "I"
+          },
+          "b_3": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_4",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_4\\zlcfq_inst_0_full_add_0_4.xci",
+            "inst_hier_path": "addcell12/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_4",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_4\\zlcfq_inst_0_and_gate_0_4.xci",
+            "inst_hier_path": "addcell12/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_0_1": {
+            "ports": [
+              "a_0",
+              "and_gate_0/a"
+            ]
+          },
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_3_1": {
+            "ports": [
+              "b_3",
+              "and_gate_0/b"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum_0"
+            ]
+          }
+        }
+      },
+      "addcell13": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum_0": {
+            "direction": "O"
+          },
+          "a_2": {
+            "direction": "I"
+          },
+          "b_3": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_5",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_5\\zlcfq_inst_0_full_add_0_5.xci",
+            "inst_hier_path": "addcell13/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_5",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_5\\zlcfq_inst_0_and_gate_0_5.xci",
+            "inst_hier_path": "addcell13/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_2_1": {
+            "ports": [
+              "a_2",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_3_1": {
+            "ports": [
+              "b_3",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum_0"
+            ]
+          }
+        }
+      },
+      "addcell14": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum_1": {
+            "direction": "O"
+          },
+          "a_2": {
+            "direction": "I"
+          },
+          "b_3": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_6",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_6\\zlcfq_inst_0_full_add_0_6.xci",
+            "inst_hier_path": "addcell14/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_6",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_6\\zlcfq_inst_0_and_gate_0_6.xci",
+            "inst_hier_path": "addcell14/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_2_1": {
+            "ports": [
+              "a_2",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_3_1": {
+            "ports": [
+              "b_3",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum_1"
+            ]
+          }
+        }
+      },
+      "addcell15": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum_0": {
+            "direction": "O"
+          },
+          "cout_0": {
+            "direction": "O"
+          },
+          "a_3": {
+            "direction": "I"
+          },
+          "b_3": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_7",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_7\\zlcfq_inst_0_full_add_0_7.xci",
+            "inst_hier_path": "addcell15/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_7",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_7\\zlcfq_inst_0_and_gate_0_7.xci",
+            "inst_hier_path": "addcell15/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_3_1": {
+            "ports": [
+              "a_3",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_3_1": {
+            "ports": [
+              "b_3",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout_0"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum_0"
+            ]
+          }
+        }
+      },
+      "addcell2": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "a_2": {
+            "direction": "I"
+          },
+          "b_0": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_8",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_8\\zlcfq_inst_0_full_add_0_8.xci",
+            "inst_hier_path": "addcell2/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_8",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_8\\zlcfq_inst_0_and_gate_0_8.xci",
+            "inst_hier_path": "addcell2/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_0_1": {
+            "ports": [
+              "a_2",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_0_1": {
+            "ports": [
+              "b_0",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell3": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "a_0": {
+            "direction": "I"
+          },
+          "b_0": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_9",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_9\\zlcfq_inst_0_full_add_0_9.xci",
+            "inst_hier_path": "addcell3/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_9",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_9\\zlcfq_inst_0_and_gate_0_9.xci",
+            "inst_hier_path": "addcell3/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_0_1": {
+            "ports": [
+              "a_0",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_0_1": {
+            "ports": [
+              "b_0",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell4": {
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "sum_0": {
+            "direction": "O"
+          },
+          "a_0": {
+            "direction": "I"
+          },
+          "b_1": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_10",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_10\\zlcfq_inst_0_full_add_0_10.xci",
+            "inst_hier_path": "addcell4/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_10",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_10\\zlcfq_inst_0_and_gate_0_10.xci",
+            "inst_hier_path": "addcell4/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_0_1": {
+            "ports": [
+              "a_0",
+              "and_gate_0/a"
+            ]
+          },
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_1_1": {
+            "ports": [
+              "b_1",
+              "and_gate_0/b"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum_0"
+            ]
+          }
+        }
+      },
+      "addcell5": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "a_2": {
+            "direction": "I"
+          },
+          "b_1": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_11",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_11\\zlcfq_inst_0_full_add_0_11.xci",
+            "inst_hier_path": "addcell5/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_11",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_11\\zlcfq_inst_0_and_gate_0_11.xci",
+            "inst_hier_path": "addcell5/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_2_1": {
+            "ports": [
+              "a_2",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_1_1": {
+            "ports": [
+              "b_1",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell6": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "a_2": {
+            "direction": "I"
+          },
+          "b_1": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_12",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_12\\zlcfq_inst_0_full_add_0_12.xci",
+            "inst_hier_path": "addcell6/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_12",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_12\\zlcfq_inst_0_and_gate_0_12.xci",
+            "inst_hier_path": "addcell6/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_2_1": {
+            "ports": [
+              "a_2",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_1_1": {
+            "ports": [
+              "b_1",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell7": {
+        "ports": {
+          "cin": {
+            "direction": "I"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "cout": {
+            "direction": "O"
+          },
+          "a_3": {
+            "direction": "I"
+          },
+          "b_1": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_13",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_13\\zlcfq_inst_0_full_add_0_13.xci",
+            "inst_hier_path": "addcell7/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_13",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_13\\zlcfq_inst_0_and_gate_0_13.xci",
+            "inst_hier_path": "addcell7/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_3_1": {
+            "ports": [
+              "a_3",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_1_1": {
+            "ports": [
+              "b_1",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      },
+      "addcell8": {
+        "ports": {
+          "cout": {
+            "direction": "O"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum_0": {
+            "direction": "O"
+          },
+          "a_0": {
+            "direction": "I"
+          },
+          "b_2": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_14",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_14\\zlcfq_inst_0_full_add_0_14.xci",
+            "inst_hier_path": "addcell8/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_14",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_14\\zlcfq_inst_0_and_gate_0_14.xci",
+            "inst_hier_path": "addcell8/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_0_1": {
+            "ports": [
+              "a_0",
+              "and_gate_0/a"
+            ]
+          },
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_2_1": {
+            "ports": [
+              "b_2",
+              "and_gate_0/b"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum_0"
+            ]
+          }
+        }
+      },
+      "addcell9": {
+        "ports": {
+          "cout": {
+            "direction": "O"
+          },
+          "cin": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "I"
+          },
+          "sum": {
+            "direction": "O"
+          },
+          "a_2": {
+            "direction": "I"
+          },
+          "b_2": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "full_add_0": {
+            "vlnv": "xilinx.com:module_ref:full_add:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_full_add_0_15",
+            "xci_path": "ip\\zlcfq_inst_0_full_add_0_15\\zlcfq_inst_0_full_add_0_15.xci",
+            "inst_hier_path": "addcell9/full_add_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "full_add",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "cin": {
+                "direction": "I"
+              },
+              "sum": {
+                "direction": "O"
+              },
+              "cout": {
+                "direction": "O"
+              }
+            }
+          },
+          "and_gate_0": {
+            "vlnv": "xilinx.com:module_ref:and_gate:1.0",
+            "ip_revision": "1",
+            "xci_name": "zlcfq_inst_0_and_gate_0_15",
+            "xci_path": "ip\\zlcfq_inst_0_and_gate_0_15\\zlcfq_inst_0_and_gate_0_15.xci",
+            "inst_hier_path": "addcell9/and_gate_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "and_gate",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "a_1": {
+            "ports": [
+              "a",
+              "full_add_0/a"
+            ]
+          },
+          "a_2_1": {
+            "ports": [
+              "a_2",
+              "and_gate_0/a"
+            ]
+          },
+          "and_gate_0_y": {
+            "ports": [
+              "and_gate_0/y",
+              "full_add_0/b"
+            ]
+          },
+          "b_2_1": {
+            "ports": [
+              "b_2",
+              "and_gate_0/b"
+            ]
+          },
+          "cin_1": {
+            "ports": [
+              "cin",
+              "full_add_0/cin"
+            ]
+          },
+          "full_add_0_cout": {
+            "ports": [
+              "full_add_0/cout",
+              "cout"
+            ]
+          },
+          "full_add_0_sum": {
+            "ports": [
+              "full_add_0/sum",
+              "sum"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "a_0_0_1": {
+        "ports": [
+          "a_0",
+          "addcell0/a_0",
+          "addcell8/a_0",
+          "addcell12/a_0",
+          "addcell4/a_0"
+        ]
+      },
+      "a_0_1_1": {
+        "ports": [
+          "a_3",
+          "addcell7/a_3",
+          "addcell11/a_3",
+          "addcell15/a_3",
+          "addcell3/a_0"
+        ]
+      },
+      "a_1_0_1": {
+        "ports": [
+          "a_1",
+          "addcell1/a_1",
+          "addcell5/a_2",
+          "addcell9/a_2",
+          "addcell13/a_2"
+        ]
+      },
+      "a_2_0_1": {
+        "ports": [
+          "a_2",
+          "addcell6/a_2",
+          "addcell10/a_2",
+          "addcell14/a_2",
+          "addcell2/a_2"
+        ]
+      },
+      "addcell0_cout": {
+        "ports": [
+          "addcell0/cout",
+          "addcell1/cin"
+        ]
+      },
+      "addcell0_sum_0": {
+        "ports": [
+          "addcell0/sum_0",
+          "out_0"
+        ]
+      },
+      "addcell10_sum": {
+        "ports": [
+          "addcell10/sum",
+          "addcell13/a"
+        ]
+      },
+      "addcell11_cout": {
+        "ports": [
+          "addcell11/cout",
+          "addcell15/a"
+        ]
+      },
+      "addcell11_sum": {
+        "ports": [
+          "addcell11/sum",
+          "addcell14/a"
+        ]
+      },
+      "addcell12_cout": {
+        "ports": [
+          "addcell12/cout",
+          "addcell13/cin"
+        ]
+      },
+      "addcell12_sum_0": {
+        "ports": [
+          "addcell12/sum_0",
+          "out_3"
+        ]
+      },
+      "addcell13_cout": {
+        "ports": [
+          "addcell13/cout",
+          "addcell14/cin"
+        ]
+      },
+      "addcell13_sum_0": {
+        "ports": [
+          "addcell13/sum_0",
+          "out_4"
+        ]
+      },
+      "addcell14_cout": {
+        "ports": [
+          "addcell14/cout",
+          "addcell15/cin"
+        ]
+      },
+      "addcell14_sum_1": {
+        "ports": [
+          "addcell14/sum_1",
+          "out_5"
+        ]
+      },
+      "addcell15_cout_15": {
+        "ports": [
+          "addcell15/cout_0",
+          "out_7"
+        ]
+      },
+      "addcell15_sum_14": {
+        "ports": [
+          "addcell15/sum_0",
+          "out_6"
+        ]
+      },
+      "addcell1_cout": {
+        "ports": [
+          "addcell1/cout",
+          "addcell2/cin"
+        ]
+      },
+      "addcell1_sum": {
+        "ports": [
+          "addcell1/sum",
+          "addcell4/a"
+        ]
+      },
+      "addcell2_cout": {
+        "ports": [
+          "addcell2/cout",
+          "addcell3/cin"
+        ]
+      },
+      "addcell2_sum": {
+        "ports": [
+          "addcell2/sum",
+          "addcell5/a"
+        ]
+      },
+      "addcell3_cout": {
+        "ports": [
+          "addcell3/cout",
+          "addcell7/a"
+        ]
+      },
+      "addcell3_sum": {
+        "ports": [
+          "addcell3/sum",
+          "addcell6/a"
+        ]
+      },
+      "addcell4_cout": {
+        "ports": [
+          "addcell4/cout",
+          "addcell5/cin"
+        ]
+      },
+      "addcell4_sum_0": {
+        "ports": [
+          "addcell4/sum_0",
+          "out_1"
+        ]
+      },
+      "addcell5_cout": {
+        "ports": [
+          "addcell5/cout",
+          "addcell6/cin"
+        ]
+      },
+      "addcell5_sum": {
+        "ports": [
+          "addcell5/sum",
+          "addcell8/a"
+        ]
+      },
+      "addcell6_cout": {
+        "ports": [
+          "addcell6/cout",
+          "addcell7/cin"
+        ]
+      },
+      "addcell6_sum": {
+        "ports": [
+          "addcell6/sum",
+          "addcell9/a"
+        ]
+      },
+      "addcell7_cout": {
+        "ports": [
+          "addcell7/cout",
+          "addcell11/a"
+        ]
+      },
+      "addcell7_sum": {
+        "ports": [
+          "addcell7/sum",
+          "addcell10/a"
+        ]
+      },
+      "addcell8_cout": {
+        "ports": [
+          "addcell8/cout",
+          "addcell9/cin"
+        ]
+      },
+      "addcell8_sum_0": {
+        "ports": [
+          "addcell8/sum_0",
+          "out_2"
+        ]
+      },
+      "addcell9_cout": {
+        "ports": [
+          "addcell9/cout",
+          "addcell10/cin"
+        ]
+      },
+      "addcell9_sum": {
+        "ports": [
+          "addcell9/sum",
+          "addcell12/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b_0",
+          "addcell2/b_0",
+          "addcell3/b_0",
+          "addcell0/b_0",
+          "addcell1/b_0"
+        ]
+      },
+      "b_1_1": {
+        "ports": [
+          "b_1",
+          "addcell5/b_1",
+          "addcell6/b_1",
+          "addcell7/b_1",
+          "addcell4/b_1"
+        ]
+      },
+      "b_2_1": {
+        "ports": [
+          "b_2",
+          "addcell9/b_2",
+          "addcell10/b_2",
+          "addcell11/b_2",
+          "addcell8/b_2"
+        ]
+      },
+      "b_3_1": {
+        "ports": [
+          "b_3",
+          "addcell12/b_3",
+          "addcell14/b_3",
+          "addcell15/b_3",
+          "addcell13/b_3"
+        ]
+      },
+      "cin_1": {
+        "ports": [
+          "addcell10/cout",
+          "addcell11/cin"
+        ]
+      }
+    }
+  }
+}

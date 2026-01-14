@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Dec 16 21:49:45 2025
+# Process ID         : 30756
+# Current directory  : D:/cd4/project_4
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18772 D:\cd4\project_4\project_4.xpr
+# Log file           : D:/cd4/project_4/vivado.log
+# Journal file       : D:/cd4/project_4\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 21894 MB
+# Available Virtual  : 6702 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cd4/project_4/project_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd3/design_3/design_3.bd}
+Reading block design file <D:/cd3/design_3/design_3.bd>...
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:ic_74161:1.0 - ic_74161_0
+Adding component instance block -- xilinx.com:module_ref:ic_74161:1.0 - ic_74161_1
+Adding component instance block -- xilinx.com:module_ref:ic_74161:1.0 - ic_74161_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:module_ref:the_12bit_to_3x4bit:1.0 - the_12bit_to_3x4bit_0
+Adding component instance block -- xilinx.com:module_ref:ram:1.0 - ram_0
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - R0
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - R1
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - R2
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - X
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - Z
+Adding component instance block -- xilinx.com:module_ref:register_12bit:1.0 - MAR
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - MDR
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - MDRE
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - IR
+Adding component instance block -- xilinx.com:module_ref:mux_5to1_16bit:1.0 - mux_5to1_16bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_2
+Adding component instance block -- xilinx.com:module_ref:aggregate_4x4_to_16bit:1.0 - aggregate_4x4_to_16b_0
+Adding component instance block -- xilinx.com:module_ref:the_16bit_to_4x4bit:1.0 - the_16bit_to_4x4bit_1
+Adding component instance block -- xilinx.com:module_ref:the_16bit_to_4x4bit:1.0 - the_16bit_to_4x4bit_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_3
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_0
+Adding component instance block -- xilinx.com:module_ref:not_gate:1.0 - not_gate_1
+Adding component instance block -- xilinx.com:module_ref:bus_slicer_16to12:1.0 - bus_slicer_16to12_0
+Adding component instance block -- xilinx.com:module_ref:multiplier_8x8:1.0 - multiplier_8x8_0
+Adding component instance block -- xilinx.com:module_ref:split_16to8:1.0 - split_16to8_0
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - MUL
+Adding component instance block -- xilinx.com:module_ref:mod5_timing_generator:1.0 - mod5_timing_generator_0
+Adding component instance block -- xilinx.com:module_ref:RTI:1.0 - RTI_0
+Adding component instance block -- xilinx.com:module_ref:control:1.0 - control_0
+Adding component instance block -- xilinx.com:module_ref:not_gate:1.0 - not_gate_1
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:and2:1.0 - and2_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:splitter_16bit_16outputs:1.0 - splitter_16bit_16out_0
+Adding component instance block -- xilinx.com:module_ref:not_gate:1.0 - not_gate_2
+Adding component instance block -- xilinx.com:module_ref:or_gate:1.0 - or_gate_0
+Successfully read diagram <design_3> from block design file <D:/cd3/design_3/design_3.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1404.266 ; gain = 125.738
+regenerate_bd_layout
+write_bd_layout -format pdf -orientation portrait D:/design_4.pdf
+D:/design_4.pdf
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 16 21:57:54 2025...

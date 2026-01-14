@@ -1,0 +1,16 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-61,-182",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst cg_fpga_0 -pg 1 -lvl 1 -x 140 -y 60 -defaultsOSRD
+preplace inst and2_0 -pg 1 -lvl 2 -x 350 -y 10 -defaultsOSRD
+preplace inst not1_0 -pg 1 -lvl 3 -x 490 -y 10 -defaultsOSRD
+preplace netloc and2_0_y 1 2 1 N 10
+levelinfo -pg 1 0 140 350 490 560
+pagesize -pg 1 -db -bbox -sgen 0 -250 560 380
+"
+}
+

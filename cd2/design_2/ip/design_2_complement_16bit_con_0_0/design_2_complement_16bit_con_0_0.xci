@@ -1,0 +1,75 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_2_complement_16bit_con_0_0",
+    "cell_name": "complement_16bit_con_0",
+    "component_reference": "xilinx.com:module_ref:complement_16bit_controlled:1.0",
+    "ip_revision": "1",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_2_complement_16bit_con_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "tul.com.tw:pynq-z2:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "a0": [ { "direction": "in" } ],
+        "a1": [ { "direction": "in" } ],
+        "a2": [ { "direction": "in" } ],
+        "a3": [ { "direction": "in" } ],
+        "a4": [ { "direction": "in" } ],
+        "a5": [ { "direction": "in" } ],
+        "a6": [ { "direction": "in" } ],
+        "a7": [ { "direction": "in" } ],
+        "a8": [ { "direction": "in" } ],
+        "a9": [ { "direction": "in" } ],
+        "a10": [ { "direction": "in" } ],
+        "a11": [ { "direction": "in" } ],
+        "a12": [ { "direction": "in" } ],
+        "a13": [ { "direction": "in" } ],
+        "a14": [ { "direction": "in" } ],
+        "a15": [ { "direction": "in" } ],
+        "K": [ { "direction": "in" } ],
+        "y0": [ { "direction": "out" } ],
+        "y1": [ { "direction": "out" } ],
+        "y2": [ { "direction": "out" } ],
+        "y3": [ { "direction": "out" } ],
+        "y4": [ { "direction": "out" } ],
+        "y5": [ { "direction": "out" } ],
+        "y6": [ { "direction": "out" } ],
+        "y7": [ { "direction": "out" } ],
+        "y8": [ { "direction": "out" } ],
+        "y9": [ { "direction": "out" } ],
+        "y10": [ { "direction": "out" } ],
+        "y11": [ { "direction": "out" } ],
+        "y12": [ { "direction": "out" } ],
+        "y13": [ { "direction": "out" } ],
+        "y14": [ { "direction": "out" } ],
+        "y15": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

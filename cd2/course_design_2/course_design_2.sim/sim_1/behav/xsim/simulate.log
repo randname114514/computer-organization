@@ -1,0 +1,108 @@
+Time resolution is 1 ps
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.M_AXI_GP0.master
+[0] : *ZYNQ_VIP_INFO : M_AXI_GP0 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.M_AXI_GP1.master
+[0] : *ZYNQ_VIP_INFO : M_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.S_AXI_GP0.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_GP0 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.S_AXI_GP1.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.S_AXI_HP0.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP0 : Port is ENABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.S_AXI_HP1.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP1 : Port is DISABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.S_AXI_HP2.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP2 : Port is DISABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.S_AXI_HP3.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP3 : Port is DISABLED.
+                   0 BEFORE checking line ...... x
+                   0 AFTER checking line ...... x
+XilinxAXIVIP: Found at Path: tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.S_AXI_ACP.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_ACP : Port is DISABLED.
+==========================================
+Starting design_2 Simulation
+==========================================
+                   0 else checking line ......x
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_design_2.dut.cg_fpga_0.inst.cg_axi_vdma_0.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_instance.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_design_2/dut/cg_fpga_0/inst/cg_axi_vdma_0/U0/I_PRMRY_DATAMOVER/gen_s2mm_full/I_S2MM_FULL_WRAPPER/gen_enable_indet_btt_sf/I_INDET_BTT/I_XD_FIFO/non_blk_mem/I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial302_1074  Scope: tb_design_2.dut.cg_fpga_0.inst.cg_axi_vdma_0.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_instance.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: C:/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 514
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_design_2.dut.cg_fpga_0.inst.cg_axi_vdma_0.U0.gen_sprt_for_mm2s.MM2S_LINEBUFFER_I.gen_linebuf_no_sof.gen_linebuffer.gen_sync_fifo.I_LINEBUFFER_FIFO.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_design_2/dut/cg_fpga_0/inst/cg_axi_vdma_0/U0/gen_sprt_for_mm2s/MM2S_LINEBUFFER_I/gen_linebuf_no_sof/gen_linebuffer/gen_sync_fifo/I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial302_876  Scope: tb_design_2.dut.cg_fpga_0.inst.cg_axi_vdma_0.U0.gen_sprt_for_mm2s.MM2S_LINEBUFFER_I.gen_linebuf_no_sof.gen_linebuffer.gen_sync_fifo.I_LINEBUFFER_FIFO.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: C:/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 514
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_design_2.dut.cg_fpga_0.inst.cg_axi_vdma_0.U0.gen_sprt_for_s2mm.S2MM_LINEBUFFER_I.gen_s2mm_flush_sof_logic.gen_linebuffer_flush_sof.gen_sync_fifo_flush_sof.I_LINEBUFFER_FIFO.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_design_2/dut/cg_fpga_0/inst/cg_axi_vdma_0/U0/gen_sprt_for_s2mm/S2MM_LINEBUFFER_I/gen_s2mm_flush_sof_logic/gen_linebuffer_flush_sof/gen_sync_fifo_flush_sof/I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial302_953  Scope: tb_design_2.dut.cg_fpga_0.inst.cg_axi_vdma_0.U0.gen_sprt_for_s2mm.S2MM_LINEBUFFER_I.gen_s2mm_flush_sof_logic.gen_linebuffer_flush_sof.gen_sync_fifo_flush_sof.I_LINEBUFFER_FIFO.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: C:/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 514
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_design_2.dut.cg_fpga_0.inst.v_vid_in_axi4s_0.inst.COUPLER_INST.generate_async_fifo.FIFO_INST.XPM_FIFO_ASYNC_INST.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_design_2/dut/cg_fpga_0/inst/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial302_3817  Scope: tb_design_2.dut.cg_fpga_0.inst.v_vid_in_axi4s_0.inst.COUPLER_INST.generate_async_fifo.FIFO_INST.XPM_FIFO_ASYNC_INST.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: C:/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 514
+WARNING: 5 ns tb_design_2.dut.cg_fpga_0.inst.processing_system7_0.inst.M_AXI_GP0.master.IF : ARESET_N can't be X/Z after 1 cycle of clock. To downgrade, use <hierarchy_path to VIP>.IF.set_enable_xchecks_to_warn(), or filter using clr_enable_xchecks.
+                   5 else checking line ......1
+
+--- Test Case 1: Basic Function ---
+Test:    Basic Test
+  Input SW1: 0x0000000f
+  Input SW2: 0x0000000a
+  Output LED: 0xffffffff
+  ALU0 Output: 0x0
+  ALU1 Output: 0x0
+  ALU2 Output: 0x0
+  SUM_f1: 0xb, SUM_f2: 0x0
+  SUM1_f1: 0x0, SUM1_f2: 0x0
+
+--- Test Case 2: Boundary Values ---
+Test:     All Zeros
+  Input SW1: 0x00000000
+  Input SW2: 0x00000000
+  Output LED: 0xfffffffe
+  ALU0 Output: 0x0
+  ALU1 Output: 0x0
+  ALU2 Output: 0x0
+  SUM_f1: 0x1, SUM_f2: 0x0
+  SUM1_f1: 0x1, SUM1_f2: 0x0
+Test:      All Ones
+  Input SW1: 0xffffffff
+  Input SW2: 0xffffffff
+  Output LED: 0xffffffff
+  ALU0 Output: 0x0
+  ALU1 Output: 0x0
+  ALU2 Output: 0x0
+  SUM_f1: 0x0, SUM_f2: 0x0
+  SUM1_f1: 0x0, SUM1_f2: 0x0
+Test:    Min Values
+  Input SW1: 0x00000001
+  Input SW2: 0x00000001
+  Output LED: 0xfffffffb
+  ALU0 Output: 0x0
+  ALU1 Output: 0x0
+  ALU2 Output: 0x0
+  SUM_f1: 0x2, SUM_f2: 0x0
+  SUM1_f1: 0x2, SUM1_f2: 0x0
+Test:  Max Positive
+  Input SW1: 0x7fffffff
+  Input SW2: 0x7fffffff
+  Output LED: 0xffffffff
+  ALU0 Output: 0x0
+  ALU1 Output: 0x0
+  ALU2 Output: 0x0
+  SUM_f1: 0x0, SUM_f2: 0x0
+  SUM1_f1: 0x0, SUM1_f2: 0x0
+Test:  Min Negative
+  Input SW1: 0x80000000
+  Input SW2: 0x80000000
+  Output LED: 0xfffffffe
+  ALU0 Output: 0x0
+  ALU1 Output: 0x0
+  ALU2 Output: 0x0
+  SUM_f1: 0x1, SUM_f2: 0x0
+  SUM1_f1: 0x1, SUM1_f2: 0x0
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks

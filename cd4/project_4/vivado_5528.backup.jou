@@ -1,0 +1,257 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Nov 26 18:41:45 2025
+# Process ID         : 5528
+# Current directory  : D:/cd4/project_4
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent28156 D:\cd4\project_4\project_4.xpr
+# Log file           : D:/cd4/project_4/vivado.log
+# Journal file       : D:/cd4/project_4\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 4831 MB
+# Total Virtual      : 21626 MB
+# Available Virtual  : 8087 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cd4/project_4/project_4.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd3/design_3/design_3.bd}
+delete_bd_objs [get_bd_cells xlconstant_0]
+delete_bd_objs [get_bd_ports CK1]
+delete_bd_objs [get_bd_ports CK2]
+delete_bd_objs [get_bd_ports CK3]
+delete_bd_objs [get_bd_ports CK4]
+create_bd_port -dir O T0
+create_bd_port -dir I T1
+create_bd_port -dir I T2
+create_bd_port -dir I T3
+create_bd_port -dir I T4
+create_bd_port -dir I M1
+create_bd_port -dir I M2
+delete_bd_objs [get_bd_ports M1] [get_bd_ports T4] [get_bd_ports T3] [get_bd_ports T2] [get_bd_ports T1] [get_bd_ports M2]
+create_bd_port -dir O T1
+create_bd_port -dir I T2
+delete_bd_objs [get_bd_ports T2]
+create_bd_port -dir O T2
+create_bd_port -dir O T3
+create_bd_port -dir O T4
+create_bd_port -dir O M1
+create_bd_port -dir O M2
+startgroup
+connect_bd_net [get_bd_ports T0] [get_bd_pins mod5_timing_generator_0/T0]
+connect_bd_net [get_bd_ports M2] [get_bd_pins mod5_timing_generator_0/T0]
+endgroup
+connect_bd_net [get_bd_ports T1] [get_bd_pins mod5_timing_generator_0/T1]
+connect_bd_net [get_bd_ports T2] [get_bd_pins mod5_timing_generator_0/T2]
+startgroup
+connect_bd_net [get_bd_ports T3] [get_bd_pins mod5_timing_generator_0/T3]
+endgroup
+startgroup
+connect_bd_net [get_bd_ports T4] [get_bd_pins mod5_timing_generator_0/T4]
+endgroup
+startgroup
+connect_bd_net [get_bd_ports M1] [get_bd_pins mod5_timing_generator_0/W1]
+endgroup
+disconnect_bd_net /mod5_timing_generator_0_T0 [get_bd_pins mod5_timing_generator_0/T0]
+disconnect_bd_net /mod5_timing_generator_0_T0 [get_bd_ports M2]
+connect_bd_net [get_bd_pins mod5_timing_generator_0/T0] [get_bd_pins control_0/T0]
+connect_bd_net [get_bd_ports M2] [get_bd_pins mod5_timing_generator_0/W2]
+set_property name W1 [get_bd_ports M1]
+set_property name W2 [get_bd_ports M2]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+connect_bd_net [get_bd_pins PC/LD] [get_bd_pins xlconstant_1/dout]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+delete_bd_objs [get_bd_nets not_gate_0_y]
+connect_bd_net [get_bd_pins splitter_16bit_to_16_0/clk_falling] [get_bd_pins and_gate_0/y]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_splitter_16bit_to_16_0_0 design_3_carry_output_splitter_0_0 design_3_multiplier_8x8_0_0 design_3_split_16to8_0_0 design_3_bus_slicer_16to12_0_0 design_3_and2_0_0 design_3_the_12bit_to_3x4bit_0_1 design_3_adpt_in_0_0}]
+report_ip_status -name ip_status 
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_splitter_16bit_to_16_0_0 design_3_carry_output_splitter_0_0 design_3_multiplier_8x8_0_0 design_3_split_16to8_0_0 design_3_bus_slicer_16to12_0_0 design_3_and2_0_0 design_3_the_12bit_to_3x4bit_0_1 design_3_adpt_in_0_0}]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_splitter_16bit_to_16_0_0 design_3_carry_output_splitter_0_0 design_3_multiplier_8x8_0_0 design_3_split_16to8_0_0 design_3_bus_slicer_16to12_0_0 design_3_and2_0_0 design_3_the_12bit_to_3x4bit_0_1 design_3_adpt_in_0_0}]
+create_bd_cell -type module -reference splitter_16bit_16outputs splitter_16bit_16out_0
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/data_in] [get_bd_pins IR/data_out]
+set_property location {5 3943 -2015} [get_bd_cells splitter_16bit_16out_0]
+delete_bd_objs [get_bd_nets splitter_16bit_to_16_0_out0]
+delete_bd_objs [get_bd_nets splitter_16bit_to_16_0_out1]
+delete_bd_objs [get_bd_nets splitter_16bit_to_16_0_out6]
+delete_bd_objs [get_bd_nets splitter_16bit_to_16_0_out5]
+connect_bd_net [get_bd_pins control_0/IR0] [get_bd_pins splitter_16bit_16out_0/out0]
+delete_bd_objs [get_bd_nets splitter_16bit_to_16_0_out10] [get_bd_nets splitter_16bit_to_16_0_out11] [get_bd_nets splitter_16bit_to_16_0_out12] [get_bd_nets splitter_16bit_to_16_0_out13] [get_bd_nets splitter_16bit_to_16_0_out14] [get_bd_nets splitter_16bit_to_16_0_out15] [get_bd_cells splitter_16bit_to_16_0]
+set_property location {4 3992 -1526} [get_bd_cells splitter_16bit_16out_0]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out15] [get_bd_pins RTI_0/IR15]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out14] [get_bd_pins RTI_0/IR14]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out13] [get_bd_pins RTI_0/IR13]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out12] [get_bd_pins RTI_0/IR12]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out11] [get_bd_pins RTI_0/IR11]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out10] [get_bd_pins RTI_0/IR10]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out1] [get_bd_pins control_0/IR1]
+connect_bd_net [get_bd_pins control_0/IR6] [get_bd_pins splitter_16bit_16out_0/out6]
+connect_bd_net [get_bd_pins splitter_16bit_16out_0/out5] [get_bd_pins control_0/IR5]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+report_ip_status -name ip_status 
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+report_ip_status -name ip_status 
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+run all
+close_sim
+connect_bd_net [get_bd_pins control_0/MULin] [get_bd_pins MUL/read_en]
+connect_bd_net [get_bd_pins control_0/MULout] [get_bd_pins mux_5to1_16bit_0/selMUL]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_control_0_0 design_3_mod5_timing_generator_0_0 design_3_RTI_0_0}]
+disconnect_bd_net /xlconstant_0_dout [get_bd_pins PC/LD]
+connect_bd_net [get_bd_pins PC/LD] [get_bd_pins control_0/PCin]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+create_bd_cell -type module -reference not_gate not_gate_2
+delete_bd_objs [get_bd_nets LD_1]
+connect_bd_net [get_bd_pins control_0/PCin] [get_bd_pins not_gate_2/a]
+connect_bd_net [get_bd_pins not_gate_2/y] [get_bd_pins PC/LD]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+run all
+close_sim
+create_bd_cell -type module -reference or_gate or_gate_0
+connect_bd_net [get_bd_pins control_0/AD] [get_bd_pins or_gate_0/a]
+connect_bd_net [get_bd_pins control_0/PCin] [get_bd_pins or_gate_0/b]
+disconnect_bd_net /clk_2 [get_bd_pins PC/clk]
+connect_bd_net [get_bd_pins PC/clk] [get_bd_pins or_gate_0/y]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+update_compile_order -fileset sources_1
+run all
+close_sim
+open_project D:/jzy/cd3/project_3/project_3.xpr
+current_project project_4
+current_project project_3
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+close_sim
+open_bd_design {D:/jzy/cd3/design_3/design_3.bd}
+update_compile_order -fileset sources_1
+close_project
+disconnect_bd_net /adpt_in_0_rst_n1 [get_bd_pins IR/reset]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {design_3_mod5_timing_generator_0_0 design_3_control_0_0 design_3_RTI_0_0}]
+report_ip_status -name ip_status 
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+run all
+close_sim
+connect_bd_net [get_bd_pins IR/reset] [get_bd_pins xlconstant_1/dout]
+save_bd_design
+generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
+export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd4/project_4/project_4.ip_user_files/sim_scripts -ip_user_files_dir D:/cd4/project_4/project_4.ip_user_files -ipstatic_source_dir D:/cd4/project_4/project_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd4/project_4/project_4.cache/compile_simlib/modelsim} {questa=D:/cd4/project_4/project_4.cache/compile_simlib/questa} {riviera=D:/cd4/project_4/project_4.cache/compile_simlib/riviera} {activehdl=D:/cd4/project_4/project_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets sim_2 ]
+source complete_monitor_test.tcl
+run all
+close_sim

@@ -1,0 +1,1046 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Oct 16 09:06:42 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="zlcfq_inst_0" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="a_0" SIGIS="undef" SIGNAME="External_Ports_a_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell0_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell8_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell12_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell4_and_gate_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a_1" SIGIS="undef" SIGNAME="External_Ports_a_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell1_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell5_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell9_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell13_and_gate_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a_2" SIGIS="undef" SIGNAME="External_Ports_a_2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell6_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell10_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell14_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell2_and_gate_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a_3" SIGIS="undef" SIGNAME="External_Ports_a_3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell7_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell11_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell15_and_gate_0" PORT="a"/>
+        <CONNECTION INSTANCE="addcell3_and_gate_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b_0" SIGIS="undef" SIGNAME="External_Ports_b_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell2_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell3_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell0_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell1_and_gate_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b_1" SIGIS="undef" SIGNAME="External_Ports_b_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell5_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell6_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell7_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell4_and_gate_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b_2" SIGIS="undef" SIGNAME="External_Ports_b_2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell9_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell10_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell11_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell8_and_gate_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b_3" SIGIS="undef" SIGNAME="External_Ports_b_3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell12_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell14_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell15_and_gate_0" PORT="b"/>
+        <CONNECTION INSTANCE="addcell13_and_gate_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_0" SIGIS="undef" SIGNAME="addcell0_full_add_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell0_full_add_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_1" SIGIS="undef" SIGNAME="addcell4_full_add_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell4_full_add_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_2" SIGIS="undef" SIGNAME="addcell8_full_add_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell8_full_add_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_3" SIGIS="undef" SIGNAME="addcell12_full_add_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell12_full_add_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_4" SIGIS="undef" SIGNAME="addcell13_full_add_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell13_full_add_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_5" SIGIS="undef" SIGNAME="addcell14_full_add_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell14_full_add_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_6" SIGIS="undef" SIGNAME="addcell15_full_add_0_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell15_full_add_0" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="out_7" SIGIS="undef" SIGNAME="addcell15_full_add_0_cout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="addcell15_full_add_0" PORT="cout"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/addcell0/and_gate_0" HWVERSION="1.0" INSTANCE="addcell0_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell0_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell0_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell0/full_add_0" HWVERSION="1.0" INSTANCE="addcell0_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef"/>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell0_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell0_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef"/>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell0_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell1_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell0_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell10/and_gate_0" HWVERSION="1.0" INSTANCE="addcell10_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell10_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell10_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell10/full_add_0" HWVERSION="1.0" INSTANCE="addcell10_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell7_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell7_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell10_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell10_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell9_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell9_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell10_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell11_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell10_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell13_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell11/and_gate_0" HWVERSION="1.0" INSTANCE="addcell11_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell11_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell11_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell11/full_add_0" HWVERSION="1.0" INSTANCE="addcell11_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell7_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell7_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell11_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell11_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell10_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell10_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell11_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell15_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell11_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell14_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell12/and_gate_0" HWVERSION="1.0" INSTANCE="addcell12_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell12_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell12_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell12/full_add_0" HWVERSION="1.0" INSTANCE="addcell12_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell9_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell9_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell12_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell12_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef"/>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell12_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell13_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell12_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell13/and_gate_0" HWVERSION="1.0" INSTANCE="addcell13_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell13_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell13_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell13/full_add_0" HWVERSION="1.0" INSTANCE="addcell13_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell10_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell10_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell13_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell13_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell12_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell12_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell13_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell14_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell13_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell14/and_gate_0" HWVERSION="1.0" INSTANCE="addcell14_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell14_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell14_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell14/full_add_0" HWVERSION="1.0" INSTANCE="addcell14_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell11_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell11_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell14_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell14_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell13_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell13_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell14_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell15_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell14_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell15/and_gate_0" HWVERSION="1.0" INSTANCE="addcell15_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell15_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell15_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell15/full_add_0" HWVERSION="1.0" INSTANCE="addcell15_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell11_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell11_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell15_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell15_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell14_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell14_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell15_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell15_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell1/and_gate_0" HWVERSION="1.0" INSTANCE="addcell1_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell1_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell1_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell1/full_add_0" HWVERSION="1.0" INSTANCE="addcell1_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef"/>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell1_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell1_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell0_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell0_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell1_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell2_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell1_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell4_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell2/and_gate_0" HWVERSION="1.0" INSTANCE="addcell2_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell2_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell2_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell2/full_add_0" HWVERSION="1.0" INSTANCE="addcell2_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef"/>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell2_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell2_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell1_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell1_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell2_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell3_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell2_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell5_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell3/and_gate_0" HWVERSION="1.0" INSTANCE="addcell3_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_9"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell3_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell3_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell3/full_add_0" HWVERSION="1.0" INSTANCE="addcell3_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_9"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef"/>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell3_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell3_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell2_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell2_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell3_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell7_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell3_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell6_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell4/and_gate_0" HWVERSION="1.0" INSTANCE="addcell4_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell4_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell4_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell4/full_add_0" HWVERSION="1.0" INSTANCE="addcell4_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell1_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell1_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell4_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell4_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef"/>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell4_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell5_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell4_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell5/and_gate_0" HWVERSION="1.0" INSTANCE="addcell5_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell5_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell5_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell5/full_add_0" HWVERSION="1.0" INSTANCE="addcell5_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell2_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell2_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell5_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell5_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell4_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell4_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell5_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell6_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell5_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell8_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell6/and_gate_0" HWVERSION="1.0" INSTANCE="addcell6_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_12"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell6_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell6_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell6/full_add_0" HWVERSION="1.0" INSTANCE="addcell6_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_12"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell3_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell3_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell6_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell6_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell5_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell5_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell6_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell7_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell6_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell9_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell7/and_gate_0" HWVERSION="1.0" INSTANCE="addcell7_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_13"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell7_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell7_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell7/full_add_0" HWVERSION="1.0" INSTANCE="addcell7_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_13"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell3_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell3_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell7_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell7_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell6_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell6_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell7_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell11_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell7_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell10_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell8/and_gate_0" HWVERSION="1.0" INSTANCE="addcell8_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_14"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell8_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell8_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell8/full_add_0" HWVERSION="1.0" INSTANCE="addcell8_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_14"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell5_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell5_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell8_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell8_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef"/>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell8_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell9_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell8_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="out_2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell9/and_gate_0" HWVERSION="1.0" INSTANCE="addcell9_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_and_gate_0_15"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="addcell9_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell9_full_add_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/addcell9/full_add_0" HWVERSION="1.0" INSTANCE="addcell9_full_add_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_add" VLNV="xilinx.com:module_ref:full_add:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="zlcfq_inst_0_full_add_0_15"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="addcell6_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell6_full_add_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="addcell9_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell9_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="addcell8_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell8_full_add_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef" SIGNAME="addcell9_full_add_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell10_full_add_0" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="addcell9_full_add_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="addcell12_full_add_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

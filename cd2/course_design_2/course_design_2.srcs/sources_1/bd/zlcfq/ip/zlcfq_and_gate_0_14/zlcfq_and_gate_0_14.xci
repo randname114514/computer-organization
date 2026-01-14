@@ -1,0 +1,45 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "zlcfq_and_gate_0_14",
+    "cell_name": "addcell8/and_gate_0",
+    "component_reference": "xilinx.com:module_ref:and_gate:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../course_design_2.gen/sources_1/bd/zlcfq/ip/zlcfq_and_gate_0_14",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "zlcfq_and_gate_0_14", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "tul.com.tw:pynq-z2:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../course_design_2.gen/sources_1/bd/zlcfq/ip/zlcfq_and_gate_0_14" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "a": [ { "direction": "in" } ],
+        "b": [ { "direction": "in" } ],
+        "y": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

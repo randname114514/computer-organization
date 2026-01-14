@@ -26,8 +26,8 @@ module ram (
         memory[12'h009] = 16'h1D28;
         memory[12'h00A] = 16'h1132;
         memory[12'h00B] = 16'h2101;
-        memory[12'h00C] = 16'h00FA;
-        memory[12'h00D] = 16'h2101;
+        memory[12'h00C] = 16'h0918;
+        memory[12'h00D] = 16'h00FA;
         memory[12'h00E] = 16'h2400;
         memory[12'h00F] = 16'h1800;
         memory[12'h010] = 16'h0020;

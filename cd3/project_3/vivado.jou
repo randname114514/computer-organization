@@ -3,12 +3,12 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Nov 25 15:39:26 2025
-# Process ID         : 21352
-# Current directory  : D:/cd3/project_3
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent33512 D:\cd3\project_3\project_3.xpr
-# Log file           : D:/cd3/project_3/vivado.log
-# Journal file       : D:/cd3/project_3\vivado.jou
+# Start of session at: Tue Dec 16 21:24:32 2025
+# Process ID         : 13360
+# Current directory  : D:/jzy/cd3/project_3
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent32172 D:\jzy\cd3\project_3\project_3.xpr
+# Log file           : D:/jzy/cd3/project_3/vivado.log
+# Journal file       : D:/jzy/cd3/project_3\vivado.jou
 # Running On         : jyx
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 22631
@@ -17,31 +17,19 @@
 # CPU Physical cores : 12
 # CPU Logical cores  : 16
 # Host memory        : 16794 MB
-# Swap memory        : 4831 MB
-# Total Virtual      : 21626 MB
-# Available Virtual  : 9620 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 21894 MB
+# Available Virtual  : 5342 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/cd3/project_3/project_3.xpr
+open_project D:/jzy/cd3/project_3/project_3.xpr
 update_compile_order -fileset sources_1
-open_bd_design {D:/cd3/design_3/design_3.bd}
-report_ip_status -name ip_status 
-update_module_reference [get_ips  design_3_rom_1kx23_0_0]
-generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
-export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
-export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-launch_simulation -simset [get_filesets sim_2 ]
-source complete_monitor_test.tcl
-run all
-close_sim
-report_ip_status -name ip_status 
-update_module_reference [get_ips  {design_3_rom_1kx23_0_0 design_3_ram_0_0}]
-generate_target Simulation [get_files D:/cd3/design_3/design_3.bd]
-export_ip_user_files -of_objects [get_files D:/cd3/design_3/design_3.bd] -no_script -sync -force -quiet
-export_simulation -of_objects [get_files D:/cd3/design_3/design_3.bd] -directory D:/cd3/project_3/project_3.ip_user_files/sim_scripts -ip_user_files_dir D:/cd3/project_3/project_3.ip_user_files -ipstatic_source_dir D:/cd3/project_3/project_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cd3/project_3/project_3.cache/compile_simlib/modelsim} {questa=D:/cd3/project_3/project_3.cache/compile_simlib/questa} {riviera=D:/cd3/project_3/project_3.cache/compile_simlib/riviera} {activehdl=D:/cd3/project_3/project_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-launch_simulation -simset [get_filesets sim_2 ]
-source complete_monitor_test.tcl
-run all
-close_sim
-report_ip_status -name ip_status 
-save_project_as project_4 D:/cd4/project_4 -force
+open_bd_design {D:/jzy/cd3/design_3/design_3.bd}
+delete_bd_objs [get_bd_cells xlconstant_0]
+save_bd_design
+write_bd_tcl -force D:/design_3.tcl
+validate_bd_design
+regenerate_bd_layout -routing
+write_bd_layout -format pdf -orientation portrait D:/design_3.pdf
+save_bd_design
+write_bd_layout -format pdf -orientation portrait -force D:/design_3.pdf

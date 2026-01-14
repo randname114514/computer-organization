@@ -1,0 +1,89 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.351807",
+   "Default View_TopLeft":"-1734,-6",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_clk_falling -pg 1 -lvl 0 -x 0 -y 730 -defaultsOSRD
+preplace port port-id_QJP -pg 1 -lvl 0 -x 0 -y 1620 -defaultsOSRD
+preplace port port-id_MJP -pg 1 -lvl 0 -x 0 -y 1640 -defaultsOSRD
+preplace port port-id_UPC -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port port-id_JP -pg 1 -lvl 0 -x 0 -y 1600 -defaultsOSRD
+preplace port port-id_YJP -pg 1 -lvl 0 -x 0 -y 1830 -defaultsOSRD
+preplace port port-id_UPC1 -pg 1 -lvl 0 -x 0 -y 300 -defaultsOSRD
+preplace port port-id_UPC2 -pg 1 -lvl 0 -x 0 -y 1790 -defaultsOSRD
+preplace port port-id_A2 -pg 1 -lvl 0 -x 0 -y 1810 -defaultsOSRD
+preplace port port-id_UPC3 -pg 1 -lvl 0 -x 0 -y 1580 -defaultsOSRD
+preplace port port-id_UPC4 -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port port-id_UPC5 -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace port port-id_UPC6 -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port port-id_UPC7 -pg 1 -lvl 0 -x 0 -y 1350 -defaultsOSRD
+preplace port port-id_UPC8 -pg 1 -lvl 0 -x 0 -y 1270 -defaultsOSRD
+preplace port port-id_UPC9 -pg 1 -lvl 0 -x 0 -y 2000 -defaultsOSRD
+preplace portBus upc_dout -pg 1 -lvl 0 -x 0 -y 1090 -defaultsOSRD
+preplace portBus IR_out -pg 1 -lvl 0 -x 0 -y 710 -defaultsOSRD
+preplace portBus aggregated_output -pg 1 -lvl 4 -x 920 -y 980 -defaultsOSRD
+preplace inst splitter_12bit_to_12_0 -pg 1 -lvl 1 -x 140 -y 1100 -defaultsOSRD
+preplace inst splitter_16bit_to_16_0 -pg 1 -lvl 1 -x 140 -y 720 -defaultsOSRD
+preplace inst aggregator_12inputs_0 -pg 1 -lvl 3 -x 760 -y 980 -defaultsOSRD
+preplace inst dlxzq1 -pg 1 -lvl 2 -x 470 -y 110 -defaultsOSRD
+preplace inst dlxzq2 -pg 1 -lvl 2 -x 470 -y 320 -defaultsOSRD
+preplace inst dlxzq3 -pg 1 -lvl 2 -x 470 -y 1810 -defaultsOSRD
+preplace inst dlxzq4 -pg 1 -lvl 2 -x 470 -y 1600 -defaultsOSRD
+preplace inst dlxzq5 -pg 1 -lvl 2 -x 470 -y 530 -defaultsOSRD
+preplace inst dlxzq6 -pg 1 -lvl 2 -x 470 -y 740 -defaultsOSRD
+preplace inst dlxzq7 -pg 1 -lvl 2 -x 470 -y 950 -defaultsOSRD
+preplace inst dlxzq8 -pg 1 -lvl 2 -x 470 -y 1380 -defaultsOSRD
+preplace inst dlxzq9 -pg 1 -lvl 2 -x 470 -y 1160 -defaultsOSRD
+preplace inst dlxzq0 -pg 1 -lvl 2 -x 470 -y 1990 -defaultsOSRD
+preplace netloc A1_5 1 1 1 280 1070n
+preplace netloc A1_4 1 1 1 370 570n
+preplace netloc A1_3 1 1 1 390 780n
+preplace netloc A1_2 1 1 1 400 990n
+preplace netloc A1_1 1 1 1 290 1150n
+preplace netloc splitter_12bit_to_12_0_out9 1 1 1 310 1170n
+preplace netloc splitter_16bit_to_16_0_out0 1 1 1 280 170n
+preplace netloc splitter_16bit_to_16_0_out1 1 1 1 290 380n
+preplace netloc splitter_16bit_to_16_0_out5 1 1 1 260 130n
+preplace netloc splitter_16bit_to_16_0_out6 1 1 1 310 340n
+preplace netloc splitter_16bit_to_16_0_out10 1 1 1 350 770n
+preplace netloc splitter_16bit_to_16_0_out11 1 1 1 340 550n
+preplace netloc splitter_16bit_to_16_0_out12 1 1 1 380 760n
+preplace netloc splitter_16bit_to_16_0_out13 1 1 1 380 830n
+preplace netloc splitter_16bit_to_16_0_out14 1 1 1 340 850n
+preplace netloc splitter_16bit_to_16_0_out15 1 1 1 360 870n
+preplace netloc dlxzq9_y 1 2 1 540 910n
+preplace netloc dlxzq8_y 1 2 1 550 930n
+preplace netloc dlxzq7_y 1 2 1 N 950
+preplace netloc dlxzq6_y 1 2 1 560 740n
+preplace netloc dlxzq5_y 1 2 1 570 530n
+preplace netloc dlxzq4_y 1 2 1 600 1010n
+preplace netloc dlxzq3_y 1 2 1 610 1030n
+preplace netloc dlxzq2_y 1 2 1 580 320n
+preplace netloc dlxzq1_y 1 2 1 590 110n
+preplace netloc dlxzq0_y 1 2 1 620 1090n
+preplace netloc uPC_dout 1 0 1 NJ 1090
+preplace netloc adpt_in_0_clk 1 0 1 20 730n
+preplace netloc IR_data_out1 1 0 1 NJ 710
+preplace netloc aggregator_12inputs_0_aggregated_output 1 3 1 N 980
+preplace netloc decoder_3to8_2_out3 1 0 2 NJ 1620 320
+preplace netloc decoder_3to8_2_out4 1 0 2 NJ 1640 270
+preplace netloc bit_splitter_23_0_bit9 1 0 2 NJ 90 NJ
+preplace netloc decoder_3to8_2_out2 1 0 2 NJ 1600 330
+preplace netloc decoder_3to8_2_out5 1 0 2 NJ 1830 300
+preplace netloc bit_splitter_23_0_bit10 1 0 2 NJ 300 NJ
+preplace netloc bit_splitter_23_0_bit11 1 0 2 NJ 1790 NJ
+preplace netloc xlconstant_0_dout 1 0 2 NJ 1810 310
+preplace netloc bit_splitter_23_0_bit12 1 0 2 NJ 1580 NJ
+preplace netloc bit_splitter_23_0_bit13 1 0 2 NJ 500 390J
+preplace netloc bit_splitter_23_0_bit14 1 0 2 20J 510 380J
+preplace netloc bit_splitter_23_0_bit15 1 0 2 NJ 930 NJ
+preplace netloc bit_splitter_23_0_bit16 1 0 2 NJ 1350 NJ
+preplace netloc bit_splitter_23_0_bit17 1 0 2 NJ 1270 400J
+preplace netloc bit_splitter_23_0_bit8 1 0 2 NJ 2000 NJ
+levelinfo -pg 1 0 140 470 760 920
+pagesize -pg 1 -db -bbox -sgen -150 -10 1140 2070
+"
+}
+

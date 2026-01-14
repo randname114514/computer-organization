@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Oct  8 11:21:06 2025
+# Process ID         : 6548
+# Current directory  : D:/cd2/course_design_2
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9664 D:\cd2\course_design_2\course_design_2.xpr
+# Log file           : D:/cd2/course_design_2/vivado.log
+# Journal file       : D:/cd2/course_design_2\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 20284 MB
+# Available Virtual  : 8990 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cd2/course_design_2/course_design_2.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd2/design_2/design_2.bd}
+make_wrapper -files [get_files D:/cd2/design_2/design_2.bd] -top
+add_files -norecurse D:/cd2/design_2/hdl/design_2_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_2_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference adpt_out adpt_out_0
+set_property location {2.5 484 -103} [get_bd_cells adpt_out_0]
+add_files -norecurse D:/jzy/lab4/exp4_source.v
+update_compile_order -fileset sources_1
+remove_files  D:/jzy/lab14/exp14_source.v
+delete_bd_objs [get_bd_cells adpt_out_0]
+create_bd_cell -type module -reference adpt_in adpt_in_0
+delete_bd_objs [get_bd_cells adpt_in_0]
+create_bd_cell -type module -reference adpt_out adpt_out_0
+create_bd_cell -type module -reference adpt_in adpt_in_0

@@ -1,0 +1,225 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Dec 11 10:14:25 2025
+# Process ID         : 7416
+# Current directory  : D:/course_design_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25492 D:\course_design_1\course_design_1.xpr
+# Log file           : D:/course_design_1/vivado.log
+# Journal file       : D:/course_design_1\vivado.jou
+# Running On         : jyx
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16794 MB
+# Swap memory        : 4831 MB
+# Total Virtual      : 21626 MB
+# Available Virtual  : 10132 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/course_design_1/course_design_1.xpr
+INFO: [Project 1-313] Project file moved from 'E:/course_design_1' since last save.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/course_design_1/course_design_1.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_rom2_256x25_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_m74LS161_1_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_addr_adpt_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_UIR_0_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_carry_output_splitter_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_not1_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_m74LS161_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_the_16bit_to_4x4bit_0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_four_bit_checker_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_the_16bit_to_4x4bit_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/jzy/ip_repo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:55 . Memory (MB): peak = 1339.477 ; gain = 248.523
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd1/design_1/design_1.bd}
+Reading block design file <D:/cd1/design_1/design_1.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_0
+Adding component instance block -- xilinx.com:module_ref:m74LS161:1.0 - m74LS161_1
+Adding component instance block -- xilinx.com:module_ref:UIR:1.0 - UIR_0
+Adding component instance block -- xilinx.com:module_ref:rom2_256x25:1.0 - rom2_256x25_0
+Adding component instance block -- xilinx.com:module_ref:addr_adpt:1.0 - addr_adpt_0
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_2
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - register_16bit_0
+Adding component instance block -- xilinx.com:module_ref:the_16bit_to_4x4bit:1.0 - the_16bit_to_4x4bit_0
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - register_16bit_1
+Adding component instance block -- xilinx.com:module_ref:the_16bit_to_4x4bit:1.0 - the_16bit_to_4x4bit_1
+Adding component instance block -- xilinx.com:module_ref:register_16bit:1.0 - register_16bit_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:not_gate:1.0 - not_gate_0
+Adding component instance block -- xilinx.com:module_ref:four_bit_checker:1.0 - four_bit_checker_0
+Adding component instance block -- xilinx.com:module_ref:and16_bit:1.0 - and16_bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregate_4x4_to_16bit:1.0 - aggregate_4x4_to_16b_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_1
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_2
+Adding component instance block -- xilinx.com:module_ref:not1:1.0 - not1_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out_16bit:1.0 - adpt_out_16bit_0
+Successfully read diagram <design_1> from block design file <D:/cd1/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 1517.508 ; gain = 126.195
+open_bd_design {D:/cd1/design_1/design_1.bd}
+close_project
+open_project D:/cd2/course_design_2/course_design_2.xpr
+INFO: [Project 1-313] Project file moved from 'E:/cd2/course_design_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:01:17 . Memory (MB): peak = 1924.594 ; gain = 373.164
+update_compile_order -fileset sources_1
+open_bd_design {D:/cd2/design_2/design_2.bd}
+Reading block design file <D:/cd2/design_2/design_2.bd>...
+Adding component instance block -- educg.net:user:cg_fpga:1.4 - cg_fpga_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_0
+Adding component instance block -- xilinx.com:module_ref:adpt_out_16bit:1.0 - adpt_out_16bit_0
+Adding component instance block -- xilinx.com:module_ref:adpt_in:1.0 - adpt_in_1
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_1
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_2
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_2
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Adding Block Design Container - zlcfq1
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_2
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding Block Design Container - zlcfq1
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:module_ref:full_add:1.0 - full_add_0
+Adding component instance block -- xilinx.com:module_ref:and_gate:1.0 - and_gate_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_2
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_3
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_4
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Adding component instance block -- xilinx.com:module_ref:xor_gate_8bit:1.0 - xor_gate_8bit_0
+Adding component instance block -- xilinx.com:module_ref:xor_gate_8bit:1.0 - xor_gate_8bit_1
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_4
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_5
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:aggregator_4bit:1.0 - aggregator_4bit_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_0
+Adding component instance block -- xilinx.com:module_ref:alu_74181:1.0 - alu_74181_1
+Adding component instance block -- xilinx.com:module_ref:carry_lookahead_74182:1.0 - carry_lookahead_74182_0
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_6
+Adding component instance block -- xilinx.com:module_ref:carry_output_splitter:1.0 - carry_output_splitter_7
+Adding component instance block -- xilinx.com:module_ref:complement_16bit_controlled:1.0 - complement_16bit_con_0
+Adding component instance block -- xilinx.com:module_ref:xor_gate:1.0 - xor_gate_0
+Successfully read diagram <design_2> from block design file <D:/cd2/design_2/design_2.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 2800.395 ; gain = 818.402
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 11 11:38:07 2025...

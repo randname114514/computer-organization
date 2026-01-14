@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+20,true,"E:/cd2/course_design_2/course_design_2.sim/sim_1/behav/xsim/glbl.v"

@@ -1,5 +1,5 @@
 $date
-   Tue Dec 16 16:47:13 2025
+   Wed Jan 28 17:06:11 2026
 $end
 
 $version
@@ -2224,12 +2224,6 @@ $var wire 12 # dout [11:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
-$scope module xlconstant_0 $end
-$var wire 1 A& dout [0:0] $end
-$scope module inst $end
-$var wire 1 A& dout [0:0] $end
-$upscope $end
-$upscope $end
 $scope module xlconstant_1 $end
 $var wire 1 5! dout [0:0] $end
 $scope module inst $end
@@ -2473,7 +2467,6 @@ b0 A!
 0A#
 xA$
 0A%
-0A&
 0B
 0B!
 0B"

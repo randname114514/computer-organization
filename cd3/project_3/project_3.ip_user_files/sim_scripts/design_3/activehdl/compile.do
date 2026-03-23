@@ -19,7 +19,6 @@ vlog -work xlconstant_v1_1_9  -v2k5 -l xil_defaultlib -l xlconstant_v1_1_9 -l xl
 "../../../../../design_3/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v" \
 
 vlog -work xil_defaultlib  -v2k5 -l xil_defaultlib -l xlconstant_v1_1_9 -l xlconcat_v2_1_6 \
-"../../../bd/design_3/ip/design_3_xlconstant_0_0/sim/design_3_xlconstant_0_0.v" \
 "../../../bd/design_3/ip/design_3_xlconstant_0_1/sim/design_3_xlconstant_0_1.v" \
 "../../../bd/design_3/ip/design_3_ic_74161_0_0/sim/design_3_ic_74161_0_0.v" \
 "../../../bd/design_3/ip/design_3_ic_74161_1_0/sim/design_3_ic_74161_1_0.v" \

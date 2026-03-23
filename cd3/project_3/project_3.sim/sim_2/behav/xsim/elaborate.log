@@ -375,8 +375,7 @@ Compiling module xil_defaultlib.design_3_ic_74161_2_1
 Compiling module xil_defaultlib.design_3_the_12bit_to_3x4bit_0_0
 Compiling module xil_defaultlib.design_3_xlconcat_0_1
 Compiling module xil_defaultlib.uPC_imp_E5D2MO
-Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant
-Compiling module xil_defaultlib.design_3_xlconstant_0_0
+Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant(CON...
 Compiling module xil_defaultlib.design_3_xlconstant_0_1
 Compiling module xil_defaultlib.design_3
 Compiling module xil_defaultlib.design_3_wrapper

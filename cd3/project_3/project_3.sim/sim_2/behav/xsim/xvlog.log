@@ -64,8 +64,6 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/jzy/cd3/exp3/and_gate.v" into li
 INFO: [VRFC 10-311] analyzing module and_gate
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/jzy/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_adpt_in_0_0/sim/design_3_adpt_in_0_0.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module design_3_adpt_in_0_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/jzy/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_xlconstant_0_0/sim/design_3_xlconstant_0_0.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_3_xlconstant_0_0
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/jzy/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_xlconstant_0_1/sim/design_3_xlconstant_0_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module design_3_xlconstant_0_1
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/jzy/cd3/project_3/project_3.ip_user_files/bd/design_3/ip/design_3_ic_74161_0_0/sim/design_3_ic_74161_0_0.v" into library xil_defaultlib

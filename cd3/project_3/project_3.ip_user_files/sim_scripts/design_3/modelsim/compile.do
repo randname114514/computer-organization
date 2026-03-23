@@ -16,7 +16,6 @@ vlog -work xlconstant_v1_1_9  -incr -mfcu  \
 "../../../../../design_3/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v" \
 
 vlog -work xil_defaultlib  -incr -mfcu  \
-"../../../bd/design_3/ip/design_3_xlconstant_0_0/sim/design_3_xlconstant_0_0.v" \
 "../../../bd/design_3/ip/design_3_xlconstant_0_1/sim/design_3_xlconstant_0_1.v" \
 "../../../bd/design_3/ip/design_3_ic_74161_0_0/sim/design_3_ic_74161_0_0.v" \
 "../../../bd/design_3/ip/design_3_ic_74161_1_0/sim/design_3_ic_74161_1_0.v" \

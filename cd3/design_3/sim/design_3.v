@@ -2,7 +2,7 @@
 //Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-//Date        : Thu Nov 27 10:50:57 2025
+//Date        : Wed Jan 28 17:04:34 2026
 //Host        : jyx running 64-bit major release  (build 9200)
 //Command     : generate_target design_3.bd
 //Design      : design_3
@@ -206,7 +206,7 @@ module PC_imp_1MALNP6
         .dout(dout));
 endmodule
 
-(* CORE_GENERATION_INFO = "design_3,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_3,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=124,numReposBlks=111,numNonXlnxBlks=0,numHierBlks=13,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=107,numPkgbdBlks=0,bdsource=USER,da_clkrst_cnt=1,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_3.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_3,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_3,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=123,numReposBlks=110,numNonXlnxBlks=0,numHierBlks=13,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=107,numPkgbdBlks=0,bdsource=USER,da_clkrst_cnt=1,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_3.hwdef" *) 
 module design_3
    (ALU_out,
     CK1,
@@ -734,8 +734,6 @@ module design_3
         .clk(adpt_in_0_clk),
         .data_12bit(aggregator_12inputs_0_aggregated_output),
         .dout(upc_dout));
-  design_3_xlconstant_0_0 xlconstant_0
-       ();
   design_3_xlconstant_0_1 xlconstant_1
        (.dout(xlconstant_0_dout));
 endmodule

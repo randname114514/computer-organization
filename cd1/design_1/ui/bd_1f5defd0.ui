@@ -1,0 +1,122 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.790389",
+   "Default View_TopLeft":"-91,6",
+   "DisplayPinsOfHiddenNets":"1",
+   "ExpandedHierarchyInLayout":"",
+   "HierExpandStatus_comment_0":"false",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst cg_fpga_0 -pg 1 -lvl 2 -x 380 -y 510 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 380 -y 270 -defaultsOSRD
+preplace inst m74LS161_0 -pg 1 -lvl 2 -x 380 -y 60 -defaultsOSRD
+preplace inst m74LS161_1 -pg 1 -lvl 2 -x 380 -y -200 -defaultsOSRD
+preplace inst UIR_0 -pg 1 -lvl 5 -x 1540 -y 90 -defaultsOSRD
+preplace inst rom2_256x25_0 -pg 1 -lvl 4 -x 1260 -y -180 -defaultsOSRD
+preplace inst addr_adpt_0 -pg 1 -lvl 3 -x 1010 -y -140 -defaultsOSRD
+preplace inst ALU -pg 1 -lvl 6 -x 2020 -y -930 -defaultsOSRD
+preplace inst aggregator_4bit_0 -pg 1 -lvl 6 -x 2020 -y 5366 -defaultsOSRD
+preplace inst and_gate_0 -pg 1 -lvl 6 -x 2020 -y 4862 -defaultsOSRD
+preplace inst and_gate_1 -pg 1 -lvl 6 -x 2020 -y 4988 -defaultsOSRD
+preplace inst and_gate_2 -pg 1 -lvl 6 -x 2020 -y 5114 -defaultsOSRD
+preplace inst not1_0 -pg 1 -lvl 5 -x 1540 -y -150 -defaultsOSRD
+preplace inst adpt_out_16bit_0 -pg 1 -lvl 1 -x 30 -y 280 -defaultsOSRD
+preplace inst ALU|carry_lookahead_74182_0 -pg 1 -lvl 7 -x 3880 -y -880 -defaultsOSRD
+preplace inst ALU|carry_output_splitter_0 -pg 1 -lvl 8 -x 4120 -y -900 -defaultsOSRD
+preplace inst ALU|alu_74181_0 -pg 1 -lvl 5 -x 3240 -y -700 -defaultsOSRD
+preplace inst ALU|alu_74181_1 -pg 1 -lvl 5 -x 3240 -y -910 -defaultsOSRD
+preplace inst ALU|alu_74181_2 -pg 1 -lvl 5 -x 3240 -y -410 -defaultsOSRD
+preplace inst ALU|alu_74181_3 -pg 1 -lvl 9 -x 4390 -y -560 -defaultsOSRD
+preplace inst ALU|aggregator_4bit_1 -pg 1 -lvl 6 -x 3580 -y -690 -defaultsOSRD
+preplace inst ALU|register_16bit_0 -pg 1 -lvl 3 -x 2580 -y -600 -defaultsOSRD
+preplace inst ALU|the_16bit_to_4x4bit_0 -pg 1 -lvl 4 -x 2880 -y -590 -defaultsOSRD
+preplace inst ALU|register_16bit_1 -pg 1 -lvl 2 -x 2280 -y -670 -defaultsOSRD
+preplace inst ALU|the_16bit_to_4x4bit_1 -pg 1 -lvl 4 -x 2880 -y -750 -defaultsOSRD
+preplace inst ALU|register_16bit_2 -pg 1 -lvl 11 -x 4990 -y -780 -defaultsOSRD
+preplace inst ALU|xlconstant_1 -pg 1 -lvl 1 -x 2040 -y -660 -defaultsOSRD
+preplace inst ALU|not_gate_0 -pg 1 -lvl 4 -x 2880 -y -880 -defaultsOSRD
+preplace inst ALU|four_bit_checker_0 -pg 1 -lvl 2 -x 2280 -y -840 -defaultsOSRD
+preplace inst ALU|and16_bit_0 -pg 1 -lvl 3 -x 2580 -y -830 -defaultsOSRD
+preplace inst ALU|aggregator_4bit_0 -pg 1 -lvl 6 -x 3580 -y -890 -defaultsOSRD
+preplace inst ALU|aggregate_4x4_to_16b_0 -pg 1 -lvl 10 -x 4690 -y -710 -defaultsOSRD
+preplace netloc ALU_data_out 1 0 7 -90 -1100 NJ -1100 NJ -1100 NJ -1100 NJ -1100 NJ -1100 5310
+preplace netloc UIR_0_microIR0 1 5 1 1670 180n
+preplace netloc UIR_0_microIR1 1 5 1 1680 160n
+preplace netloc UIR_0_microIR2 1 5 1 1690 140n
+preplace netloc UIR_0_microIR24_9 1 5 1 1800 -800n
+preplace netloc UIR_0_microIR3 1 5 1 1700 120n
+preplace netloc UIR_0_microIR4 1 5 1 1670 -940n
+preplace netloc UIR_0_microIR5 1 5 1 1710 80n
+preplace netloc UIR_0_microIR6 1 5 1 1720 60n
+preplace netloc UIR_0_microIR7 1 5 1 1820 40n
+preplace netloc UIR_0_microIR8 1 5 1 1680 -900n
+preplace netloc addr_adpt_0_addr_pc 1 3 1 1130 -170n
+preplace netloc adpt_out_16bit_0_led 1 1 1 160 280n
+preplace netloc aggregator_4bit_0_aggregated_output 1 5 2 1750 -1090 5300
+preplace netloc and_gate_0_y 1 5 2 1790 -1080 5290
+preplace netloc and_gate_1_y 1 5 2 1820 -1060 5270
+preplace netloc and_gate_2_y 1 5 2 1810 -1070 5280
+preplace netloc cg_fpga_0_btn_clk 1 1 4 220 -340 540 -270 1140 -250 1410
+preplace netloc cg_fpga_0_btn_rst 1 1 5 210 -350 560 -720 N -720 N -720 N
+preplace netloc m74LS161_0_Q0 1 2 1 580 -70n
+preplace netloc m74LS161_0_Q1 1 2 1 570 -90n
+preplace netloc m74LS161_0_Q2 1 2 1 550 -110n
+preplace netloc m74LS161_0_Q3 1 2 1 520 -130n
+preplace netloc m74LS161_0_RCO 1 1 2 240 200 520
+preplace netloc m74LS161_1_Q0 1 2 1 520 -180n
+preplace netloc m74LS161_1_Q1 1 2 1 530 -200n
+preplace netloc m74LS161_1_Q2 1 2 1 550 -220n
+preplace netloc m74LS161_1_Q3 1 2 1 580 -240n
+preplace netloc not1_0_Y 1 5 1 1810 -150n
+preplace netloc rom2_256x25_0_q 1 4 1 1380 -180n
+preplace netloc xlconstant_0_dout 1 1 2 230 210 520
+preplace netloc ALU|aggregate_4x4_to_16b_0_aggregated_output 1 10 1 4850 -740n
+preplace netloc ALU|aggregator_4bit_0_aggregated_output 1 6 1 3740 -900n
+preplace netloc ALU|aggregator_4bit_1_aggregated_output 1 6 1 3740 -880n
+preplace netloc ALU|alu_74181_0_f 1 5 5 3380J -800 3730J -760 NJ -760 NJ -760 4490
+preplace netloc ALU|alu_74181_0_g 1 5 1 N -660
+preplace netloc ALU|alu_74181_0_p 1 5 1 3340 -860n
+preplace netloc ALU|alu_74181_1_f 1 5 5 3340J -1000 NJ -1000 NJ -1000 NJ -1000 4530
+preplace netloc ALU|alu_74181_1_g 1 5 1 3370 -870n
+preplace netloc ALU|alu_74181_1_p 1 5 1 3370 -890n
+preplace netloc ALU|alu_74181_2_f 1 5 5 3410J -780 3720J -770 NJ -770 NJ -770 4520
+preplace netloc ALU|alu_74181_2_g 1 5 1 3420 -700n
+preplace netloc ALU|alu_74181_2_p 1 5 1 3390 -900n
+preplace netloc ALU|alu_74181_3_f 1 9 1 4510 -740n
+preplace netloc ALU|alu_74181_3_g 1 5 5 3440 -600 3770J -670 NJ -670 NJ -670 4500
+preplace netloc ALU|alu_74181_3_p 1 5 5 3430 -580 NJ -580 NJ -580 4260J -660 4490
+preplace netloc ALU|and16_bit_0_result 1 3 1 2720 -830n
+preplace netloc ALU|carry_lookahead_74182_0_cout 1 7 1 N -900
+preplace netloc ALU|carry_output_splitter_0_cout1 1 4 5 3140 -810 3350J -990 NJ -990 NJ -990 4250
+preplace netloc ALU|carry_output_splitter_0_cout2 1 4 5 3140 -570 NJ -570 NJ -570 NJ -570 4240
+preplace netloc ALU|carry_output_splitter_0_cout3 1 8 1 4280 -920n
+preplace netloc ALU|cin_1 1 4 3 3130 -800 3360J -980 3750
+preplace netloc ALU|cin_2 1 0 4 NJ -900 NJ -900 NJ -900 2720J
+preplace netloc ALU|clk1_1 1 0 2 NJ -760 2130
+preplace netloc ALU|clk2_1 1 0 11 1960J -1020 NJ -1020 NJ -1020 NJ -1020 NJ -1020 NJ -1020 3770J -780 3990J -820 NJ -820 NJ -820 N
+preplace netloc ALU|clk_1 1 0 3 NJ -780 NJ -780 2430
+preplace netloc ALU|data_in_1 1 0 3 NJ -800 2120 -560 NJ
+preplace netloc ALU|four_bit_checker_0_result 1 2 1 NJ -840
+preplace netloc ALU|m_1 1 0 9 NJ -940 NJ -940 NJ -940 NJ -940 3100 -540 NJ -540 NJ -540 NJ -540 NJ
+preplace netloc ALU|register_16bit_0_data_out 1 3 1 2720 -600n
+preplace netloc ALU|register_16bit_1_data_out 1 2 1 2420 -820n
+preplace netloc ALU|register_16bit_2_data_out 1 11 1 N -780
+preplace netloc ALU|reset_1 1 0 11 NJ -720 2140 -770 2440 -1010 NJ -1010 NJ -1010 NJ -1010 3760J -800 NJ -800 NJ -800 NJ -800 NJ
+preplace netloc ALU|s_1 1 0 9 NJ -960 2120 -950 NJ -950 NJ -950 3080 -560 NJ -560 NJ -560 NJ -560 NJ
+preplace netloc ALU|the_16bit_to_4x4bit_0_data_high_high 1 4 5 3110 -590 NJ -590 NJ -590 NJ -590 4270J
+preplace netloc ALU|the_16bit_to_4x4bit_0_data_high_low 1 4 1 3040 -600n
+preplace netloc ALU|the_16bit_to_4x4bit_0_data_low_high 1 4 1 3090 -950n
+preplace netloc ALU|the_16bit_to_4x4bit_0_data_low_low 1 4 1 3050 -740n
+preplace netloc ALU|the_16bit_to_4x4bit_1_data_high_high 1 4 5 3120 -550 NJ -550 NJ -550 NJ -550 4290J
+preplace netloc ALU|the_16bit_to_4x4bit_1_data_high_low 1 4 1 3060 -760n
+preplace netloc ALU|the_16bit_to_4x4bit_1_data_low_high 1 4 1 3040 -930n
+preplace netloc ALU|the_16bit_to_4x4bit_1_data_low_low 1 4 1 N -720
+preplace netloc ALU|xlconstant_1_dout 1 1 10 2140 -570 2420 -500 NJ -500 3130J -510 3400J -790 NJ -790 4000J -810 NJ -810 NJ -810 4850
+levelinfo -pg 1 -350 30 380 1010 1260 1540 2020 5330
+levelinfo -hier ALU * 2040 2280 2580 2880 3240 3580 3880 4120 4390 4690 4990 *
+pagesize -pg 1 -db -bbox -sgen -350 -1170 5530 5460
+pagesize -hier ALU -db -bbox -sgen 1930 -1030 5160 -310
+"
+}
+0

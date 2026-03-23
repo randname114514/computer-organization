@@ -1,0 +1,80 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.13488",
+   "Default View_TopLeft":"923,-51",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_m -pg 1 -lvl 0 -x -30 -y 110 -defaultsOSRD
+preplace port port-id_cin -pg 1 -lvl 0 -x -30 -y 470 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -30 -y 1070 -defaultsOSRD
+preplace port port-id_clk1 -pg 1 -lvl 0 -x -30 -y 790 -defaultsOSRD
+preplace port port-id_clk2 -pg 1 -lvl 0 -x -30 -y 490 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -30 -y 810 -defaultsOSRD
+preplace portBus s -pg 1 -lvl 0 -x -30 -y 90 -defaultsOSRD
+preplace portBus data_in -pg 1 -lvl 0 -x -30 -y 870 -defaultsOSRD
+preplace portBus data_out -pg 1 -lvl 6 -x 2100 -y 490 -defaultsOSRD
+preplace inst aggregator_4bit_0 -pg 1 -lvl 5 -x 1870 -y 420 -defaultsOSRD
+preplace inst carry_lookahead_74182_0 -pg 1 -lvl 3 -x 1010 -y 320 -defaultsOSRD
+preplace inst carry_output_splitter_0 -pg 1 -lvl 4 -x 1410 -y 280 -defaultsOSRD
+preplace inst alu_74181_0 -pg 1 -lvl 1 -x 230 -y 570 -defaultsOSRD
+preplace inst alu_74181_1 -pg 1 -lvl 1 -x 230 -y 320 -defaultsOSRD
+preplace inst alu_74181_2 -pg 1 -lvl 1 -x 230 -y 90 -defaultsOSRD
+preplace inst alu_74181_3 -pg 1 -lvl 1 -x 230 -y -190 -defaultsOSRD
+preplace inst aggregator_4bit_1 -pg 1 -lvl 2 -x 660 -y 330 -defaultsOSRD
+preplace inst register_16bit_0 -pg 1 -lvl 1 -x 230 -y 1110 -defaultsOSRD
+preplace inst the_16bit_to_4x4bit_0 -pg 1 -lvl 5 -x 1870 -y 630 -defaultsOSRD
+preplace inst register_16bit_1 -pg 1 -lvl 1 -x 230 -y 830 -defaultsOSRD
+preplace inst the_16bit_to_4x4bit_1 -pg 1 -lvl 4 -x 1410 -y 450 -defaultsOSRD
+preplace inst register_16bit_2 -pg 1 -lvl 3 -x 1010 -y 530 -defaultsOSRD
+preplace inst aggregate_4x4_to_16b_0 -pg 1 -lvl 2 -x 660 -y 560 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 230 -y 970 -defaultsOSRD
+preplace inst not_gate_0 -pg 1 -lvl 4 -x 1410 -y -230 -defaultsOSRD
+preplace inst and16_bit_0 -pg 1 -lvl 5 -x 1870 -y 50 -defaultsOSRD
+preplace inst four_bit_checker_0 -pg 1 -lvl 3 -x 1010 -y 110 -defaultsOSRD
+preplace netloc aggregate_4x4_to_16b_0_aggregated_output 1 2 1 850 560n
+preplace netloc aggregator_4bit_0_aggregated_output 1 2 4 870 410 1180J 540 NJ 540 2030
+preplace netloc aggregator_4bit_1_aggregated_output 1 2 1 820 320n
+preplace netloc alu_74181_0_f 1 1 1 380 530n
+preplace netloc alu_74181_0_g 1 1 1 440 360n
+preplace netloc alu_74181_0_p 1 1 4 370 420 NJ 420 1170J 550 1610J
+preplace netloc alu_74181_1_f 1 1 1 390 280n
+preplace netloc alu_74181_1_g 1 1 1 420 340n
+preplace netloc alu_74181_1_p 1 1 4 400 180 NJ 180 NJ 180 1620J
+preplace netloc alu_74181_2_f 1 1 1 430 50n
+preplace netloc alu_74181_2_g 1 1 1 440 130n
+preplace netloc alu_74181_2_p 1 1 4 NJ 110 820J 170 NJ 170 1630J
+preplace netloc alu_74181_3_f 1 1 1 450 -230n
+preplace netloc alu_74181_3_g 1 1 1 460 -150n
+preplace netloc alu_74181_3_p 1 1 4 N -170 N -170 N -170 1640
+preplace netloc carry_lookahead_74182_0_cout 1 3 1 1160 280n
+preplace netloc carry_output_splitter_0_cout1 1 0 5 70 200 NJ 200 NJ 200 NJ 200 1570
+preplace netloc carry_output_splitter_0_cout2 1 0 5 40 -40 NJ -40 NJ -40 NJ -40 1580
+preplace netloc carry_output_splitter_0_cout3 1 0 5 90 -60 N -60 N -60 N -60 1610
+preplace netloc cin_1 1 0 5 60 -30 NJ -30 860 -30 N -30 1570
+preplace netloc clk1_1 1 0 1 NJ 790
+preplace netloc clk2_1 1 0 3 0J 450 NJ 450 870J
+preplace netloc clk_1 1 0 1 NJ 1070
+preplace netloc data_in_1 1 0 1 0 870n
+preplace netloc m_1 1 0 1 30 -170n
+preplace netloc register_16bit_2_data_out 1 3 3 1150 570 1640J 530 2080J
+preplace netloc reset_1 1 0 3 40J 460 N 460 850J
+preplace netloc s_1 1 0 3 20 190 390 170 830
+preplace netloc the_16bit_to_4x4bit_0_data_high_high 1 0 6 90 -290 N -290 N -290 N -290 N -290 2050
+preplace netloc the_16bit_to_4x4bit_0_data_high_low 1 0 6 80 -20 NJ -20 NJ -20 NJ -20 NJ -20 2070
+preplace netloc the_16bit_to_4x4bit_0_data_low_high 1 0 6 80 210 NJ 210 NJ 210 1180J 190 NJ 190 2060
+preplace netloc the_16bit_to_4x4bit_0_data_low_low 1 0 6 50 720 NJ 720 NJ 720 NJ 720 NJ 720 2040
+preplace netloc the_16bit_to_4x4bit_1_data_high_high 1 0 5 60 -50 N -50 N -50 N -50 1600
+preplace netloc the_16bit_to_4x4bit_1_data_high_low 1 0 5 90 -10 NJ -10 NJ -10 NJ -10 1590
+preplace netloc the_16bit_to_4x4bit_1_data_low_high 1 0 5 90 220 NJ 220 NJ 220 1180J 360 1570
+preplace netloc the_16bit_to_4x4bit_1_data_low_low 1 0 5 90 430 NJ 430 NJ 430 1160J 580 1580
+preplace netloc xlconstant_1_dout 1 0 3 90 730 460 470 840J
+preplace netloc cin_2 1 0 4 -10J -300 NJ -300 NJ -300 1180
+preplace netloc register_16bit_1_data_out 1 1 4 410 40 NJ 40 NJ 40 NJ
+preplace netloc and16_bit_0_result 1 3 3 1250 560 1630J 520 2040
+preplace netloc four_bit_checker_0_result 1 3 2 1180 60 NJ
+levelinfo -pg 1 -30 230 660 1010 1410 1870 2100
+pagesize -pg 1 -db -bbox -sgen -340 -430 2240 1210
+"
+}
+0
